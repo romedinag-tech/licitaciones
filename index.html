@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de Licitaciones · Medina Consultoría</title>
+<style>
+  :root{
+    --bg:#0f1720; --panel:#16212e; --panel2:#1b2937; --line:#26374a;
+    --txt:#e8eef4; --muted:#8fa3b8; --accent:#2f9e6e;
+    --accent2:#3b82f6; --warn:#e0a53b; --danger:#e05b4b; --chip:#22303f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',system-ui,-apple-system,Roboto,sans-serif;
+       background:var(--bg);color:var(--txt);line-height:1.5}
+  a{color:var(--accent2);text-decoration:none}
+  a:hover{text-decoration:underline}
+  header{background:linear-gradient(120deg,#12202e,#0f1720);border-bottom:1px solid var(--line);
+         padding:22px 20px 18px}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+  h1{margin:0;font-size:1.5rem;letter-spacing:.2px}
+  .sub{color:var(--muted);font-size:.92rem;margin-top:4px}
+  .stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+        padding:8px 14px;font-size:.85rem}
+  .stat b{font-size:1.15rem;display:block;color:#fff}
+  .controls{position:sticky;top:0;z-index:5;background:var(--bg);
+            border-bottom:1px solid var(--line);padding:12px 0}
+  .controls .wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+  input,select{background:var(--panel);border:1px solid var(--line);color:var(--txt);
+        border-radius:8px;padding:9px 12px;font-size:.9rem}
+  input#q{flex:1;min-width:220px}
+  .count{color:var(--muted);font-size:.85rem;margin-left:auto}
+  main{padding:18px 0 60px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+        padding:16px 18px;margin-bottom:12px;transition:border-color .15s}
+  .card:hover{border-color:#37506b}
+  .card h3{margin:0 0 6px;font-size:1.05rem}
+  .meta{display:flex;flex-wrap:wrap;gap:8px 16px;color:var(--muted);font-size:.85rem;margin:6px 0}
+  .meta span{white-space:nowrap}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+  .chip{background:var(--chip);border:1px solid var(--line);border-radius:20px;
+        padding:2px 10px;font-size:.75rem;color:#bcd}
+  .desc{color:#c4d2e0;font-size:.9rem;margin-top:8px;display:none}
+  .desc.open{display:block}
+  .foot{display:flex;align-items:center;gap:14px;margin-top:10px;flex-wrap:wrap}
+  .badge{font-size:.75rem;font-weight:600;padding:3px 10px;border-radius:20px}
+  .b-verde{background:rgba(47,158,110,.18);color:#5fd39f;border:1px solid #2f9e6e}
+  .b-amar{background:rgba(224,165,59,.16);color:#f0c675;border:1px solid var(--warn)}
+  .b-rojo{background:rgba(224,91,75,.16);color:#f0928a;border:1px solid var(--danger)}
+  .score{margin-left:auto;font-size:.78rem;color:var(--muted)}
+  .toggle{cursor:pointer;color:var(--accent2);font-size:.83rem}
+  footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;
+         padding:20px 0;text-align:center}
+  .empty{text-align:center;color:var(--muted);padding:50px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>📡 Radar de Licitaciones</h1>
+    <div class="sub">Oportunidades de Mercado Público filtradas para <b>Medina Consultoría SpA</b> — transporte, movilidad, IMIV, demanda, planificación urbana y datos.</div>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <input id="q" type="search" placeholder="Buscar por nombre, organismo, descripción…">
+    <select id="cat"><option value="">Todas las categorías</option></select>
+    <select id="reg"><option value="">Todas las regiones</option></select>
+    <select id="ord">
+      <option value="score">Ordenar: relevancia</option>
+      <option value="cierre">Ordenar: cierre más próximo</option>
+    </select>
+    <span class="count" id="count"></span>
+  </div>
+</div>
+
+<main class="wrap"><div id="lista"></div></main>
+
+<footer class="wrap">
+  Datos: <a href="https://api.mercadopublico.cl" target="_blank">API Mercado Público (ChileCompra)</a> ·
+  Actualización automática diaria vía GitHub Actions ·
+  <a href="data/resultados.csv">descargar CSV</a>
+</footer>
+
+<script>
+let DATA=[], META={};
+const $=s=>document.querySelector(s);
+
+function diasRestantes(iso){
+  if(!iso) return null;
+  const d=new Date(iso.replace(' ','T')); if(isNaN(d)) return null;
+  return Math.ceil((d-new Date())/86400000);
+}
+function badgeCierre(iso){
+  const n=diasRestantes(iso);
+  if(n===null) return '';
+  if(n<0)  return `<span class="badge b-rojo">Cerrada</span>`;
+  if(n<=3) return `<span class="badge b-rojo">Cierra en ${n} día${n==1?'':'s'}</span>`;
+  if(n<=10)return `<span class="badge b-amar">Cierra en ${n} días</span>`;
+  return `<span class="badge b-verde">Cierra en ${n} días</span>`;
+}
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+
+function render(){
+  const q=$('#q').value.toLowerCase().trim();
+  const cat=$('#cat').value, reg=$('#reg').value, ord=$('#ord').value;
+  let items=DATA.filter(x=>{
+    if(cat && !(x.categorias||[]).includes(cat)) return false;
+    if(reg && x.region!==reg) return false;
+    if(q){
+      const blob=(x.nombre+' '+x.organismo+' '+x.descripcion+' '+x.codigo).toLowerCase();
+      if(!blob.includes(q)) return false;
+    }
+    return true;
+  });
+  if(ord==='cierre') items=[...items].sort((a,b)=>(a.fecha_cierre||'9').localeCompare(b.fecha_cierre||'9'));
+  else items=[...items].sort((a,b)=>b.puntaje-a.puntaje || (a.fecha_cierre||'9').localeCompare(b.fecha_cierre||'9'));
+
+  $('#count').textContent=`${items.length} de ${DATA.length} licitaciones`;
+  const L=$('#lista');
+  if(!items.length){L.innerHTML='<div class="empty">Sin licitaciones que coincidan con el filtro.</div>';return;}
+  L.innerHTML=items.map((x,i)=>`
+    <div class="card">
+      <div class="foot" style="margin:0 0 4px">
+        ${badgeCierre(x.fecha_cierre)}
+        <span class="score">relevancia ${x.puntaje} · ${esc(x.codigo)}</span>
+      </div>
+      <h3><a href="${x.url}" target="_blank">${esc(x.nombre)}</a></h3>
+      <div class="meta">
+        <span>🏛️ ${esc(x.organismo)||'—'}</span>
+        <span>📍 ${esc(x.region)||'—'}</span>
+        ${x.fecha_cierre?`<span>⏳ Cierre: ${esc(x.fecha_cierre.replace('T',' '))}</span>`:''}
+        ${x.monto?`<span>💰 ${esc(x.monto)}</span>`:''}
+      </div>
+      <div class="chips">${(x.categorias||[]).map(c=>`<span class="chip">${esc(c)}</span>`).join('')}</div>
+      ${x.descripcion?`<span class="toggle" data-i="${i}">▸ Ver descripción</span>
+        <div class="desc" id="d${i}">${esc(x.descripcion)}</div>`:''}
+    </div>`).join('');
+  L.querySelectorAll('.toggle').forEach(t=>t.onclick=()=>{
+    const d=$('#d'+t.dataset.i); d.classList.toggle('open');
+    t.textContent=(d.classList.contains('open')?'▾ Ocultar':'▸ Ver')+' descripción';
+  });
+}
+
+function initFiltros(){
+  const cats=[...new Set(DATA.flatMap(x=>x.categorias||[]))].sort();
+  const regs=[...new Set(DATA.map(x=>x.region).filter(Boolean))].sort();
+  cats.forEach(c=>$('#cat').add(new Option(c,c)));
+  regs.forEach(r=>$('#reg').add(new Option(r,r)));
+  ['#q','#cat','#reg','#ord'].forEach(s=>$(s).addEventListener('input',render));
+}
+function initStats(){
+  const upd=META.actualizado?new Date(META.actualizado).toLocaleString('es-CL'):'—';
+  const urg=DATA.filter(x=>{const n=diasRestantes(x.fecha_cierre);return n!==null&&n>=0&&n<=10}).length;
+  $('#stats').innerHTML=`
+    <div class="stat"><b>${DATA.length}</b>oportunidades</div>
+    <div class="stat"><b>${urg}</b>cierran ≤ 10 días</div>
+    <div class="stat"><b>${META.total_activas||'—'}</b>activas en MP</div>
+    <div class="stat" style="min-width:190px"><b style="font-size:.9rem">${upd}</b>última actualización${META.modo_ticket==='prueba'?' · <i>ticket de prueba</i>':''}</div>`;
+}
+
+fetch('data/resultados.json?_='+Date.now()).then(r=>r.json()).then(d=>{
+  DATA=d;
+  return fetch('data/meta.json?_='+Date.now()).then(r=>r.json()).catch(()=>({}));
+}).then(m=>{META=m; initStats(); initFiltros(); render();})
+.catch(e=>{$('#lista').innerHTML='<div class="empty">Aún no hay datos. Ejecuta el radar (GitHub Actions) para poblar el sitio.<br><small>'+e+'</small></div>';});
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+ "actualizado": "2026-07-03T02:02:13+00:00",
+ "total_activas": 4120,
+ "candidatas": 131,
+ "resultados": 131,
+ "modo_ticket": "prueba",
+ "regiones": [
+  "Región Aysén del General Carlos Ibáñez del Campo",
+  "Región Metropolitana de Santiago",
+  "Región de Antofagasta ",
+  "Región de Arica y Parinacota",
+  "Región de Atacama ",
+  "Región de Coquimbo ",
+  "Región de Los Ríos",
+  "Región de Magallanes y de la Antártica",
+  "Región de Tarapacá  ",
+  "Región de Valparaíso ",
+  "Región de la Araucanía ",
+  "Región de los Lagos ",
+  "Región del Biobío ",
+  "Región del Libertador General Bernardo O´Higgins",
+  "Región del Maule ",
+  "Región del Ñuble"
+ ],
+ "categorias": [
+  "IMIV / vialidad / transito",
+  "Transporte / movilidad",
+  "Demanda / EOD / aforos",
+  "Planificacion urbana / IPT",
+  "Estudios / consultoria afin",
+  "Puertos / comercio exterior",
+  "Datos / GPS / analitica"
+ ]
+}

@@ -1,0 +1,41 @@
+name: Actualizar radar de licitaciones
+
+on:
+  schedule:
+    - cron: '0 12 * * *'   # 12:00 UTC = 08:00 Chile (horario estándar). Diario.
+  workflow_dispatch:         # permite ejecutarlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Descargar y filtrar licitaciones
+        env:
+          MP_TICKET: ${{ secrets.MP_TICKET }}
+          MP_MAX_DETALLE: '200'
+        run: python radar_mp.py
+
+      - name: Publicar cambios
+        run: |
+          git config user.name  "radar-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Sin cambios en los datos."
+          else
+            git commit -m "Actualiza licitaciones ($(date -u +%Y-%m-%d))"
+            git push
+          fi
