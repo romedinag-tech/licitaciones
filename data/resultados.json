@@ -91,6 +91,24 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1048-41-LP26"
  },
  {
+  "codigo": "2661-29-LP26",
+  "nombre": "ACTUALIZACIÓN PLADECO COMUNA DE NATALES 2026-2034",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "organismo": "ILUSTRE MUNICIPALIDAD DE NATALES",
+  "unidad": "SECRETARIA DE PLANIFICACION",
+  "region": "Región de Magallanes y de la Antártica",
+  "tipo": "LP",
+  "monto": "97.661.000 CLP",
+  "fecha_cierre": "2026-07-23T11:00",
+  "fecha_publicacion": "2026-07-03",
+  "descripcion": "CONTRATAR LA CONSULTORIA PARA QUE REALICE LA ACTUALIZACIÓN DEL PLADECO PARA LA COMUNA DE NATALES 2026-2034.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2661-29-LP26"
+ },
+ {
   "codigo": "3598-19-LE26",
   "nombre": "2° Llamado Licitacion Consultoria para Mejoramiento de Espacios de Espera y Atencion al Usuario Alcaldia Dideco y Transito",
   "puntaje": 3,
