@@ -1,34 +1,26 @@
 {
- "actualizado": "2026-07-03T02:12:51+00:00",
- "total_activas": 4120,
- "candidatas": 92,
- "resultados": 92,
+ "actualizado": "2026-07-03T02:45:37+00:00",
+ "total_activas": 4121,
+ "candidatas": 250,
+ "resultados": 7,
+ "clave": 2,
  "modo_ticket": "personal",
  "regiones": [
-  "Región Aysén del General Carlos Ibáñez del Campo",
   "Región Metropolitana de Santiago",
-  "Región de Antofagasta ",
-  "Región de Arica y Parinacota",
-  "Región de Atacama ",
-  "Región de Coquimbo ",
-  "Región de Los Ríos",
   "Región de Magallanes y de la Antártica",
-  "Región de Tarapacá  ",
   "Región de Valparaíso ",
   "Región de la Araucanía ",
   "Región de los Lagos ",
-  "Región del Biobío ",
-  "Región del Libertador General Bernardo O´Higgins",
-  "Región del Maule ",
-  "Región del Ñuble"
+  "Región del Libertador General Bernardo O´Higgins"
  ],
  "categorias": [
-  "IMIV / vialidad / transito",
+  "IMIV / impacto vial",
   "Transporte / movilidad",
   "Demanda / EOD / aforos",
   "Planificacion urbana / IPT",
-  "Estudios / consultoria afin",
-  "Puertos / comercio exterior",
-  "Datos / GPS / analitica"
+  "Espacio publico / PIEP",
+  "Vialidad / transito",
+  "Concesiones / logistica",
+  "Datos / analitica"
  ]
 }

@@ -2,24 +2,33 @@
 """
 Radar de licitaciones Mercado Publico — Medina Consultoria SpA.
 
-Descarga las licitaciones activas de la API de ChileCompra, las filtra segun
-el perfil de servicios (transporte, movilidad, IMIV/vialidad, demanda/EOD,
-planificacion urbana, puertos/comercio exterior, datos/analitica) y escribe
-los resultados en data/ para que el sitio (index.html) los muestre.
+Descarga las licitaciones activas de la API de ChileCompra y deja SOLO
+ESTUDIOS de transporte y planificacion urbana/territorial (la especialidad
+de RMG). Descarta obras de infraestructura e inspeccion fiscal de obras.
 
-El ticket se lee de la variable de entorno MP_TICKET. En GitHub Actions se
-inyecta desde el secret del repositorio; en local desde un archivo .env
-(ignorado por git). Si no hay ticket, usa el ticket publico de pruebas.
+Regla (sobre nombre + descripcion):
+  1. ES_ESTUDIO  -> es un servicio de consultoria/estudio (no una obra).
+  2. NO es EXCLUIR -> no es obra ni inspeccion fiscal de infraestructura.
+  3. ON_TEMA o de un ORGANISMO CLAVE -> del tema, o de un organismo que
+     siempre se vigila (SECTRA, DTPR, DTPM, DIRPLAN, Vialidad, Concesiones,
+     SERVIU, o una municipalidad con un PIEP).
+
+El ticket se lee de la variable de entorno MP_TICKET (secret en GitHub
+Actions; archivo .env local ignorado por git). Sin ticket usa el de prueba.
 """
 import json, re, sys, time, unicodedata, csv, os, datetime
 import urllib.request
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8")  # logs con tildes en cualquier consola
+except Exception:
+    pass
 
 TEST_TICKET = "F8537A18-6766-4DEF-9E59-426B4FEE2844"
 
 def cargar_ticket():
     t = os.environ.get("MP_TICKET", "").strip()
     if not t:
-        # fallback: leer .env local (KEY=VALUE)
         env = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
         if os.path.exists(env):
             for line in open(env, encoding="utf-8"):
@@ -34,33 +43,55 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
 os.makedirs(DATA, exist_ok=True)
 
-# throttle entre llamadas de detalle (seg). El ticket publico exige mas espera.
 THROTTLE = 2.2 if ES_TEST else 0.6
-MAX_DETALLE = int(os.environ.get("MP_MAX_DETALLE", "150"))
+MAX_DETALLE = int(os.environ.get("MP_MAX_DETALLE", "250"))
 
-# --- Perfil: categoria -> (peso, patron regex sobre texto sin tildes en minusculas) ---
+# --- Categorias (para etiquetar y puntuar) -> (peso, patron) ---
 CATEGORIAS = {
-    "IMIV / vialidad / transito":  (5, r"\bimiv\b|impacto vial|\btransito\b|semafor|vialidad|\bvial(es)?\b|interseccion|senaliz|gestion de trafico"),
-    "Transporte / movilidad":      (5, r"transporte publico|movilidad|\bbuses\b|ferroviari|telefer|ciclovia|ciclo.?rutas?|peaton|micromovilidad|plan de transporte|sistema de transporte"),
-    "Demanda / EOD / aforos":      (5, r"encuesta origen|origen.?destino|\beod\b|\baforos?\b|conteo|analisis de demanda|flujo vehicular|ocupacion visual|matriz.*viaje"),
-    "Planificacion urbana / IPT":  (4, r"plan regulador|\bpladeco\b|plan maestro|plan comunal|instrumento.*planificacion|desarrollo urbano|prefactibilidad|plan de inversion|ordenamiento territorial"),
-    "Estudios / consultoria afin": (2, r"estudio de|consultoria|asesoria|diagnostico|modelacion|\bfactibilidad\b|evaluacion social"),
-    "Puertos / comercio exterior": (3, r"portuari|puerto de|logistic|comercio exterior|\baduana|exportaci|borde costero"),
-    "Datos / GPS / analitica":     (3, r"\bgps\b|big data|analitica de datos|georrefer|\bsig\b|geoespacial|camaras.*(conteo|analisis|inteligencia)"),
+    "IMIV / impacto vial":         (5, r"\bimiv\b|impacto vial|estudio de impacto sobre el sistema de transporte"),
+    "Transporte / movilidad":      (5, r"plan de transporte|sistema de transporte|movilidad|transporte publico|\bbuses\b|ferroviari|telefer|ciclovia|ciclo.?rutas?|peaton|micromovilidad"),
+    "Demanda / EOD / aforos":      (5, r"encuesta origen|origen.?destino|\beod\b|analisis de demanda|matriz.*viaje|particion modal|modelacion de transporte"),
+    "Planificacion urbana / IPT":  (4, r"plan regulador|\bpladeco\b|plan seccional|plan maestro|instrumento.*planificacion|desarrollo urbano|ordenamiento territorial|uso de suelo|plan de inversion"),
+    "Espacio publico / PIEP":      (4, r"\bpiep\b|espacio publico|infraestructura de movilidad|aporte.*espacio publico"),
+    "Vialidad / transito":         (3, r"\bvialidad\b|\btransito\b|\btrafico\b|gestion de trafico|seguridad vial|estudio vial|gestion vial|interseccion"),
+    "Concesiones / logistica":     (3, r"concesion|iniciativa privada|portuari|logistic|comercio exterior"),
+    "Datos / analitica":           (2, r"\bgps\b|big data|analitica|georrefer|\bsig\b|geoespacial"),
 }
-# Falsos positivos: obras, insumos, servicios operativos no profesionales.
-EXCLUIR = re.compile(
-    r"transporte escolar|transporte de (residuos|aridos|agua|personal|pasajeros|carga|alimentos|lena|valores|internos|funcionarios?|mezcla|material|hormigon|combustible)|"
-    r"servicio de transporte|arriendo|adquisicion|\badq\b|\badq\.|suministro|\bsum\b|\bsum\.|compra de|provision de|"
-    r"mantencion|conservacion de camino|mejoramiento de (calle|camino|acera|vereda|iluminacion)|iluminacion|construccion|reposicion|repos\.|"
-    r"\bobra(s)?\b|obras de|campamento|demarcacion|pintura|luminaria|senaletic|semaforo(s)? (nuevo|led|reposicion)|areas verdes|aseo|vigilancia|guardias|"
-    r"alimentacion|racion|insumos|repuestos|neumatic|naumatic|combustible|petroleo|lubricante|"
-    r"pijama|ropa|vestuario|calzado|remodelacion|\bbanos?\b|destruccion de|mercancias|remocion", re.I)
-# Proteccion: nombres claramente de consultoria/estudio nunca se descartan.
-PROTEGER = re.compile(
-    r"asesoria|consultoria|\bestudio\b|estudios|diagnostico|inspeccion fiscal|"
-    r"plan de|plan maestro|plan regulador|pladeco|modelacion|prefactibilidad|factibilidad|"
-    r"\bimiv\b|impacto vial|origen.?destino|analisis de demanda", re.I)
+
+def C(p): return re.compile(p, re.I)
+
+# 1) Es un ESTUDIO / consultoria (servicio intelectual, no una obra).
+ESTUDIO = C(r"\bestudio\b|estudios|consultoria|\basesoria\b|diagnostico|levantamiento de informacion|"
+            r"plan (de|maestro|regulador|comunal|seccional|estrategico|de desarrollo|de transporte|de movilidad|de inversion)|"
+            r"\bpladeco\b|plan regulador|actualizacion del plan|modelacion|prefactibilidad|\bfactibilidad\b|"
+            r"evaluacion social|encuesta|origen.?destino|\beod\b|\bimiv\b|impacto vial|"
+            r"analisis de demanda|matriz.*viaje|ordenamiento territorial|instrumento de planificacion|\bpiep\b")
+
+# 2) EXCLUIR: obras de infraestructura + inspeccion fiscal de obras + insumos.
+EXCLUIR = C(r"inspeccion fiscal|\baif\b|\baifo\b|asesoria a la inspecc|inspeccion tecnica|\bito\b|"
+            r"\bobra(s)?\b|construccion|conservacion|mantencion|reposicion|repos\.|pavimenta|asfalt|"
+            r"alcantarilla|colector de agua|saneamiento|agua potable|alcantarillado|puente(?!.*estudio)|"
+            r"suministro|adquisicion|\badq\b|\badq\.|arriendo|compra de|provision de|"
+            r"senaletic|demarcacion|semaforizacion|instalacion de semaf|iluminacion|alumbrado|luminaria|"
+            r"edificacion|edificio|remodelacion|\bbanos?\b|climatizacion|ascensor|areas verdes|"
+            r"neumatic|naumatic|combustible|petroleo|lubricante|repuestos|pijama|ropa|vestuario|"
+            r"transporte escolar|transporte de (residuos|aridos|agua|personal|pasajeros|carga|alimentos|lena|valores|internos|funcionarios?|mezcla|material|hormigon)|"
+            r"servicio de transporte|aseo|vigilancia|guardias|alimentacion|racion|destruccion de|mercancias")
+
+# 3) ON_TEMA: transporte + planificacion urbana/territorial.
+TEMA = C(r"transporte|movilidad|\bvial\b|\bvialidad\b|\btransito\b|\btrafico\b|peaton|ciclo|"
+         r"\burban|territorial|plan regulador|\bpladeco\b|uso de suelo|suelo urbano|mercado de suelo|espacio publico|\bpiep\b|"
+         r"origen.?destino|demanda de viaje|particion modal|accesibilidad|logistic|portuari|concesion")
+
+# Organismos que siempre se vigilan (se evalua sobre organismo + unidad).
+ORG_CLAVE = C(r"sectra|secretaria\s*de?\s*planificacion.*transporte|secretariatransporte|secretaria\s*transporte|"
+              r"subsecretaria de transporte|ministerio de transporte|"
+              r"transporte publico regional|\bdtpr\b|transporte publico metropolitano|\bdtpm\b|directorio de transporte|"
+              r"\bdirplan\b|direccion de planeamiento|\bplaneamiento\b|direccion de vialidad|\bvialidad\b|"
+              r"\bconcesiones\b|\bserviu\b|servicio de vivienda y urbanizacion|vivienda y urbanismo|\bminvu\b|seremi.*vivienda")
+MUNI = C(r"municipalidad|\bmuni\b|i\.? municipalidad")
+PIEP = C(r"\bpiep\b|plan de inversion(es)? en (infraestructura|movilidad|espacio)|"
+         r"inversiones en espacio publico|aporte.*espacio publico|infraestructura de movilidad y espacio publico")
 
 def sin_tildes(s):
     return unicodedata.normalize("NFD", s or "").encode("ascii", "ignore").decode().lower()
@@ -80,62 +111,84 @@ def clasificar(texto):
     t = sin_tildes(texto)
     puntaje, cats = 0, []
     for cat, (peso, pat) in CATEGORIAS.items():
-        if re.search(pat, t):
+        if re.search(pat, t, re.I):
             puntaje += peso
             cats.append(cat)
     return puntaje, cats
 
 def fmt_monto(det):
-    m = det.get("MontoEstimado")
-    mon = det.get("Moneda") or ""
-    if not m:
-        return ""
-    try:
-        return f"{float(m):,.0f} {mon}".replace(",", ".")
-    except Exception:
-        return f"{m} {mon}"
+    m = det.get("MontoEstimado"); mon = det.get("Moneda") or ""
+    if not m: return ""
+    try: return f"{float(m):,.0f} {mon}".replace(",", ".")
+    except Exception: return f"{m} {mon}"
 
 def main():
     modo = "TICKET DE PRUEBA (limitado)" if ES_TEST else "ticket personal"
-    print(f"Radar Mercado Publico — usando {modo}")
+    print(f"Radar Mercado Publico — {modo}")
     data = get(f"{BASE}?estado=activas&ticket={TICKET}")
     if not data or "Listado" not in data:
         sys.exit("No se pudo descargar el listado de licitaciones activas.")
     listado = data["Listado"]
-    print(f"  {len(listado)} licitaciones activas en total.")
+    print(f"  {len(listado)} activas.")
 
+    # Primer paso (solo nombre): traer a detalle lo que parece estudio o del tema.
     candidatas = []
     for lic in listado:
-        nombre = lic.get("Nombre", "")
-        if EXCLUIR.search(sin_tildes(nombre)):
+        n = sin_tildes(lic.get("Nombre", ""))
+        if not (ESTUDIO.search(n) or TEMA.search(n) or PIEP.search(n)):
             continue
-        p, cats = clasificar(nombre)
-        if p >= 2:
-            candidatas.append({**lic, "p": p})
+        p = clasificar(lic.get("Nombre", ""))[0]
+        p += 3 if ESTUDIO.search(n) else 0
+        candidatas.append({**lic, "p": p})
     candidatas.sort(key=lambda x: -x["p"])
-    print(f"  {len(candidatas)} candidatas tras filtro por nombre.")
+    print(f"  {len(candidatas)} candidatas por nombre.")
     if len(candidatas) > MAX_DETALLE:
-        print(f"  (limito el detalle a las {MAX_DETALLE} de mayor puntaje)")
+        print(f"  (limito el detalle a {MAX_DETALLE})")
         candidatas = candidatas[:MAX_DETALLE]
 
     resultados = []
     for i, c in enumerate(candidatas):
         cod = c["CodigoExterno"]
-        print(f"  [{i+1}/{len(candidatas)}] {cod} — {c['Nombre'][:55]}")
         d = get(f"{BASE}?codigo={cod}&ticket={TICKET}")
         time.sleep(THROTTLE)
         det = (d or {}).get("Listado", [{}])[0] if d else {}
         desc = det.get("Descripcion", "") or ""
-        p2, cats2 = clasificar(c["Nombre"] + " " + desc)
         comp = det.get("Comprador") or {}
+        organismo = comp.get("NombreOrganismo", "")
+        unidad = comp.get("NombreUnidad", "")
+
+        texto = sin_tildes(c["Nombre"] + " " + desc)
+        org = sin_tildes(organismo + " " + unidad)
+
+        es_estudio = bool(ESTUDIO.search(texto))
+        es_obra    = bool(EXCLUIR.search(texto))
+        on_tema    = bool(TEMA.search(texto))
+        org_clave  = bool(ORG_CLAVE.search(org))
+        muni_piep  = bool(MUNI.search(org) and PIEP.search(texto))
+
+        p2, cats2 = clasificar(c["Nombre"] + " " + desc)
+
+        # Regla final: debe ser estudio, no obra/inspeccion, y ademas
+        # ser de un organismo clave, o del tema con al menos 1 punto de categoria.
+        if not es_estudio or es_obra:
+            print(f"  [-] {cod} descartada (no-estudio/obra)")
+            continue
+        if not (org_clave or muni_piep or (on_tema and p2 >= 1)):
+            print(f"  [-] {cod} fuera de tema (p={p2})")
+            continue
+
+        if org_clave: p2 += 4
+        if muni_piep or PIEP.search(texto): p2 += 3
         fch = det.get("Fechas") or {}
+        print(f"  [+] {p2:>2} {cod} {'*' if (org_clave or muni_piep) else ' '} {c['Nombre'][:50]}")
         resultados.append({
             "codigo": cod,
             "nombre": c["Nombre"],
-            "puntaje": p2 or c["p"],
+            "puntaje": p2,
             "categorias": sorted(set(cats2)),
-            "organismo": comp.get("NombreOrganismo", ""),
-            "unidad": comp.get("NombreUnidad", ""),
+            "org_clave": org_clave or muni_piep,
+            "organismo": organismo,
+            "unidad": unidad,
             "region": comp.get("RegionUnidad", ""),
             "tipo": det.get("Tipo", ""),
             "monto": fmt_monto(det),
@@ -150,7 +203,7 @@ def main():
     with open(os.path.join(DATA, "resultados.json"), "w", encoding="utf-8") as f:
         json.dump(resultados, f, ensure_ascii=False, indent=1)
     if resultados:
-        cols = ["codigo", "nombre", "puntaje", "organismo", "region",
+        cols = ["codigo", "nombre", "puntaje", "org_clave", "organismo", "region",
                 "monto", "fecha_cierre", "fecha_publicacion", "url"]
         with open(os.path.join(DATA, "resultados.csv"), "w", encoding="utf-8-sig", newline="") as f:
             w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
@@ -161,13 +214,14 @@ def main():
         "total_activas": len(listado),
         "candidatas": len(candidatas),
         "resultados": len(resultados),
+        "clave": sum(1 for r in resultados if r["org_clave"]),
         "modo_ticket": "prueba" if ES_TEST else "personal",
         "regiones": sorted({r["region"] for r in resultados if r["region"]}),
         "categorias": list(CATEGORIAS.keys()),
     }
     with open(os.path.join(DATA, "meta.json"), "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=1)
-    print(f"Listo: {len(resultados)} licitaciones escritas en data/.")
+    print(f"Listo: {len(resultados)} estudios ({meta['clave']} de organismos clave).")
 
 if __name__ == "__main__":
     main()

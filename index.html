@@ -48,6 +48,10 @@
   .b-verde{background:rgba(47,158,110,.18);color:#5fd39f;border:1px solid #2f9e6e}
   .b-amar{background:rgba(224,165,59,.16);color:#f0c675;border:1px solid var(--warn)}
   .b-rojo{background:rgba(224,91,75,.16);color:#f0928a;border:1px solid var(--danger)}
+  .b-inst{background:rgba(59,130,246,.16);color:#93b8f5;border:1px solid var(--accent2)}
+  .card.clave{border-left:3px solid var(--accent2)}
+  label.chk{display:flex;align-items:center;gap:6px;font-size:.9rem;color:var(--muted);
+        background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 12px;cursor:pointer}
   .score{margin-left:auto;font-size:.78rem;color:var(--muted)}
   .toggle{cursor:pointer;color:var(--accent2);font-size:.83rem}
   footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;
@@ -73,6 +77,7 @@
       <option value="score">Ordenar: relevancia</option>
       <option value="cierre">Ordenar: cierre más próximo</option>
     </select>
+    <label class="chk"><input type="checkbox" id="clave"> ⭐ Solo instituciones clave</label>
     <span class="count" id="count"></span>
   </div>
 </div>
@@ -107,7 +112,9 @@ function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':
 function render(){
   const q=$('#q').value.toLowerCase().trim();
   const cat=$('#cat').value, reg=$('#reg').value, ord=$('#ord').value;
+  const soloClave=$('#clave').checked;
   let items=DATA.filter(x=>{
+    if(soloClave && !x.org_clave) return false;
     if(cat && !(x.categorias||[]).includes(cat)) return false;
     if(reg && x.region!==reg) return false;
     if(q){
@@ -123,9 +130,10 @@ function render(){
   const L=$('#lista');
   if(!items.length){L.innerHTML='<div class="empty">Sin licitaciones que coincidan con el filtro.</div>';return;}
   L.innerHTML=items.map((x,i)=>`
-    <div class="card">
+    <div class="card${x.org_clave?' clave':''}">
       <div class="foot" style="margin:0 0 4px">
         ${badgeCierre(x.fecha_cierre)}
+        ${x.org_clave?'<span class="badge b-inst">⭐ Institución clave</span>':''}
         <span class="score">relevancia ${x.puntaje} · ${esc(x.codigo)}</span>
       </div>
       <h3><a href="${x.url}" target="_blank">${esc(x.nombre)}</a></h3>
@@ -150,13 +158,15 @@ function initFiltros(){
   const regs=[...new Set(DATA.map(x=>x.region).filter(Boolean))].sort();
   cats.forEach(c=>$('#cat').add(new Option(c,c)));
   regs.forEach(r=>$('#reg').add(new Option(r,r)));
-  ['#q','#cat','#reg','#ord'].forEach(s=>$(s).addEventListener('input',render));
+  ['#q','#cat','#reg','#ord','#clave'].forEach(s=>$(s).addEventListener('input',render));
 }
 function initStats(){
   const upd=META.actualizado?new Date(META.actualizado).toLocaleString('es-CL'):'—';
   const urg=DATA.filter(x=>{const n=diasRestantes(x.fecha_cierre);return n!==null&&n>=0&&n<=10}).length;
+  const clave=DATA.filter(x=>x.org_clave).length;
   $('#stats').innerHTML=`
-    <div class="stat"><b>${DATA.length}</b>oportunidades</div>
+    <div class="stat"><b>${DATA.length}</b>estudios</div>
+    <div class="stat"><b>${clave}</b>⭐ instituciones clave</div>
     <div class="stat"><b>${urg}</b>cierran ≤ 10 días</div>
     <div class="stat"><b>${META.total_activas||'—'}</b>activas en MP</div>
     <div class="stat" style="min-width:190px"><b style="font-size:.9rem">${upd}</b>última actualización${META.modo_ticket==='prueba'?' · <i>ticket de prueba</i>':''}</div>`;
