@@ -50,11 +50,17 @@ CATEGORIAS = {
 }
 # Falsos positivos: obras, insumos, servicios operativos no profesionales.
 EXCLUIR = re.compile(
-    r"transporte escolar|transporte de (residuos|aridos|agua|personal|pasajeros|carga|alimentos|lena|valores|internos|funcionarios)|"
-    r"servicio de transporte|arriendo.*(bus|camion|vehicul|maquinaria|van)|adquisicion|suministro|compra de|"
-    r"mantencion|conservacion de camino|mejoramiento de (calle|camino|acera|vereda)|construccion|reposicion|obras de|"
-    r"demarcacion|pintura|luminaria|semaforo(s)? (nuevo|led|reposicion)|areas verdes|aseo|vigilancia|guardias|"
-    r"alimentacion|racion|insumos|repuestos|neumatic|combustible|petroleo|lubricante", re.I)
+    r"transporte escolar|transporte de (residuos|aridos|agua|personal|pasajeros|carga|alimentos|lena|valores|internos|funcionarios?|mezcla|material|hormigon|combustible)|"
+    r"servicio de transporte|arriendo|adquisicion|\badq\b|\badq\.|suministro|\bsum\b|\bsum\.|compra de|provision de|"
+    r"mantencion|conservacion de camino|mejoramiento de (calle|camino|acera|vereda|iluminacion)|iluminacion|construccion|reposicion|repos\.|"
+    r"\bobra(s)?\b|obras de|campamento|demarcacion|pintura|luminaria|senaletic|semaforo(s)? (nuevo|led|reposicion)|areas verdes|aseo|vigilancia|guardias|"
+    r"alimentacion|racion|insumos|repuestos|neumatic|naumatic|combustible|petroleo|lubricante|"
+    r"pijama|ropa|vestuario|calzado|remodelacion|\bbanos?\b|destruccion de|mercancias|remocion", re.I)
+# Proteccion: nombres claramente de consultoria/estudio nunca se descartan.
+PROTEGER = re.compile(
+    r"asesoria|consultoria|\bestudio\b|estudios|diagnostico|inspeccion fiscal|"
+    r"plan de|plan maestro|plan regulador|pladeco|modelacion|prefactibilidad|factibilidad|"
+    r"\bimiv\b|impacto vial|origen.?destino|analisis de demanda", re.I)
 
 def sin_tildes(s):
     return unicodedata.normalize("NFD", s or "").encode("ascii", "ignore").decode().lower()

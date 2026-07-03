@@ -18,40 +18,22 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2402-46-LP26"
  },
  {
-  "codigo": "1751-1-LP26",
-  "nombre": "Campañas Comunicacionales Seguridad Vial",
+  "codigo": "653-10-O126",
+  "nombre": "Normalización y Mejoramiento de Rutas Peatonales de Talca",
   "puntaje": 10,
   "categorias": [
    "IMIV / vialidad / transito",
    "Transporte / movilidad"
   ],
-  "organismo": "SUBSECRETARIA DE TRANSPORTES",
-  "unidad": "Comisión Nacional de Seguridad de Tránsito (CONASE",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LP",
-  "monto": "350.000.000 CLP",
-  "fecha_cierre": "2026-07-09T16:00",
-  "fecha_publicacion": "2026-06-10",
-  "descripcion": "La Subsecretaría de Transportes requiere contratar servicios creativos, de producción y/o estrategia de medios y marketing para desarrollar hasta cinco campañas comunicacionales, a nivel nacional, regional y metropolitano, orientadas a concientizar sobre las muertes en siniestros viales, promover conductas responsables e informar sus efectos permanentes mediante mensajes educativos.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1751-1-LP26"
- },
- {
-  "codigo": "1271069-2-LP26",
-  "nombre": "CONSERV. SIST. CTRL TRANSITO REG VALPO ENLACE REG.",
-  "puntaje": 10,
-  "categorias": [
-   "Demanda / EOD / aforos",
-   "IMIV / vialidad / transito"
-  ],
-  "organismo": "DELEGACIÓN PRESIDENCIAL REGIONAL DE VALPARAÍSO",
-  "unidad": "UNIDAD OPERATIVA CONTROL DE TRANSITO",
-  "region": "Región de Valparaíso ",
-  "tipo": "LP",
-  "monto": "215.000.000 CLP",
-  "fecha_cierre": "2026-07-13T19:59",
-  "fecha_publicacion": "2026-06-24",
-  "descripcion": "El objetivo principal de la iniciativa de inversión que se plantea dice relación con la contratación de los servicios requeridos para la continuidad de los Enlaces Regionales de Comunicaciones entre el Centro de Control de Tránsito y los elementos de terreno, los cuales en su mayoría permiten la conectividad con los controladores de semáforo de la Región de Valparaíso.\r\nEn consecuencia, la prestación de los servicios requeridos para los Enlaces Regionales entre Centro y Sistema de Control, resulta adicional a la mantención de los sistemas complementarios y a las mantenciones necesarias para asegurar la continuidad operacional del Sistema de Control de Tránsito de la Región de Valparaíso y de sus elementos asociados.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1271069-2-LP26"
+  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION VII REGION",
+  "unidad": "SERVICIO DE VIVIENDA Y URBANIZACION VII REGION",
+  "region": "Región del Maule ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-07-22T10:00",
+  "fecha_publicacion": "2026-06-12",
+  "descripcion": "El proyecto contempla las obras civiles necesarias para la normalización de las rutas peatonales en la comuna de Talca, entre las que se incluyen demolición, pavimentación, ajustes de cámaras de inspección, movimiento de redes de servicios, ajustes geométricos, obras de saneamiento, obras de iluminación peatonal, señalización y demarcación, entre otras.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=653-10-O126"
  },
  {
   "codigo": "520663-35-LS10",
@@ -88,114 +70,6 @@
   "fecha_publicacion": "2026-06-17",
   "descripcion": "2° Llamado Licitacion Consultoria para Mejoramiento de Espacios de Espera y Atencion al Usuario Alcaldia Dideco y Transito",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3598-19-LE26"
- },
- {
-  "codigo": "827-5-O126",
-  "nombre": "AIFO OBRA RESPOS. CAMPAMENTO VIALIDAD CF. CARDENAL SAMORE",
-  "puntaje": 7,
-  "categorias": [
-   "Estudios / consultoria afin",
-   "IMIV / vialidad / transito"
-  ],
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Arquitectura - X Región",
-  "region": "Región de los Lagos ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-07-08T08:59",
-  "fecha_publicacion": "2026-06-15",
-  "descripcion": "La Dirección de Arquitectura Región de Los Lagos, solicita ofertas para contratación de Asesoría a la Inspección Fiscal de obra, conforme a los requerimientos administrativos y técnicos descritos en las Bases Administrativas de la presente licitación",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=827-5-O126"
- },
- {
-  "codigo": "1873-6-LE26",
-  "nombre": "Estudio de impacto Rally 2026",
-  "puntaje": 7,
-  "categorias": [
-   "Estudios / consultoria afin",
-   "Transporte / movilidad"
-  ],
-  "organismo": "SERVICIO NACIONAL DE TURISMO",
-  "unidad": "Direccion Regional del Bio Bio",
-  "region": "Región del Biobío ",
-  "tipo": "LE",
-  "monto": "28.000.000 CLP",
-  "fecha_cierre": "2026-07-08T15:00",
-  "fecha_publicacion": "2026-06-24",
-  "descripcion": "Medir el impacto económico directo, indirecto e inducido del Mundial de Rally Chile Biobío a realizarse en la región del Biobío del 10 al 13 de septiembre del 2026, considerando: - Turismo alojamiento, alimentación, transporte, otros servicios turísticos. - Comercio local.- Empleo generado. - Impacto directo considerando la inversión que realiza la organización en la producción del\r\nevento en l",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1873-6-LE26"
- },
- {
-  "codigo": "2282-75-LE26",
-  "nombre": "PP 68-2026 Estudio de riesgo de inundabilidad y di",
-  "puntaje": 7,
-  "categorias": [
-   "Estudios / consultoria afin",
-   "IMIV / vialidad / transito"
-  ],
-  "organismo": "I MUNICIPALIDAD VALDIVIA",
-  "unidad": "SECRETARIA PLANIFICACION MUNICIPAL",
-  "region": "Región de Los Ríos",
-  "tipo": "LE",
-  "monto": "50.000.000 CLP",
-  "fecha_cierre": "2026-07-10T10:30",
-  "fecha_publicacion": "2026-06-24",
-  "descripcion": "ESTUDIO DE RIESGO DE INUNDABILIDAD Y DISEÑO DE DEFENSAS FLUVIALES EX CAMPAMENTO ARTURO PRAT, VALDIVIA",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2282-75-LE26"
- },
- {
-  "codigo": "2660-50-LP26",
-  "nombre": "EIA Proyecto: Plan de  Cierre Reinserción y Retiro Pasivo Ambiental del Sitio de Disposición Transitorio Puntra  Ancud",
-  "puntaje": 7,
-  "categorias": [
-   "Estudios / consultoria afin",
-   "IMIV / vialidad / transito"
-  ],
-  "organismo": "I MUNICIPALIDAD DE ANCUD",
-  "unidad": "Secretaria Comunal de Planificaciòn",
-  "region": "Región de los Lagos ",
-  "tipo": "LP",
-  "monto": "",
-  "fecha_cierre": "2026-07-21T12:00",
-  "fecha_publicacion": "2026-06-19",
-  "descripcion": "Contratación equipo profesionales para realización de Estudio de Impacto Ambiental del Proyecto: Plan de \r\nCierre, Reinserción y Retiro Pasivo Ambiental del Sitio de Disposición Transitorio Puntra, \r\nAncud",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2660-50-LP26"
- },
- {
-  "codigo": "407-70-LR26",
-  "nombre": "SERVICIO DE ARRIENDO DE TRANSPORTE PASAJEROS",
-  "puntaje": 7,
-  "categorias": [
-   "Estudios / consultoria afin",
-   "Transporte / movilidad"
-  ],
-  "organismo": "HOSPITAL GUILLERMO GRANT BENAVENTE DE CO",
-  "unidad": "Hospital HGGB Operaciones",
-  "region": "Región del Biobío ",
-  "tipo": "LR",
-  "monto": "",
-  "fecha_cierre": "2026-07-24T15:00",
-  "fecha_publicacion": "2026-06-24",
-  "descripcion": "EL HGGB necesita contratar el Arriendo de transporte de pasajeros (vehículos + conductores) para traslado de pacientes y funcionarios  de la unidad de diálisis , personal de soporte técnico de informática, personal que debe participar en actividades de procuramientos y trasplantes de órganos, traslados de personas por necesidad del hospital, altas  de pacientes de la unidad de emergencia y servicios cirugía y medicina, traslado y retiro de muestras con exámenes dentro y fuera de la ciudad, traslado de fichas  y personal profesional servicio acelerador lineal hospital higueras Talcahuano, visitas domiciliarias y consultorías, servicio psiquiatría y dispositivos de salud mental del Hospital Guillermo Grant  Benavente de Concepción, traslado del personal SOME y CAISS, entre otros, por un periodo de 24 meses.\r\nSolicitado por Profesional Servicios Generales en requerimiento S-COM 24800",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=407-70-LR26"
- },
- {
-  "codigo": "4099-14-LE26",
-  "nombre": "DIAGNÓSTICO Y PROPUESTA PTAS CHOROMBO",
-  "puntaje": 7,
-  "categorias": [
-   "Demanda / EOD / aforos",
-   "Estudios / consultoria afin"
-  ],
-  "organismo": "I MUNICIPALIDAD DE MARIA PINTO",
-  "unidad": "Secretaria Comunal de Planificación",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-27T16:30",
-  "fecha_publicacion": "2026-06-24",
-  "descripcion": "El Estudio tendrá por finalidad disponer de información técnica, actualizada y validada que permita conocer el estado actual de las instalaciones, su condición operativa, su nivel de cumplimiento normativo y su capacidad para responder a las demandas actuales.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4099-14-LE26"
  },
  {
   "codigo": "5283-6-O126",
@@ -306,23 +180,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1149-11-O126"
  },
  {
-  "codigo": "1505-15-O126",
-  "nombre": "CONSERVACIÓN DE DEFENSAS FLUVIALES, VARIOS SECTORES, DE LA PROVINCIA DE COL",
-  "puntaje": 5,
-  "categorias": [
-   "IMIV / vialidad / transito"
-  ],
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Obras Hidráulicas  - VI Región",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-07-03T09:30",
-  "fecha_publicacion": "2026-06-15",
-  "descripcion": "CONSERVACIÓN DE DEFENSAS FLUVIALES, VARIOS SECTORES, DE LA PROVINCIA DE COLCHAGUA 2026",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1505-15-O126"
- },
- {
   "codigo": "1164956-11-O126",
   "nombre": "Conservación Red Vial R.M. Año 2022-2023, Eje Miraflores, Comuna de Renca ",
   "puntaje": 5,
@@ -338,312 +195,6 @@
   "fecha_publicacion": "2026-06-12",
   "descripcion": "El objeto de la contratación es la ejecución de obras cuya finalidad es conservar pavimento existente.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1164956-11-O126"
- },
- {
-  "codigo": "816696-7-LE26",
-  "nombre": "MEJORAMIENTO ILUMINACION PEATONAL SECTOR CALLE",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "I MUNICIPALIDAD DE PUQUELDON",
-  "unidad": "SECPLAN",
-  "region": "Región de los Lagos ",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-03T14:00",
-  "fecha_publicacion": "2026-06-22",
-  "descripcion": "EJECUCION DE OBRAS FINANCIADAS POR LA SUBSECRETARIA DE PREVENCION DEL DELITO DENOMINADA, MEJORAMIENTO ILUMINACION PEATONAL SECTOR CALLE G. MISTRAL, LOCALIDAD DE PUQUELODON",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=816696-7-LE26"
- },
- {
-  "codigo": "1070620-63-LE26",
-  "nombre": "PVE SERVICIO TRANSPORTE COMPONENTES SANGUINEOS",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "HOSPITAL DOCTOR ERNESTO TORRES GALDAMES",
-  "unidad": "Hospital Dr. Ernesto Torres Galdames",
-  "region": "Región de Tarapacá  ",
-  "tipo": "LE",
-  "monto": "69.751.000 CLP",
-  "fecha_cierre": "2026-07-03T15:00",
-  "fecha_publicacion": "2026-06-22",
-  "descripcion": "La necesidad u objetivo de la presente contratación se sustenta en la necesidad de transportar sangre y componentes sanguíneos desde y hacia el Centro de Sangre de Valparaíso, debido a que actualmente el proceso de fraccionamiento de sangre se realiza en este último.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1070620-63-LE26"
- },
- {
-  "codigo": "4295-45-LP26",
-  "nombre": "SERVICIO DE RETIRO TRANSPORTE TRATAMIENTO Y DISPOSICIÓN FINAL DE LOS RESIDUOS DE ESTABLECIMIENTOS DE ATENCIÓN DE SALUD REAS",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "ILUSTRE MUNICIPALIDAD DE LA SERENA",
-  "unidad": "SECRETARIA COMUNAL DE PLANIFICACION",
-  "region": "Región de Coquimbo ",
-  "tipo": "LP",
-  "monto": "",
-  "fecha_cierre": "2026-07-03T15:00",
-  "fecha_publicacion": "2026-06-05",
-  "descripcion": "El objeto de la contratación es asegurar la continuidad operativa de los establecimientos de Atención Primaria de Salud, resguardar condiciones sanitarias adecuadas y dar cumplimiento a la normativa vigente, en particular el Decreto Supremo N° 6, de 2009 del Ministerio de Salud y el Decreto Supremo N° 148, de 2003.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4295-45-LP26"
- },
- {
-  "codigo": "707420-14-LE26",
-  "nombre": "TRANSPORTE DE MENORES JI Y SC REGION DEL MAIULE",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "FUNDACION EDUCACIONAL PARA EL DESAROLLO INTEGRAL DE LA NIÑEZ",
-  "unidad": "Regional Maule",
-  "region": "Región del Maule ",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-03T15:01",
-  "fecha_publicacion": "2026-06-16",
-  "descripcion": "Fundación Integra requiere LA CONTRATACIÓN DE SERVICIO DE TRANSPORTE PARA NIÑOS Y NIÑAS DE JARDINES INFANTILES DE INTEGRA AÑO 2026, Región del Maule de conformidad a lo señalado en las presentes bases administrativas y a las especificaciones técnicas respectivas",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=707420-14-LE26"
- },
- {
-  "codigo": "2626-5-LE26",
-  "nombre": "SERVICIO TRANSPORTE PROGRAMA RED LOCAL DE APOYOS",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "I MUNICIPALIDAD DE PUTAENDO",
-  "unidad": "OFICINA DE ADQUISICIONES",
-  "region": "Región de Valparaíso ",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-03T16:00",
-  "fecha_publicacion": "2026-06-23",
-  "descripcion": "La Ilustre Municipalidad de Putaendo, en adelante La Municipalidad, requiere la contratación por servicio de transporte para equipo de trabajo del Programa Red Local de Apoyos y Cuidados, para lo cual invita a personas naturales y jurídicas del rubro a formular ofertas conforme a lo dispuesto en las presentes bases, teniendo presente que se regirá bajo las disposiciones generales de la                           Ley Nº 19.886 Ley Bases sobre Contratos Administrativos de Suministro y Prestación de Servicios.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2626-5-LE26"
- },
- {
-  "codigo": "1554-39-LE26",
-  "nombre": "SS. de Transporte de Muestras de Laboratorio Clínico",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "SERVICIO DE SALUD ATACAMA HOSPITAL COPIA",
-  "unidad": "Abastecimiento Hospital de Copiapó",
-  "region": "Región de Atacama ",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-03T20:00",
-  "fecha_publicacion": "2026-06-22",
-  "descripcion": ". El objetivo de esta licitación es satisfacer de manera oportuna las necesidades del Hospital Regional de Copiapó y de la población beneficiaria, que recibe asistencia sanitaria a través de este establecimiento, con observancia de la Ley N°19.886 y su reglamento que prevén los procedimientos de contratación pública, los cuales se rigen por principios de libre acceso a las licitaciones, competencia, publicidad, transparencia, igualdad de trato, no discriminación, probidad y valor por el dinero.\r\n\r\nPara cumplir con este objetivo se efectúa el llamado a licitación pública, estableciendo en sus bases, administrativas y técnicas, el conjunto, claro y objetivo, de requisitos, condiciones y especificaciones que describen los bienes y/o servicios a contratar y que permitan alcanzar la combinación más ventajosa entre todos lo beneficios del bien o servicio por adquirir y todos sus costos asociad",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1554-39-LE26"
- },
- {
-  "codigo": "1057492-92-LP26",
-  "nombre": "SERVICIOS EN CARÁCTER TRANSITORIO DE PROF MÉDICOS PARA UNIDAD DE CUIDADOS INTENSIVOS  ADULTO ",
-  "puntaje": 5,
-  "categorias": [
-   "IMIV / vialidad / transito"
-  ],
-  "organismo": "HOSPITAL ORIENTE DR LUIS TISNE BROUSSE",
-  "unidad": "HOSPITAL ORIENTE DR LUIS TISNE BROUSSE",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LP",
-  "monto": "",
-  "fecha_cierre": "2026-07-06T15:00",
-  "fecha_publicacion": "2026-06-15",
-  "descripcion": "CONTRATACIÓN  SERVICIOS EN CARÁCTER TRANSITORIO DE PROFESIONALES MÉDICOS PARA UNIDAD DE CUIDADOS INTENSIVOS (UCI) ADULTO ",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057492-92-LP26"
- },
- {
-  "codigo": "1729-33-LE26",
-  "nombre": "NAUMATICOS PARA CAMIONES Y BUSES ",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "I MUNICIPALIDAD DE TIERRA AMARILLA",
-  "unidad": "Departamento de Abastecimiento",
-  "region": "Región de Atacama ",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-06T15:00",
-  "fecha_publicacion": "2026-06-24",
-  "descripcion": "SE REQUIRE LA ADQUISICION DE NEUMATICOS PARA CAMIONES Y BUSES, FLOTA MUNICIPAL, SEGUN DECRETO ALCALDICIO N° XXXXX DEL XXXXX.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1729-33-LE26"
- },
- {
-  "codigo": "3953-19-LE26",
-  "nombre": "C.S. Señalética y Elementos de S.Vial 2do llamado",
-  "puntaje": 5,
-  "categorias": [
-   "IMIV / vialidad / transito"
-  ],
-  "organismo": "I MUNICIPALIDAD DE PERALILLO",
-  "unidad": "I MUNICIPALIDAD DE PERALILLO",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "LE",
-  "monto": "8.240.000 CLP",
-  "fecha_cierre": "2026-07-06T15:00",
-  "fecha_publicacion": "2026-06-25",
-  "descripcion": "La Ilustre Municipalidad de Peralillo, requiere la suscripción de convenio de suministro de señalética vial y elementos de seguridad vial, según especificaciones técnicas adjuntas.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3953-19-LE26"
- },
- {
-  "codigo": "5184-84-LE26",
-  "nombre": "SERVICIOS TRANSITORIOS SEGUNDO TURNO RESIDENTES CR",
-  "puntaje": 5,
-  "categorias": [
-   "IMIV / vialidad / transito"
-  ],
-  "organismo": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE LINARES",
-  "unidad": "CONTRATOS-SUMINISTRO",
-  "region": "Región del Maule ",
-  "tipo": "LE",
-  "monto": "27.702.000 CLP",
-  "fecha_cierre": "2026-07-06T15:00",
-  "fecha_publicacion": "2026-06-26",
-  "descripcion": "SERVICIOS TRANSITORIOS SEGUNDO TURNO RESIDENTES CR MEDICO",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5184-84-LE26"
- },
- {
-  "codigo": "5539-18-LE26",
-  "nombre": "Transporte Aéreo Hacia Archipiélago Juan Fernández para Distribución de Pruebas Oficiales de los Procesos de Admisión 2027-2028",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "UNIVERSIDAD DE CHILE",
-  "unidad": "UCHILE Depto.Evaluac. y Medicion Educacional DEMRE",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "30.000.000 CLP",
-  "fecha_cierre": "2026-07-06T16:00",
-  "fecha_publicacion": "2026-06-25",
-  "descripcion": "El Departamento de Evaluación, Medición y Registro Educacional, en adelante DEMRE, llama a presentar ofertas para la contratación del Servicio de Transporte Aéreo hacia Archipiélago Juan Fernández para Distribución de Pruebas Oficiales de los Procesos de Admisión 2027-2028.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5539-18-LE26"
- },
- {
-  "codigo": "5602-21-LE26",
-  "nombre": "CONTRATACIÓN DE LOS SERVICIOS DE TRANSPORTE",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "SUBSECRETARIA DE SALUD PUBLICA",
-  "unidad": "Seremi de Salud Arica y Parinacota",
-  "region": "Región de Arica y Parinacota",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-06T16:00",
-  "fecha_publicacion": "2026-06-22",
-  "descripcion": "CONTRATACIÓN DE LOS SERVICIOS DE TRANSPORTE QUE INCLUYE CONDUCTOR Y COMBUSTIBLE PARA LAS UNIDAD TÉCNICA DE RESIDUOS Y SANEAMIENTO SANITARIO Y LA UNIDA TÉCNICA DE ALIMENTOS, DEPENDIENTES DEL DEPARTAMENTO DE ACCIÓN SANITARIA.\r\nRESOLUCION EXENTA N283 17062026.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5602-21-LE26"
- },
- {
-  "codigo": "1096-4-LE26",
-  "nombre": "SERV TRANSPORTE AEREO PARA PASAJEROS DAP MOP XII",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Aeropuertos - XII Región",
-  "region": "Región de Magallanes y de la Antártica",
-  "tipo": "LE",
-  "monto": "15.000.000 CLP",
-  "fecha_cierre": "2026-07-07T15:00",
-  "fecha_publicacion": "2026-06-25",
-  "descripcion": "La Dirección de Aeropuertos del Ministerio de Obras Públicas, requiere realizar el proceso de licitación para, EL SERVICIO DE TRANSPORTE AEREO DE PASAJEROS EN LA REGIÓN DE MAGALLANES Y DE LA ANTARTICA CHILENA, año 2026” Esta contratación de servicios se efectuará a través de licitación pública, de acuerdo con lo establecido en las Bases Administrativas en adelante BA y anexos.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1096-4-LE26"
- },
- {
-  "codigo": "1096-5-LE26",
-  "nombre": "SERV TRANSPORTE MARITIMO EN BARCAZA DAP MOP XII",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Aeropuertos - XII Región",
-  "region": "Región de Magallanes y de la Antártica",
-  "tipo": "LE",
-  "monto": "15.000.000 CLP",
-  "fecha_cierre": "2026-07-07T15:00",
-  "fecha_publicacion": "2026-06-25",
-  "descripcion": "La Dirección de Aeropuertos en adelante DAP del Ministerio de Obras Públicas en adelante MOP, requiere realizar el proceso de licitación para,  EL SERVICIO DE TRANSPORTE MARITIMO EN BARCAZA EN LA REGIÓN DE MAGALLANES Y DE LA ANTARTICA CHILENA, año 2026”",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1096-5-LE26"
- },
- {
-  "codigo": "3890-103-L126",
-  "nombre": "CONTRATACION SERVICIO TRANSPORTE PROFESIONALES",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "I MUNICIPALIDAD DE FREIRE",
-  "unidad": "MUNICIPALIDAD DE FREIRE",
-  "region": "Región de la Araucanía ",
-  "tipo": "L1",
-  "monto": "",
-  "fecha_cierre": "2026-07-07T16:00",
-  "fecha_publicacion": "2026-06-24",
-  "descripcion": "CONTRATACION SERVICIO DE TRANSPORTE PROFESIONALES PROGRAMA SEGURIDAD Y OPORTUNIDADES",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3890-103-L126"
- },
- {
-  "codigo": "1245440-16-LP26",
-  "nombre": "TRANSPORTE ALUMNOS SITIOS REMOTOS UE CMDS 2 ETAPA",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "CORP MUNICIPAL DE DESARROLLO SOCIAL DE A",
-  "unidad": "SERVICIOS GENERALES - DIRECC ADMIN Y FINANZAS",
-  "region": "Región de Antofagasta ",
-  "tipo": "LP",
-  "monto": "",
-  "fecha_cierre": "2026-07-08T15:00",
-  "fecha_publicacion": "2026-06-22",
-  "descripcion": "Traslado de 169 alumnos desde sitios remotos a unidades educativas pertenecientes a CMDS Antofagasta, de ida y retorno, según se detalla a continuación:\r\n1.-Sector Caletas Juan Lopez – Isla Santa Maria – Constitución – Caleta El Bote – Caleta El lagarto – Etc. En este sector de debe considerar 2 vehículos con capacidad mínima para 20 pasajeros.\r\n2.- Sector Caleta Coloso, en este sector de debe considerar 2 vehículos con capacidad mínima para 25 pasajeros.\r\n3.- Sector La Negra, con una capacidad para 124 pasajeros, se debe considerar al menos 3 buses Pullman con capacidad mínima para 124 pasajeros.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1245440-16-LP26"
- },
- {
-  "codigo": "650-31-LP26",
-  "nombre": "LP. 25-2026 Contrato Sumin.Transporte Personas",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION II REGION",
-  "unidad": "SERVIU II Región ",
-  "region": "Región de Antofagasta ",
-  "tipo": "LP",
-  "monto": "95.200.000 CLP",
-  "fecha_cierre": "2026-07-08T15:00",
-  "fecha_publicacion": "2026-06-18",
-  "descripcion": "Licitación Pública N°252026 “Contrato de Suministro de Prestación de Servicio de Transporte de Personas, Región de Antofagasta.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=650-31-LP26"
- },
- {
-  "codigo": "5602-25-LE26",
-  "nombre": "SERVICIOS DE TRANSPORTE PARA LA COMPIN ARICA.",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "SUBSECRETARIA DE SALUD PUBLICA",
-  "unidad": "Seremi de Salud Arica y Parinacota",
-  "region": "Región de Arica y Parinacota",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-08T15:01",
-  "fecha_publicacion": "2026-06-23",
-  "descripcion": "CONTRATACIÓN DE LOS SERVICIOS DE TRANSPORTE QUE INCLUYE CONDUCTOR Y COMBUSTIBLE PARA REALIZAR FISCALIZACIÓN EN TERRENO DE LA COMPIN, SEREMI DE SALUD REGIÓN DE ARICA Y PARINACOTA. \t\r\nRESOLUCION EXENTA N2872026, BASES DE LICITACIÓN.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5602-25-LE26"
  },
  {
   "codigo": "1085111-20-LE26",
@@ -663,40 +214,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1085111-20-LE26"
  },
  {
-  "codigo": "1422825-771-LR25",
-  "nombre": "“CONTRATO POR EL SERVICIO DE RETIRO TRANSPORTE TRATAMIENTO Y DISPOSICIÓN FINAL DE RESIDUOS ESPECIALES Y PELIGROSOS GENERADOS POR EL HOSPITAL CARLOS VAN BUREN DE VALPARAISO”",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
-  "unidad": "Operaciones",
-  "region": "Región de Valparaíso ",
-  "tipo": "LR",
-  "monto": "",
-  "fecha_cierre": "2026-07-08T16:00",
-  "fecha_publicacion": "2026-06-05",
-  "descripcion": "Las presentes Bases Administrativas tienen por objeto regular el llamado a Propuesta Pública para contratar el servicio de retiro, transporte, tratamiento y disposición final de residuos especiales y peligrosos del Hospital Carlos Van Buren, la que se singulariza en las Bases Administrativas y en las Bases Técnicas de la Propuesta.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1422825-771-LR25"
- },
- {
-  "codigo": "3890-112-L126",
-  "nombre": "ADQ. 10 SEÑALETICAS NO ESTACIONAR UNIDAD TRANSITO",
-  "puntaje": 5,
-  "categorias": [
-   "IMIV / vialidad / transito"
-  ],
-  "organismo": "I MUNICIPALIDAD DE FREIRE",
-  "unidad": "MUNICIPALIDAD DE FREIRE",
-  "region": "Región de la Araucanía ",
-  "tipo": "L1",
-  "monto": "",
-  "fecha_cierre": "2026-07-09T15:00",
-  "fecha_publicacion": "2026-07-02",
-  "descripcion": "ADQUISICION DE 10 SEÑALETICAS DE NO ESTACIONAR DE 10:00 A 18:00 HRS. EXCEPTO SABADOS, DOMINGOS Y FESTIVOS, PARA UNIDAD DE TRANSITO MUNICIPAL",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3890-112-L126"
- },
- {
   "codigo": "993-32-LE26",
   "nombre": "Servicio de alarma y cámaras Vialidad Tocopilla",
   "puntaje": 5,
@@ -714,21 +231,21 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=993-32-LE26"
  },
  {
-  "codigo": "2126-41-LP26",
-  "nombre": "SERVICIOS DE TRANSPORTE DE MUESTRAS BIOLÓGICAS",
+  "codigo": "1751-1-LP26",
+  "nombre": "Campañas Comunicacionales Seguridad Vial",
   "puntaje": 5,
   "categorias": [
-   "Transporte / movilidad"
+   "IMIV / vialidad / transito"
   ],
-  "organismo": "SERVICIO DE SALUD COQUIMBO HOSPITAL DE COQUIMBO",
-  "unidad": "Hospital Coquimbo",
-  "region": "Región de Coquimbo ",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Comisión Nacional de Seguridad de Tránsito (CONASE",
+  "region": "Región Metropolitana de Santiago",
   "tipo": "LP",
-  "monto": "",
+  "monto": "350.000.000 CLP",
   "fecha_cierre": "2026-07-09T16:00",
-  "fecha_publicacion": "2026-06-19",
-  "descripcion": "El objetivo de la presente licitación y del posterior contrato que se suscriba es establecer las condiciones y requerimientos técnicos mínimos para la contratación del servicio de transporte de muestras biológicas, desde el Hospital San Pablo de Coquimbo hacia laboratorios de referencia u otras instituciones de salud del país, principalmente ubicadas en la ciudad de Santiago.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2126-41-LP26"
+  "fecha_publicacion": "2026-06-10",
+  "descripcion": "La Subsecretaría de Transportes requiere contratar servicios creativos, de producción y/o estrategia de medios y marketing para desarrollar hasta cinco campañas comunicacionales, a nivel nacional, regional y metropolitano, orientadas a concientizar sobre las muertes en siniestros viales, promover conductas responsables e informar sus efectos permanentes mediante mensajes educativos.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1751-1-LP26"
  },
  {
   "codigo": "2353-3-LP25",
@@ -782,23 +299,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3562-23-LP26"
  },
  {
-  "codigo": "4590-12-LE26",
-  "nombre": "60 días de arriendo tractor desbrozador para trabajos preventivos para trabajos en tándem con la cuadrilla de roce mecanizado para la provincia de Cachapoal perteneciente a la Dirección de Vialidad Región del Libertador Bernardo O´Higgins",
-  "puntaje": 5,
-  "categorias": [
-   "IMIV / vialidad / transito"
-  ],
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - VI Región - Provincia Cachapoal",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-13T15:01",
-  "fecha_publicacion": "2026-07-01",
-  "descripcion": "60 días de arriendo tractor desbrozador para trabajos preventivos para trabajos en tándem con la cuadrilla de roce mecanizado para la provincia de Cachapoal, perteneciente a la Dirección de Vialidad, Región del Libertador Bernardo O´Higgins",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4590-12-LE26"
- },
- {
   "codigo": "3594-11-LR26",
   "nombre": "MEJORAMIENTO SENDA PEATONAL",
   "puntaje": 5,
@@ -814,40 +314,6 @@
   "fecha_publicacion": "2026-05-08",
   "descripcion": "El proyecto tiene por objetivo la intervención y mejoramiento integral del espacio público correspondiente a la Senda Peatonal y Cultural Calle O’Higgins, mediante la ejecución de las obras contempladas en el diseño aprobado, las cuales comprenden, entre otras, el mejoramiento yo reposición de pavimentos peatonales, la incorporación y mejoramiento de áreas verdes entre otras partidas",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3594-11-LR26"
- },
- {
-  "codigo": "1641-269-LP26",
-  "nombre": "MMD - SERV DE ARRIENDO DE UN COMPACTADOR UN ALZA CONTENEDOR Y UN CONTENEDOR INCLUYENDO EL SERVICIO DE RETIRO TRANSPORTE Y DISPOSICIÓN FINAL DE RESIDUOS ASIMILABLES A DOMICILIARIOS Y RESIDUOS SÓLIDOS INDUSTRIALES NO PELIGROSOS",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "SERVICIO DE SALUD OCCIDENTE HOSPITAL SAN JUAN DE DIOS",
-  "unidad": "SERVICIO DE SALUD OCCIDENTE HOSPITAL SAN JUAN DE D",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LP",
-  "monto": "",
-  "fecha_cierre": "2026-07-13T16:00",
-  "fecha_publicacion": "2026-07-01",
-  "descripcion": "La contratación de «SERVICIO DE ARRIENDO DE UN COMPACTADOR, UN ALZA CONTENEDOR Y UN CONTENEDOR, INCLUYENDO EL SERVICIO DE RETIRO, TRANSPORTE Y DISPOSICIÓN FINAL DE RESIDUOS ASIMILABLES A DOMICILIARIOS Y RESIDUOS SÓLIDOS INDUSTRIALES NO PELIGROSOS», tiene por objeto, el retiro de residuos generados en las dependencias del Hospital San Juan de Dios – CDT, cuyo domicilio es Portales #3239. Durante una temporalidad de 36 meses, que tiene por objetivo cumplir de manera continua la labor asistencial que ha sido encomendada a nuestra Institución, estableciendo las condiciones que permitan alcanzar la combinación más ventajosa entre todos los beneficios del bien o servicio a adquirir, y todos sus costos asociados, presentes y futuros.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1641-269-LP26"
- },
- {
-  "codigo": "2595-65-LE26",
-  "nombre": "SEÑALÉTICA DE TRÁNSITO I. MUNICIPALIDAD DE PARRAL",
-  "puntaje": 5,
-  "categorias": [
-   "IMIV / vialidad / transito"
-  ],
-  "organismo": "I MUNICIPALIDAD DE PARRAL",
-  "unidad": "I MUNICIPALIDAD DE PARRAL",
-  "region": "Región del Maule ",
-  "tipo": "LE",
-  "monto": "14.900.000 CLP",
-  "fecha_cierre": "2026-07-13T17:00",
-  "fecha_publicacion": "2026-07-01",
-  "descripcion": "La Municipalidad de Parral necesita realizar la adquisición de señalética de tránsito para una correcta demarcación e información vial de un sector de la ciudad. Cumpliendo su obligación legal de ordenar el tránsito, prevenir accidentes y garantizar una convivencia segura en las calles de la comuna.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2595-65-LE26"
  },
  {
   "codigo": "966131-41-LE26",
@@ -867,55 +333,21 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-41-LE26"
  },
  {
-  "codigo": "612-18-LE26",
-  "nombre": "SERVICIO DE TRASLADO DE PASAJEROS EN TAXI",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "SERVICIO AGRICOLA Y GANADERO",
-  "unidad": "Servicio Agricola y Ganadero (SAG central)",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-13T20:00",
-  "fecha_publicacion": "2026-07-01",
-  "descripcion": "El SAG realiza esta Licitación Pública para proveer a sus funcionarios el servicio de traslado de pasajeros en taxi ejecutivo o de turismo, bajo la modalidad de contrato de suministro, por un periodo de 36 meses o hasta completar el monto máximo del contrato.  \r\n\r\nEl objeto de esta contratación apunta a satisfacer las eventuales necesidades de transporte y movilización de los funcionarios del SAG, que deben necesariamente trasladarse a distintas localidades para el desarrollo y cumplimiento de sus funciones, realizar trabajos o gestiones en terreno, que no puedan ser resueltas por la flota propia.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=612-18-LE26"
- },
- {
-  "codigo": "3611-8-LE26",
-  "nombre": "SERVICIO DE MANEJO RETIRO TRANSPORTE Y DISPOSICIÓN FINAL AUTORIZADA DE MATERIAL QUE CONTIENE ASBESTO MCA EN ESTADO FRIABLE CLASIFICADO COMO RESIDUO PELIGROSO",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "I MUNICIPALIDAD DE SAAVEDRA",
-  "unidad": "Municipalidad de Saavedra-Salud",
-  "region": "Región de la Araucanía ",
-  "tipo": "LE",
-  "monto": "13.523.000 CLP",
-  "fecha_cierre": "2026-07-14T09:00",
-  "fecha_publicacion": "2026-07-01",
-  "descripcion": "SERVICIO DE MANEJO, RETIRO, TRANSPORTE Y DISPOSICIÓN FINAL AUTORIZADA DE MATERIAL QUE CONTIENE ASBESTO (MCA) EN ESTADO FRIABLE, CLASIFICADO COMO RESIDUO PELIGROSO",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3611-8-LE26"
- },
- {
-  "codigo": "1057547-269-LP26",
-  "nombre": "CONV. CATETER PERMANENTES Y TRANSITORIO CON COMOD",
+  "codigo": "1271069-2-LP26",
+  "nombre": "CONSERV. SIST. CTRL TRANSITO REG VALPO ENLACE REG.",
   "puntaje": 5,
   "categorias": [
    "IMIV / vialidad / transito"
   ],
-  "organismo": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
-  "unidad": "Bienes y Servicios",
-  "region": "Región de Los Ríos",
+  "organismo": "DELEGACIÓN PRESIDENCIAL REGIONAL DE VALPARAÍSO",
+  "unidad": "UNIDAD OPERATIVA CONTROL DE TRANSITO",
+  "region": "Región de Valparaíso ",
   "tipo": "LP",
-  "monto": "296.000.000 CLP",
-  "fecha_cierre": "2026-07-14T19:00",
-  "fecha_publicacion": "2026-06-23",
-  "descripcion": "CONVENIO DE CATETER PERMANENTES Y TRANSITORIO CON COMODATO DE ECOGRAFO PARA EL HOSPITAL BASE VALDIVIA",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057547-269-LP26"
+  "monto": "215.000.000 CLP",
+  "fecha_cierre": "2026-07-13T19:59",
+  "fecha_publicacion": "2026-06-24",
+  "descripcion": "El objetivo principal de la iniciativa de inversión que se plantea dice relación con la contratación de los servicios requeridos para la continuidad de los Enlaces Regionales de Comunicaciones entre el Centro de Control de Tránsito y los elementos de terreno, los cuales en su mayoría permiten la conectividad con los controladores de semáforo de la Región de Valparaíso.\r\nEn consecuencia, la prestación de los servicios requeridos para los Enlaces Regionales entre Centro y Sistema de Control, resulta adicional a la mantención de los sistemas complementarios y a las mantenciones necesarias para asegurar la continuidad operacional del Sistema de Control de Tránsito de la Región de Valparaíso y de sus elementos asociados.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1271069-2-LP26"
  },
  {
   "codigo": "1230632-7-LE26",
@@ -952,74 +384,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4591-16-LP26"
  },
  {
-  "codigo": "514862-96-LE26",
-  "nombre": "TRANSPORTE PARA ESTUDIANTES 2026 10032752",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "CORPORACION MUNICIPAL DE PENALOLEN PARA EL DESARROLO SOCIAL CORMUP",
-  "unidad": "CORPORACION MUNICIPAL DE PENALOLEN PARA EL DESARRO",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "59.240.000 CLP",
-  "fecha_cierre": "2026-07-15T15:00",
-  "fecha_publicacion": "2026-06-23",
-  "descripcion": "SERVICIO DE TRANSPORTE PARA ESTUDIANTES REDUCA 2026 SOLPED 10032752",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=514862-96-LE26"
- },
- {
-  "codigo": "812261-37-LR26",
-  "nombre": "TRANSPORTE PASAJEROS Y HOSPITALIZACIÓN DOMICILIARI",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "HOSPITAL CLINICO METROPOLITANO DE LA FLORIDA DOCTORA ELOISA DIAZ",
-  "unidad": "convenios , operaciones , informatica",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LR",
-  "monto": "598.862.750 CLP",
-  "fecha_cierre": "2026-07-15T15:00",
-  "fecha_publicacion": "2026-06-15",
-  "descripcion": "Las presentes bases de licitación son formuladas para establecer la regulación del proceso de Licitación Pública “SERVICIO DE TRANSPORTE DE PASAJEROS Y HOSPITALIZACIÓN DOMICILIARIA PARA EL HOSPITAL LA FLORIDA” y reglamentan entre otros aspectos las condiciones que deben cumplir las ofertas, las etapas del proceso licitatorio, su forma de evaluación y adjudicación, las condiciones del contrato y todos los aspectos necesarios para el correcto proceso de adquisición.\r\nCabe hacer presente que el servicio asociado a esta adquisición debe ajustarse a las especificaciones de estas bases. \r\nNo podrá el proveedor ofertar servicio distinto al establecido en estas bases de licitación ni complementos o extras no contemplados en los requerimientos técnicos. Cualquier extra no requerido no será considerado en la evaluación. \r\nCon todo, sin perjuicio de lo anterior, cualquier extra ofertado, no requeri",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=812261-37-LR26"
- },
- {
-  "codigo": "4459-12-LR26",
-  "nombre": "SERVICIO DE RECOLECCIÓN DE RESIDUOS SÓLIDOS DOMICILIARIOS TRANSPORTE Y DISPOSICIÓN FINAL EN RELLENO SANITARIO COMUNA DE PICHILEMU",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "ILUSTRE MUNICIPALIDAD DE PICHILEMU",
-  "unidad": "Departamento de Proyectos",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "LR",
-  "monto": "2.164.436.028 CLP",
-  "fecha_cierre": "2026-07-20T16:00",
-  "fecha_publicacion": "2026-06-18",
-  "descripcion": "El presente proceso licitatorio tiene por objeto contratar el Servicio de Recolección de Residuos Sólidos Domiciliarios de la comuna de Pichilemu, el cual deberá ejecutarse conforme a las rutas, sectores, frecuencias, horarios y días establecidos en las Bases Técnicas, comprendiendo la recolección, carga, transporte y descarga de los residuos generados en el sector urbano, garantizando continuidad operativa, cumplimiento de los estándares de calidad exigidos y la correcta disposición final en el lugar autorizado, debiendo el oferente asegurar los recursos humanos, técnicos y logísticos necesarios para el adecuado funcionamiento del servicio según las especificaciones definidas por la Municipalidad.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4459-12-LR26"
- },
- {
-  "codigo": "5056-64-LP26",
-  "nombre": "SERVICIO DE RETIRO TRANSPORTE Y DISPOSICIÓN FINAL DE RESIDUOS DE ESTABLECIMIENTOS DE ATENCION DE SALUD REAS DEL HOSPITAL REGIONAL DE TALCA Y SUS ANEXOS",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE TALCA",
-  "unidad": "Servicios",
-  "region": "Región del Maule ",
-  "tipo": "LP",
-  "monto": "303.769.872 CLP",
-  "fecha_cierre": "2026-07-21T15:00",
-  "fecha_publicacion": "2026-07-01",
-  "descripcion": "SERVICIO DE RETIRO TRANSPORTE Y DISPOSICIÓN FINAL DE RESIDUOS DE ESTABLECIMIENTOS DE ATENCION DE SALUD REAS DEL HOSPITAL REGIONAL DE TALCA Y SUS ANEXOS\r\n",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5056-64-LP26"
- },
- {
   "codigo": "994-29-LP26",
   "nombre": "CONTRATO SERVICIO CAMION ALJIBE VIALIDAD ATACAMA",
   "puntaje": 5,
@@ -1035,57 +399,6 @@
   "fecha_publicacion": "2026-07-01",
   "descripcion": "CONTRATO SERVICIO CAMION ALJIBE VIALIDAD ATACAMA PARA  TRABAJOS EN LAS CUADRILLAS DE SELLOS ASFALTICOS",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=994-29-LP26"
- },
- {
-  "codigo": "653-10-O126",
-  "nombre": "Normalización y Mejoramiento de Rutas Peatonales de Talca",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION VII REGION",
-  "unidad": "SERVICIO DE VIVIENDA Y URBANIZACION VII REGION",
-  "region": "Región del Maule ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-07-22T10:00",
-  "fecha_publicacion": "2026-06-12",
-  "descripcion": "El proyecto contempla las obras civiles necesarias para la normalización de las rutas peatonales en la comuna de Talca, entre las que se incluyen demolición, pavimentación, ajustes de cámaras de inspección, movimiento de redes de servicios, ajustes geométricos, obras de saneamiento, obras de iluminación peatonal, señalización y demarcación, entre otras.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=653-10-O126"
- },
- {
-  "codigo": "1057547-267-LR26",
-  "nombre": "SERV. RETIRO TRANSPORTE TRATAMIENTO Y DISPOSICIO",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
-  "unidad": "Bienes y Servicios",
-  "region": "Región de Los Ríos",
-  "tipo": "LR",
-  "monto": "651.410.000 CLP",
-  "fecha_cierre": "2026-07-23T19:00",
-  "fecha_publicacion": "2026-06-22",
-  "descripcion": "“CONVENIO DE SERVICIOS DE RETIRO, TRANSPORTE, TRATAMIENTO Y DISPOSICION FINAL DE RESIDUOS PELIGROSOS Y RESIDUOS ESPECIALES DEL HOSPITAL BASE Y SUS DEPENDENCIAS”",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057547-267-LR26"
- },
- {
-  "codigo": "2324-33-LR26",
-  "nombre": "Licitacin Pública Nº 19.2026 “CONCESIÓN PARA EL SERVICIO DE RECOLECCIÓN EXTRACCIÓN Y TRANSPORTE DE LOS RSD ASIMILABLES VOLUMINOSOS Y LIMPIEZA DE MICROBASURALES DE ÁREA URBANA DE PUERTO MONTT”.",
-  "puntaje": 5,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
-  "unidad": "Departamento de Licitaciones y gestión de Abastecimiento ",
-  "region": "Región de los Lagos ",
-  "tipo": "LR",
-  "monto": "66.672.000.000 CLP",
-  "fecha_cierre": "2026-07-24T17:00",
-  "fecha_publicacion": "2026-05-25",
-  "descripcion": "Licitación Pública Nº 19/2026 para la ejecución de la concesión denominada “CONCESIÓN PARA EL SERVICIO DE RECOLECCIÓN, EXTRACCIÓN Y TRANSPORTE DE LOS RSD ASIMILABLES, VOLUMINOSOS Y LIMPIEZA DE MICROBASURALES DE ÁREA URBANA DE PUERTO MONTT”.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2324-33-LR26"
  },
  {
   "codigo": "3520-18-LP26",
@@ -1242,6 +555,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1562-30-LE26"
  },
  {
+  "codigo": "2945-14-LR26",
+  "nombre": "SERVICIO DE OPERADOR LOGÍSTICO INTERNACIONAL",
+  "puntaje": 3,
+  "categorias": [
+   "Puertos / comercio exterior"
+  ],
+  "organismo": "DIRECCION DE ABASTECIMIENTO DE LA ARMADA",
+  "unidad": "DIRECCION DE ABASTECIMIENTO DE LA ARMADA",
+  "region": "Región de Valparaíso ",
+  "tipo": "LR",
+  "monto": "",
+  "fecha_cierre": "2026-07-06T10:00",
+  "fecha_publicacion": "2026-06-05",
+  "descripcion": "CONTRATAR LOS SERVICIOS DE UN OPERADOR LOGÍSTICO INTERNACIONAL O FREIGHT FORWARDER, PARA EL PERÍODO COMPRENDIDO ENTRE LOS AÑOS 2026 AL 2029",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2945-14-LR26"
+ },
+ {
   "codigo": "2268-23-LP26",
   "nombre": "CONTRATACION DE LOS SERVICIOS DE AGENCIA DE ADUANA",
   "puntaje": 3,
@@ -1293,21 +623,21 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3190-1-LE26"
  },
  {
-  "codigo": "1273-1-O126",
-  "nombre": "AIF CONST. 2ETAPA OBRA MARITIMAS INF. PORTUARIA MULTIPROPÓSITO PTO WILLIAMS",
+  "codigo": "620304-6-LP26",
+  "nombre": "SEGUROS PARA EL EEB Y ALMACENES LOGISTICOS 2026",
   "puntaje": 3,
   "categorias": [
    "Puertos / comercio exterior"
   ],
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Obras Portuarias - Punta Arenas",
-  "region": "Región de Magallanes y de la Antártica",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-07-09T14:59",
-  "fecha_publicacion": "2026-06-18",
-  "descripcion": "Apoyo técnico y especializado a la Inspección Fiscal, del contrato de obra que complementara las obras marítimas del muelle multipropósito de Puerto Williams, consistentes en la construcción de 2 dophins t 4 postes de amarre.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1273-1-O126"
+  "organismo": "DIVISION LOGISTICA DEL EJERCITO",
+  "unidad": "División de Adquisiciones - Funcionamiento",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "220.000.000 CLP",
+  "fecha_cierre": "2026-07-10T15:00",
+  "fecha_publicacion": "2026-06-19",
+  "descripcion": "Contratación de seguros de infraestructura para el Edificio Ejército Bicentenario y Almacenes Logísticos del Ejército de Chile año 2026",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=620304-6-LP26"
  },
  {
   "codigo": "757-32-LE26",
@@ -1325,6 +655,23 @@
   "fecha_publicacion": "2026-06-30",
   "descripcion": "Contratación de Servicio de Capacitación en “Sistemas de Información Geográfica para la Gestión del Riesgo de Desastres en Salud”. Se requiere fortalecer las capacidades técnicas del sector salud mediante la entrega de herramientas orientadas al análisis territorial del riesgo, con el fin de apoyar la planificación, monitoreo y toma de decisiones en contextos de emergencias y desastres.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=757-32-LE26"
+ },
+ {
+  "codigo": "2268-24-LP26",
+  "nombre": "CONTRATACIÓN SERVICIO OPERADOR LOGISTICO RADIOFARM",
+  "puntaje": 3,
+  "categorias": [
+   "Puertos / comercio exterior"
+  ],
+  "organismo": "CENTRAL DE ABASTECIMIENTO DEL SISTEMA NACIONAL DE SERVICIO DE SALUD",
+  "unidad": "Servicios Internos (2268)",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "100.000.000 CLP",
+  "fecha_cierre": "2026-07-13T16:00",
+  "fecha_publicacion": "2026-06-23",
+  "descripcion": "CONTRATACIÓN DE UN SERVICIO DE OPERADOR LOGISTICO PARA LA RECEPCIÓN, ALMACENAMIENTO, TRANSPORTE, VALOR AGREGADO Y DISTRIBUCIÓN A NIVEL NACIONAL DE PRODUCTOS RADIOFARMACÉUTICOS RADIOFÁRMACOS YO RADIOISÓTOPOS DE USO HUMANO ADQUIRIDOS PARA CENABAST.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2268-24-LP26"
  },
  {
   "codigo": "1065268-5-LE26",
@@ -1361,23 +708,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=817-4-LP26"
  },
  {
-  "codigo": "1143-9-LR26",
-  "nombre": "SERV. DE ADQ. LOGÍSTICA Y DISTRIB. DE AGUA POTABLE",
-  "puntaje": 3,
-  "categorias": [
-   "Puertos / comercio exterior"
-  ],
-  "organismo": "DELEGACIÓN PRESIDENCIAL REGIONAL DEL BIOBÍO",
-  "unidad": "Delegación Presidencial Regional del Biobio",
-  "region": "Región del Biobío ",
-  "tipo": "LR",
-  "monto": "774.933.333 CLP",
-  "fecha_cierre": "2026-07-20T15:30",
-  "fecha_publicacion": "2026-06-19",
-  "descripcion": "Adquisición, logística y distribución de 50 litros de agua potable diarios para consumo humano a los beneficiarios en sectores individualizados en anexo N° 10. Se busca contar con un servicio que permita dar cobertura a personasbeneficiarios con inaccesibilidad a agua potable en diversos sectores de la Provincia de Concepción.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1143-9-LR26"
- },
- {
   "codigo": "634-49-LR26",
   "nombre": "SERVICIO BIOMÉTRICOS Y SISTEMA DE GEORREFERENCIA",
   "puntaje": 3,
@@ -1393,6 +723,23 @@
   "fecha_publicacion": "2026-06-15",
   "descripcion": "APRUEBA BASES ADMINISTRATIVAS, BASES TÉCNICAS, FORMULARIOS Y ANEXO TÉCNICO PARA CONTRATAR EL SERVICIO DE REGISTRO DE ASISTENCIA MEDIANTE DISPOSITIVOS BIOMÉTRICOS Y SISTEMA DE GEORREFERENCIA A NIVEL NACIONAL PARA GENDARMERÍA DE CHILE. CÓDIGO E102RT9",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=634-49-LR26"
+ },
+ {
+  "codigo": "5240-73-LR26",
+  "nombre": "CONTRATACIÓN DEL SERVICIO DE TRASLADO Y APOYO LOGÍSTICO DEL SEMINARIO INTERNACIONAL AÑO 2026 DE LA ESCUELA DE CARABINEROS DE CHILE",
+  "puntaje": 3,
+  "categorias": [
+   "Puertos / comercio exterior"
+  ],
+  "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+  "unidad": "Direccion de Compras Publicas de Carabineros",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LR",
+  "monto": "1.161.227.000 CLP",
+  "fecha_cierre": "2026-07-31T15:30",
+  "fecha_publicacion": "2026-07-01",
+  "descripcion": "MATERIALIZAR: LA CONTRATACIÓN DEL SERVICIO DE TRASLADO Y APOYO LOGÍSTICO DEL SEMINARIO INTERNACIONAL AÑO 2026, DE LA ESCUELA DE CARABINEROS DE CHILE",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5240-73-LR26"
  },
  {
   "codigo": "2288-24-LE26",
@@ -1531,23 +878,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=611134-4-LE26"
  },
  {
-  "codigo": "1270792-1-LE26",
-  "nombre": "REMODELACIÓN SALA MANUELA PINTO - FACULTAD DE DERECHO",
-  "puntaje": 2,
-  "categorias": [
-   "Estudios / consultoria afin"
-  ],
-  "organismo": "UNIVERSIDAD DE TARAPACA",
-  "unidad": "Derecho",
-  "region": "Región de Arica y Parinacota",
-  "tipo": "LE",
-  "monto": "35.000.000 CLP",
-  "fecha_cierre": "2026-07-06T16:00",
-  "fecha_publicacion": "2026-06-19",
-  "descripcion": "La universidad de Tarapacá, requiere el servicio de mejoramiento y remodelación para la sala Manuela Pinto de la Facultad de Derecho, Según especificaciones técnicas indicadas en los anexos adjuntados. SC.2026040334.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1270792-1-LE26"
- },
- {
   "codigo": "1298354-19-LE26",
   "nombre": "Servicio de Asesoría Técnica Especializada.",
   "puntaje": 2,
@@ -1597,23 +927,6 @@
   "fecha_publicacion": "2026-06-25",
   "descripcion": "Las presentes bases enmarcan los requerimientos de la Departamento Calidad y Seguridad del Paciente del Hospital La \r\nSerena bajo la licitación “Asesoría externa para proceso de acreditación Hospital de La Serena”, ID 1057439-58-LE26 con el \r\nfin de obtener el servicio y otros requerimientos señalados en punto B de las presentes bases  de licitación, los cuales son \r\nnecesarios para proceso de reacreditación del Hospital La Serena.                                 ",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057439-58-LE26"
- },
- {
-  "codigo": "5153-12-LP26",
-  "nombre": "REMODELACIÓN SERVICIO DIETÉTICO DE LECHE",
-  "puntaje": 2,
-  "categorias": [
-   "Estudios / consultoria afin"
-  ],
-  "organismo": "UNIVERSIDAD DE CHILE",
-  "unidad": "Hospital Clínico Univ. de Chile-Insumos Generales",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LP",
-  "monto": "125.000.000 CLP",
-  "fecha_cierre": "2026-07-06T17:00",
-  "fecha_publicacion": "2026-06-11",
-  "descripcion": "La Universidad de Chile requiere contratar servicios para la ejecución de la obra “REMODELACIÓN SERVICIO DIETÉTICO DE LECHE”, del Hospital Clínico de la Universidad de Chile, ubicado en calle Dr. Carlos Lorca Tobar N°999, comuna de Independencia, Región Metropolitana",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5153-12-LP26"
  },
  {
   "codigo": "896-8-LE26",
@@ -1735,6 +1048,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=606-19-LE26"
  },
  {
+  "codigo": "1873-6-LE26",
+  "nombre": "Estudio de impacto Rally 2026",
+  "puntaje": 2,
+  "categorias": [
+   "Estudios / consultoria afin"
+  ],
+  "organismo": "SERVICIO NACIONAL DE TURISMO",
+  "unidad": "Direccion Regional del Bio Bio",
+  "region": "Región del Biobío ",
+  "tipo": "LE",
+  "monto": "28.000.000 CLP",
+  "fecha_cierre": "2026-07-08T15:00",
+  "fecha_publicacion": "2026-06-24",
+  "descripcion": "Medir el impacto económico directo, indirecto e inducido del Mundial de Rally Chile Biobío a realizarse en la región del Biobío del 10 al 13 de septiembre del 2026, considerando: - Turismo alojamiento, alimentación, transporte, otros servicios turísticos. - Comercio local.- Empleo generado. - Impacto directo considerando la inversión que realiza la organización en la producción del\r\nevento en l",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1873-6-LE26"
+ },
+ {
   "codigo": "1057062-2-LE26",
   "nombre": "Estudio de Mecánica de Suelos Errázuriz  AIUE 2355",
   "puntaje": 2,
@@ -1750,23 +1080,6 @@
   "fecha_publicacion": "2026-06-19",
   "descripcion": "Las presentes bases administrativas tienen por objetivo regular los procesos de licitación, contratación y desarrollo del “ESTUDIO DE MECÁNICA DE SUELOS DE TERRENO UBICADO EN CALLE FREIRE N°551, COYHAIQUE”.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057062-2-LE26"
- },
- {
-  "codigo": "1181235-8-LE26",
-  "nombre": "ASESORÍA FISCALIZACIÓN DE OBRA CONSERVACIÓN H. GRANEROS",
-  "puntaje": 2,
-  "categorias": [
-   "Estudios / consultoria afin"
-  ],
-  "organismo": "SERVICIO DE SALUD LIBERTADOR BDO OHIGGINS",
-  "unidad": "Compras Convenio GORE   VI Región",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-09T15:00",
-  "fecha_publicacion": "2026-06-18",
-  "descripcion": "SE REQUIERE CONTRATAR ASESORÍA DE FISCALIZACIÓN DE OBRA, COORDINADOR DE ESPECIALIDADES, CONSERVACIÓN HOSPITAL DE GRANEROS. SE ADJUNTAN ANTECEDENTES TÉCNICO Y ADMINISTRATIVOS\r\n\r\n",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1181235-8-LE26"
  },
  {
   "codigo": "3092-10-L126",
@@ -1801,6 +1114,23 @@
   "fecha_publicacion": "2026-07-02",
   "descripcion": "CONSULTORÍA EN INGENIERÍA SOCIAL - USB DROP - SEGÚN BASES DE LICITACIÓN Y ANEXO DECLARACIÓN JURADA PARA OFERTAR Y ANEXOS N° 1 , N° 2 Y N° 3, QUE SE ADJUNTAN, PRESUPUESTO REFERENCIAL  8.000.000.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1075956-5-LE26"
+ },
+ {
+  "codigo": "2282-75-LE26",
+  "nombre": "PP 68-2026 Estudio de riesgo de inundabilidad y di",
+  "puntaje": 2,
+  "categorias": [
+   "Estudios / consultoria afin"
+  ],
+  "organismo": "I MUNICIPALIDAD VALDIVIA",
+  "unidad": "SECRETARIA PLANIFICACION MUNICIPAL",
+  "region": "Región de Los Ríos",
+  "tipo": "LE",
+  "monto": "50.000.000 CLP",
+  "fecha_cierre": "2026-07-10T10:30",
+  "fecha_publicacion": "2026-06-24",
+  "descripcion": "ESTUDIO DE RIESGO DE INUNDABILIDAD Y DISEÑO DE DEFENSAS FLUVIALES EX CAMPAMENTO ARTURO PRAT, VALDIVIA",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2282-75-LE26"
  },
  {
   "codigo": "2324-79-L126",
@@ -1990,23 +1320,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5702-12-LE26"
  },
  {
-  "codigo": "1175-46-LR26",
-  "nombre": "65.26 “REMODELACIÓN COSAM TEMUCO SSAS”",
-  "puntaje": 2,
-  "categorias": [
-   "Estudios / consultoria afin"
-  ],
-  "organismo": "SERVICIO DE SALUD ARAUCANIA SUR",
-  "unidad": "Dirección Servicio Salud Araucanía Sur",
-  "region": "Región de la Araucanía ",
-  "tipo": "LR",
-  "monto": "",
-  "fecha_cierre": "2026-07-17T15:30",
-  "fecha_publicacion": "2026-06-12",
-  "descripcion": "65.26 “REMODELACIÓN COSAM TEMUCO SSAS”",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1175-46-LR26"
- },
- {
   "codigo": "1019-59-LR26",
   "nombre": "ESTUDIO FÍSICO QUÍMICO Y DE MODELACIÓN",
   "puntaje": 2,
@@ -2175,6 +1488,23 @@
   "fecha_publicacion": "2025-12-09",
   "descripcion": "ASESORÍA A LA INSPECCIÓN FISCAL PARA EL CONTRATO TERMINACIÓN CONSERVACIÓN GLOBAL MIXTO POR NIVEL DE SERVICIO Y POR PRECIOS UNITARIOS DE CAMINOS DE LA PROVINCIA DE MELIPILLA SECTOR NORTE; COMUNAS DE MELIPILLA, CURACAVÍ Y MARÍA PINTO; ETAPA IV; REGIÓN METROPOLITANA",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=331-12-O125"
+ },
+ {
+  "codigo": "4099-14-LE26",
+  "nombre": "DIAGNÓSTICO Y PROPUESTA PTAS CHOROMBO",
+  "puntaje": 2,
+  "categorias": [
+   "Estudios / consultoria afin"
+  ],
+  "organismo": "I MUNICIPALIDAD DE MARIA PINTO",
+  "unidad": "Secretaria Comunal de Planificación",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-07-27T16:30",
+  "fecha_publicacion": "2026-06-24",
+  "descripcion": "El Estudio tendrá por finalidad disponer de información técnica, actualizada y validada que permita conocer el estado actual de las instalaciones, su condición operativa, su nivel de cumplimiento normativo y su capacidad para responder a las demandas actuales.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4099-14-LE26"
  },
  {
   "codigo": "1896-15-O126",
