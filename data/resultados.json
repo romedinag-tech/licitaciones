@@ -55,24 +55,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2353-3-LP25"
  },
  {
-  "codigo": "2743-25-LP26",
-  "nombre": "MODIFICACIÓN PLAN REGULADOR DE ANGOL",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "organismo": "I MUNICIPALIDAD DE ANGOL",
-  "unidad": "SECPLA",
-  "region": "Región de la Araucanía ",
-  "tipo": "LP",
-  "monto": "316.000.000 CLP",
-  "fecha_cierre": "2026-07-03T15:05",
-  "fecha_publicacion": "2026-05-20",
-  "descripcion": "La Municipalidad de Angol, en conformidad a lo que establece la letra b del artículo 3 del Ley N°18.695, llama a participar en esta licitación a proponentes personas naturales, personas jurídicas y uniones temporales de proveedores, con el objeto de contratar el estudio “Modificación Plan Regulador Comunal de Angol”, cumpliendo además con la reglamentación vigente respecto de las compras Públicas y el Uso del Portal www.mercadopublico.cl",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2743-25-LP26"
- },
- {
   "codigo": "1048-41-LP26",
   "nombre": "ACTUALIZACION PLADECO EL TABO 2027-2032",
   "puntaje": 4,
@@ -89,6 +71,22 @@
   "fecha_publicacion": "2026-06-15",
   "descripcion": "La actualizacion del instrumento de planificacion PLADECO de El Tabo.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1048-41-LP26"
+ },
+ {
+  "codigo": "712307-45-LE26",
+  "nombre": "Consultoría para el Apoyo Técnico en los Procesos de Evaluación y Análisis de Proyectos de los Programa Habitacional DS N°49 DS N°1 y DS N°19",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION",
+  "unidad": "Licitaciones y Costos",
+  "region": "Región de la Araucanía ",
+  "tipo": "LE",
+  "monto": "10.800.000 CLP",
+  "fecha_cierre": "2026-07-09T10:00",
+  "fecha_publicacion": "2026-07-03",
+  "descripcion": "Consultoría para el Apoyo Técnico en los Procesos de Evaluación y Análisis de Proyectos de los Programa Habitacional DS N°49 DS N°1 y DS N°19",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=712307-45-LE26"
  },
  {
   "codigo": "2661-29-LP26",
