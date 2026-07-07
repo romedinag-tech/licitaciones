@@ -89,6 +89,24 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=712307-45-LE26"
  },
  {
+  "codigo": "5293-15-LE26",
+  "nombre": "CONSULTORIA ARQUITECTO URBANO",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "organismo": "I MUNICIPALIDAD DE LICANTEN",
+  "unidad": "UNIDAD DE SECPLAC",
+  "region": "Región del Maule ",
+  "tipo": "LE",
+  "monto": "9.600.000 CLP",
+  "fecha_cierre": "2026-07-13T15:00",
+  "fecha_publicacion": "2026-07-06",
+  "descripcion": "Brindar asesoría técnica especializada en gestión de proyectos de desarrollo urbano para la Municipalidad de Licantén, contribuyendo a la formulación, evaluación, revisión y consolidación de expedientes de arquitectura, urbanismo e iniciativas de inversión municipal impulsadas por la Secretaría Comunal de Planificación SECPLAC.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5293-15-LE26"
+ },
+ {
   "codigo": "2661-29-LP26",
   "nombre": "ACTUALIZACIÓN PLADECO COMUNA DE NATALES 2026-2034",
   "puntaje": 4,
