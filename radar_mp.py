@@ -65,7 +65,20 @@ ESTUDIO = C(r"\bestudio\b|estudios|consultoria|\basesoria\b|diagnostico|levantam
             r"plan (de|maestro|regulador|comunal|seccional|estrategico|de desarrollo|de transporte|de movilidad|de inversion)|"
             r"\bpladeco\b|plan regulador|actualizacion del plan|modelacion|prefactibilidad|\bfactibilidad\b|"
             r"evaluacion social|encuesta|origen.?destino|\beod\b|\bimiv\b|impacto vial|"
-            r"analisis de demanda|matriz.*viaje|ordenamiento territorial|instrumento de planificacion|\bpiep\b")
+            r"analisis de demanda|matriz.*viaje|ordenamiento territorial|instrumento de planificacion|\bpiep\b|"
+            r"preinversion|pre.?inversion|anteproyecto|alternativas de\s*(pre)?inversion|"
+            r"estudio de ingenieria|evaluacion tecnico.?economica|\bep\b")
+
+# 1b) Marcadores FUERTES de estudio (preinversion/planificacion): protegen contra
+#     palabras de obra fisica (p.ej. "EP CONSTRUCCION..." es un estudio, no la obra).
+ESTUDIO_FUERTE = C(r"preinversion|pre.?inversion|anteproyecto|alternativas de\s*(pre)?inversion|"
+                   r"prefactibilidad|\bfactibilidad\b|evaluacion (social|tecnico|economic)|"
+                   r"estudio de (preinversion|ingenieria|prefactibilidad|factibilidad|impacto)|"
+                   r"plan (maestro|regulador|de transporte|de movilidad|seccional|comunal)|\bpladeco\b|"
+                   r"\bimiv\b|impacto vial|origen.?destino|\beod\b|\bep\b construc")
+
+# Inspeccion fiscal / tecnica de obras: NUNCA se protege ni se incluye (salvo Nivel A).
+INSPECCION = C(r"inspeccion fiscal|\baif\b|\baifo\b|asesoria a la inspecc|inspeccion tecnica|\bito\b")
 
 # 2) EXCLUIR: obras de infraestructura + inspeccion fiscal de obras + insumos.
 #    OJO: tokens con \b para no hacer match dentro de palabras legitimas
@@ -84,7 +97,8 @@ EXCLUIR = C(r"inspeccion fiscal|\baif\b|\baifo\b|asesoria a la inspecc|inspeccio
 # 3) ON_TEMA: transporte + planificacion urbana/territorial.
 TEMA = C(r"transporte|movilidad|\bvial\b|\bvialidad\b|\btransito\b|\btrafico\b|peaton|ciclo|"
          r"\burban|territorial|plan regulador|\bpladeco\b|uso de suelo|suelo urbano|mercado de suelo|espacio publico|\bpiep\b|"
-         r"origen.?destino|demanda de viaje|particion modal|accesibilidad|logistic|portuari|concesion")
+         r"origen.?destino|demanda de viaje|particion modal|accesibilidad|logistic|portuari|concesion|"
+         r"\bruta\b|corredor|pasada urbana|conectividad")
 
 # Organismos clave — se evalua sobre organismo + unidad.
 # NIVEL A: agencias de planificacion de transporte/territorio -> entra TODO
@@ -160,7 +174,7 @@ def main():
     for lic in listado:
         n = sin_tildes(lic.get("Nombre", ""))
         es_key = prefijo(lic["CodigoExterno"]) in key_orgs
-        if not (es_key or ESTUDIO.search(n) or TEMA.search(n) or PIEP.search(n)):
+        if not (es_key or ESTUDIO.search(n) or ESTUDIO_FUERTE.search(n) or TEMA.search(n) or PIEP.search(n)):
             continue
         p = clasificar(lic.get("Nombre", ""))[0]
         p += 5 if es_key else (3 if ESTUDIO.search(n) else 0)
@@ -186,7 +200,10 @@ def main():
         org = sin_tildes(organismo + " " + unidad)
 
         es_estudio = bool(ESTUDIO.search(texto))
-        es_obra    = bool(EXCLUIR.search(texto))
+        # Bloqueado = inspeccion fiscal (nunca se protege), o palabra de obra/insumo
+        # SIN un marcador fuerte de estudio (preinversion/plan/imiv...) que lo rescate.
+        es_obra    = bool(INSPECCION.search(texto) or
+                          (EXCLUIR.search(texto) and not ESTUDIO_FUERTE.search(texto)))
         on_tema    = bool(TEMA.search(texto))
         org_a      = bool(ORG_A.search(org))
         org_b      = bool(ORG_B.search(org))
