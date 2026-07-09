@@ -68,30 +68,43 @@ ESTUDIO = C(r"\bestudio\b|estudios|consultoria|\basesoria\b|diagnostico|levantam
             r"analisis de demanda|matriz.*viaje|ordenamiento territorial|instrumento de planificacion|\bpiep\b")
 
 # 2) EXCLUIR: obras de infraestructura + inspeccion fiscal de obras + insumos.
+#    OJO: tokens con \b para no hacer match dentro de palabras legitimas
+#    (p.ej. "racion" dentro de "generacion/elaboracion", "ropa" en "Europa",
+#     "aseo" en "paseo", "banos" en "urbanos").
 EXCLUIR = C(r"inspeccion fiscal|\baif\b|\baifo\b|asesoria a la inspecc|inspeccion tecnica|\bito\b|"
             r"\bobra(s)?\b|construccion|conservacion|mantencion|reposicion|repos\.|pavimenta|asfalt|"
             r"alcantarilla|colector de agua|saneamiento|agua potable|alcantarillado|puente(?!.*estudio)|"
             r"suministro|adquisicion|\badq\b|\badq\.|arriendo|compra de|provision de|"
             r"senaletic|demarcacion|semaforizacion|instalacion de semaf|iluminacion|alumbrado|luminaria|"
             r"edificacion|edificio|remodelacion|\bbanos?\b|climatizacion|ascensor|areas verdes|"
-            r"neumatic|naumatic|combustible|petroleo|lubricante|repuestos|pijama|ropa|vestuario|"
+            r"neumatic|naumatic|combustible|petroleo|lubricante|repuestos|pijama|\bropa\b|vestuario|"
             r"transporte escolar|transporte de (residuos|aridos|agua|personal|pasajeros|carga|alimentos|lena|valores|internos|funcionarios?|mezcla|material|hormigon)|"
-            r"servicio de transporte|aseo|vigilancia|guardias|alimentacion|racion|destruccion de|mercancias")
+            r"servicio de transporte|\baseo\b|vigilancia|guardias|alimentacion|\braciones?\b|destruccion de|mercancias")
 
 # 3) ON_TEMA: transporte + planificacion urbana/territorial.
 TEMA = C(r"transporte|movilidad|\bvial\b|\bvialidad\b|\btransito\b|\btrafico\b|peaton|ciclo|"
          r"\burban|territorial|plan regulador|\bpladeco\b|uso de suelo|suelo urbano|mercado de suelo|espacio publico|\bpiep\b|"
          r"origen.?destino|demanda de viaje|particion modal|accesibilidad|logistic|portuari|concesion")
 
-# Organismos que siempre se vigilan (se evalua sobre organismo + unidad).
-ORG_CLAVE = C(r"sectra|secretaria\s*de?\s*planificacion.*transporte|secretariatransporte|secretaria\s*transporte|"
-              r"subsecretaria de transporte|ministerio de transporte|"
-              r"transporte publico regional|\bdtpr\b|transporte publico metropolitano|\bdtpm\b|directorio de transporte|"
-              r"\bdirplan\b|direccion de planeamiento|\bplaneamiento\b|direccion de vialidad|\bvialidad\b|"
-              r"\bconcesiones\b|\bserviu\b|servicio de vivienda y urbanizacion|vivienda y urbanismo|\bminvu\b|seremi.*vivienda")
+# Organismos clave — se evalua sobre organismo + unidad.
+# NIVEL A: agencias de planificacion de transporte/territorio -> entra TODO
+#          lo que licitan (no hacen obras; sus insumos como ortofotos son
+#          parte de estudios). Se salta el filtro de obra.
+ORG_A = C(r"sectra|programa de vialidad y transporte urbano|secretariatransporte|"
+          r"secretaria\s*de?\s*planificacion.*transporte|"
+          r"transporte publico regional|\bdtpr\b|transporte publico metropolitano|\bdtpm\b|directorio de transporte|"
+          r"\bdirplan\b|direccion de planeamiento")
+# NIVEL B: organismos que hacen obras y estudios -> solo sus ESTUDIOS, con estrella.
+ORG_B = C(r"direccion de vialidad|\bvialidad\b|\bconcesiones\b|direccion general de concesiones|"
+          r"\bserviu\b|servicio de vivienda y urbanizacion|vivienda y urbanismo|\bminvu\b|seremi.*vivienda")
 MUNI = C(r"municipalidad|\bmuni\b|i\.? municipalidad")
 PIEP = C(r"\bpiep\b|plan de inversion(es)? en (infraestructura|movilidad|espacio)|"
          r"inversiones en espacio publico|aporte.*espacio publico|infraestructura de movilidad y espacio publico")
+
+# Cache de prefijos de organismos clave (data/key_orgs.json). Se siembra con
+# los conocidos y se auto-completa: cualquier licitacion cuyo prefijo este aqui
+# se consulta en detalle aunque el nombre no calce con el tema.
+KEY_ORGS_SEED = {"520663": "SECTRA (Gran Concepcion)", "619284": "SECTRA (Talca-Maule)"}
 
 def sin_tildes(s):
     return unicodedata.normalize("NFD", s or "").encode("ascii", "ignore").decode().lower()
@@ -131,17 +144,29 @@ def main():
     listado = data["Listado"]
     print(f"  {len(listado)} activas.")
 
-    # Primer paso (solo nombre): traer a detalle lo que parece estudio o del tema.
+    # Cache de prefijos de organismos clave (se siembra y se auto-completa).
+    kpath = os.path.join(DATA, "key_orgs.json")
+    key_orgs = dict(KEY_ORGS_SEED)
+    if os.path.exists(kpath):
+        try: key_orgs.update(json.load(open(kpath, encoding="utf-8")))
+        except Exception: pass
+
+    def prefijo(cod): return cod.split("-")[0]
+
+    # Primer paso: se consulta el detalle de lo que parece estudio/tema por su
+    # nombre, MAS todo lo de organismos clave conocidos (por prefijo), aunque el
+    # nombre no calce (asi no se pierde, p.ej., una ortofoto de SECTRA).
     candidatas = []
     for lic in listado:
         n = sin_tildes(lic.get("Nombre", ""))
-        if not (ESTUDIO.search(n) or TEMA.search(n) or PIEP.search(n)):
+        es_key = prefijo(lic["CodigoExterno"]) in key_orgs
+        if not (es_key or ESTUDIO.search(n) or TEMA.search(n) or PIEP.search(n)):
             continue
         p = clasificar(lic.get("Nombre", ""))[0]
-        p += 3 if ESTUDIO.search(n) else 0
-        candidatas.append({**lic, "p": p})
+        p += 5 if es_key else (3 if ESTUDIO.search(n) else 0)
+        candidatas.append({**lic, "p": p, "es_key": es_key})
     candidatas.sort(key=lambda x: -x["p"])
-    print(f"  {len(candidatas)} candidatas por nombre.")
+    print(f"  {len(candidatas)} candidatas (incl. organismos clave sembrados).")
     if len(candidatas) > MAX_DETALLE:
         print(f"  (limito el detalle a {MAX_DETALLE})")
         candidatas = candidatas[:MAX_DETALLE]
@@ -163,30 +188,40 @@ def main():
         es_estudio = bool(ESTUDIO.search(texto))
         es_obra    = bool(EXCLUIR.search(texto))
         on_tema    = bool(TEMA.search(texto))
-        org_clave  = bool(ORG_CLAVE.search(org))
+        org_a      = bool(ORG_A.search(org))
+        org_b      = bool(ORG_B.search(org))
         muni_piep  = bool(MUNI.search(org) and PIEP.search(texto))
+
+        # Auto-aprende SOLO prefijos de Nivel A (agencias de planificacion, pocas
+        # y todas relevantes). Nivel B se capta por nombre, no por prefijo, para
+        # no traer a detalle cientos de obras de Vialidad/SERVIU.
+        if org_a and prefijo(cod) not in key_orgs:
+            key_orgs[prefijo(cod)] = (unidad or organismo)[:60]
 
         p2, cats2 = clasificar(c["Nombre"] + " " + desc)
 
-        # Regla final: debe ser estudio, no obra/inspeccion, y ademas
-        # ser de un organismo clave, o del tema con al menos 1 punto de categoria.
-        if not es_estudio or es_obra:
-            print(f"  [-] {cod} descartada (no-estudio/obra)")
-            continue
-        if not (org_clave or muni_piep or (on_tema and p2 >= 1)):
-            print(f"  [-] {cod} fuera de tema (p={p2})")
+        # Regla final por niveles:
+        #  A) agencia de planificacion  -> entra TODO (se salta filtro de obra).
+        #  B/muni/general -> solo estudios, no obra, y del tema (o org B) con >=1 pto.
+        if org_a:
+            star = True
+        elif es_estudio and not es_obra and (org_b or muni_piep or (on_tema and p2 >= 1)):
+            star = org_b or muni_piep
+        else:
+            razon = "obra/no-estudio" if (not es_estudio or es_obra) else f"fuera de tema (p={p2})"
+            print(f"  [-] {cod} {razon}")
             continue
 
-        if org_clave: p2 += 4
+        if star: p2 += 4
         if muni_piep or PIEP.search(texto): p2 += 3
         fch = det.get("Fechas") or {}
-        print(f"  [+] {p2:>2} {cod} {'*' if (org_clave or muni_piep) else ' '} {c['Nombre'][:50]}")
+        print(f"  [+] {p2:>2} {cod} {'*' if star else ' '} {c['Nombre'][:50]}")
         resultados.append({
             "codigo": cod,
             "nombre": c["Nombre"],
             "puntaje": p2,
             "categorias": sorted(set(cats2)),
-            "org_clave": org_clave or muni_piep,
+            "org_clave": star,
             "organismo": organismo,
             "unidad": unidad,
             "region": comp.get("RegionUnidad", ""),
@@ -199,6 +234,9 @@ def main():
         })
 
     resultados.sort(key=lambda x: (-x["puntaje"], x["fecha_cierre"] or "9"))
+
+    with open(kpath, "w", encoding="utf-8") as f:
+        json.dump(key_orgs, f, ensure_ascii=False, indent=1, sort_keys=True)
 
     with open(os.path.join(DATA, "resultados.json"), "w", encoding="utf-8") as f:
         json.dump(resultados, f, ensure_ascii=False, indent=1)

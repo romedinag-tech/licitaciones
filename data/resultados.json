@@ -1,5 +1,44 @@
 [
  {
+  "codigo": "619284-2-LP26",
+  "nombre": "ACTUALIZACIÓN PLAN MAESTRO DE TRANSPORTE URBANO DE TALCA Y MAULE ETAPA II” ORTOFOTOMOSAICO",
+  "puntaje": 15,
+  "categorias": [
+   "Datos / analitica",
+   "Planificacion urbana / IPT",
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "151.260.504 CLP",
+  "fecha_cierre": "2026-07-30T11:00",
+  "fecha_publicacion": "2026-07-07",
+  "descripcion": "El objetivo principal del estudio es la generación de un ortofotomosaico para las comunas de Talca y Maule, que facilite la obtención de información geoespacial precisa, que apoye y consolide el proceso de planificación de los procesos de transporte, consistente con los objetivos que persigue la Estrategia Nacional de Movilidad Sostenible del Ministerio de Transporte y Telecomunicaciones.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-2-LP26"
+ },
+ {
+  "codigo": "619284-3-LR26",
+  "nombre": "Actualización Plan Maestro de Transporte Urbano de Talca y Maule Etapa III",
+  "puntaje": 13,
+  "categorias": [
+   "Planificacion urbana / IPT",
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LR",
+  "monto": "550.420.168 CLP",
+  "fecha_cierre": "2026-08-07T11:00",
+  "fecha_publicacion": "2026-07-08",
+  "descripcion": "El objetivo del estudio que se licita es elaborar los Planes Maestros de Transporte Urbano (PMTU) y de Transporte Público (PMTP) de las comunas de Talca y Maule en la Región del Maule.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-3-LR26"
+ },
+ {
   "codigo": "520663-35-LS10",
   "nombre": "ACTUALIZACIÓN DEL PLAN DE TRANSPORTE DEL GRAN CONCEPCIÓN",
   "puntaje": 13,
@@ -17,6 +56,24 @@
   "fecha_publicacion": "2010-12-29",
   "descripcion": "Identificar proyectos complementarios al Plan Maestro de Desarrollo y Gestión del Sistema de Transporte Urbano (STU) del Gran Concepción",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10"
+ },
+ {
+  "codigo": "6-18-LE26",
+  "nombre": "CONSULTORIA PARA ESTUDIOS FUNDADOS DE RIESGOS",
+  "puntaje": 8,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": true,
+  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION I REGION",
+  "unidad": "SERVIU I Región",
+  "region": "Región de Tarapacá  ",
+  "tipo": "LE",
+  "monto": "990 CLF",
+  "fecha_cierre": "2026-07-13T15:30",
+  "fecha_publicacion": "2026-06-22",
+  "descripcion": "Consultoría especializada para la elaboración de estudios de riesgos Geológicos, hidrológicos y estudio de las mitigaciones estructurales para diversas viviendas proyectos en extensión, de interés público yo financiados por el Estado que se emplazan en áreas de riesgos definidas por el Plan Regulador Intercomunal Costero de la Comuna de Alto Hospicio",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=6-18-LE26"
  },
  {
   "codigo": "660-6-LP26",
@@ -55,22 +112,90 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2353-3-LP25"
  },
  {
-  "codigo": "1048-41-LP26",
-  "nombre": "ACTUALIZACION PLADECO EL TABO 2027-2032",
+  "codigo": "712307-45-LE26",
+  "nombre": "Consultoría para el Apoyo Técnico en los Procesos de Evaluación y Análisis de Proyectos de los Programa Habitacional DS N°49 DS N°1 y DS N°19",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION",
+  "unidad": "Licitaciones y Costos",
+  "region": "Región de la Araucanía ",
+  "tipo": "LE",
+  "monto": "10.800.000 CLP",
+  "fecha_cierre": "2026-07-09T10:00",
+  "fecha_publicacion": "2026-07-03",
+  "descripcion": "Consultoría para el Apoyo Técnico en los Procesos de Evaluación y Análisis de Proyectos de los Programa Habitacional DS N°49 DS N°1 y DS N°19",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=712307-45-LE26"
+ },
+ {
+  "codigo": "5293-15-LE26",
+  "nombre": "CONSULTORIA ARQUITECTO URBANO",
   "puntaje": 4,
   "categorias": [
    "Planificacion urbana / IPT"
   ],
   "org_clave": false,
-  "organismo": "I MUNICIPALIDAD DE EL TABO",
-  "unidad": "I MUNICIPALIDAD DE EL TABO",
-  "region": "Región de Valparaíso ",
+  "organismo": "I MUNICIPALIDAD DE LICANTEN",
+  "unidad": "UNIDAD DE SECPLAC",
+  "region": "Región del Maule ",
+  "tipo": "LE",
+  "monto": "9.600.000 CLP",
+  "fecha_cierre": "2026-07-13T15:00",
+  "fecha_publicacion": "2026-07-06",
+  "descripcion": "Brindar asesoría técnica especializada en gestión de proyectos de desarrollo urbano para la Municipalidad de Licantén, contribuyendo a la formulación, evaluación, revisión y consolidación de expedientes de arquitectura, urbanismo e iniciativas de inversión municipal impulsadas por la Secretaría Comunal de Planificación SECPLAC.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5293-15-LE26"
+ },
+ {
+  "codigo": "3499-22-LE26",
+  "nombre": "ACTUALIZACIÓN PLADECO 2027-2030 QUINTA DE TILCOCO",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "organismo": "I MUNICIPALIDAD DE QUINTA DE TILCOCO",
+  "unidad": "SECPLAN",
+  "region": "Región del Libertador General Bernardo O´Higgins",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-07-21T15:00",
+  "fecha_publicacion": "2026-07-08",
+  "descripcion": "El objeto de esta licitación pública es la contratación de servicios especializados para la actualización del Plan de Desarrollo Comunal PLADECO 2027-2030 de la Ilustre Municipalidad de Quinta de Tilcoco, es decir, la búsqueda de un consultor o empresa que elabore el instrumento de planificación estratégica que orientará el desarrollo de la comuna en dicho periodo, a través de un proceso que incluye el diagnóstico integral de la situación comunal a nivel global y sectorial, la definición de una imagen objetivo, objetivos estratégicos y políticas de desarrollo, la elaboración de planes, programas y proyectos concretos alineados a esa estrategia, y el diseño de un sistema de control, seguimiento y evaluación del PLADECO, todo ello desarrollado con participación ciudadana y culminando en la aprobación del instrumento por parte de la autoridad municipal competente.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3499-22-LE26"
+ },
+ {
+  "codigo": "2661-29-LP26",
+  "nombre": "ACTUALIZACIÓN PLADECO COMUNA DE NATALES 2026-2034",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "organismo": "ILUSTRE MUNICIPALIDAD DE NATALES",
+  "unidad": "SECRETARIA DE PLANIFICACION",
+  "region": "Región de Magallanes y de la Antártica",
   "tipo": "LP",
-  "monto": "80.000.000 CLP",
-  "fecha_cierre": "2026-07-08T14:00",
-  "fecha_publicacion": "2026-06-15",
-  "descripcion": "La actualizacion del instrumento de planificacion PLADECO de El Tabo.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1048-41-LP26"
+  "monto": "97.661.000 CLP",
+  "fecha_cierre": "2026-07-23T11:00",
+  "fecha_publicacion": "2026-07-03",
+  "descripcion": "CONTRATAR LA CONSULTORIA PARA QUE REALICE LA ACTUALIZACIÓN DEL PLADECO PARA LA COMUNA DE NATALES 2026-2034.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2661-29-LP26"
+ },
+ {
+  "codigo": "5048-12-O126",
+  "nombre": "EP CONST Y MEJ PASADA URBANA RUTA I-60, PUMANQUE, O’HIGGINS",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región del Libertador General Bernardo O´Higgins",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-08-11T11:30",
+  "fecha_publicacion": "2026-06-25",
+  "descripcion": "El presente estudio tiene por objeto diagnosticar y evaluar alternativas viales para mejorar la circulación, seguridad, conectividad y calidad urbana en la comuna de Pumanque, considerando criterios técnicos, ambientales, territoriales y sociales.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-12-O126"
  },
  {
   "codigo": "712307-45-LE26",
