@@ -94,6 +94,24 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-6-LP26"
  },
  {
+  "codigo": "5048-10-O126",
+  "nombre": "EP CONSTRUCCION MEJ. PASADA URBANA RUTA D-409, R. COQUIMBO",
+  "puntaje": 7,
+  "categorias": [
+   "Vialidad / transito"
+  ],
+  "org_clave": true,
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región de Coquimbo ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-08-05T10:30",
+  "fecha_publicacion": "2026-06-26",
+  "descripcion": "Evaluar alternativas de preinversión para la Ruta D‑409 mediante análisis técnico, económico, ambiental y social, a fin de definir un anteproyecto que optimice la conectividad y seguridad vial.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-10-O126"
+ },
+ {
   "codigo": "2353-3-LP25",
   "nombre": "Mejoramiento Accesibilidad al Transporte Público",
   "puntaje": 5,
@@ -110,22 +128,6 @@
   "fecha_publicacion": "2026-06-12",
   "descripcion": "Contratar el servicio para realizar el estudio ‘MEJORAMIENTO DE ACCESIBILIDAD AL TRANSPORTE PÚBLICO – SECTOR CENTRO PUNTA ARENAS’, con fondos traspasados desde la SUBSECRETARIA DE TRANSPORTES.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2353-3-LP25"
- },
- {
-  "codigo": "712307-45-LE26",
-  "nombre": "Consultoría para el Apoyo Técnico en los Procesos de Evaluación y Análisis de Proyectos de los Programa Habitacional DS N°49 DS N°1 y DS N°19",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION",
-  "unidad": "Licitaciones y Costos",
-  "region": "Región de la Araucanía ",
-  "tipo": "LE",
-  "monto": "10.800.000 CLP",
-  "fecha_cierre": "2026-07-09T10:00",
-  "fecha_publicacion": "2026-07-03",
-  "descripcion": "Consultoría para el Apoyo Técnico en los Procesos de Evaluación y Análisis de Proyectos de los Programa Habitacional DS N°49 DS N°1 y DS N°19",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=712307-45-LE26"
  },
  {
   "codigo": "5293-15-LE26",
@@ -196,58 +198,6 @@
   "fecha_publicacion": "2026-06-25",
   "descripcion": "El presente estudio tiene por objeto diagnosticar y evaluar alternativas viales para mejorar la circulación, seguridad, conectividad y calidad urbana en la comuna de Pumanque, considerando criterios técnicos, ambientales, territoriales y sociales.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-12-O126"
- },
- {
-  "codigo": "712307-45-LE26",
-  "nombre": "Consultoría para el Apoyo Técnico en los Procesos de Evaluación y Análisis de Proyectos de los Programa Habitacional DS N°49 DS N°1 y DS N°19",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION",
-  "unidad": "Licitaciones y Costos",
-  "region": "Región de la Araucanía ",
-  "tipo": "LE",
-  "monto": "10.800.000 CLP",
-  "fecha_cierre": "2026-07-09T10:00",
-  "fecha_publicacion": "2026-07-03",
-  "descripcion": "Consultoría para el Apoyo Técnico en los Procesos de Evaluación y Análisis de Proyectos de los Programa Habitacional DS N°49 DS N°1 y DS N°19",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=712307-45-LE26"
- },
- {
-  "codigo": "5293-15-LE26",
-  "nombre": "CONSULTORIA ARQUITECTO URBANO",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "organismo": "I MUNICIPALIDAD DE LICANTEN",
-  "unidad": "UNIDAD DE SECPLAC",
-  "region": "Región del Maule ",
-  "tipo": "LE",
-  "monto": "9.600.000 CLP",
-  "fecha_cierre": "2026-07-13T15:00",
-  "fecha_publicacion": "2026-07-06",
-  "descripcion": "Brindar asesoría técnica especializada en gestión de proyectos de desarrollo urbano para la Municipalidad de Licantén, contribuyendo a la formulación, evaluación, revisión y consolidación de expedientes de arquitectura, urbanismo e iniciativas de inversión municipal impulsadas por la Secretaría Comunal de Planificación SECPLAC.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5293-15-LE26"
- },
- {
-  "codigo": "2661-29-LP26",
-  "nombre": "ACTUALIZACIÓN PLADECO COMUNA DE NATALES 2026-2034",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "organismo": "ILUSTRE MUNICIPALIDAD DE NATALES",
-  "unidad": "SECRETARIA DE PLANIFICACION",
-  "region": "Región de Magallanes y de la Antártica",
-  "tipo": "LP",
-  "monto": "97.661.000 CLP",
-  "fecha_cierre": "2026-07-23T11:00",
-  "fecha_publicacion": "2026-07-03",
-  "descripcion": "CONTRATAR LA CONSULTORIA PARA QUE REALICE LA ACTUALIZACIÓN DEL PLADECO PARA LA COMUNA DE NATALES 2026-2034.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2661-29-LP26"
  },
  {
   "codigo": "3598-19-LE26",
