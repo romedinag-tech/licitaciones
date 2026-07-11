@@ -112,40 +112,22 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-10-O126"
  },
  {
-  "codigo": "2353-3-LP25",
-  "nombre": "Mejoramiento Accesibilidad al Transporte Público",
+  "codigo": "2402-49-LP26",
+  "nombre": "ESTUDIO DE INFRAEST. COMPLE. PARA EL TRANSP. PUBL.",
   "puntaje": 5,
   "categorias": [
    "Transporte / movilidad"
   ],
   "org_clave": false,
-  "organismo": "I MUNICIPALIDAD DE PUNTA ARENAS",
-  "unidad": "DIRECCIÓN TRANSITO Y TRANSPORTE PUBLICO",
-  "region": "Región de Magallanes y de la Antártica",
+  "organismo": "I MUNICIPALIDAD DE RANCAGUA",
+  "unidad": "DEPARTAMENTO DE ESTUDIOS Y PROYECTOS",
+  "region": "Región del Libertador General Bernardo O´Higgins",
   "tipo": "LP",
-  "monto": "",
-  "fecha_cierre": "2026-07-10T11:00",
-  "fecha_publicacion": "2026-06-12",
-  "descripcion": "Contratar el servicio para realizar el estudio ‘MEJORAMIENTO DE ACCESIBILIDAD AL TRANSPORTE PÚBLICO – SECTOR CENTRO PUNTA ARENAS’, con fondos traspasados desde la SUBSECRETARIA DE TRANSPORTES.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2353-3-LP25"
- },
- {
-  "codigo": "5293-15-LE26",
-  "nombre": "CONSULTORIA ARQUITECTO URBANO",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "organismo": "I MUNICIPALIDAD DE LICANTEN",
-  "unidad": "UNIDAD DE SECPLAC",
-  "region": "Región del Maule ",
-  "tipo": "LE",
-  "monto": "9.600.000 CLP",
-  "fecha_cierre": "2026-07-13T15:00",
-  "fecha_publicacion": "2026-07-06",
-  "descripcion": "Brindar asesoría técnica especializada en gestión de proyectos de desarrollo urbano para la Municipalidad de Licantén, contribuyendo a la formulación, evaluación, revisión y consolidación de expedientes de arquitectura, urbanismo e iniciativas de inversión municipal impulsadas por la Secretaría Comunal de Planificación SECPLAC.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5293-15-LE26"
+  "monto": "330.000.000 CLP",
+  "fecha_cierre": "2026-07-30T10:00",
+  "fecha_publicacion": "2026-07-10",
+  "descripcion": "El estudio denominado “Estudio de Infraestructura Complementaria para el Transporte Público de la ciudad de \r\nRancagua”, tiene como objeto general desarrollar una cartera de proyectos de infraestructura complementaria \r\nasociada al transporte público en la cuidad de Rancagua, que permita mejorar las condiciones actuales de operación \r\nen vías urbanas, tanto para vías céntricas como vías no céntricas, y junto con ello, avanzar en la concreción de una \r\nRed de Corredores de Transporte Público que brinde mejores niveles de servicio a los usuarios. ",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2402-49-LP26"
  },
  {
   "codigo": "3499-22-LE26",
@@ -198,6 +180,22 @@
   "fecha_publicacion": "2026-06-25",
   "descripcion": "El presente estudio tiene por objeto diagnosticar y evaluar alternativas viales para mejorar la circulación, seguridad, conectividad y calidad urbana en la comuna de Pumanque, considerando criterios técnicos, ambientales, territoriales y sociales.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-12-O126"
+ },
+ {
+  "codigo": "2010-9-O126",
+  "nombre": "ESTUDIO ING.MEJORAMIENTO CIRCUITO VIAL RUTAS F-382 Y F-326,QTA.Y LA CRUZ",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - V Región - Licitación de Obras",
+  "region": "Región de Valparaíso ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-08-20T09:00",
+  "fecha_publicacion": "2026-07-10",
+  "descripcion": "SE CONTEMPLA EL ESTUDIO Y ANÁLISIS TÉCNICO DEL MEJORAMIENTO INTEGRAL DE LAS RUTAS F-382 Y F-326.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2010-9-O126"
  },
  {
   "codigo": "3598-19-LE26",
