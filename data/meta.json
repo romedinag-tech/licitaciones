@@ -1,18 +1,16 @@
 {
- "actualizado": "2026-07-13T14:54:01+00:00",
- "total_activas": 4376,
+ "actualizado": "2026-07-14T14:03:58+00:00",
+ "total_activas": 4088,
  "candidatas": 200,
- "resultados": 13,
+ "resultados": 12,
  "clave": 8,
  "modo_ticket": "personal",
  "regiones": [
   "Región Metropolitana de Santiago",
   "Región de Coquimbo ",
   "Región de Magallanes y de la Antártica",
-  "Región de Tarapacá  ",
   "Región de Valparaíso ",
   "Región de la Araucanía ",
-  "Región de los Lagos ",
   "Región del Libertador General Bernardo O´Higgins"
  ],
  "categorias": [

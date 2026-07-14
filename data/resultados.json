@@ -58,22 +58,22 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10"
  },
  {
-  "codigo": "6-18-LE26",
-  "nombre": "CONSULTORIA PARA ESTUDIOS FUNDADOS DE RIESGOS",
-  "puntaje": 8,
+  "codigo": "712307-46-LE26",
+  "nombre": "Consultoría Multidisciplinaria de Apoyo Técnico para Proyectos de Normalización y Mejoramiento de Rutas Peatonales en la Provincia de Cautín",
+  "puntaje": 9,
   "categorias": [
-   "Planificacion urbana / IPT"
+   "Transporte / movilidad"
   ],
   "org_clave": true,
-  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION I REGION",
-  "unidad": "SERVIU I Región",
-  "region": "Región de Tarapacá  ",
+  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION",
+  "unidad": "Licitaciones y Costos",
+  "region": "Región de la Araucanía ",
   "tipo": "LE",
-  "monto": "990 CLF",
-  "fecha_cierre": "2026-07-13T15:30",
-  "fecha_publicacion": "2026-06-22",
-  "descripcion": "Consultoría especializada para la elaboración de estudios de riesgos Geológicos, hidrológicos y estudio de las mitigaciones estructurales para diversas viviendas proyectos en extensión, de interés público yo financiados por el Estado que se emplazan en áreas de riesgos definidas por el Plan Regulador Intercomunal Costero de la Comuna de Alto Hospicio",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=6-18-LE26"
+  "monto": "60.650.000 CLP",
+  "fecha_cierre": "2026-07-24T09:30",
+  "fecha_publicacion": "2026-07-13",
+  "descripcion": "Consultoría Multidisciplinaria de Apoyo Técnico para Proyectos de Normalización y Mejoramiento de Rutas Peatonales en la Provincia de Cautín",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=712307-46-LE26"
  },
  {
   "codigo": "660-6-LP26",
@@ -148,6 +148,24 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3499-22-LE26"
  },
  {
+  "codigo": "1202333-63-LE26",
+  "nombre": "FORMULACIÓN DEL PLAN COMUNAL DE DESARROLLO PLADECO Y FORMULACIÓN DEL PLAN DE DESARROLLO TURÍSTICO PLADETUR COMUNA DE QUINTERO 2027 - 2036",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "organismo": "I MUNICIPALIDAD DE QUINTERO",
+  "unidad": "LICITACIONES",
+  "region": "Región de Valparaíso ",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-07-23T11:00",
+  "fecha_publicacion": "2026-07-13",
+  "descripcion": "La contratación del servicio de consultoría para la elaboración del PLADECO y el Plan de Desarrollo de Turismo (PLADETUR), permitirá incorporar metodologías de análisis estratégico, participación ciudadana, enfoque territorial y herramientas de planificación modernas, fortaleciendo la toma de decisiones municipales y la coordinación con los distintos actores públicos, privados y comunitarios de la comuna. Asimismo, el desarrollo del PLADECO permitirá establecer una hoja de ruta institucional para la gestión municipal de mediano y largo plazo, promoviendo principios de eficiencia, eficacia, transparencia, participación ciudadana y adecuada inversión de los recursos público.\r\n",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1202333-63-LE26"
+ },
+ {
   "codigo": "2661-29-LP26",
   "nombre": "ACTUALIZACIÓN PLADECO COMUNA DE NATALES 2026-2034",
   "puntaje": 4,
@@ -196,41 +214,5 @@
   "fecha_publicacion": "2026-07-10",
   "descripcion": "SE CONTEMPLA EL ESTUDIO Y ANÁLISIS TÉCNICO DEL MEJORAMIENTO INTEGRAL DE LAS RUTAS F-382 Y F-326.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2010-9-O126"
- },
- {
-  "codigo": "3598-19-LE26",
-  "nombre": "2° Llamado Licitacion Consultoria para Mejoramiento de Espacios de Espera y Atencion al Usuario Alcaldia Dideco y Transito",
-  "puntaje": 3,
-  "categorias": [
-   "Vialidad / transito"
-  ],
-  "org_clave": false,
-  "organismo": "I MUNICIPALIDAD DE MARCHIGUE",
-  "unidad": "Ilustre Municipalidad de Marchigue",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-13T16:00",
-  "fecha_publicacion": "2026-06-17",
-  "descripcion": "2° Llamado Licitacion Consultoria para Mejoramiento de Espacios de Espera y Atencion al Usuario Alcaldia Dideco y Transito",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3598-19-LE26"
- },
- {
-  "codigo": "966131-41-LE26",
-  "nombre": "ESTUDIO VIAL DE SEGURIDAD Y GESTIÓN DE RIESGO Y DESASTRES PARA EL PQMB BARRIO TEJIENDO SUEÑOS COMUNA DE CASTRO",
-  "puntaje": 3,
-  "categorias": [
-   "Vialidad / transito"
-  ],
-  "org_clave": false,
-  "organismo": "I MUNICIPALIDAD DE CASTRO",
-  "unidad": "SECPLAN",
-  "region": "Región de los Lagos ",
-  "tipo": "LE",
-  "monto": "14.000.000 CLP",
-  "fecha_cierre": "2026-07-13T17:33",
-  "fecha_publicacion": "2026-07-01",
-  "descripcion": "La necesidad de contribuir al mejoramiento de la calidad de vida de los habitantes de barrios que presentan problemas de deterioro urbano y vulnerabilidad social, mediante el mejoramiento y/o dotación de espacios públicos, equipamiento comunitario y entornos barriales",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-41-LE26"
  }
 ]
