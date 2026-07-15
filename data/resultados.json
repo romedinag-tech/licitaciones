@@ -112,6 +112,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-10-O126"
  },
  {
+  "codigo": "2345-102-LP26",
+  "nombre": "DESRATIZACIÓN DEMOLICIÓN Y RETIRO DE EXCEDENTES DE RECINTO MUNICIPAL DE LA DIRECCION DE TRÁNSITO EN PARQUE ARAUCANO COMUNA DE LAS CONDES",
+  "puntaje": 7,
+  "categorias": [
+   "Planificacion urbana / IPT",
+   "Vialidad / transito"
+  ],
+  "org_clave": false,
+  "organismo": "I MUNICIPALIDAD DE LAS CONDES",
+  "unidad": "I MUNICIPALIDAD DE LAS CONDES",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "160.000.000 CLP",
+  "fecha_cierre": "2026-08-13T15:01",
+  "fecha_publicacion": "2026-07-14",
+  "descripcion": "El presente proceso de licitación tiene por objeto la contratación de los servicios de demolición de las instalaciones correspondientes a la actual Dirección de Tránsito de la Municipalidad de Las Condes, ubicada en Av. Presidente Riesco N° 5296, con el fin de habilitar dicha superficie para su incorporación al Parque Araucano, en el marco del Plan Maestro desarrollado por el municipio.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2345-102-LP26"
+ },
+ {
   "codigo": "2402-49-LP26",
   "nombre": "ESTUDIO DE INFRAEST. COMPLE. PARA EL TRANSP. PUBL.",
   "puntaje": 5,
@@ -182,6 +201,24 @@
   "fecha_publicacion": "2026-07-03",
   "descripcion": "CONTRATAR LA CONSULTORIA PARA QUE REALICE LA ACTUALIZACIÓN DEL PLADECO PARA LA COMUNA DE NATALES 2026-2034.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2661-29-LP26"
+ },
+ {
+  "codigo": "834259-42-LE26",
+  "nombre": "ACTUALIZACIÓN PLADECO TENO 2027-2032",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "organismo": "I MUNICIPALIDAD DE TENO",
+  "unidad": "Secretaría Comunal de Planificación",
+  "region": "Región del Maule ",
+  "tipo": "LE",
+  "monto": "15.000.000 CLP",
+  "fecha_cierre": "2026-07-24T15:05",
+  "fecha_publicacion": "2026-07-14",
+  "descripcion": "ACTUALIZACIÓN PLADECO TENO 2027-2032",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=834259-42-LE26"
  },
  {
   "codigo": "5048-12-O126",
