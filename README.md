@@ -63,5 +63,22 @@ destino se cambia con la variable de entorno `RADAR_DESTINO`.
 > El captcha de "descargar todos" **no** se toca; se usa solo la descarga
 > por-archivo, que es pública y sin barrera.
 
+## Analizador de bases (local)
+
+Una vez descargados los antecedentes, `analizar_bases.py` (+ **`Analizar bases.bat`**)
+lee los PDF/DOCX/ZIP de cada licitación, extrae el texto, detecta las secciones y
+clasifica los **puntos clave** (plazos, garantías, presupuesto, criterios de
+evaluación, tareas/alcance, entregables, multas, equipo). Genera en la carpeta de
+licitaciones un **`Analizador de Bases.html`** con la estética del dashboard, que:
+
+- Índice hipervinculado por licitación → documento → secciones.
+- Lector con navegación y panel de **puntos clave** (salta a la sección).
+- **Destacar tareas**: seleccionas texto o un punto clave → se guarda como elemento
+  importante **en tu navegador** (privado), por documento. Exportable a Markdown.
+- Marca los PDF **escaneados** (sin capa de texto) que requieren OCR.
+
+**Instalación (una sola vez):** `pip install pymupdf python-docx`
+**Uso:** doble clic en `Analizar bases.bat` (procesa y abre el visor).
+
 ## Personalizar el filtro
 Las categorías, pesos y palabras de exclusión están en el diccionario `CATEGORIAS` y la expresión `EXCLUIR` al inicio de `radar_mp.py`. Ajusta ahí para afinar qué licitaciones aparecen.
