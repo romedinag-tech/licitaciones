@@ -36,6 +36,17 @@ python radar_mp.py        # escribe data/resultados.json, resultados.csv y meta.
 
 Abre `index.html` con un servidor local (por ejemplo `python -m http.server`) para verlo.
 
+## Panel Radar (todo en un clic)
+
+**`Panel Radar.bat`** enciende un panel local (servidor Python + navegador) que
+reúne todo: el **radar embebido** y botones para **⚡ Descargar + Analizar**,
+descargar antecedentes, analizar bases y abrir el analizador — con registro en
+vivo. Es la forma recomendada de usar el sistema día a día. Doble clic y listo
+(no cierres la ventana negra mientras lo uses).
+
+Los scripts individuales de abajo siguen disponibles si prefieres correrlos por
+separado.
+
 ## Descargar antecedentes (bases y anexos) a tu PC
 
 El sitio corre en la nube y **no puede** escribir en tu computador, así que la

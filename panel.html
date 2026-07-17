@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panel Radar · Medina Consultoría</title>
+<style>
+  :root{--bg:#0f1720;--panel:#16212e;--panel2:#1b2937;--line:#26374a;--txt:#e8eef4;
+        --muted:#8fa3b8;--accent:#2f9e6e;--accent2:#3b82f6;--warn:#e0a53b;--danger:#e05b4b;}
+  *{box-sizing:border-box} html,body{margin:0;height:100%}
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);
+       height:100vh;display:flex;flex-direction:column}
+  header{background:linear-gradient(120deg,#12202e,#0f1720);border-bottom:1px solid var(--line);
+         padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  header h1{margin:0;font-size:1.1rem}
+  .sp{flex:1}
+  .btn{border:none;border-radius:9px;padding:9px 15px;font-size:.88rem;font-weight:600;cursor:pointer;
+       color:#fff;background:var(--accent);display:inline-flex;align-items:center;gap:7px}
+  .btn:hover{filter:brightness(1.1)} .btn:disabled{opacity:.5;cursor:not-allowed;filter:none}
+  .btn.b2{background:var(--accent2)} .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--muted)}
+  .btn.big{background:linear-gradient(90deg,#2f9e6e,#3b82f6)}
+  .status{font-size:.82rem;color:var(--muted);display:flex;align-items:center;gap:8px}
+  .dot{width:9px;height:9px;border-radius:50%;background:#3a4a5c}
+  .dot.on{background:var(--warn);animation:pulse 1s infinite}
+  @keyframes pulse{50%{opacity:.35}}
+  .body{flex:1;display:flex;min-height:0}
+  iframe{flex:1;border:none;background:#fff}
+  .side{width:0;transition:width .2s;overflow:hidden;border-left:1px solid var(--line);background:#0c141c;display:flex;flex-direction:column}
+  .side.open{width:420px}
+  .side h2{margin:0;padding:10px 14px;font-size:.9rem;border-bottom:1px solid var(--line);display:flex}
+  .side h2 .x{margin-left:auto;cursor:pointer;color:var(--muted)}
+  #log{flex:1;overflow-y:auto;padding:10px 14px;font-family:Consolas,monospace;font-size:.78rem;white-space:pre-wrap;line-height:1.55}
+  #log .ok{color:#5fd39f} #log .er{color:#f0928a} #log .hd{color:var(--warn)}
+  .hint{font-size:.78rem;color:var(--muted);padding:8px 14px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header>
+  <h1>🛰️ Panel Radar</h1>
+  <button class="btn big" id="bTodo">⚡ Descargar + Analizar</button>
+  <button class="btn b2"  id="bDesc">⬇ Descargar antecedentes</button>
+  <button class="btn"     id="bAnal">📑 Analizar bases</button>
+  <button class="btn ghost" id="bAbrir">📂 Abrir analizador</button>
+  <span class="sp"></span>
+  <span class="status"><span class="dot" id="dot"></span><span id="stxt">listo</span></span>
+  <button class="btn ghost" id="bLog">📜 Registro</button>
+</header>
+
+<div class="body">
+  <iframe src="https://romedinag-tech.github.io/licitaciones/" title="Radar de licitaciones"></iframe>
+  <div class="side" id="side">
+    <h2>Registro <span class="x" id="cerrarLog">✕</span></h2>
+    <div id="log">Sin actividad todavía.</div>
+    <div class="hint">Al terminar el análisis se abre solo el <b>Analizador de Bases</b>. Descargar abre una ventana de Chrome (no la cierres).</div>
+  </div>
+</div>
+
+<script>
+const $=s=>document.querySelector(s);
+const btns=['bTodo','bDesc','bAnal','bAbrir'].map(id=>$('#'+id));
+async function post(ruta){
+  try{
+    const r=await fetch(ruta,{method:'POST'});
+    if(r.status===409){const j=await r.json(); alert(j.error||'Ya hay una tarea en curso.');}
+    abrirLog(true);
+  }catch(e){alert('No hay conexión con el panel local. ¿Cerraste la ventana negra?');}
+}
+$('#bTodo').onclick =()=>post('/run/todo');
+$('#bDesc').onclick =()=>post('/run/descargar');
+$('#bAnal').onclick =()=>post('/run/analizar');
+$('#bAbrir').onclick=()=>post('/abrir');
+$('#bLog').onclick=()=>abrirLog();
+$('#cerrarLog').onclick=()=>$('#side').classList.remove('open');
+function abrirLog(force){const s=$('#side'); if(force) s.classList.add('open'); else s.classList.toggle('open');}
+
+function paint(st){
+  const run=st.running;
+  $('#dot').className='dot'+(run?' on':'');
+  $('#stxt').textContent=run?('Ejecutando: '+run):'listo';
+  btns.forEach(b=>b.disabled=!!run);
+  const log=$('#log');
+  log.innerHTML=(st.log&&st.log.length?st.log:['Sin actividad todavía.'])
+    .map(l=>{const c=l.startsWith('✔')?'ok':l.startsWith('✗')?'er':l.startsWith('▶')?'hd':'';
+             return `<span class="${c}">${l.replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]))}</span>`;}).join('\n');
+  if(st._scroll!==false) log.scrollTop=log.scrollHeight;
+}
+async function tick(){
+  try{const r=await fetch('/status'); paint(await r.json());}catch(e){}
+}
+setInterval(tick,1200); tick();
+</script>
+</body>
+</html>
