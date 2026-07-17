@@ -162,7 +162,7 @@ function render(){
         <span>📍 ${esc(x.region)||'—'}</span>
         ${x.fecha_cierre?`<span>⏳ Cierre: ${esc(x.fecha_cierre.replace('T',' '))}</span>`:''}
         ${x.monto?`<span>💰 ${esc(x.monto)}</span>`:''}
-      </div>
+        ${x.bip?`<span>🏦 <a href="https://bip.ministeriodesarrollosocial.gob.cl/bip2-consulta/" target="_blank" rel="noopener" title="Consulta el monto máximo / RATE del proyecto en el Banco Integrado de Proyectos (busca por Código BIP)">BIP ${esc(x.bip)}</a></span>`:''}
       <div class="chips">${(x.categorias||[]).map(c=>`<span class="chip">${esc(c)}</span>`).join('')}</div>
       <div class="acciones">
         <a class="mini anexos" href="${x.url}" target="_blank" rel="noopener"

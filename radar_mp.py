@@ -239,6 +239,7 @@ def main():
             "puntaje": p2,
             "categorias": sorted(set(cats2)),
             "org_clave": star,
+            "bip": det.get("CodigoBIP") or "",
             "organismo": organismo,
             "unidad": unidad,
             "region": comp.get("RegionUnidad", ""),

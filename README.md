@@ -42,7 +42,7 @@ El sitio corre en la nube y **no puede** escribir en tu computador, así que la
 descarga de antecedentes es un script **local**: `descargar_antecedentes.py`.
 Usa tu Chrome real para abrir cada ficha, entrar a Anexos y bajar cada archivo
 con el botón individual **"Ver Anexo"** (que el portal entrega sin captcha).
-Los guarda en `…/9 Mi empresa/Antecedentes Licitaciones/<código>/`.
+Los guarda en `C:/Users/Rodrigo/Análisis RMG/Licitaciones/<código>/`.
 
 **Instalación (una sola vez):**
 ```bash

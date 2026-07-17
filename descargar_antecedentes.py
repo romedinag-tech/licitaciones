@@ -28,7 +28,7 @@ except Exception:
 # --- Configuracion ---
 DESTINO = pathlib.Path(os.environ.get(
     "RADAR_DESTINO",
-    pathlib.Path.home() / "OneDrive" / "Pega 2026" / "9 Mi empresa" / "Antecedentes Licitaciones"))
+    pathlib.Path.home() / "Análisis RMG" / "Licitaciones"))
 FUENTE = "https://romedinag-tech.github.io/licitaciones/data/resultados.json"
 PERFIL = str(pathlib.Path.home() / "pw_chrome_profile")   # perfil dedicado de Chrome
 PAUSA = 1.2            # segundos entre archivos (trato gentil al portal)
