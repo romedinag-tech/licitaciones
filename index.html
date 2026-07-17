@@ -62,6 +62,11 @@
         background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 12px;cursor:pointer}
   .score{margin-left:auto;font-size:.78rem;color:var(--muted)}
   .toggle{cursor:pointer;color:var(--accent2);font-size:.83rem}
+  .acciones{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:10px}
+  .mini{display:inline-flex;align-items:center;gap:5px;font-size:.82rem;background:var(--chip);
+        border:1px solid var(--line);border-radius:7px;padding:5px 11px;color:#bcd;text-decoration:none;cursor:pointer}
+  .mini:hover{border-color:#3b82f6;text-decoration:none}
+  .mini.anexos{background:rgba(59,130,246,.14);border-color:#2f5a99;color:#cfe0fb}
   footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;
          padding:20px 0;text-align:center}
   .empty{text-align:center;color:var(--muted);padding:50px}
@@ -159,8 +164,13 @@ function render(){
         ${x.monto?`<span>💰 ${esc(x.monto)}</span>`:''}
       </div>
       <div class="chips">${(x.categorias||[]).map(c=>`<span class="chip">${esc(c)}</span>`).join('')}</div>
-      ${x.descripcion?`<span class="toggle" data-i="${i}">▸ Ver descripción</span>
-        <div class="desc" id="d${i}">${esc(x.descripcion)}</div>`:''}
+      <div class="acciones">
+        <a class="mini anexos" href="${x.url}" target="_blank" rel="noopener"
+           title="Abre la ficha en Mercado Público. Dentro, haz clic en el ícono 📎 Adjuntos para ver y descargar las bases y anexos.">📎 Ver anexos</a>
+        <a class="mini" href="${x.url}" target="_blank" rel="noopener">↗ Ficha en Mercado Público</a>
+        ${x.descripcion?`<span class="mini toggle" data-i="${i}">▸ Ver descripción</span>`:''}
+      </div>
+      ${x.descripcion?`<div class="desc" id="d${i}">${esc(x.descripcion)}</div>`:''}
     </div>`).join('');
   L.querySelectorAll('.toggle').forEach(t=>t.onclick=()=>{
     const d=$('#d'+t.dataset.i); d.classList.toggle('open');
