@@ -168,6 +168,7 @@ function render(){
           : `<span class="reservado">🔒 Monto reservado${x.bip
               ? ` · <a href="https://bip.ministeriodesarrollosocial.gob.cl/bip2-consulta/" target="_blank" rel="noopener" title="El monto no es público. Consulta el monto máximo del proyecto en el Banco Integrado de Proyectos: busca por Código BIP ${esc(x.bip)}.">ver monto en BIP ${esc(x.bip)}</a>`
               : ``}</span>`}
+      </div>
       <div class="chips">${(x.categorias||[]).map(c=>`<span class="chip">${esc(c)}</span>`).join('')}</div>
       <div class="acciones">
         <a class="mini anexos" href="${x.url}" target="_blank" rel="noopener"
