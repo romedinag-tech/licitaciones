@@ -114,7 +114,7 @@ function buildTree(filter=""){
     const docs=lic.documentos.filter(d=>!f || (lic.titulo+d.archivo+d.tipo).toLowerCase().includes(f));
     if(!docs.length) return;
     const box=document.createElement('div'); box.className='lic';
-    box.innerHTML=`<div class="lh">▾ ${esc(lic.titulo)}</div>`;
+    box.innerHTML=`<div class="lh"><span class="ar">▾</span> <span>${esc(lic.titulo)}</span></div>`;
     docs.forEach(doc=>{
       const dc=destCount(lic,doc);
       const el=document.createElement('div'); el.className='doc';
@@ -128,7 +128,7 @@ function buildTree(filter=""){
     box.querySelector('.lh').onclick=()=>{
       const hide=box.querySelector('.doc').style.display!=='none';
       box.querySelectorAll('.doc').forEach(d=>d.style.display=hide?'none':'flex');
-      box.querySelector('.lh').firstChild.textContent=hide?'▸ ':'▾ ';
+      box.querySelector('.ar').textContent=hide?'▸':'▾';   // solo la flecha, no el título
     };
     t.appendChild(box);
   });
@@ -150,6 +150,11 @@ function renderReader(){
     html+=`<div class="scanbox">⚠ <b>Documento escaneado</b> (sin capa de texto). No se pudo extraer automáticamente.
       ${esc(doc.nota||'')}<br>Ábrelo directo desde la carpeta para leerlo.</div>`;
     r.innerHTML=html; return;
+  }
+  if(doc.ocr){
+    html+=`<div class="scanbox" style="background:rgba(59,130,246,.1);border-color:var(--accent2);color:#93b8f5">
+      🔎 Texto obtenido por <b>OCR</b> (documento escaneado). Puede tener errores de reconocimiento;
+      verifica los datos críticos (montos, plazos) contra el PDF original.</div>`;
   }
 
   // puntos clave

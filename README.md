@@ -75,9 +75,13 @@ licitaciones un **`Analizador de Bases.html`** con la estética del dashboard, q
 - Lector con navegación y panel de **puntos clave** (salta a la sección).
 - **Destacar tareas**: seleccionas texto o un punto clave → se guarda como elemento
   importante **en tu navegador** (privado), por documento. Exportable a Markdown.
-- Marca los PDF **escaneados** (sin capa de texto) que requieren OCR.
+- Los PDF **escaneados** se leen por **OCR en español** (Tesseract vía PyMuPDF) y
+  se marcan con un aviso para verificar datos críticos contra el original.
 
-**Instalación (una sola vez):** `pip install pymupdf python-docx`
+**Instalación (una sola vez):** `pip install pymupdf python-docx` y **Tesseract OCR**
+(Windows: `winget install UB-Mannheim.TesseractOCR`, con el idioma `spa`). El script
+detecta Tesseract en `C:\Program Files\Tesseract-OCR`; si no está, marca los
+escaneados como no analizables.
 **Uso:** doble clic en `Analizar bases.bat` (procesa y abre el visor).
 
 ## Personalizar el filtro

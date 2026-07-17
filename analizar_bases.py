@@ -26,6 +26,20 @@ BASE_DIR = pathlib.Path(os.environ.get(
     "RADAR_DESTINO", pathlib.Path.home() / "Análisis RMG" / "Licitaciones"))
 AQUI = pathlib.Path(__file__).parent
 
+# --- OCR (Tesseract vía PyMuPDF) para PDFs escaneados ---
+def _find_tessdata():
+    for p in [os.environ.get("TESSDATA_PREFIX"),
+              r"C:\Program Files\Tesseract-OCR\tessdata",
+              r"C:\Program Files (x86)\Tesseract-OCR\tessdata",
+              str(pathlib.Path.home() / "AppData/Local/Programs/Tesseract-OCR/tessdata")]:
+        if p and os.path.isdir(p):
+            return p
+    return None
+TESSDATA = _find_tessdata()
+if TESSDATA:
+    os.environ["TESSDATA_PREFIX"] = TESSDATA
+OCR_OK = TESSDATA is not None
+
 # --- clasificación del tipo de documento por nombre de archivo ---
 def tipo_doc(nombre):
     n = sin_tildes(nombre).lower()
@@ -96,6 +110,21 @@ def leer_pdf(path):
     doc.close()
     return "".join(paginas), paginas
 
+def ocr_pdf(path):
+    """OCR página a página (español) para PDFs escaneados."""
+    import fitz
+    doc = fitz.open(path); paginas = []
+    n = doc.page_count
+    for i, pg in enumerate(doc):
+        try:
+            tp = pg.get_textpage_ocr(language="spa", dpi=200, full=True)
+            paginas.append(pg.get_text(textpage=tp))
+        except Exception:
+            paginas.append("")
+        print(f"       OCR página {i + 1}/{n}", end="\r")
+    doc.close(); print()
+    return "".join(paginas), paginas
+
 def leer_docx(path):
     import docx
     d = docx.Document(str(path))
@@ -118,11 +147,19 @@ def procesar_documento(path):
         print(f"     no se pudo leer {path.name}: {str(e)[:60]}")
         return None
     nombre, cls = tipo_doc(path.name)
-    if len((txt or "").strip()) < 200:         # PDF escaneado o sin texto legible
+    ocr_usado = False
+    if len((txt or "").strip()) < 200 and ext == ".pdf" and OCR_OK:
+        print(f"     {path.name[:40]}: escaneado -> OCR en español…")
+        try:
+            txt, paginas = ocr_pdf(path); ocr_usado = True
+        except Exception as e:
+            print(f"     OCR falló: {str(e)[:50]}")
+    if len((txt or "").strip()) < 200:         # sigue sin texto legible
+        nota = ("Sin capa de texto y OCR no disponible (instala Tesseract)."
+                if not OCR_OK else "No se pudo extraer texto ni con OCR.")
         return {"archivo": path.name, "tipo": nombre, "cls": cls,
                 "paginas": len(paginas) if paginas else None,
-                "escaneado": True, "secciones": [], "claves": {},
-                "nota": "Sin capa de texto (probablemente escaneado). Requiere OCR para analizarlo; ábrelo directo en la carpeta."}
+                "escaneado": True, "secciones": [], "claves": {}, "nota": nota}
     secs = secciones_de_texto(txt)
     if len(secs) < 3 and paginas:      # sin estructura clara -> por página
         secs = [{"num": str(i + 1), "titulo": f"Página {i + 1}",
@@ -140,9 +177,8 @@ def procesar_documento(path):
                 snip = re.sub(r"\s+", " ", s["texto"])[:220]
                 claves.setdefault(cat, []).append(
                     {"i": idx, "titulo": f'{s["num"]} {s["titulo"]}', "snippet": snip})
-    nombre, cls = tipo_doc(path.name)
     return {"archivo": path.name, "tipo": nombre, "cls": cls,
-            "paginas": len(paginas) if paginas else None,
+            "paginas": len(paginas) if paginas else None, "ocr": ocr_usado,
             "secciones": secs, "claves": claves}
 
 def main():
