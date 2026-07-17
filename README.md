@@ -36,5 +36,32 @@ python radar_mp.py        # escribe data/resultados.json, resultados.csv y meta.
 
 Abre `index.html` con un servidor local (por ejemplo `python -m http.server`) para verlo.
 
+## Descargar antecedentes (bases y anexos) a tu PC
+
+El sitio corre en la nube y **no puede** escribir en tu computador, así que la
+descarga de antecedentes es un script **local**: `descargar_antecedentes.py`.
+Usa tu Chrome real para abrir cada ficha, entrar a Anexos y bajar cada archivo
+con el botón individual **"Ver Anexo"** (que el portal entrega sin captcha).
+Los guarda en `…/9 Mi empresa/Antecedentes Licitaciones/<código>/`.
+
+**Instalación (una sola vez):**
+```bash
+pip install playwright
+playwright install chromium
+```
+(y tener Google Chrome instalado)
+
+**Uso:** doble clic en **`Descargar antecedentes.bat`**, o por consola:
+```bash
+python descargar_antecedentes.py                # todas las del dashboard
+python descargar_antecedentes.py 619284-2-LP26  # solo esos códigos
+python descargar_antecedentes.py --force        # re-descarga aunque ya exista
+```
+Mientras corre se abre una ventana de Chrome (no la cierres). La carpeta de
+destino se cambia con la variable de entorno `RADAR_DESTINO`.
+
+> El captcha de "descargar todos" **no** se toca; se usa solo la descarga
+> por-archivo, que es pública y sin barrera.
+
 ## Personalizar el filtro
 Las categorías, pesos y palabras de exclusión están en el diccionario `CATEGORIAS` y la expresión `EXCLUIR` al inicio de `radar_mp.py`. Ajusta ahí para afinar qué licitaciones aparecen.
