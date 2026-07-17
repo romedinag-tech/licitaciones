@@ -46,6 +46,8 @@
   .card h3{margin:0 0 6px;font-size:1.05rem}
   .meta{display:flex;flex-wrap:wrap;gap:8px 16px;color:var(--muted);font-size:.85rem;margin:6px 0}
   .meta span{white-space:nowrap}
+  .meta .reservado{color:var(--warn)}
+  .meta .reservado a{color:var(--accent2)}
   .chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
   .chip{background:var(--chip);border:1px solid var(--line);border-radius:20px;
         padding:2px 10px;font-size:.75rem;color:#bcd}
@@ -161,8 +163,11 @@ function render(){
         <span>🏛️ ${esc(x.organismo)||'—'}</span>
         <span>📍 ${esc(x.region)||'—'}</span>
         ${x.fecha_cierre?`<span>⏳ Cierre: ${esc(x.fecha_cierre.replace('T',' '))}</span>`:''}
-        ${x.monto?`<span>💰 ${esc(x.monto)}</span>`:''}
-        ${x.bip?`<span>🏦 <a href="https://bip.ministeriodesarrollosocial.gob.cl/bip2-consulta/" target="_blank" rel="noopener" title="Consulta el monto máximo / RATE del proyecto en el Banco Integrado de Proyectos (busca por Código BIP)">BIP ${esc(x.bip)}</a></span>`:''}
+        ${x.monto
+          ? `<span>💰 ${esc(x.monto)}</span>`
+          : `<span class="reservado">🔒 Monto reservado${x.bip
+              ? ` · <a href="https://bip.ministeriodesarrollosocial.gob.cl/bip2-consulta/" target="_blank" rel="noopener" title="El monto no es público. Consulta el monto máximo del proyecto en el Banco Integrado de Proyectos: busca por Código BIP ${esc(x.bip)}.">ver monto en BIP ${esc(x.bip)}</a>`
+              : ``}</span>`}
       <div class="chips">${(x.categorias||[]).map(c=>`<span class="chip">${esc(c)}</span>`).join('')}</div>
       <div class="acciones">
         <a class="mini anexos" href="${x.url}" target="_blank" rel="noopener"
