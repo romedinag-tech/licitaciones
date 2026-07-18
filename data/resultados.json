@@ -9,6 +9,7 @@
    "Transporte / movilidad"
   ],
   "org_clave": true,
+  "bip": "",
   "organismo": "SUBSECRETARIA DE TRANSPORTES",
   "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
   "region": "Región Metropolitana de Santiago",
@@ -28,6 +29,7 @@
    "Transporte / movilidad"
   ],
   "org_clave": true,
+  "bip": "",
   "organismo": "SUBSECRETARIA DE TRANSPORTES",
   "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
   "region": "Región Metropolitana de Santiago",
@@ -47,6 +49,7 @@
    "Transporte / movilidad"
   ],
   "org_clave": true,
+  "bip": "",
   "organismo": "SUBSECRETARIA DE SERVICIOS SOCIALES",
   "unidad": "SecretariaTransporte",
   "region": "Región Metropolitana de Santiago",
@@ -65,6 +68,7 @@
    "Transporte / movilidad"
   ],
   "org_clave": true,
+  "bip": "",
   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION",
   "unidad": "Licitaciones y Costos",
   "region": "Región de la Araucanía ",
@@ -83,6 +87,7 @@
    "Vialidad / transito"
   ],
   "org_clave": true,
+  "bip": "",
   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
   "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
   "region": "Región de Coquimbo ",
@@ -102,6 +107,7 @@
    "Vialidad / transito"
   ],
   "org_clave": false,
+  "bip": "13114523",
   "organismo": "I MUNICIPALIDAD DE LAS CONDES",
   "unidad": "I MUNICIPALIDAD DE LAS CONDES",
   "region": "Región Metropolitana de Santiago",
@@ -120,6 +126,7 @@
    "Transporte / movilidad"
   ],
   "org_clave": false,
+  "bip": "",
   "organismo": "I MUNICIPALIDAD DE RANCAGUA",
   "unidad": "DEPARTAMENTO DE ESTUDIOS Y PROYECTOS",
   "region": "Región del Libertador General Bernardo O´Higgins",
@@ -138,6 +145,7 @@
    "Planificacion urbana / IPT"
   ],
   "org_clave": false,
+  "bip": "",
   "organismo": "I MUNICIPALIDAD DE QUINTA DE TILCOCO",
   "unidad": "SECPLAN",
   "region": "Región del Libertador General Bernardo O´Higgins",
@@ -156,6 +164,7 @@
    "Planificacion urbana / IPT"
   ],
   "org_clave": false,
+  "bip": "",
   "organismo": "I MUNICIPALIDAD DE QUINTERO",
   "unidad": "LICITACIONES",
   "region": "Región de Valparaíso ",
@@ -174,6 +183,7 @@
    "Planificacion urbana / IPT"
   ],
   "org_clave": false,
+  "bip": "",
   "organismo": "ILUSTRE MUNICIPALIDAD DE NATALES",
   "unidad": "SECRETARIA DE PLANIFICACION",
   "region": "Región de Magallanes y de la Antártica",
@@ -192,6 +202,7 @@
    "Planificacion urbana / IPT"
   ],
   "org_clave": false,
+  "bip": "",
   "organismo": "I MUNICIPALIDAD DE TENO",
   "unidad": "Secretaría Comunal de Planificación",
   "region": "Región del Maule ",
@@ -208,6 +219,7 @@
   "puntaje": 4,
   "categorias": [],
   "org_clave": true,
+  "bip": "",
   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
   "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
   "region": "Región del Libertador General Bernardo O´Higgins",
@@ -224,6 +236,7 @@
   "puntaje": 4,
   "categorias": [],
   "org_clave": true,
+  "bip": "",
   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
   "unidad": "Dirección de Vialidad - V Región - Licitación de Obras",
   "region": "Región de Valparaíso ",
