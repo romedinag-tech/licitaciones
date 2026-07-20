@@ -40,6 +40,11 @@ if TESSDATA:
     os.environ["TESSDATA_PREFIX"] = TESSDATA
 OCR_OK = TESSDATA is not None
 
+# Caché en Markdown: cada base leída (o OCR-eada) se guarda como .md y en las
+# corridas siguientes se lee de ahí (rápido, sin re-procesar). --reprocesar lo ignora.
+MD_DIR = BASE_DIR / "_markdown"
+REPROC = "--reprocesar" in sys.argv
+
 # --- clasificación del tipo de documento por nombre de archivo ---
 def tipo_doc(nombre):
     n = sin_tildes(nombre).lower()
@@ -81,26 +86,57 @@ def es_titulo(t):
     up = sum(1 for c in letras if c.isupper())
     return up >= len(letras) * 0.7            # >=70% mayúsculas
 
+_MARCA = ("-", "–", "—", "•", "▪", "◦", "*", "·", "o")
+_ITEM = re.compile(r"^(•|\d{1,2}(?:\.\d{1,2}){0,2}[\.\)]\s|[a-zA-Z][\.\)]\s|"
+                   r"TAREA\b|ETAPA\b|ANEXO\b|FORMULARIO\b|ART[ÍI]CULO\b|▪)", re.I)
+
+def reflow(t):
+    """Reflujo: junta fragmentos en párrafos y viñetas reales, sin huecos."""
+    raw = [l.strip() for l in (t or "").split("\n")]
+    lines = []; i = 0
+    while i < len(raw):                          # 1) marcador solitario + línea siguiente
+        l = raw[i]
+        if l in _MARCA and i + 1 < len(raw) and raw[i + 1]:
+            lines.append("• " + raw[i + 1]); i += 2; continue
+        m = re.match(r"^[-–—•▪◦*·]\s+(.*)", l)
+        if m:
+            lines.append("• " + m.group(1)); i += 1; continue
+        lines.append(l); i += 1
+    out = []; buf = []                            # 2) acumula corridas en párrafos
+    def flush():
+        if buf:
+            out.append(" ".join(buf)); buf.clear()
+    for l in lines:
+        if not l:
+            flush(); out.append("")
+        elif _ITEM.match(l):
+            flush(); out.append(l)
+        else:
+            buf.append(l)
+    flush()
+    res = []                                      # 3) colapsa blancos múltiples
+    for l in out:
+        if l == "" and (not res or res[-1] == ""):
+            continue
+        res.append(l)
+    return "\n".join(res).strip()
+
 def secciones_de_texto(txt):
-    """Detecta secciones numeradas; devuelve [(num, titulo, cuerpo)]."""
-    # posiciones de encabezados: número + título en MAYÚSCULAS (puede cruzar \n)
+    """Detecta secciones numeradas; devuelve [{num, titulo, texto}]."""
     pat = re.compile(r"(?m)^\s*(\d{1,2}(?:\.\d{1,2}){0,2})[\.\)]?\s+"
-                     r"([A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ0-9 ,.\-()/°ª\"']{3,84})")
+                     r"([A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ0-9 ,.:&\-()/°ª\"']{3,90})")
     cands = []
     for m in pat.finditer(txt):
-        titulo = limpia_titulo(m.group(2))
+        titulo = re.sub(r"\s*\d{1,3}\s*$", "", limpia_titulo(m.group(2)))  # quita nº de página final
         if es_titulo(titulo):
-            cands.append((m.start(), m.group(1), titulo))
-    # descarta títulos que se repiten mucho (encabezados/pies de página)
+            cands.append((m.start(), m.end(), m.group(1), titulo))
     from collections import Counter
-    frec = Counter(t for _, _, t in cands)
-    cands = [c for c in cands if frec[c[2]] <= 4]
-    # arma secciones con el cuerpo entre encabezados
+    frec = Counter(c[3] for c in cands)
+    cands = [c for c in cands if frec[c[3]] <= 4]
     secs = []
-    for i, (pos, num, tit) in enumerate(cands):
+    for i, (ini, fin_head, num, tit) in enumerate(cands):
         fin = cands[i + 1][0] if i + 1 < len(cands) else len(txt)
-        cuerpo = re.sub(r"\n{3,}", "\n\n", txt[pos:fin]).strip()
-        secs.append({"num": num, "titulo": tit, "texto": cuerpo})
+        secs.append({"num": num, "titulo": tit, "texto": reflow(txt[fin_head:fin])})
     return secs
 
 def leer_pdf(path):
@@ -134,7 +170,78 @@ def leer_docx(path):
             partes.append(" | ".join(c.text for c in row.cells))
     return "\n".join(partes), None
 
-def procesar_documento(path):
+def _safe(s):
+    return re.sub(r'[\\/:*?"<>|]+', "_", s)[:120]
+
+def _md_path(carpeta, archivo):
+    return MD_DIR / _safe(carpeta) / (_safe(archivo) + ".md")
+
+def guardar_md(carpeta, path, doc):
+    """Guarda la base leída como Markdown (caché + lectura humana)."""
+    p = _md_path(carpeta, path.name); p.parent.mkdir(parents=True, exist_ok=True)
+    L = [f"<!-- radar-bases cls={doc['cls']} paginas={doc.get('paginas')} "
+         f"ocr={int(bool(doc.get('ocr')))} escaneado={int(bool(doc.get('escaneado')))} -->",
+         f"# {doc['archivo']}", ""]
+    if doc.get("escaneado"):
+        L += ["> " + (doc.get("nota") or ""), ""]
+    for s in doc.get("secciones", []):
+        L.append("## " + ((s["num"] + " · " if s["num"] else "") + s["titulo"]))
+        for ln in s["texto"].split("\n"):
+            L.append("- " + ln[2:] if ln.startswith("• ") else ln)
+        L.append("")
+    p.write_text("\n".join(L), encoding="utf-8")
+
+def cargar_md(carpeta, path):
+    """Devuelve (meta, secciones) si hay caché .md más nuevo que el original."""
+    if REPROC:
+        return None
+    p = _md_path(carpeta, path.name)
+    try:
+        if not p.exists() or p.stat().st_mtime < path.stat().st_mtime:
+            return None
+    except Exception:
+        return None
+    txt = p.read_text(encoding="utf-8")
+    m0 = re.match(r"<!-- radar-bases (.*?)-->", txt)
+    meta = dict(re.findall(r"(\w+)=(\S+)", m0.group(1))) if m0 else {}
+    secs = []
+    for blk in re.split(r"(?m)^## ", txt)[1:]:
+        head, _, body = blk.partition("\n")
+        num, sep, tit = head.partition(" · ")
+        if not sep:
+            num, tit = "", num
+        b = "\n".join("• " + l[2:] if l.startswith("- ") else l
+                      for l in body.split("\n")).strip()
+        secs.append({"num": num.strip(), "titulo": tit.strip(), "texto": b})
+    return meta, secs
+
+def clasificar_claves(secs):
+    claves = {}
+    for idx, s in enumerate(secs):
+        low = sin_tildes(s["titulo"]).lower()
+        for cat, pat in CATEGORIAS:
+            if re.search(pat, low):
+                snip = re.sub(r"\s+", " ", s["texto"])[:220]
+                claves.setdefault(cat, []).append(
+                    {"i": idx, "titulo": f'{s["num"]} {s["titulo"]}', "snippet": snip})
+    return claves
+
+def procesar_documento(path, carpeta):
+    nombre, cls = tipo_doc(path.name)
+    # 1) ¿hay caché markdown vigente? -> se lee de ahí, sin re-procesar
+    cache = cargar_md(carpeta, path)
+    if cache:
+        meta, secs = cache
+        pag = meta.get("paginas", "None")
+        doc = {"archivo": path.name, "tipo": nombre, "cls": cls, "cache": True,
+               "paginas": int(pag) if pag.isdigit() else None, "ocr": meta.get("ocr") == "1"}
+        if meta.get("escaneado") == "1":
+            doc.update(escaneado=True, secciones=[], claves={},
+                       nota="Escaneado sin texto legible (revisa el original).")
+        else:
+            doc.update(secciones=secs, claves=clasificar_claves(secs))
+        return doc
+    # 2) sin caché -> leer/OCR y guardar markdown
     ext = path.suffix.lower()
     try:
         if ext == ".pdf":
@@ -146,7 +253,6 @@ def procesar_documento(path):
     except Exception as e:
         print(f"     no se pudo leer {path.name}: {str(e)[:60]}")
         return None
-    nombre, cls = tipo_doc(path.name)
     ocr_usado = False
     if len((txt or "").strip()) < 200 and ext == ".pdf" and OCR_OK:
         print(f"     {path.name[:40]}: escaneado -> OCR en español…")
@@ -154,39 +260,33 @@ def procesar_documento(path):
             txt, paginas = ocr_pdf(path); ocr_usado = True
         except Exception as e:
             print(f"     OCR falló: {str(e)[:50]}")
-    if len((txt or "").strip()) < 200:         # sigue sin texto legible
+    if len((txt or "").strip()) < 200:
         nota = ("Sin capa de texto y OCR no disponible (instala Tesseract)."
                 if not OCR_OK else "No se pudo extraer texto ni con OCR.")
-        return {"archivo": path.name, "tipo": nombre, "cls": cls,
-                "paginas": len(paginas) if paginas else None,
-                "escaneado": True, "secciones": [], "claves": {}, "nota": nota}
+        doc = {"archivo": path.name, "tipo": nombre, "cls": cls,
+               "paginas": len(paginas) if paginas else None,
+               "escaneado": True, "secciones": [], "claves": {}, "nota": nota}
+        guardar_md(carpeta, path, doc)
+        return doc
     secs = secciones_de_texto(txt)
-    if len(secs) < 3 and paginas:      # sin estructura clara -> por página
-        secs = [{"num": str(i + 1), "titulo": f"Página {i + 1}",
-                 "texto": re.sub(r"\n{3,}", "\n\n", p).strip()}
+    if len(secs) < 3 and paginas:
+        secs = [{"num": str(i + 1), "titulo": f"Página {i + 1}", "texto": reflow(p)}
                 for i, p in enumerate(paginas) if p.strip()]
-    if not secs:                        # con texto pero sin secciones ni páginas (docx)
-        secs = [{"num": "", "titulo": "Contenido",
-                 "texto": re.sub(r"\n{3,}", "\n\n", txt).strip()}]
-    # clasifica secciones en categorías de puntos clave
-    claves = {}
-    for idx, s in enumerate(secs):
-        low = sin_tildes(s["titulo"]).lower()
-        for cat, pat in CATEGORIAS:
-            if re.search(pat, low):
-                snip = re.sub(r"\s+", " ", s["texto"])[:220]
-                claves.setdefault(cat, []).append(
-                    {"i": idx, "titulo": f'{s["num"]} {s["titulo"]}', "snippet": snip})
-    return {"archivo": path.name, "tipo": nombre, "cls": cls,
-            "paginas": len(paginas) if paginas else None, "ocr": ocr_usado,
-            "secciones": secs, "claves": claves}
+    if not secs:
+        secs = [{"num": "", "titulo": "Contenido", "texto": reflow(txt)}]
+    doc = {"archivo": path.name, "tipo": nombre, "cls": cls,
+           "paginas": len(paginas) if paginas else None, "ocr": ocr_usado,
+           "secciones": secs, "claves": clasificar_claves(secs)}
+    guardar_md(carpeta, path, doc)
+    return doc
 
 def main():
     if not BASE_DIR.exists():
         sys.exit(f"No existe la carpeta {BASE_DIR}")
     print(f"Carpeta: {BASE_DIR}\n")
     licitaciones = []
-    for carpeta in sorted([d for d in BASE_DIR.iterdir() if d.is_dir()]):
+    carpetas = [d for d in BASE_DIR.iterdir() if d.is_dir() and not d.name.startswith("_")]
+    for carpeta in sorted(carpetas):
         # descomprime ZIPs si hay
         for z in carpeta.glob("*.zip"):
             try:
@@ -203,11 +303,12 @@ def main():
                 if clave in vistos:
                     print(f"  (dup) se omite {f.name}"); continue
                 vistos.add(clave)
-                d = procesar_documento(f)
+                d = procesar_documento(f, carpeta.name)
                 if d:
                     docs.append(d)
+                    tag = "cache" if d.get("cache") else ("OCR" if d.get("ocr") else "leído")
                     nsec = len(d["secciones"]); nclv = sum(len(v) for v in d["claves"].values())
-                    print(f"  {carpeta.name} / {f.name[:45]}  [{d['tipo']}] {nsec} secc, {nclv} claves")
+                    print(f"  [{tag:5}] {carpeta.name[:22]} / {f.name[:38]}  {nsec} secc, {nclv} claves")
         if docs:
             licitaciones.append({"carpeta": carpeta.name,
                                  "titulo": re.sub(r"^\d+\s*", "", carpeta.name),
@@ -230,6 +331,7 @@ def main():
     tot_doc = sum(len(l["documentos"]) for l in licitaciones)
     print(f"\nListo: {len(licitaciones)} licitaciones, {tot_doc} documentos.")
     print(f"Datos: {salida_js}")
+    print(f"Markdown (caché legible): {MD_DIR}")
     if destino and "--no-abrir" not in sys.argv:
         try:
             os.startfile(str(destino))          # abre el visor (Windows)

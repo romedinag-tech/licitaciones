@@ -88,6 +88,11 @@ licitaciones un **`Analizador de Bases.html`** con la estética del dashboard, q
   importante **en tu navegador** (privado), por documento. Exportable a Markdown.
 - Los PDF **escaneados** se leen por **OCR en español** (Tesseract vía PyMuPDF) y
   se marcan con un aviso para verificar datos críticos contra el original.
+- **Caché en Markdown:** cada base leída/OCR-eada se guarda en `<carpeta>/_markdown/…`
+  y en corridas siguientes se lee de ahí (rápido, sin re-procesar). `--reprocesar` fuerza releer.
+- **Visor:** índice completo **fijo a la derecha** (con resaltado de la sección actual al hacer
+  scroll), cuerpo en párrafos y viñetas reales (sin huecos) y títulos con formato.
+- **Carpeta de trabajo (datos):** `C:\Users\Rodrigo\Análisis RMG\Licitaciones` (local, no OneDrive).
 
 **Instalación (una sola vez):** `pip install pymupdf python-docx` y **Tesseract OCR**
 (Windows: `winget install UB-Mannheim.TesseractOCR`, con el idioma `spa`). El script

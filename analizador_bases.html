@@ -6,45 +6,43 @@
 <title>Analizador de Bases · Medina Consultoría</title>
 <style>
   :root{
-    --bg:#0f1720; --panel:#16212e; --panel2:#1b2937; --line:#26374a;
-    --txt:#e8eef4; --muted:#8fa3b8; --accent:#2f9e6e; --accent2:#3b82f6;
-    --warn:#e0a53b; --danger:#e05b4b; --chip:#22303f; --star:#f0c674;
+    --bg:#0f1720;--panel:#16212e;--panel2:#1b2937;--line:#26374a;
+    --txt:#e8eef4;--muted:#8fa3b8;--accent:#2f9e6e;--accent2:#3b82f6;
+    --warn:#e0a53b;--danger:#e05b4b;--chip:#22303f;--star:#f0c674;--ink:#dbe6f2;
   }
   *{box-sizing:border-box}
   html,body{margin:0;height:100%}
-  body{font-family:'Segoe UI',system-ui,-apple-system,Roboto,sans-serif;
-       background:var(--bg);color:var(--txt);line-height:1.5;display:flex;flex-direction:column;height:100vh}
+  body{font-family:'Segoe UI',system-ui,-apple-system,Roboto,sans-serif;background:var(--bg);
+       color:var(--txt);line-height:1.5;display:flex;flex-direction:column;height:100vh}
   a{color:var(--accent2);text-decoration:none} a:hover{text-decoration:underline}
   header{background:linear-gradient(120deg,#12202e,#0f1720);border-bottom:1px solid var(--line);
          padding:12px 18px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-  header h1{margin:0;font-size:1.15rem} .gen{color:var(--muted);font-size:.8rem}
-  header .sp{flex:1}
+  header h1{margin:0;font-size:1.15rem} .gen{color:var(--muted);font-size:.8rem} header .sp{flex:1}
   .btn{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:8px 13px;
        font-size:.85rem;font-weight:600;cursor:pointer} .btn:hover{filter:brightness(1.1)}
   .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--muted);font-weight:500}
   .layout{flex:1;display:flex;min-height:0}
-  /* --- sidebar --- */
-  aside{width:330px;flex-shrink:0;border-right:1px solid var(--line);overflow-y:auto;background:#111a24}
-  aside .search{padding:10px}
-  aside input{width:100%;background:var(--panel);border:1px solid var(--line);color:var(--txt);
-       border-radius:8px;padding:8px 11px;font-size:.85rem}
+  /* --- sidebar izquierda (árbol) --- */
+  aside.left{width:300px;flex-shrink:0;border-right:1px solid var(--line);overflow-y:auto;background:#111a24}
+  aside.left .search{padding:10px} aside.left input{width:100%;background:var(--panel);border:1px solid var(--line);
+       color:var(--txt);border-radius:8px;padding:8px 11px;font-size:.85rem}
   .lic{border-bottom:1px solid var(--line)}
   .lic>.lh{padding:9px 12px;cursor:pointer;font-weight:600;font-size:.9rem;display:flex;gap:6px;align-items:center}
   .lic>.lh:hover{background:var(--panel)}
   .doc{padding:6px 12px 6px 26px;cursor:pointer;font-size:.82rem;color:var(--muted);
        display:flex;gap:7px;align-items:center;border-top:1px solid #1b2734}
-  .doc:hover{background:var(--panel);color:var(--txt)} .doc.sel{background:var(--panel2);color:#fff}
+  .doc:hover{background:var(--panel);color:var(--txt)} .doc.sel{background:var(--panel2);color:#fff;border-left:3px solid var(--accent2)}
   .tag{font-size:.68rem;padding:1px 7px;border-radius:20px;border:1px solid var(--line);white-space:nowrap}
   .t-adm{color:#f0c675;border-color:#7a5c1e} .t-tec{color:#5fd39f;border-color:#2f6e4e}
   .t-eco{color:#93b8f5;border-color:#2f5a99} .t-res{color:#c9a6f5;border-color:#5a3f8a}
   .t-otros{color:var(--muted)} .badge-scan{color:var(--warn);font-size:.7rem}
   .destcount{margin-left:auto;font-size:.7rem;color:var(--star)}
-  /* --- reader --- */
-  main{flex:1;overflow-y:auto;padding:0} .wrap{max-width:1050px;margin:0 auto;padding:20px 26px 80px}
+  /* --- lector central --- */
+  main{flex:1;overflow-y:auto;scroll-behavior:smooth}
+  .wrap{max-width:820px;margin:0 auto;padding:18px 30px 90px}
   .dochead{position:sticky;top:0;background:var(--bg);padding:14px 0 10px;border-bottom:1px solid var(--line);z-index:5}
-  .dochead h2{margin:0 0 4px;font-size:1.2rem}
-  .dochead .meta{color:var(--muted);font-size:.85rem}
-  .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:16px 0;overflow:hidden}
+  .dochead h2{margin:0 0 5px;font-size:1.25rem;color:#fff} .dochead .meta{color:var(--muted);font-size:.85rem}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:14px 0;overflow:hidden}
   .panel>.ph{padding:10px 14px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:8px;font-size:.92rem}
   .panel>.ph:hover{background:var(--panel2)} .panel .pb{padding:6px 14px 14px;display:none} .panel.open .pb{display:block}
   .catrow{margin:8px 0} .catname{font-size:.83rem;color:var(--warn);font-weight:600;margin-bottom:3px}
@@ -52,21 +50,35 @@
   .clave .ct{color:#cfe0fb;font-weight:600} .clave .cs{color:var(--muted);font-size:.8rem}
   .clave .actions{margin-top:5px;display:flex;gap:10px} .clave a,.clave .star{cursor:pointer;font-size:.8rem}
   .star{color:var(--star)}
-  /* destacados */
   #destPanel .item{background:rgba(240,198,116,.08);border:1px solid #7a5c1e;border-radius:8px;padding:9px 11px;margin:7px 0}
-  #destPanel .item .qt{font-size:.86rem;white-space:pre-wrap} #destPanel .item .mt{color:var(--muted);font-size:.75rem;margin-top:4px}
+  #destPanel .item .qt{font-size:.86rem} #destPanel .item .mt{color:var(--muted);font-size:.75rem;margin-top:4px}
   #destPanel .item .del{float:right;color:var(--danger);cursor:pointer;font-size:.8rem}
   .empty{color:var(--muted);font-size:.85rem;padding:6px 0}
-  /* secciones */
-  .sec{margin:18px 0;scroll-margin-top:70px}
-  .sec h3{font-size:1rem;margin:0 0 6px;color:#cfe0fb;border-left:3px solid var(--accent2);padding-left:9px}
-  .sec .body{white-space:pre-wrap;font-size:.9rem;color:#d4e0ec;background:var(--panel);
-       border:1px solid var(--line);border-radius:9px;padding:12px 14px}
-  .toc{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0 4px}
-  .toc a{font-size:.76rem;background:var(--chip);border:1px solid var(--line);border-radius:6px;padding:2px 8px;color:#bcd}
-  .scanbox{background:rgba(224,165,59,.1);border:1px solid var(--warn);border-radius:9px;padding:14px;color:#f0c675}
+  .scanbox{background:rgba(224,165,59,.1);border:1px solid var(--warn);border-radius:9px;padding:14px;color:#f0c675;margin:12px 0}
+  /* --- secciones premium --- */
+  .sec{margin:26px 0 8px;scroll-margin-top:78px}
+  .sec-h{display:flex;align-items:baseline;gap:10px;margin:0 0 10px;padding-bottom:7px;border-bottom:2px solid #24354a}
+  .sec-h .sn{font-family:Consolas,monospace;font-size:.78rem;font-weight:700;color:#0f1720;background:var(--accent2);
+         border-radius:6px;padding:2px 8px;white-space:nowrap}
+  .sec-h .st{font-size:1.08rem;font-weight:700;color:#eaf1fb;letter-spacing:.2px}
+  .sec.lvl2 .sec-h .st{font-size:1rem} .sec.lvl3 .sec-h .st{font-size:.94rem;color:#cfe0fb}
+  .sec.lvl2 .sec-h{border-bottom-color:#1e2c3c} .sec.lvl3 .sec-h{border-bottom-style:dashed}
+  .sec-b p{margin:0 0 11px;font-size:.95rem;line-height:1.75;color:var(--ink);text-align:justify}
+  .sec-b ul{margin:4px 0 13px;padding-left:4px;list-style:none}
+  .sec-b li{position:relative;padding-left:20px;margin:5px 0;font-size:.93rem;line-height:1.65;color:#cfdae7}
+  .sec-b li::before{content:"▪";position:absolute;left:3px;color:var(--accent)}
+  /* --- índice derecha --- */
+  aside.toc{width:300px;flex-shrink:0;border-left:1px solid var(--line);overflow-y:auto;background:#0d151d}
+  aside.toc .th{position:sticky;top:0;background:#0d151d;padding:12px 14px;font-weight:700;font-size:.9rem;
+       border-bottom:1px solid var(--line);color:#cfe0fb}
+  aside.toc .ti{display:block;padding:5px 12px;font-size:.8rem;color:var(--muted);cursor:pointer;
+       border-left:3px solid transparent;line-height:1.35}
+  aside.toc .ti:hover{background:var(--panel);color:var(--txt);text-decoration:none}
+  aside.toc .ti.l1{color:#dbe6f2;font-weight:600}
+  aside.toc .ti.l2{padding-left:24px} aside.toc .ti.l3{padding-left:38px;font-size:.76rem}
+  aside.toc .ti.active{background:rgba(59,130,246,.14);border-left-color:var(--accent2);color:#fff}
+  aside.toc .ti .tn{font-family:Consolas,monospace;color:#7f93a8}
   .welcome{color:var(--muted);text-align:center;padding:70px 20px}
-  /* boton flotante destacar */
   #floatDest{position:fixed;display:none;z-index:50;background:var(--star);color:#3a2e05;border:none;
        border-radius:8px;padding:7px 12px;font-weight:700;font-size:.83rem;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.4)}
 </style>
@@ -80,13 +92,14 @@
 </header>
 
 <div class="layout">
-  <aside>
+  <aside class="left">
     <div class="search"><input id="q" type="search" placeholder="Filtrar licitación o documento…"></div>
     <div id="tree"></div>
   </aside>
   <main><div class="wrap" id="reader">
-    <div class="welcome">Selecciona un documento en el panel izquierdo para leerlo, ver sus puntos clave y destacar tareas.</div>
+    <div class="welcome">Selecciona un documento en el panel izquierdo.<br>El índice completo aparecerá siempre a la derecha.</div>
   </div></main>
+  <aside class="toc" id="tocPanel"><div class="th">🗂 Índice del documento</div><div id="toc"></div></aside>
 </div>
 
 <button id="floatDest">★ Destacar</button>
@@ -94,33 +107,31 @@
 <script src="bases_data.js"></script>
 <script>
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-const D = window.BASES || {licitaciones:[]};
-let CUR=null;  // {lic, doc, key}
+const D=window.BASES||{licitaciones:[]};
+let CUR=null, OBS=null;
 const LS="destacados_bases";
 const store=()=>{try{return JSON.parse(localStorage.getItem(LS))||{}}catch(e){return {}}};
 const save=o=>localStorage.setItem(LS,JSON.stringify(o));
-const keyOf=(lic,doc)=>lic.carpeta+"||"+doc.archivo;
+const keyOf=(l,d)=>l.carpeta+"||"+d.archivo;
 const esc=s=>(s||"").replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const clsMap={adm:'t-adm',tec:'t-tec',eco:'t-eco',res:'t-res'};
+$('#gen').textContent=D.generado?("Generado "+D.generado+" · "+D.licitaciones.length+" licitaciones"):"";
+const nivel=num=>Math.min((String(num).match(/\./g)||[]).length+1,3);
 
-$('#gen').textContent = D.generado ? "Generado "+D.generado+" · "+D.licitaciones.length+" licitaciones" : "";
-
-function destCount(lic,doc){return (store()[keyOf(lic,doc)]||[]).length;}
+function destCount(l,d){return (store()[keyOf(l,d)]||[]).length;}
 
 function buildTree(filter=""){
-  const t=$('#tree'); t.innerHTML="";
-  const f=filter.toLowerCase();
-  D.licitaciones.forEach((lic,li)=>{
-    const docs=lic.documentos.filter(d=>!f || (lic.titulo+d.archivo+d.tipo).toLowerCase().includes(f));
+  const t=$('#tree'); t.innerHTML=""; const f=filter.toLowerCase();
+  D.licitaciones.forEach(lic=>{
+    const docs=lic.documentos.filter(d=>!f||(lic.titulo+d.archivo+d.tipo).toLowerCase().includes(f));
     if(!docs.length) return;
     const box=document.createElement('div'); box.className='lic';
     box.innerHTML=`<div class="lh"><span class="ar">▾</span> <span>${esc(lic.titulo)}</span></div>`;
     docs.forEach(doc=>{
-      const dc=destCount(lic,doc);
-      const el=document.createElement('div'); el.className='doc';
+      const dc=destCount(lic,doc), el=document.createElement('div'); el.className='doc';
       el.innerHTML=`<span class="tag ${clsMap[doc.cls]||'t-otros'}">${esc(doc.tipo)}</span>
         <span>${esc(doc.archivo).replace(/\.(pdf|docx)$/i,'')}</span>
-        ${doc.escaneado?'<span class="badge-scan">⚠ escaneado</span>':''}
+        ${doc.escaneado?'<span class="badge-scan">⚠</span>':''}
         ${dc?`<span class="destcount">★${dc}</span>`:''}`;
       el.onclick=()=>openDoc(lic,doc,el);
       box.appendChild(el);
@@ -128,7 +139,7 @@ function buildTree(filter=""){
     box.querySelector('.lh').onclick=()=>{
       const hide=box.querySelector('.doc').style.display!=='none';
       box.querySelectorAll('.doc').forEach(d=>d.style.display=hide?'none':'flex');
-      box.querySelector('.ar').textContent=hide?'▸':'▾';   // solo la flecha, no el título
+      box.querySelector('.ar').textContent=hide?'▸':'▾';
     };
     t.appendChild(box);
   });
@@ -137,102 +148,115 @@ function buildTree(filter=""){
 function openDoc(lic,doc,el){
   CUR={lic,doc,key:keyOf(lic,doc)};
   $$('.doc').forEach(d=>d.classList.remove('sel')); if(el) el.classList.add('sel');
-  renderReader();
+  renderReader(); renderTOC(); scrollspy();
+}
+
+// convierte el texto reflujado en párrafos y viñetas
+function htmlBody(txt){
+  const lines=(txt||"").split("\n"); let html="", inUl=false;
+  const cerrar=()=>{ if(inUl){html+="</ul>"; inUl=false;} };
+  const ruido=s=>{const t=s.trim(); return t.length<3 || /^[\d\s.:;,\-–—°]+$/.test(t);}; // nº de página, fragmentos sueltos
+  for(const ln of lines){
+    const t=ln.trim();
+    if(!t){ continue; }
+    if(ln.startsWith("• ")){ if(!inUl){html+="<ul>";inUl=true;} html+=`<li>${esc(ln.slice(2))}</li>`; }
+    else if(ruido(t)){ continue; }
+    else { cerrar(); html+=`<p>${esc(t)}</p>`; }
+  }
+  cerrar(); return html||'<p class="empty">(sin contenido)</p>';
 }
 
 function renderReader(){
   const {lic,doc}=CUR, r=$('#reader');
-  let html=`<div class="dochead"><h2>${esc(doc.archivo)}</h2>
+  let h=`<div class="dochead"><h2>${esc(doc.archivo)}</h2>
     <div class="meta"><span class="tag ${clsMap[doc.cls]||'t-otros'}">${esc(doc.tipo)}</span>
     &nbsp; ${esc(lic.titulo)} ${doc.paginas?`· ${doc.paginas} pág`:''} · ${doc.secciones.length} secciones</div></div>`;
-
   if(doc.escaneado){
-    html+=`<div class="scanbox">⚠ <b>Documento escaneado</b> (sin capa de texto). No se pudo extraer automáticamente.
-      ${esc(doc.nota||'')}<br>Ábrelo directo desde la carpeta para leerlo.</div>`;
-    r.innerHTML=html; return;
+    h+=`<div class="scanbox">⚠ <b>Documento escaneado</b> sin capa de texto. ${esc(doc.nota||'')}<br>Ábrelo directo desde la carpeta.</div>`;
+    r.innerHTML=h; $('#toc').innerHTML='<div class="empty" style="padding:14px">Sin índice (escaneado).</div>'; return;
   }
   if(doc.ocr){
-    html+=`<div class="scanbox" style="background:rgba(59,130,246,.1);border-color:var(--accent2);color:#93b8f5">
-      🔎 Texto obtenido por <b>OCR</b> (documento escaneado). Puede tener errores de reconocimiento;
-      verifica los datos críticos (montos, plazos) contra el PDF original.</div>`;
+    h+=`<div class="scanbox" style="background:rgba(59,130,246,.1);border-color:var(--accent2);color:#93b8f5">
+      🔎 Texto obtenido por <b>OCR</b>. Verifica montos y plazos contra el PDF original.</div>`;
   }
-
-  // puntos clave
   const cats=Object.keys(doc.claves||{});
   if(cats.length){
-    html+=`<div class="panel open"><div class="ph">🔑 Puntos clave <span style="color:var(--muted);font-weight:400">(clic para plegar)</span></div><div class="pb">`;
+    h+=`<div class="panel open"><div class="ph">🔑 Puntos clave</div><div class="pb">`;
     cats.forEach(cat=>{
-      html+=`<div class="catrow"><div class="catname">${esc(cat)}</div>`;
+      h+=`<div class="catrow"><div class="catname">${esc(cat)}</div>`;
       doc.claves[cat].forEach(cl=>{
-        html+=`<div class="clave"><div class="ct">${esc(cl.titulo)}</div>
-          <div class="cs">${esc(cl.snippet)}…</div>
+        h+=`<div class="clave"><div class="ct">${esc(cl.titulo)}</div><div class="cs">${esc(cl.snippet)}…</div>
           <div class="actions"><a onclick="goSec(${cl.i})">▸ ir a la sección</a>
           <span class="star" onclick='addDest(${JSON.stringify(cl.titulo)},"Punto clave: "+${JSON.stringify(cat)})'>★ destacar</span></div></div>`;
       });
-      html+=`</div>`;
+      h+=`</div>`;
     });
-    html+=`</div></div>`;
+    h+=`</div></div>`;
   }
-
-  // destacados
-  html+=`<div class="panel open" id="destPanel"><div class="ph">★ Destacados de este documento</div><div class="pb" id="destBody"></div></div>`;
-
-  // índice (TOC) navegable
-  html+=`<div class="panel open"><div class="ph">🗂 Índice del documento</div><div class="pb"><div class="toc">`;
-  doc.secciones.forEach((s,i)=>{ html+=`<a onclick="goSec(${i})">${esc((s.num?s.num+' ':'')+s.titulo).slice(0,60)}</a>`; });
-  html+=`</div></div></div>`;
-
-  // cuerpo por secciones
+  h+=`<div class="panel open" id="destPanel"><div class="ph">★ Destacados de este documento</div><div class="pb" id="destBody"></div></div>`;
   doc.secciones.forEach((s,i)=>{
-    html+=`<div class="sec" id="sec-${i}"><h3>${esc((s.num?s.num+' · ':'')+s.titulo)}</h3>
-      <div class="body">${esc(s.texto)}</div></div>`;
+    h+=`<div class="sec lvl${nivel(s.num)}" id="sec-${i}">
+      <div class="sec-h">${s.num?`<span class="sn">${esc(s.num)}</span>`:''}<span class="st">${esc(s.titulo)}</span></div>
+      <div class="sec-b">${htmlBody(s.texto)}</div></div>`;
   });
-  r.innerHTML=html;
-  renderDest();
+  r.innerHTML=h; renderDest();
+}
+
+function renderTOC(){
+  const {doc}=CUR;
+  $('#toc').innerHTML=doc.secciones.map((s,i)=>
+    `<span class="ti l${nivel(s.num)}" id="ti-${i}" onclick="goSec(${i})">
+      ${s.num?`<span class="tn">${esc(s.num)}</span> `:''}${esc(s.titulo)}</span>`).join('');
 }
 
 function goSec(i){const e=$('#sec-'+i); if(e) e.scrollIntoView({behavior:'smooth',block:'start'});}
 
+function scrollspy(){
+  if(OBS) OBS.disconnect();
+  const root=$('main');
+  OBS=new IntersectionObserver(ents=>{
+    ents.forEach(en=>{
+      if(en.isIntersecting){
+        const i=en.target.id.split('-')[1];
+        $$('.ti.active').forEach(x=>x.classList.remove('active'));
+        const ti=$('#ti-'+i); if(ti){ti.classList.add('active'); ti.scrollIntoView({block:'nearest'});}
+      }
+    });
+  },{root,rootMargin:"-60px 0px -70% 0px",threshold:0});
+  $$('.sec').forEach(s=>OBS.observe(s));
+}
+
 function renderDest(){
   const body=$('#destBody'); if(!body) return;
   const list=store()[CUR.key]||[];
-  if(!list.length){body.innerHTML='<div class="empty">Aún no has destacado nada. Selecciona texto en el documento y pulsa “★ Destacar”, o destaca un punto clave.</div>';return;}
-  body.innerHTML=list.map((it,idx)=>`<div class="item"><span class="del" onclick="delDest(${idx})">✕ quitar</span>
-    <div class="qt">${esc(it.texto)}</div><div class="mt">${esc(it.nota||'')} · ${esc(it.ts||'')}</div></div>`).join('');
+  body.innerHTML=list.length?list.map((it,idx)=>`<div class="item"><span class="del" onclick="delDest(${idx})">✕ quitar</span>
+    <div class="qt">${esc(it.texto)}</div><div class="mt">${esc(it.nota||'')} · ${esc(it.ts||'')}</div></div>`).join('')
+    :'<div class="empty">Selecciona texto en el documento y pulsa “★ Destacar”, o destaca un punto clave.</div>';
 }
-function addDest(texto,nota){
-  const o=store(); const k=CUR.key; (o[k]=o[k]||[]).push({texto,nota:nota||'',ts:new Date().toLocaleString('es-CL')});
-  save(o); renderDest(); buildTree($('#q').value);
-}
-function delDest(i){const o=store(); (o[CUR.key]||[]).splice(i,1); save(o); renderDest(); buildTree($('#q').value);}
+function addDest(texto,nota){const o=store(),k=CUR.key;(o[k]=o[k]||[]).push({texto,nota:nota||'',ts:new Date().toLocaleString('es-CL')});save(o);renderDest();buildTree($('#q').value);}
+function delDest(i){const o=store();(o[CUR.key]||[]).splice(i,1);save(o);renderDest();buildTree($('#q').value);}
 
-// selección de texto -> botón flotante
 const fb=$('#floatDest'); let selText="";
 document.addEventListener('mouseup',e=>{
   if(!CUR){fb.style.display='none';return;}
-  const sel=window.getSelection(); const s=(sel?sel.toString():"").trim();
-  const inReader=e.target.closest('#reader .body');
-  if(s.length>3 && inReader){
+  const s=(window.getSelection()?window.getSelection().toString():"").trim();
+  if(s.length>3 && e.target.closest('#reader .sec-b')){
     selText=s; fb.style.display='block';
-    fb.style.left=Math.min(e.pageX, window.innerWidth-120)+'px'; fb.style.top=(e.pageY-46)+'px';
+    fb.style.left=Math.min(e.pageX,window.innerWidth-120)+'px'; fb.style.top=(e.pageY-46)+'px';
   } else if(!e.target.closest('#floatDest')){ fb.style.display='none'; }
 });
-fb.onclick=()=>{ if(selText){addDest(selText,"Selección manual"); fb.style.display='none'; window.getSelection().removeAllRanges();} };
+fb.onclick=()=>{ if(selText){addDest(selText,"Selección manual");fb.style.display='none';window.getSelection().removeAllRanges();} };
 
-// exportar destacados a markdown
 $('#btnExport').onclick=()=>{
   const o=store(); let md="# Destacados de bases — Medina Consultoría\n\n";
   D.licitaciones.forEach(lic=>{
     let sub="";
-    lic.documentos.forEach(doc=>{
-      const list=o[keyOf(lic,doc)]||[];
-      if(list.length){ sub+=`\n### ${doc.tipo}: ${doc.archivo}\n`;
-        list.forEach(it=>sub+=`- ${it.texto.replace(/\n+/g,' ')}  \n  _(${it.nota} · ${it.ts})_\n`); }
-    });
+    lic.documentos.forEach(doc=>{const list=o[keyOf(lic,doc)]||[];
+      if(list.length){sub+=`\n### ${doc.tipo}: ${doc.archivo}\n`; list.forEach(it=>sub+=`- ${it.texto.replace(/\n+/g,' ')}  \n  _(${it.nota} · ${it.ts})_\n`);}});
     if(sub) md+=`## ${lic.titulo}\n${sub}\n`;
   });
-  const blob=new Blob([md],{type:'text/markdown'}); const a=document.createElement('a');
-  a.href=URL.createObjectURL(blob); a.download='Destacados_bases.md'; a.click();
+  const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([md],{type:'text/markdown'}));
+  a.download='Destacados_bases.md'; a.click();
 };
 
 $('#q').addEventListener('input',e=>buildTree(e.target.value));
