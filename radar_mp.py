@@ -98,7 +98,7 @@ EXCLUIR = C(r"inspeccion fiscal|\baif\b|\baifo\b|asesoria a la inspecc|inspeccio
 TEMA = C(r"transporte|movilidad|\bvial\b|\bvialidad\b|\btransito\b|\btrafico\b|peaton|ciclo|"
          r"\burban|territorial|plan regulador|\bpladeco\b|uso de suelo|suelo urbano|mercado de suelo|espacio publico|\bpiep\b|"
          r"origen.?destino|demanda de viaje|particion modal|accesibilidad|logistic|portuari|concesion|"
-         r"\bruta\b|corredor|pasada urbana|conectividad")
+         r"\brutas?\b|\bcaminos?\b|corredor|pasada urbana|conectividad")
 
 # Organismos clave — se evalua sobre organismo + unidad.
 # NIVEL A: agencias de planificacion de transporte/territorio -> entra TODO
@@ -171,13 +171,16 @@ def main():
     # nombre, MAS todo lo de organismos clave conocidos (por prefijo), aunque el
     # nombre no calce (asi no se pierde, p.ej., una ortofoto de SECTRA).
     candidatas = []
+    # códigos MOP de estudio al inicio del nombre: EI (Estudio de Ingeniería),
+    # EP (Estudio de Preinversión), EII, e.i., e.p.
+    tipo_mop = re.compile(r"^(ei|eii|ep|e\.i|e\.p)\b")
     for lic in listado:
         n = sin_tildes(lic.get("Nombre", ""))
         es_key = prefijo(lic["CodigoExterno"]) in key_orgs
-        if not (es_key or ESTUDIO.search(n) or ESTUDIO_FUERTE.search(n) or TEMA.search(n) or PIEP.search(n)):
+        if not (es_key or tipo_mop.match(n) or ESTUDIO.search(n) or ESTUDIO_FUERTE.search(n) or TEMA.search(n) or PIEP.search(n)):
             continue
         p = clasificar(lic.get("Nombre", ""))[0]
-        p += 5 if es_key else (3 if ESTUDIO.search(n) else 0)
+        p += 5 if es_key else (3 if ESTUDIO.search(n) else (2 if tipo_mop.match(n) else 0))
         candidatas.append({**lic, "p": p, "es_key": es_key})
     candidatas.sort(key=lambda x: -x["p"])
     print(f"  {len(candidatas)} candidatas (incl. organismos clave sembrados).")
