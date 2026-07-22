@@ -157,25 +157,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3499-22-LE26"
  },
  {
-  "codigo": "1202333-63-LE26",
-  "nombre": "FORMULACIÓN DEL PLAN COMUNAL DE DESARROLLO PLADECO Y FORMULACIÓN DEL PLAN DE DESARROLLO TURÍSTICO PLADETUR COMUNA DE QUINTERO 2027 - 2036",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE QUINTERO",
-  "unidad": "LICITACIONES",
-  "region": "Región de Valparaíso ",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-23T11:00",
-  "fecha_publicacion": "2026-07-13",
-  "descripcion": "La contratación del servicio de consultoría para la elaboración del PLADECO y el Plan de Desarrollo de Turismo (PLADETUR), permitirá incorporar metodologías de análisis estratégico, participación ciudadana, enfoque territorial y herramientas de planificación modernas, fortaleciendo la toma de decisiones municipales y la coordinación con los distintos actores públicos, privados y comunitarios de la comuna. Asimismo, el desarrollo del PLADECO permitirá establecer una hoja de ruta institucional para la gestión municipal de mediano y largo plazo, promoviendo principios de eficiencia, eficacia, transparencia, participación ciudadana y adecuada inversión de los recursos público.\r\n",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1202333-63-LE26"
- },
- {
   "codigo": "2661-29-LP26",
   "nombre": "ACTUALIZACIÓN PLADECO COMUNA DE NATALES 2026-2034",
   "puntaje": 4,
@@ -214,6 +195,44 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=834259-42-LE26"
  },
  {
+  "codigo": "1202333-63-LE26",
+  "nombre": "FORMULACIÓN DEL PLAN COMUNAL DE DESARROLLO PLADECO Y FORMULACIÓN DEL PLAN DE DESARROLLO TURÍSTICO PLADETUR COMUNA DE QUINTERO 2027 - 2036",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE QUINTERO",
+  "unidad": "LICITACIONES",
+  "region": "Región de Valparaíso ",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-07-29T09:00",
+  "fecha_publicacion": "2026-07-13",
+  "descripcion": "La contratación del servicio de consultoría para la elaboración del PLADECO y el Plan de Desarrollo de Turismo (PLADETUR), permitirá incorporar metodologías de análisis estratégico, participación ciudadana, enfoque territorial y herramientas de planificación modernas, fortaleciendo la toma de decisiones municipales y la coordinación con los distintos actores públicos, privados y comunitarios de la comuna. Asimismo, el desarrollo del PLADECO permitirá establecer una hoja de ruta institucional para la gestión municipal de mediano y largo plazo, promoviendo principios de eficiencia, eficacia, transparencia, participación ciudadana y adecuada inversión de los recursos público.\r\n",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1202333-63-LE26"
+ },
+ {
+  "codigo": "3015-42-LE26",
+  "nombre": "ELABORACIÓN PLAN MAESTRO BARRIO SANTA ROSA",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE LA CRUZ",
+  "unidad": "SECPLAN",
+  "region": "Región de Valparaíso ",
+  "tipo": "LE",
+  "monto": "30.000.000 CLP",
+  "fecha_cierre": "2026-08-03T15:05",
+  "fecha_publicacion": "2026-07-22",
+  "descripcion": "En el marco del \"Programa de Recuperación de Barrios\" (PQMB) del Ministerio de Vivienda y Urbanismo, que ejecuta el\r\nmunicipio de La Cruz, se requiere contratar los diseños de arquitectura, ingeniería y especialidades para la\r\n\"ELABORACIÓN PLAN MAESTRO BARRIO SANTA ROSA - LOS FLORISTAS, COMUNA DE LA CRUZ\".",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3015-42-LE26"
+ },
+ {
   "codigo": "5048-12-O126",
   "nombre": "EP CONST Y MEJ PASADA URBANA RUTA I-60, PUMANQUE, O’HIGGINS",
   "puntaje": 4,
@@ -229,6 +248,57 @@
   "fecha_publicacion": "2026-06-25",
   "descripcion": "El presente estudio tiene por objeto diagnosticar y evaluar alternativas viales para mejorar la circulación, seguridad, conectividad y calidad urbana en la comuna de Pumanque, considerando criterios técnicos, ambientales, territoriales y sociales.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-12-O126"
+ },
+ {
+  "codigo": "5048-11-O126",
+  "nombre": "EI MEJ. RUTAS G78F – F768G Y F-760  COLLIGUAY, R.M Y R. VALPARAÍSO",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-08-12T10:30",
+  "fecha_publicacion": "2026-06-30",
+  "descripcion": "Desarrollar el estudio de ingeniería para el mejoramiento de las rutas del sector Colliguay, mediante análisis y diseño integral de alternativas, a fin de definir un proyecto vial definitivo que mejore la conectividad y reduzca el aislamiento.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-11-O126"
+ },
+ {
+  "codigo": "2262-4-O126",
+  "nombre": "E.I. I-72, SECTOR LOLOL ALTO NILAHUE, LOLOL",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - VI Región - Licitación de Obras",
+  "region": "Región del Libertador General Bernardo O´Higgins",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-08-17T23:00",
+  "fecha_publicacion": "2026-07-14",
+  "descripcion": "ESTUDIO DE INGENIERÍA “MEJORAMIENTO RUTA I-72, SECTOR LOLOL ALTO NILAHUE, COMUNA DE LOLOL, REGION DE O’HIGGINS",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2262-4-O126"
+ },
+ {
+  "codigo": "5048-8-O126",
+  "nombre": "EI CONST. PUENTE HUMIRE Y MEJ. PUENTE COCHIZA REGION ARICA Y PARINACOTA ",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región de Arica y Parinacota",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-08-19T11:30",
+  "fecha_publicacion": "2026-06-30",
+  "descripcion": "Estudio de Ingeniería de detalle para evaluar la factibilidad técnica, económica, social y ambiental del mejoramiento del Puente Humire y la construcción de un nuevo puente en el sector de Cochiza, con el objeto de reemplazar las soluciones provisorias existentes por infraestructura vial definitiva.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-8-O126"
  },
  {
   "codigo": "2010-9-O126",
