@@ -21,6 +21,27 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-2-LP26"
  },
  {
+  "codigo": "2784-38-LE26",
+  "nombre": "ASESORÍA PROFESIONAL INGENIERO EN TRANSPORTE",
+  "puntaje": 13,
+  "categorias": [
+   "IMIV / impacto vial",
+   "Transporte / movilidad",
+   "Vialidad / transito"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE LA LIGUA",
+  "unidad": "SECRETARIA DE PLANIFICACION",
+  "region": "Región de Valparaíso ",
+  "tipo": "LE",
+  "monto": "9.565.716 CLP",
+  "fecha_cierre": "2026-08-03T15:06",
+  "fecha_publicacion": "2026-07-22",
+  "descripcion": "Contratación de un profesional Ingeniero en Tránsito o Transporte para asesorar técnicamente a la Dirección de Tránsito y Transporte Público, mediante la revisión y elaboración de informes, estudios de impacto vial, señalización, semaforización, seguridad vial, planificación y demás materias relacionadas con el sistema de tránsito comunal.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2784-38-LE26"
+ },
+ {
   "codigo": "619284-3-LR26",
   "nombre": "Actualización Plan Maestro de Transporte Urbano de Talca y Maule Etapa III",
   "puntaje": 13,
@@ -138,25 +159,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2402-49-LP26"
  },
  {
-  "codigo": "3499-22-LE26",
-  "nombre": "ACTUALIZACIÓN PLADECO 2027-2030 QUINTA DE TILCOCO",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE QUINTA DE TILCOCO",
-  "unidad": "SECPLAN",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-07-22T15:00",
-  "fecha_publicacion": "2026-07-08",
-  "descripcion": "El objeto de esta licitación pública es la contratación de servicios especializados para la actualización del Plan de Desarrollo Comunal PLADECO 2027-2030 de la Ilustre Municipalidad de Quinta de Tilcoco, es decir, la búsqueda de un consultor o empresa que elabore el instrumento de planificación estratégica que orientará el desarrollo de la comuna en dicho periodo, a través de un proceso que incluye el diagnóstico integral de la situación comunal a nivel global y sectorial, la definición de una imagen objetivo, objetivos estratégicos y políticas de desarrollo, la elaboración de planes, programas y proyectos concretos alineados a esa estrategia, y el diseño de un sistema de control, seguimiento y evaluación del PLADECO, todo ello desarrollado con participación ciudadana y culminando en la aprobación del instrumento por parte de la autoridad municipal competente.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3499-22-LE26"
- },
- {
   "codigo": "2661-29-LP26",
   "nombre": "ACTUALIZACIÓN PLADECO COMUNA DE NATALES 2026-2034",
   "puntaje": 4,
@@ -265,6 +267,23 @@
   "fecha_publicacion": "2026-06-30",
   "descripcion": "Desarrollar el estudio de ingeniería para el mejoramiento de las rutas del sector Colliguay, mediante análisis y diseño integral de alternativas, a fin de definir un proyecto vial definitivo que mejore la conectividad y reduzca el aislamiento.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-11-O126"
+ },
+ {
+  "codigo": "5268-17-O126",
+  "nombre": "CONSULTORIA DIAG Y ELAB PROY PAV RURALES PROV ARAUCO Y CONCEP",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - VIII Región - Licitación de Obras",
+  "region": "Región del Biobío ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-08-13T10:00",
+  "fecha_publicacion": "2026-07-23",
+  "descripcion": "“CONSULTORÍA DIAGNÓSTICO Y ELABORACIÓN DE PROYECTOS PAVIMENTOS RURALES, PROVINCIAS DE ARAUCO Y CONCEPCIÓN, REGIÓN DEL BIOBÍO”.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-17-O126"
  },
  {
   "codigo": "2262-4-O126",
