@@ -109,13 +109,13 @@
    "Vialidad / transito"
   ],
   "org_clave": false,
-  "bip": "13114523",
+  "bip": "",
   "organismo": "I MUNICIPALIDAD DE LAS CONDES",
   "unidad": "I MUNICIPALIDAD DE LAS CONDES",
   "region": "Región Metropolitana de Santiago",
   "tipo": "LP",
   "monto": "160.000.000 CLP",
-  "fecha_cierre": "2026-08-13T15:01",
+  "fecha_cierre": "2026-08-20T15:01",
   "fecha_publicacion": "2026-07-14",
   "descripcion": "El presente proceso de licitación tiene por objeto la contratación de los servicios de demolición de las instalaciones correspondientes a la actual Dirección de Tránsito de la Municipalidad de Las Condes, ubicada en Av. Presidente Riesco N° 5296, con el fin de habilitar dicha superficie para su incorporación al Parque Araucano, en el marco del Plan Maestro desarrollado por el municipio.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2345-102-LP26"
@@ -134,7 +134,7 @@
   "region": "Región del Libertador General Bernardo O´Higgins",
   "tipo": "LP",
   "monto": "330.000.000 CLP",
-  "fecha_cierre": "2026-07-30T10:00",
+  "fecha_cierre": "2026-08-03T16:30",
   "fecha_publicacion": "2026-07-10",
   "descripcion": "El estudio denominado “Estudio de Infraestructura Complementaria para el Transporte Público de la ciudad de \r\nRancagua”, tiene como objeto general desarrollar una cartera de proyectos de infraestructura complementaria \r\nasociada al transporte público en la cuidad de Rancagua, que permita mejorar las condiciones actuales de operación \r\nen vías urbanas, tanto para vías céntricas como vías no céntricas, y junto con ello, avanzar en la concreción de una \r\nRed de Corredores de Transporte Público que brinde mejores niveles de servicio a los usuarios. ",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2402-49-LP26"
@@ -174,6 +174,25 @@
   "fecha_publicacion": "2026-06-25",
   "descripcion": "El presente estudio tiene por objeto diagnosticar y evaluar alternativas viales para mejorar la circulación, seguridad, conectividad y calidad urbana en la comuna de Pumanque, considerando criterios técnicos, ambientales, territoriales y sociales.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-12-O126"
+ },
+ {
+  "codigo": "611134-8-LE26",
+  "nombre": "ELABORACIÓN Y PRESENTACIÓN DIDÁCTICA DE INSTRUMENTOS Y MATERIAL DE EDUCACIÓN AMBIENTAL EN EL MARCO DE LA IMPLEMENTACIÓN DEL PLAN DE ACCIÓN REGIONAL DE CAMBIO CLIMÁTICO DE LA REGIÓN METROPOLITANA",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DEL MEDIO AMBIENTE",
+  "unidad": "Seremi Region Metropolitana",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "18.000.000 CLP",
+  "fecha_cierre": "2026-08-11T15:30",
+  "fecha_publicacion": "2026-07-30",
+  "descripcion": "Desarrollar y presentar de manera didáctica instrumentos educativos y material pedagógico que fortalezcan la educación ambiental sobre cambio climático en establecimientos educacionales y que promuevan la valoración de los humedales urbanos y áreas protegidas de la Región Metropolitana, en línea con las acciones 5.1 y 5.2 contenidas en el PARCC de la RM, siendo estas:\r\n\r\nAcción 5.1. Elaboración de instrumentos de planificación educativa que incorporen el Cambio Climático, mediante el apoyo técnico y la formulación de instrumentos orientadores para actualizar material pedagógico, mallas curriculares y los Planes Integrales de Seguridad Escolar.\r\n\r\nAcción 5.2. Implementación de programas de educación para la promoción del uso público sostenible de humedales urbanos y otras áreas protegidas.\r\n",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=611134-8-LE26"
  },
  {
   "codigo": "5048-11-O126",
