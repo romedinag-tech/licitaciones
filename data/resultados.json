@@ -1,5 +1,26 @@
 [
  {
+  "codigo": "5407-57-LE26",
+  "nombre": "DIAGNÓSTICO  PLAN MAESTRO BARRIO EL SANTO - TOMÉ",
+  "puntaje": 17,
+  "categorias": [
+   "Espacio publico / PIEP",
+   "Planificacion urbana / IPT",
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION REGIÓN DEL BIO BIO",
+  "unidad": "Departamento Técnico",
+  "region": "Región del Biobío ",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-08-25T12:00",
+  "fecha_publicacion": "2026-07-30",
+  "descripcion": "El “DIAGNÓSTICO Y ELABORACIÓN PLAN MAESTRO BARRIO EL SANTO -  HABILITACIÓN DE CIRCUITO SEGURO, COMUNA DE TOMÉ”, tiene como objetivo garantizar una evacuación eficiente y segura de peatones y vehículos ante situaciones de emergencia, mediante el mejoramiento integral de las condiciones de conectividad, iluminación, accesibilidad y soporte comunitario, fortaleciendo a su vez el uso y apropiación del espacio público.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5407-57-LE26"
+ },
+ {
   "codigo": "619284-2-LP26",
   "nombre": "ACTUALIZACIÓN PLAN MAESTRO DE TRANSPORTE URBANO DE TALCA Y MAULE ETAPA II” ORTOFOTOMOSAICO",
   "puntaje": 15,
@@ -82,6 +103,45 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10"
  },
  {
+  "codigo": "5048-35-O126",
+  "nombre": "EP MEJ. RUTA 9 PUNTA ARENAS, R. MAGALLANES Y ANT. CHILENA",
+  "puntaje": 12,
+  "categorias": [
+   "Transporte / movilidad",
+   "Vialidad / transito"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región de Magallanes y de la Antártica",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-15T10:30",
+  "fecha_publicacion": "2026-07-31",
+  "descripcion": "Evaluar y desarrollar alternativas de mejoramiento de la conexión vial de la Ruta 9 en la ciudad de Punta Arenas, mediante análisis técnicos, económicos, ambientales y sociales, con el fin de fortalecer la conectividad, la seguridad vial y la movilidad urbana.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-35-O126"
+ },
+ {
+  "codigo": "660-8-LE26",
+  "nombre": "SUBSANACIÓN OBSERVACIONES ESTUDIO PLAN REGULADOR",
+  "puntaje": 8,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
+  "unidad": "SEREMI IX REGION",
+  "region": "Región de la Araucanía ",
+  "tipo": "LE",
+  "monto": "50.000.000 CLP",
+  "fecha_cierre": "2026-08-18T09:30",
+  "fecha_publicacion": "2026-07-30",
+  "descripcion": "SUBSANACIÓN OBSERVACIONES ESTUDIO PLAN REGULADOR COMUNAL DE FREIRE, LOCALIDADES DE FREIRE, RADAL Y QUEPE Y, EXPOSICIÓN Y AUDIENCIAS PÚBLICAS DEL PLAN, SEGÚN ARTICULO 2.1.11. OGUC",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-8-LE26"
+ },
+ {
   "codigo": "5048-10-O126",
   "nombre": "EP CONSTRUCCION MEJ. PASADA URBANA RUTA D-409, R. COQUIMBO",
   "puntaje": 7,
@@ -119,6 +179,25 @@
   "fecha_publicacion": "2026-07-14",
   "descripcion": "El presente proceso de licitación tiene por objeto la contratación de los servicios de demolición de las instalaciones correspondientes a la actual Dirección de Tránsito de la Municipalidad de Las Condes, ubicada en Av. Presidente Riesco N° 5296, con el fin de habilitar dicha superficie para su incorporación al Parque Araucano, en el marco del Plan Maestro desarrollado por el municipio.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2345-102-LP26"
+ },
+ {
+  "codigo": "2261-14-O126",
+  "nombre": "Consultoría Varios Cruces Region de La Araucanía",
+  "puntaje": 7,
+  "categorias": [
+   "Vialidad / transito"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - IX Región - Licitación de Obras",
+  "region": "Región de la Araucanía ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-01T09:00",
+  "fecha_publicacion": "2026-07-30",
+  "descripcion": "Consultoría para proyectos de mejoramiento Seguridad Vial Varios Cruces Región de La Araucanía",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2261-14-O126"
  },
  {
   "codigo": "2402-49-LP26",
@@ -278,5 +357,39 @@
   "fecha_publicacion": "2026-07-10",
   "descripcion": "SE CONTEMPLA EL ESTUDIO Y ANÁLISIS TÉCNICO DEL MEJORAMIENTO INTEGRAL DE LAS RUTAS F-382 Y F-326.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2010-9-O126"
+ },
+ {
+  "codigo": "2261-15-O126",
+  "nombre": "Consultoría Caminos Rurales Malleco-Cautín, Región de La Araucanía",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - IX Región - Licitación de Obras",
+  "region": "Región de la Araucanía ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-01T10:00",
+  "fecha_publicacion": "2026-07-30",
+  "descripcion": "Tiene como objetivo elaborar los antecedentes para la licitación de los proyecto  de mejoramiento de caminos rurales",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2261-15-O126"
+ },
+ {
+  "codigo": "5048-38-O126",
+  "nombre": "EP CONST P FRONT OLLAGÜE. RUTA 21 CH. SECTOR: CHIU CHIU-ESTACIÓN SAN PEDRO",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región de Antofagasta ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-22T11:30",
+  "fecha_publicacion": "2026-07-31",
+  "descripcion": "El presente estudio tiene por objeto evaluar la factibilidad de un nuevo emplazamiento para la ruta 21 CH entre Chiu Chiu y Estación San Pedro, considerando criterios técnicos, económicos, ambientales, territoriales y sociales.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-38-O126"
  }
 ]
