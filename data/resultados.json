@@ -200,6 +200,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2261-14-O126"
  },
  {
+  "codigo": "5048-33-O126",
+  "nombre": "EST. BAS. DIAGNÓSTICO SEGURIDAD VIAL, REGIONES VI, VII Y XVI ",
+  "puntaje": 7,
+  "categorias": [
+   "Vialidad / transito"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región del Maule ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-09T09:30",
+  "fecha_publicacion": "2026-07-31",
+  "descripcion": "Evaluación del estado de la seguridad vial y determinación de mejoras en la materia para adecuar el estándar de la red vial.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-33-O126"
+ },
+ {
   "codigo": "2402-49-LP26",
   "nombre": "ESTUDIO DE INFRAEST. COMPLE. PARA EL TRANSP. PUBL.",
   "puntaje": 5,
@@ -374,6 +393,40 @@
   "fecha_publicacion": "2026-07-30",
   "descripcion": "Tiene como objetivo elaborar los antecedentes para la licitación de los proyecto  de mejoramiento de caminos rurales",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2261-15-O126"
+ },
+ {
+  "codigo": "5268-24-O126",
+  "nombre": "EI REPOSICIÓN PUENTE PONOTRO EN RUTA P-632, COMUNA DE CAÑETE",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - VIII Región - Licitación de Obras",
+  "region": "Región del Biobío ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-02T11:00",
+  "fecha_publicacion": "2026-07-31",
+  "descripcion": "ESTUDIO DE INGENIERIA  REPOSICION PUENTE PONOTRO EN RUTAP-632, COMUNA DE CAÑETE, PROVINCIA DE ARAUCO, REGION DEL BIOBIO.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-24-O126"
+ },
+ {
+  "codigo": "5048-37-O126",
+  "nombre": "E.BÁSICO DIAGNÓSTICO ZONAS DE ADELANTAMIENTO REGIONES BIOBÍO Y ARAUCANÍA",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región del Biobío ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-10T11:30",
+  "fecha_publicacion": "2026-07-31",
+  "descripcion": "Estudio para diagnosticar, evaluar y definir las zonas donde se permite adelantar y las zonas donde debe existir una prohibición o restricción de adelantamiento, específicamente en vías bidireccionales, con el fin de establecer  la señalización horizontal y vertical reglamentaria a ejecutar.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-37-O126"
  },
  {
   "codigo": "5048-38-O126",

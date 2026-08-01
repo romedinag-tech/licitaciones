@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-07-31T14:27:55+00:00",
- "total_activas": 4246,
+ "actualizado": "2026-08-01T13:45:57+00:00",
+ "total_activas": 4356,
  "candidatas": 200,
- "resultados": 21,
- "clave": 16,
+ "resultados": 24,
+ "clave": 19,
  "modo_ticket": "personal",
  "regiones": [
   "Región Metropolitana de Santiago",
@@ -14,7 +14,8 @@
   "Región de Valparaíso ",
   "Región de la Araucanía ",
   "Región del Biobío ",
-  "Región del Libertador General Bernardo O´Higgins"
+  "Región del Libertador General Bernardo O´Higgins",
+  "Región del Maule "
  ],
  "categorias": [
   "IMIV / impacto vial",
