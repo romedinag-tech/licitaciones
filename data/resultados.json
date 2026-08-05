@@ -268,40 +268,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-11-O126"
  },
  {
-  "codigo": "5048-8-O126",
-  "nombre": "EI CONST. PUENTE HUMIRE Y MEJ. PUENTE COCHIZA REGION ARICA Y PARINACOTA ",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de Arica y Parinacota",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-08-19T11:30",
-  "fecha_publicacion": "2026-06-30",
-  "descripcion": "Estudio de Ingeniería de detalle para evaluar la factibilidad técnica, económica, social y ambiental del mejoramiento del Puente Humire y la construcción de un nuevo puente en el sector de Cochiza, con el objeto de reemplazar las soluciones provisorias existentes por infraestructura vial definitiva.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-8-O126"
- },
- {
-  "codigo": "2010-9-O126",
-  "nombre": "ESTUDIO ING.MEJORAMIENTO CIRCUITO VIAL RUTAS F-382 Y F-326,QTA.Y LA CRUZ",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - V Región - Licitación de Obras",
-  "region": "Región de Valparaíso ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-08-20T09:00",
-  "fecha_publicacion": "2026-07-10",
-  "descripcion": "SE CONTEMPLA EL ESTUDIO Y ANÁLISIS TÉCNICO DEL MEJORAMIENTO INTEGRAL DE LAS RUTAS F-382 Y F-326.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2010-9-O126"
- },
- {
   "codigo": "2262-4-O126",
   "nombre": "E.I. I-72, SECTOR LOLOL ALTO NILAHUE, LOLOL",
   "puntaje": 4,
@@ -319,6 +285,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2262-4-O126"
  },
  {
+  "codigo": "5048-8-O126",
+  "nombre": "EI CONST. PUENTE HUMIRE Y MEJ. PUENTE COCHIZA REGION ARICA Y PARINACOTA ",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región de Arica y Parinacota",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-08-21T10:30",
+  "fecha_publicacion": "2026-06-30",
+  "descripcion": "Estudio de Ingeniería de detalle para evaluar la factibilidad técnica, económica, social y ambiental del mejoramiento del Puente Humire y la construcción de un nuevo puente en el sector de Cochiza, con el objeto de reemplazar las soluciones provisorias existentes por infraestructura vial definitiva.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-8-O126"
+ },
+ {
   "codigo": "5268-17-O126",
   "nombre": "CONSULTORIA DIAG Y ELAB PROY PAV RURALES PROV ARAUCO Y CONCEP",
   "puntaje": 4,
@@ -334,6 +317,23 @@
   "fecha_publicacion": "2026-07-23",
   "descripcion": "“CONSULTORÍA DIAGNÓSTICO Y ELABORACIÓN DE PROYECTOS PAVIMENTOS RURALES, PROVINCIAS DE ARAUCO Y CONCEPCIÓN, REGIÓN DEL BIOBÍO”.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-17-O126"
+ },
+ {
+  "codigo": "2010-9-O126",
+  "nombre": "ESTUDIO ING.MEJORAMIENTO CIRCUITO VIAL RUTAS F-382 Y F-326,QTA.Y LA CRUZ",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - V Región - Licitación de Obras",
+  "region": "Región de Valparaíso ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-08-25T13:00",
+  "fecha_publicacion": "2026-07-10",
+  "descripcion": "SE CONTEMPLA EL ESTUDIO Y ANÁLISIS TÉCNICO DEL MEJORAMIENTO INTEGRAL DE LAS RUTAS F-382 Y F-326.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2010-9-O126"
  },
  {
   "codigo": "2261-15-O126",
@@ -402,5 +402,24 @@
   "fecha_publicacion": "2026-07-31",
   "descripcion": "El presente estudio tiene por objeto evaluar la factibilidad de un nuevo emplazamiento para la ruta 21 CH entre Chiu Chiu y Estación San Pedro, considerando criterios técnicos, económicos, ambientales, territoriales y sociales.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-38-O126"
+ },
+ {
+  "codigo": "577289-1-LE26",
+  "nombre": "ACTUALIZACIÓN PLAN DIRECTOR DE LOGÍSTICA NACIONAL",
+  "puntaje": 3,
+  "categorias": [
+   "Concesiones / logistica"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Programa de Desarrollo Logístico",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-08-24T16:00",
+  "fecha_publicacion": "2026-08-04",
+  "descripcion": "objetivo general del presente estudio la actualización del Plan Director de Logística Nacional para las cuatro macrozonas y además para la Macrozona Austral, con especial énfasis en la actualización de la región de Magallanes y la incorporación de las regiones de Los Lagos y Aysén del General Carlos Ibañez del Campo.\r\nPara una mayor armonización de los sistemas logísticos con el entorno social y ambiental es recomendable incorporar, para el desarrollo de todos los instrumentos Actualización del Plan Director de Logística Nacional e incorporación de las regiones faltantes de la Macrozona Austral",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577289-1-LE26"
  }
 ]
