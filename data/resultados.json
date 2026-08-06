@@ -119,6 +119,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-4-LR26"
  },
  {
+  "codigo": "619284-5-LP26",
+  "nombre": "Análisis de Servicios de Transporte Público Sector Norte Región Metropolitana",
+  "puntaje": 9,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "268.907.563 CLP",
+  "fecha_cierre": "2026-09-07T15:00",
+  "fecha_publicacion": "2026-08-06",
+  "descripcion": "El objetivo principal del presente estudio es analizar la oferta y demanda actual de los servicios de pasajeros de transporte público mayor y menor del sector norte de la Región Metropolitana, con el fin de utilizar este insumo para proponer futuras medidas de gestión e infraestructura para la intermodalidad con el servicio ferroviario de pasajeros Santiago - Batuco.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-5-LP26"
+ },
+ {
   "codigo": "660-8-LE26",
   "nombre": "SUBSANACIÓN OBSERVACIONES ESTUDIO PLAN REGULADOR",
   "puntaje": 8,
@@ -136,25 +155,6 @@
   "fecha_publicacion": "2026-07-30",
   "descripcion": "SUBSANACIÓN OBSERVACIONES ESTUDIO PLAN REGULADOR COMUNAL DE FREIRE, LOCALIDADES DE FREIRE, RADAL Y QUEPE Y, EXPOSICIÓN Y AUDIENCIAS PÚBLICAS DEL PLAN, SEGÚN ARTICULO 2.1.11. OGUC",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-8-LE26"
- },
- {
-  "codigo": "5048-10-O126",
-  "nombre": "EP CONSTRUCCION MEJ. PASADA URBANA RUTA D-409, R. COQUIMBO",
-  "puntaje": 7,
-  "categorias": [
-   "Vialidad / transito"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de Coquimbo ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-08-05T10:30",
-  "fecha_publicacion": "2026-06-26",
-  "descripcion": "Evaluar alternativas de preinversión para la Ruta D‑409 mediante análisis técnico, económico, ambiental y social, a fin de definir un anteproyecto que optimice la conectividad y seguridad vial.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-10-O126"
  },
  {
   "codigo": "2345-102-LP26",
@@ -251,55 +251,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=611134-8-LE26"
  },
  {
-  "codigo": "5048-11-O126",
-  "nombre": "EI MEJ. RUTAS G78F – F768G Y F-760  COLLIGUAY, R.M Y R. VALPARAÍSO",
+  "codigo": "3885-45-LE26",
+  "nombre": "Actualización Plan de Desarrollo Comunal de Pica",
   "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
   "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-08-12T10:30",
-  "fecha_publicacion": "2026-06-30",
-  "descripcion": "Desarrollar el estudio de ingeniería para el mejoramiento de las rutas del sector Colliguay, mediante análisis y diseño integral de alternativas, a fin de definir un proyecto vial definitivo que mejore la conectividad y reduzca el aislamiento.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-11-O126"
- },
- {
-  "codigo": "2262-4-O126",
-  "nombre": "E.I. I-72, SECTOR LOLOL ALTO NILAHUE, LOLOL",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - VI Región - Licitación de Obras",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-08-20T23:00",
-  "fecha_publicacion": "2026-07-14",
-  "descripcion": "ESTUDIO DE INGENIERÍA “MEJORAMIENTO RUTA I-72, SECTOR LOLOL ALTO NILAHUE, COMUNA DE LOLOL, REGION DE O’HIGGINS",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2262-4-O126"
- },
- {
-  "codigo": "5048-8-O126",
-  "nombre": "EI CONST. PUENTE HUMIRE Y MEJ. PUENTE COCHIZA REGION ARICA Y PARINACOTA ",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de Arica y Parinacota",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-08-21T10:30",
-  "fecha_publicacion": "2026-06-30",
-  "descripcion": "Estudio de Ingeniería de detalle para evaluar la factibilidad técnica, económica, social y ambiental del mejoramiento del Puente Humire y la construcción de un nuevo puente en el sector de Cochiza, con el objeto de reemplazar las soluciones provisorias existentes por infraestructura vial definitiva.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-8-O126"
+  "organismo": "I MUNICIPALIDAD DE PICA",
+  "unidad": "Municipalidad de Pica",
+  "region": "Región de Tarapacá  ",
+  "tipo": "LE",
+  "monto": "16.000.000 CLP",
+  "fecha_cierre": "2026-08-20T16:00",
+  "fecha_publicacion": "2026-08-05",
+  "descripcion": "servicios especializados para la actualización del Plan de Desarrollo Comunal PLADECO, instrumento rector de la planificación estratégica comunal, orientado a guiar el desarrollo integral del territorio en el mediano y largo plazo.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3885-45-LE26"
  },
  {
   "codigo": "5268-17-O126",
@@ -351,23 +319,6 @@
   "fecha_publicacion": "2026-07-30",
   "descripcion": "Tiene como objetivo elaborar los antecedentes para la licitación de los proyecto  de mejoramiento de caminos rurales",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2261-15-O126"
- },
- {
-  "codigo": "5268-24-O126",
-  "nombre": "EI REPOSICIÓN PUENTE PONOTRO EN RUTA P-632, COMUNA DE CAÑETE",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - VIII Región - Licitación de Obras",
-  "region": "Región del Biobío ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-09-02T11:00",
-  "fecha_publicacion": "2026-07-31",
-  "descripcion": "ESTUDIO DE INGENIERIA  REPOSICION PUENTE PONOTRO EN RUTAP-632, COMUNA DE CAÑETE, PROVINCIA DE ARAUCO, REGION DEL BIOBIO.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-24-O126"
  },
  {
   "codigo": "5048-37-O126",
