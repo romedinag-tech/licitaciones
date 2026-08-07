@@ -355,6 +355,42 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-38-O126"
  },
  {
+  "codigo": "2216-22-O126",
+  "nombre": "CONSULTORÍA AMBIENTAL ESTRATÉGICA PARA LA ELABORACIÓN DEL ESTUDIO DE IMPACT",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MOP Dirección General de Concesiones",
+  "unidad": "MOP Dirección General de Concesiones",
+  "region": "Región de Coquimbo ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-10-02T15:00",
+  "fecha_publicacion": "2026-08-07",
+  "descripcion": "Prestar los servicios de elaboración, ingreso y tramitación ambiental del Estudio de Impacto Ambiental EIA del Proyecto de Conducción y Almacenamiento, y de las respuestas y complementos que sean requeridos durante la evaluación en el SEIA incluyendo Adendas, aclaraciones, rectificaciones y antecedentes complementarios, hasta la dictación de la Resolución de Calificación Ambiental RCA favorable, cumpliendo con la Ley N°19.300 de Bases Generales de Medio Ambiente, el Reglamento del Sistema de Evaluación de Impacto Ambiental RSEIA y sus modificaciones.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-22-O126"
+ },
+ {
+  "codigo": "966131-48-LE26",
+  "nombre": "ESTUDIO VIAL DE SEGURIDAD Y GESTIÓN DE RIESGO Y DESASTRES PARA EL PQMB BARRIO TEJIENDO SUEÑOS COMUNA DE CASTRO",
+  "puntaje": 3,
+  "categorias": [
+   "Vialidad / transito"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE CASTRO",
+  "unidad": "SECPLAN",
+  "region": "Región de los Lagos ",
+  "tipo": "LE",
+  "monto": "14.000.000 CLP",
+  "fecha_cierre": "2026-08-17T17:33",
+  "fecha_publicacion": "2026-08-06",
+  "descripcion": "La necesidad de contribuir al mejoramiento de la calidad de vida de los habitantes de barrios que presentan problemas de deterioro urbano y vulnerabilidad social, mediante el mejoramiento y/o dotación de espacios públicos, equipamiento comunitario y entornos barriales.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-48-LE26"
+ },
+ {
   "codigo": "577289-1-LE26",
   "nombre": "ACTUALIZACIÓN PLAN DIRECTOR DE LOGÍSTICA NACIONAL",
   "puntaje": 3,
