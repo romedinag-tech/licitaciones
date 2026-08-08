@@ -21,6 +21,26 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5407-57-LE26"
  },
  {
+  "codigo": "619284-6-LR26",
+  "nombre": "Actualización Encuesta Origen Destino  Coquimbo—La Serena",
+  "puntaje": 14,
+  "categorias": [
+   "Demanda / EOD / aforos",
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LR",
+  "monto": "483.193.277 CLP",
+  "fecha_cierre": "2026-09-07T15:00",
+  "fecha_publicacion": "2026-08-07",
+  "descripcion": "El objetivo general del presente estudio es desarrollar una encuesta de movilidad en la conurbación Coquimbo—La Serena y un conjunto de mediciones complementarias, de manera de disponer de información actualizada de la demanda de transporte urbano. ",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-6-LR26"
+ },
+ {
   "codigo": "619284-3-LR26",
   "nombre": "Actualización Plan Maestro de Transporte Urbano de Talca y Maule Etapa III",
   "puntaje": 13,
@@ -232,23 +252,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-12-O126"
  },
  {
-  "codigo": "611134-8-LE26",
-  "nombre": "ELABORACIÓN Y PRESENTACIÓN DIDÁCTICA DE INSTRUMENTOS Y MATERIAL DE EDUCACIÓN AMBIENTAL EN EL MARCO DE LA IMPLEMENTACIÓN DEL PLAN DE ACCIÓN REGIONAL DE CAMBIO CLIMÁTICO DE LA REGIÓN METROPOLITANA",
+  "codigo": "3706-42-LE26",
+  "nombre": "ACTUALIZACIÓN PLADECO 2026 – 2030 COMUNA DE SAN I",
   "puntaje": 4,
   "categorias": [
    "Planificacion urbana / IPT"
   ],
   "org_clave": false,
   "bip": "",
-  "organismo": "SUBSECRETARIA DEL MEDIO AMBIENTE",
-  "unidad": "Seremi Region Metropolitana",
-  "region": "Región Metropolitana de Santiago",
+  "organismo": "I MUNICIPALIDAD DE SAN IGNACIO",
+  "unidad": "Adquisiciones",
+  "region": "Región del Ñuble",
   "tipo": "LE",
-  "monto": "18.000.000 CLP",
-  "fecha_cierre": "2026-08-11T15:30",
-  "fecha_publicacion": "2026-07-30",
-  "descripcion": "Desarrollar y presentar de manera didáctica instrumentos educativos y material pedagógico que fortalezcan la educación ambiental sobre cambio climático en establecimientos educacionales y que promuevan la valoración de los humedales urbanos y áreas protegidas de la Región Metropolitana, en línea con las acciones 5.1 y 5.2 contenidas en el PARCC de la RM, siendo estas:\r\n\r\nAcción 5.1. Elaboración de instrumentos de planificación educativa que incorporen el Cambio Climático, mediante el apoyo técnico y la formulación de instrumentos orientadores para actualizar material pedagógico, mallas curriculares y los Planes Integrales de Seguridad Escolar.\r\n\r\nAcción 5.2. Implementación de programas de educación para la promoción del uso público sostenible de humedales urbanos y otras áreas protegidas.\r\n",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=611134-8-LE26"
+  "monto": "",
+  "fecha_cierre": "2026-08-18T15:30",
+  "fecha_publicacion": "2026-08-07",
+  "descripcion": "Este proyecto consiste en la elaboración de cinco productos, mediante un proceso participativo con la comunidad organizada, \r\nel consejo municipal y los diferentes agentes sociales de la comuna, denominados: Informe Inicial, Mapa Comunal, matriz \r\nPLADECO, Fichas Individuales de la Iniciativa e Informe final. A demás, este debe ser presentado y aprobado por el Alcalde \r\ny el Honorable Concejo Municipal. \r\nPara la elaboración del PLADECO, el adjudicatario deberá actualizar la información de la población comunal, contenida en el \r\nPunto N°6, de los Términos de Referencia, utilizando para ello los últimos datos del INE.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3706-42-LE26"
  },
  {
   "codigo": "3885-45-LE26",
