@@ -341,6 +341,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2261-15-O126"
  },
  {
+  "codigo": "2600-22-LP26",
+  "nombre": "Estudio actualización Plan Regulador Comunal",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE PARRAL",
+  "unidad": "SECPLAN",
+  "region": "Región del Maule ",
+  "tipo": "LP",
+  "monto": "",
+  "fecha_cierre": "2026-09-01T15:30",
+  "fecha_publicacion": "2026-08-10",
+  "descripcion": "Estudio actualización Plan Regulador de la comuna de Parral.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2600-22-LP26"
+ },
+ {
   "codigo": "5048-37-O126",
   "nombre": "E.BÁSICO DIAGNÓSTICO ZONAS DE ADELANTAMIENTO REGIONES BIOBÍO Y ARAUCANÍA",
   "puntaje": 4,
