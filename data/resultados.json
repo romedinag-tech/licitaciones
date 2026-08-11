@@ -41,26 +41,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-6-LR26"
  },
  {
-  "codigo": "619284-3-LR26",
-  "nombre": "Actualización Plan Maestro de Transporte Urbano de Talca y Maule Etapa III",
-  "puntaje": 13,
-  "categorias": [
-   "Planificacion urbana / IPT",
-   "Transporte / movilidad"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DE TRANSPORTES",
-  "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LR",
-  "monto": "550.420.168 CLP",
-  "fecha_cierre": "2026-08-10T15:00",
-  "fecha_publicacion": "2026-07-08",
-  "descripcion": "El objetivo del estudio que se licita es elaborar los Planes Maestros de Transporte Urbano (PMTU) y de Transporte Público (PMTP) de las comunas de Talca y Maule en la Región del Maule.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-3-LR26"
- },
- {
   "codigo": "520663-35-LS10",
   "nombre": "ACTUALIZACIÓN DEL PLAN DE TRANSPORTE DEL GRAN CONCEPCIÓN",
   "puntaje": 13,
@@ -358,6 +338,42 @@
   "fecha_publicacion": "2026-08-10",
   "descripcion": "Estudio actualización Plan Regulador de la comuna de Parral.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2600-22-LP26"
+ },
+ {
+  "codigo": "4110-21-LP26",
+  "nombre": "Actualización Plan de Desarrollo Comunal",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE CALLE LARGA",
+  "unidad": "SECPLAC",
+  "region": "Región de Valparaíso ",
+  "tipo": "LP",
+  "monto": "",
+  "fecha_cierre": "2026-09-04T15:31",
+  "fecha_publicacion": "2026-08-10",
+  "descripcion": "Contratar el servicio de consultoría para la actualización del Plan de Desarrollo Comunal (PLADECO) de la Comuna de Calle Larga, según lo establecido en los Términos de Referencia que rigen el presente proceso licitatorio.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4110-21-LP26"
+ },
+ {
+  "codigo": "1068829-19-O126",
+  "nombre": "ESTUDIO DE INGENIERIA REPOSICIÓN RUTA N-447, COIHUECO, REGION DE ÑUBLE",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - DR Ñuble - Licitación Obra",
+  "region": "Región del Ñuble",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-10T08:00",
+  "fecha_publicacion": "2026-08-11",
+  "descripcion": "ESTUDIO DE INGENIERIA “REPOSICIÓN RUTA N-447, KM 11.55 AL KM 25.95, TRES ESQUINAS - COIHUECO, COMUNA DE COIHUECO, REGIÓN DE ÑUBLE”\r\n",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1068829-19-O126"
  },
  {
   "codigo": "5048-37-O126",
