@@ -215,23 +215,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-33-O126"
  },
  {
-  "codigo": "5048-12-O126",
-  "nombre": "EP CONST Y MEJ PASADA URBANA RUTA I-60, PUMANQUE, O’HIGGINS",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-08-11T11:30",
-  "fecha_publicacion": "2026-06-25",
-  "descripcion": "El presente estudio tiene por objeto diagnosticar y evaluar alternativas viales para mejorar la circulación, seguridad, conectividad y calidad urbana en la comuna de Pumanque, considerando criterios técnicos, ambientales, territoriales y sociales.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-12-O126"
- },
- {
   "codigo": "3706-42-LE26",
   "nombre": "ACTUALIZACIÓN PLADECO 2026 – 2030 COMUNA DE SAN I",
   "puntaje": 4,
@@ -270,21 +253,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3885-45-LE26"
  },
  {
-  "codigo": "5268-17-O126",
-  "nombre": "CONSULTORIA DIAG Y ELAB PROY PAV RURALES PROV ARAUCO Y CONCEP",
+  "codigo": "3181-23-LE26",
+  "nombre": "ACTUALIZACIÓN DE PLADECO 2027-2032 COMUNA DE MACH",
   "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
   "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - VIII Región - Licitación de Obras",
-  "region": "Región del Biobío ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-08-25T10:00",
-  "fecha_publicacion": "2026-07-23",
-  "descripcion": "“CONSULTORÍA DIAGNÓSTICO Y ELABORACIÓN DE PROYECTOS PAVIMENTOS RURALES, PROVINCIAS DE ARAUCO Y CONCEPCIÓN, REGIÓN DEL BIOBÍO”.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-17-O126"
+  "organismo": "ILUSTRE MUNICIPALIDAD DE MACHALI",
+  "unidad": "ILUSTRE MUNICIPALIDAD DE MACHALI",
+  "region": "Región del Libertador General Bernardo O´Higgins",
+  "tipo": "LE",
+  "monto": "30.000.000 CLP",
+  "fecha_cierre": "2026-08-21T09:00",
+  "fecha_publicacion": "2026-08-11",
+  "descripcion": "ACTUALIZACIÓN DE PLADECO 2027-2032, COMUNA DE MACHALÍ”",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3181-23-LE26"
  },
  {
   "codigo": "2010-9-O126",
@@ -302,6 +287,23 @@
   "fecha_publicacion": "2026-07-10",
   "descripcion": "SE CONTEMPLA EL ESTUDIO Y ANÁLISIS TÉCNICO DEL MEJORAMIENTO INTEGRAL DE LAS RUTAS F-382 Y F-326.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2010-9-O126"
+ },
+ {
+  "codigo": "5268-17-O126",
+  "nombre": "CONSULTORIA DIAG Y ELAB PROY PAV RURALES PROV ARAUCO Y CONCEP",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - VIII Región - Licitación de Obras",
+  "region": "Región del Biobío ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-08-28T10:00",
+  "fecha_publicacion": "2026-07-23",
+  "descripcion": "“CONSULTORÍA DIAGNÓSTICO Y ELABORACIÓN DE PROYECTOS PAVIMENTOS RURALES, PROVINCIAS DE ARAUCO Y CONCEPCIÓN, REGIÓN DEL BIOBÍO”.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-17-O126"
  },
  {
   "codigo": "2261-15-O126",
