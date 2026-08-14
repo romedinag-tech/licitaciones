@@ -395,6 +395,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-37-O126"
  },
  {
+  "codigo": "1068829-20-O126",
+  "nombre": "ESTUDIO DE INGENIERIA REPOSICIÓN RUTA N-55, PINTO, REGIÓN DE ÑUBLE",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - DR Ñuble - Licitación Obra",
+  "region": "Región del Ñuble",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-15T08:00",
+  "fecha_publicacion": "2026-08-14",
+  "descripcion": "ESTUDIO DE INGENIERÍA “REPOSICIÓN RUTA N-55, KM 52.600 AL KM 77.248, COMUNA DE PINTO, REGIÓN DE ÑUBLE”",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1068829-20-O126"
+ },
+ {
   "codigo": "5048-38-O126",
   "nombre": "EP CONST P FRONT OLLAGÜE. RUTA 21 CH. SECTOR: CHIU CHIU-ESTACIÓN SAN PEDRO",
   "puntaje": 4,
