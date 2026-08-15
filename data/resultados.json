@@ -306,6 +306,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-17-O126"
  },
  {
+  "codigo": "3336-19-LE26",
+  "nombre": "ACTUALIZACIÓN PLADECO LA UNIÓN 2026-2030.",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE LA UNION",
+  "unidad": "Dirección de SECPLA",
+  "region": "Región de Los Ríos",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-08-31T15:30",
+  "fecha_publicacion": "2026-08-14",
+  "descripcion": "La Ilustre Municipalidad de La Unión requiere actualización del plan de desarrollo comunal de La Unión 2026-2030.\r\n\r\nEl estudio busca actualizar el instrumento rector del desarrollo comunal, definiendo objetivos estratégicos, una visión compartida de futuro y una cartera de proyectos para el periodo 2026-2030. Debe orientar la gestión municipal considerando las dinámicas locales, regionales y nacionales de acuerdo a los términos de referencia que rigen la licitación del estudio.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3336-19-LE26"
+ },
+ {
   "codigo": "2261-15-O126",
   "nombre": "Consultoría Caminos Rurales Malleco-Cautín, Región de La Araucanía",
   "puntaje": 4,
