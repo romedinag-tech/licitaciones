@@ -215,25 +215,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-33-O126"
  },
  {
-  "codigo": "3706-42-LE26",
-  "nombre": "ACTUALIZACIÓN PLADECO 2026 – 2030 COMUNA DE SAN I",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE SAN IGNACIO",
-  "unidad": "Adquisiciones",
-  "region": "Región del Ñuble",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-08-18T15:30",
-  "fecha_publicacion": "2026-08-07",
-  "descripcion": "Este proyecto consiste en la elaboración de cinco productos, mediante un proceso participativo con la comunidad organizada, \r\nel consejo municipal y los diferentes agentes sociales de la comuna, denominados: Informe Inicial, Mapa Comunal, matriz \r\nPLADECO, Fichas Individuales de la Iniciativa e Informe final. A demás, este debe ser presentado y aprobado por el Alcalde \r\ny el Honorable Concejo Municipal. \r\nPara la elaboración del PLADECO, el adjudicatario deberá actualizar la información de la población comunal, contenida en el \r\nPunto N°6, de los Términos de Referencia, utilizando para ello los últimos datos del INE.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3706-42-LE26"
- },
- {
   "codigo": "3885-45-LE26",
   "nombre": "Actualización Plan de Desarrollo Comunal de Pica",
   "puntaje": 4,
@@ -414,6 +395,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-37-O126"
  },
  {
+  "codigo": "5283-10-O126",
+  "nombre": "ASESORÍA PAVIMENTOS RURALES PROVINCIA DE GENERAL CARRERA, REGIÓN DE AYSÉN",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - XI Región - Licitación de Obras",
+  "region": "Región Aysén del General Carlos Ibáñez del Campo",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-11T15:00",
+  "fecha_publicacion": "2026-08-18",
+  "descripcion": "ASESORÍA PAVIMENTOS RURALES PROVINCIA DE GENERAL CARRERA, REGIÓN DE AYSÉN",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5283-10-O126"
+ },
+ {
   "codigo": "1068829-20-O126",
   "nombre": "ESTUDIO DE INGENIERIA REPOSICIÓN RUTA N-55, PINTO, REGIÓN DE ÑUBLE",
   "puntaje": 4,
@@ -463,25 +461,6 @@
   "fecha_publicacion": "2026-08-07",
   "descripcion": "Prestar los servicios de elaboración, ingreso y tramitación ambiental del Estudio de Impacto Ambiental EIA del Proyecto de Conducción y Almacenamiento, y de las respuestas y complementos que sean requeridos durante la evaluación en el SEIA incluyendo Adendas, aclaraciones, rectificaciones y antecedentes complementarios, hasta la dictación de la Resolución de Calificación Ambiental RCA favorable, cumpliendo con la Ley N°19.300 de Bases Generales de Medio Ambiente, el Reglamento del Sistema de Evaluación de Impacto Ambiental RSEIA y sus modificaciones.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-22-O126"
- },
- {
-  "codigo": "966131-48-LE26",
-  "nombre": "ESTUDIO VIAL DE SEGURIDAD Y GESTIÓN DE RIESGO Y DESASTRES PARA EL PQMB BARRIO TEJIENDO SUEÑOS COMUNA DE CASTRO",
-  "puntaje": 3,
-  "categorias": [
-   "Vialidad / transito"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE CASTRO",
-  "unidad": "SECPLAN",
-  "region": "Región de los Lagos ",
-  "tipo": "LE",
-  "monto": "14.000.000 CLP",
-  "fecha_cierre": "2026-08-17T17:33",
-  "fecha_publicacion": "2026-08-06",
-  "descripcion": "La necesidad de contribuir al mejoramiento de la calidad de vida de los habitantes de barrios que presentan problemas de deterioro urbano y vulnerabilidad social, mediante el mejoramiento y/o dotación de espacios públicos, equipamiento comunitario y entornos barriales.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-48-LE26"
  },
  {
   "codigo": "577289-1-LE26",
