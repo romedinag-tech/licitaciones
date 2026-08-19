@@ -138,25 +138,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-5-LP26"
  },
  {
-  "codigo": "660-8-LE26",
-  "nombre": "SUBSANACIÓN OBSERVACIONES ESTUDIO PLAN REGULADOR",
-  "puntaje": 8,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
-  "unidad": "SEREMI IX REGION",
-  "region": "Región de la Araucanía ",
-  "tipo": "LE",
-  "monto": "50.000.000 CLP",
-  "fecha_cierre": "2026-08-18T09:30",
-  "fecha_publicacion": "2026-07-30",
-  "descripcion": "SUBSANACIÓN OBSERVACIONES ESTUDIO PLAN REGULADOR COMUNAL DE FREIRE, LOCALIDADES DE FREIRE, RADAL Y QUEPE Y, EXPOSICIÓN Y AUDIENCIAS PÚBLICAS DEL PLAN, SEGÚN ARTICULO 2.1.11. OGUC",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-8-LE26"
- },
- {
   "codigo": "2345-102-LP26",
   "nombre": "DESRATIZACIÓN DEMOLICIÓN Y RETIRO DE EXCEDENTES DE RECINTO MUNICIPAL DE LA DIRECCION DE TRÁNSITO EN PARQUE ARAUCANO COMUNA DE LAS CONDES",
   "puntaje": 7,
@@ -213,6 +194,25 @@
   "fecha_publicacion": "2026-07-31",
   "descripcion": "Evaluación del estado de la seguridad vial y determinación de mejoras en la materia para adecuar el estándar de la red vial.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-33-O126"
+ },
+ {
+  "codigo": "4610-68-LP26",
+  "nombre": "Estudio Diseño Parador de Buses Puerto Guadal",
+  "puntaje": 5,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE CHILE CHICO",
+  "unidad": "Secplac",
+  "region": "Región Aysén del General Carlos Ibáñez del Campo",
+  "tipo": "LP",
+  "monto": "",
+  "fecha_cierre": "2026-09-09T09:00",
+  "fecha_publicacion": "2026-08-19",
+  "descripcion": "Las presentes Bases Administrativas y Términos Técnicos de Referencia reglamentan la contratación por parte de la Municipalidad de Chile Chico, del llamado a licitación para la contratación del Estudio “Diseño de un Parador de Buses en Puerto Guadal”. Lo anterior, en el marco del Convenio de tansferencia de recursos entre la Subsecretaría de Transportes y la I. Municipalidad de Chile Chico.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4610-68-LP26"
  },
  {
   "codigo": "3885-45-LE26",
@@ -429,6 +429,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1068829-20-O126"
  },
  {
+  "codigo": "610-15-LP26",
+  "nombre": "Estudio de apoyo para la determinación de los Costos Anuales de Operación Mantenimiento y Administración y otros costos para el Proceso de Valorización de la Transmisión 2029-2032",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "Comisión Nacional de Energía",
+  "unidad": "Comisión Nacional de Energía",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "70.000.000 CLP",
+  "fecha_cierre": "2026-09-16T16:00",
+  "fecha_publicacion": "2026-08-18",
+  "descripcion": "Desarrollar un estudio técnico para la revisión y determinación de las componentes  del C.O.M.A. y V.I. de los Derecho de Uso de Suelo y Medio Ambiente de las instalaciones de los sistemas de transmisión para el Proceso de Valorización de la Transmisión 2029-2032, considerando los sistemas de transmisión nacional, zonal y las instalaciones de los sistemas de transmisión dedicados utilizadas por usuarios sometidos a regulación de precios a partir de los Estudios de Valorización de la Transmisión 2024-2027",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=610-15-LP26"
+ },
+ {
   "codigo": "5048-38-O126",
   "nombre": "EP CONST P FRONT OLLAGÜE. RUTA 21 CH. SECTOR: CHIU CHIU-ESTACIÓN SAN PEDRO",
   "puntaje": 4,
@@ -461,6 +480,23 @@
   "fecha_publicacion": "2026-08-07",
   "descripcion": "Prestar los servicios de elaboración, ingreso y tramitación ambiental del Estudio de Impacto Ambiental EIA del Proyecto de Conducción y Almacenamiento, y de las respuestas y complementos que sean requeridos durante la evaluación en el SEIA incluyendo Adendas, aclaraciones, rectificaciones y antecedentes complementarios, hasta la dictación de la Resolución de Calificación Ambiental RCA favorable, cumpliendo con la Ley N°19.300 de Bases Generales de Medio Ambiente, el Reglamento del Sistema de Evaluación de Impacto Ambiental RSEIA y sus modificaciones.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-22-O126"
+ },
+ {
+  "codigo": "5048-42-O126",
+  "nombre": "E.FACTIBILIDAD CONSTR. YO MEJ.RUTA G-16 SECTOR: A.VESPUCIO – LAMPA, RM",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-10-07T11:30",
+  "fecha_publicacion": "2026-08-18",
+  "descripcion": "Estudio para desarrollar un análisis técnico, económico, social y ambiental para el mejoramiento de la conectividad entre la comuna de Lampa y el Gran Santiago en una longitud aproximada de 16 kilómetros.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-42-O126"
  },
  {
   "codigo": "577289-1-LE26",
