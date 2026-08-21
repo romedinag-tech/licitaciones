@@ -138,26 +138,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-5-LP26"
  },
  {
-  "codigo": "2345-102-LP26",
-  "nombre": "DESRATIZACIÓN DEMOLICIÓN Y RETIRO DE EXCEDENTES DE RECINTO MUNICIPAL DE LA DIRECCION DE TRÁNSITO EN PARQUE ARAUCANO COMUNA DE LAS CONDES",
-  "puntaje": 7,
-  "categorias": [
-   "Planificacion urbana / IPT",
-   "Vialidad / transito"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE LAS CONDES",
-  "unidad": "I MUNICIPALIDAD DE LAS CONDES",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LP",
-  "monto": "160.000.000 CLP",
-  "fecha_cierre": "2026-08-20T15:01",
-  "fecha_publicacion": "2026-07-14",
-  "descripcion": "El presente proceso de licitación tiene por objeto la contratación de los servicios de demolición de las instalaciones correspondientes a la actual Dirección de Tránsito de la Municipalidad de Las Condes, ubicada en Av. Presidente Riesco N° 5296, con el fin de habilitar dicha superficie para su incorporación al Parque Araucano, en el marco del Plan Maestro desarrollado por el municipio.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2345-102-LP26"
- },
- {
   "codigo": "2261-14-O126",
   "nombre": "Consultoría Varios Cruces Region de La Araucanía",
   "puntaje": 7,
@@ -340,6 +320,25 @@
   "fecha_publicacion": "2026-08-10",
   "descripcion": "Estudio actualización Plan Regulador de la comuna de Parral.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2600-22-LP26"
+ },
+ {
+  "codigo": "4134-31-LE26",
+  "nombre": "ELABORACION PLADECO 2026-2031",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "ILUSTRE MUNICIPALIDAD  DE SAGRADA FAMILIA",
+  "unidad": "ADMINISTRACION Y FINANZAS - ADQUISICIONES",
+  "region": "Región del Maule ",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-09-04T15:02",
+  "fecha_publicacion": "2026-08-20",
+  "descripcion": "La presente contratación tiene por objeto la Elaboración del Plan de Desarrollo Comunal de Sagrada Familia 2026-2031, de conformidad con lo establecido en las presentes Bases Administrativas Generales, las Bases Técnicas, los Términos Técnicos de Referencia, las aclaraciones, modificaciones, consultas y respuestas que se emitan durante el proceso licitatorio, y demás antecedentes que formen parte integrante de la licitación",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4134-31-LE26"
  },
  {
   "codigo": "4110-21-LP26",
