@@ -176,6 +176,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-33-O126"
  },
  {
+  "codigo": "1606-26-LE26",
+  "nombre": "Servicio de Consultoría Movilidad Concepción para el Proyecto Apoyo a la estrategia Chilena de transporte sostenible - CLETS Financiado por la GEF e implementado por CAF",
+  "puntaje": 5,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "AGENCIA CHILENA DE COOPERACION INTERNACIONAL PARA EL DESARROLLO",
+  "unidad": "AGCID",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-09-02T15:10",
+  "fecha_publicacion": "2026-08-21",
+  "descripcion": "Diagnosticar la situación actual del uso de la bicicleta y otros “modos ciclo” en el Gran Concepción, analizando la demanda de viajes, la conectividad de la red de ciclovías y su capacidad de integración con el modo ferroviario (Biotren), para determinar las barreras técnicas que limitan la eficiencia del uso del modo.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1606-26-LE26"
+ },
+ {
   "codigo": "4610-68-LP26",
   "nombre": "Estudio Diseño Parador de Buses Puerto Guadal",
   "puntaje": 5,
@@ -193,42 +212,6 @@
   "fecha_publicacion": "2026-08-19",
   "descripcion": "Las presentes Bases Administrativas y Términos Técnicos de Referencia reglamentan la contratación por parte de la Municipalidad de Chile Chico, del llamado a licitación para la contratación del Estudio “Diseño de un Parador de Buses en Puerto Guadal”. Lo anterior, en el marco del Convenio de tansferencia de recursos entre la Subsecretaría de Transportes y la I. Municipalidad de Chile Chico.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4610-68-LP26"
- },
- {
-  "codigo": "3181-23-LE26",
-  "nombre": "ACTUALIZACIÓN DE PLADECO 2027-2032 COMUNA DE MACH",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "ILUSTRE MUNICIPALIDAD DE MACHALI",
-  "unidad": "ILUSTRE MUNICIPALIDAD DE MACHALI",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "LE",
-  "monto": "30.000.000 CLP",
-  "fecha_cierre": "2026-08-21T09:00",
-  "fecha_publicacion": "2026-08-11",
-  "descripcion": "ACTUALIZACIÓN DE PLADECO 2027-2032, COMUNA DE MACHALÍ”",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3181-23-LE26"
- },
- {
-  "codigo": "2010-9-O126",
-  "nombre": "ESTUDIO ING.MEJORAMIENTO CIRCUITO VIAL RUTAS F-382 Y F-326,QTA.Y LA CRUZ",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - V Región - Licitación de Obras",
-  "region": "Región de Valparaíso ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-08-25T13:00",
-  "fecha_publicacion": "2026-07-10",
-  "descripcion": "SE CONTEMPLA EL ESTUDIO Y ANÁLISIS TÉCNICO DEL MEJORAMIENTO INTEGRAL DE LAS RUTAS F-382 Y F-326.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2010-9-O126"
  },
  {
   "codigo": "3885-45-LE26",
@@ -250,21 +233,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3885-45-LE26"
  },
  {
-  "codigo": "5268-17-O126",
-  "nombre": "CONSULTORIA DIAG Y ELAB PROY PAV RURALES PROV ARAUCO Y CONCEP",
+  "codigo": "2660-68-LE26",
+  "nombre": "Consultoría para la actualización de PLADECO IMA",
   "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
   "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - VIII Región - Licitación de Obras",
-  "region": "Región del Biobío ",
-  "tipo": "O1",
+  "organismo": "I MUNICIPALIDAD DE ANCUD",
+  "unidad": "Secretaria Comunal de Planificaciòn",
+  "region": "Región de los Lagos ",
+  "tipo": "LE",
   "monto": "",
-  "fecha_cierre": "2026-08-28T10:00",
-  "fecha_publicacion": "2026-07-23",
-  "descripcion": "“CONSULTORÍA DIAGNÓSTICO Y ELABORACIÓN DE PROYECTOS PAVIMENTOS RURALES, PROVINCIAS DE ARAUCO Y CONCEPCIÓN, REGIÓN DEL BIOBÍO”.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-17-O126"
+  "fecha_cierre": "2026-08-31T15:01",
+  "fecha_publicacion": "2026-08-21",
+  "descripcion": "La Ilustre Municipalidad requiere contratar el servicio de consultoría para la actualización del Plan de Desarrollo Comunal PLADECO 2027–2032, instrumento de planificación estratégica establecido en la Ley N° 18.695, Orgánica Constitucional de Municipalidades, que orienta el desarrollo integral de la comuna en sus dimensiones social, económica, territorial, ambiental e institucional.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2660-68-LE26"
  },
  {
   "codigo": "3336-19-LE26",
@@ -301,6 +286,23 @@
   "fecha_publicacion": "2026-07-30",
   "descripcion": "Tiene como objetivo elaborar los antecedentes para la licitación de los proyecto  de mejoramiento de caminos rurales",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2261-15-O126"
+ },
+ {
+  "codigo": "5268-17-O126",
+  "nombre": "CONSULTORIA DIAG Y ELAB PROY PAV RURALES PROV ARAUCO Y CONCEP",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - VIII Región - Licitación de Obras",
+  "region": "Región del Biobío ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-01T11:00",
+  "fecha_publicacion": "2026-07-23",
+  "descripcion": "“CONSULTORÍA DIAGNÓSTICO Y ELABORACIÓN DE PROYECTOS PAVIMENTOS RURALES, PROVINCIAS DE ARAUCO Y CONCEPCIÓN, REGIÓN DEL BIOBÍO”.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-17-O126"
  },
  {
   "codigo": "2600-22-LP26",
@@ -358,6 +360,23 @@
   "fecha_publicacion": "2026-08-10",
   "descripcion": "Contratar el servicio de consultoría para la actualización del Plan de Desarrollo Comunal (PLADECO) de la Comuna de Calle Larga, según lo establecido en los Términos de Referencia que rigen el presente proceso licitatorio.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4110-21-LP26"
+ },
+ {
+  "codigo": "2010-9-O126",
+  "nombre": "ESTUDIO ING.MEJORAMIENTO CIRCUITO VIAL RUTAS F-382 Y F-326,QTA.Y LA CRUZ",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - V Región - Licitación de Obras",
+  "region": "Región de Valparaíso ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-08T09:00",
+  "fecha_publicacion": "2026-07-10",
+  "descripcion": "SE CONTEMPLA EL ESTUDIO Y ANÁLISIS TÉCNICO DEL MEJORAMIENTO INTEGRAL DE LAS RUTAS F-382 Y F-326.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2010-9-O126"
  },
  {
   "codigo": "1068829-19-O126",
@@ -426,25 +445,6 @@
   "fecha_publicacion": "2026-08-14",
   "descripcion": "ESTUDIO DE INGENIERÍA “REPOSICIÓN RUTA N-55, KM 52.600 AL KM 77.248, COMUNA DE PINTO, REGIÓN DE ÑUBLE”",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1068829-20-O126"
- },
- {
-  "codigo": "610-15-LP26",
-  "nombre": "Estudio de apoyo para la determinación de los Costos Anuales de Operación Mantenimiento y Administración y otros costos para el Proceso de Valorización de la Transmisión 2029-2032",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "Comisión Nacional de Energía",
-  "unidad": "Comisión Nacional de Energía",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LP",
-  "monto": "70.000.000 CLP",
-  "fecha_cierre": "2026-09-16T16:00",
-  "fecha_publicacion": "2026-08-18",
-  "descripcion": "Desarrollar un estudio técnico para la revisión y determinación de las componentes  del C.O.M.A. y V.I. de los Derecho de Uso de Suelo y Medio Ambiente de las instalaciones de los sistemas de transmisión para el Proceso de Valorización de la Transmisión 2029-2032, considerando los sistemas de transmisión nacional, zonal y las instalaciones de los sistemas de transmisión dedicados utilizadas por usuarios sometidos a regulación de precios a partir de los Estudios de Valorización de la Transmisión 2024-2027",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=610-15-LP26"
  },
  {
   "codigo": "5048-38-O126",
