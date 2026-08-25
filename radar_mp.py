@@ -171,9 +171,12 @@ def main():
     # nombre, MAS todo lo de organismos clave conocidos (por prefijo), aunque el
     # nombre no calce (asi no se pierde, p.ej., una ortofoto de SECTRA).
     candidatas = []
-    # códigos MOP de estudio al inicio del nombre: EI (Estudio de Ingeniería),
-    # EP (Estudio de Preinversión), EII, e.i., e.p.
-    tipo_mop = re.compile(r"^(ei|eii|ep|e\.i|e\.p)\b")
+    # códigos MOP de estudio al inicio del nombre. Vialidad prefija sus estudios
+    # con una abreviatura de "Estudio ...": EP (preinversión/prefactibilidad),
+    # EI/EII (ingeniería), EST. (EST. BAS., EST. PREF.), E.BÁSICO, E.FACTIBILIDAD.
+    # OJO: antes solo entraban EI/EP y se caían p.ej. "EST. PREF. CONST. PTE.
+    # ... EJE ALESSANDRI" (5048-27), un estudio de prefactibilidad de un puente.
+    tipo_mop = re.compile(r"^(est\.?|e\.?\s?(i{1,2}|p|b|f)|e\.?\s?(pref|prefact|bas|basic|fact))\b")
     for lic in listado:
         n = sin_tildes(lic.get("Nombre", ""))
         es_key = prefijo(lic["CodigoExterno"]) in key_orgs
