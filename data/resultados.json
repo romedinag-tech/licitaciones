@@ -81,25 +81,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-35-O126"
  },
  {
-  "codigo": "48-19-LP26",
-  "nombre": "Rutas Peatonales Hospitales Peñalolén en la RM",
-  "puntaje": 9,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION AREA METROPOLITANA",
-  "unidad": "SERVIU Metropolitano",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LP",
-  "monto": "154.000.000 CLP",
-  "fecha_cierre": "2026-08-24T15:00",
-  "fecha_publicacion": "2026-08-03",
-  "descripcion": "Servicio de consultoría de diseño para la Normalización y Mejoramiento Rutas Peatonales en Entorno de Hospitales en la comuna de Peñalolén, en la Región Metropolitana",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=48-19-LP26"
- },
- {
   "codigo": "619284-4-LR26",
   "nombre": "Diagnóstico Sistema de Transporte Público del Área Metropolitana de Alto Hospicio—Iquique",
   "puntaje": 9,
@@ -113,7 +94,7 @@
   "region": "Región Metropolitana de Santiago",
   "tipo": "LR",
   "monto": "378.151.260 CLP",
-  "fecha_cierre": "2026-09-02T11:00",
+  "fecha_cierre": "2026-09-04T11:00",
   "fecha_publicacion": "2026-08-03",
   "descripcion": "El objetivo fundamental del estudio es el análisis y diseño de soluciones para el mejoramiento de la regulación y operación del sistema de transporte público que opera en el área metropolitana Alto Hospicio—Iquique.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-4-LR26"
@@ -174,6 +155,25 @@
   "fecha_publicacion": "2026-07-31",
   "descripcion": "Evaluación del estado de la seguridad vial y determinación de mejoras en la materia para adecuar el estándar de la red vial.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-33-O126"
+ },
+ {
+  "codigo": "2216-21-O126",
+  "nombre": "ESTUDIO INTEGRAL CONCESIÓN CONEXIÓN PUENTE INDUSTRIAL - RUTA INTERPORTUARIA",
+  "puntaje": 7,
+  "categorias": [
+   "Concesiones / logistica"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MOP Dirección General de Concesiones",
+  "unidad": "MOP Dirección General de Concesiones",
+  "region": "Región del Biobío ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-19T15:00",
+  "fecha_publicacion": "2026-08-25",
+  "descripcion": "definir la factibilidad de licitar la actual Ruta que conecta el Puente Industrial y la Ruta Interportuaria, para lo cual es necesario desarrollar una serie de estudios base referidos a Ingeniería, Demanda y Evaluación Social, Expropiaciones, Territorial con Participación Ciudadana, Asuntos Indígenas, Ambiental, Costos de Operación y Mantenimiento y Programa de Ejecución de las Obras. El desarrollo de dichos estudios indicará los mejoramientos, complementos y obras nuevas que se requieran implementar en la infraestructura existente de la ruta actual.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-21-O126"
  },
  {
   "codigo": "1606-26-LE26",
@@ -513,24 +513,5 @@
   "fecha_publicacion": "2026-08-18",
   "descripcion": "Estudio para desarrollar un análisis técnico, económico, social y ambiental para el mejoramiento de la conectividad entre la comuna de Lampa y el Gran Santiago en una longitud aproximada de 16 kilómetros.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-42-O126"
- },
- {
-  "codigo": "577289-1-LE26",
-  "nombre": "ACTUALIZACIÓN PLAN DIRECTOR DE LOGÍSTICA NACIONAL",
-  "puntaje": 3,
-  "categorias": [
-   "Concesiones / logistica"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DE TRANSPORTES",
-  "unidad": "Programa de Desarrollo Logístico",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-08-24T16:00",
-  "fecha_publicacion": "2026-08-04",
-  "descripcion": "objetivo general del presente estudio la actualización del Plan Director de Logística Nacional para las cuatro macrozonas y además para la Macrozona Austral, con especial énfasis en la actualización de la región de Magallanes y la incorporación de las regiones de Los Lagos y Aysén del General Carlos Ibañez del Campo.\r\nPara una mayor armonización de los sistemas logísticos con el entorno social y ambiental es recomendable incorporar, para el desarrollo de todos los instrumentos Actualización del Plan Director de Logística Nacional e incorporación de las regiones faltantes de la Macrozona Austral",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577289-1-LE26"
  }
 ]
