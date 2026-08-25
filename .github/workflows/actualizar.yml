@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '0 12 * * *'   # 12:00 UTC = 08:00 Chile (horario estándar). Diario.
   workflow_dispatch:         # permite ejecutarlo a mano desde la pestaña Actions
+  push:                      # re-corre al cambiar la lógica del radar (auto-verifica un fix).
+    paths:                   # los commits del bot tocan data/ -> NO gatillan (sin loop ni hammer).
+      - 'radar_mp.py'
+      - '.github/workflows/actualizar.yml'
 
 permissions:
   contents: write
