@@ -157,6 +157,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-33-O126"
  },
  {
+  "codigo": "5048-24-O126",
+  "nombre": "EST BASICO AUSCULTACION PAV RURALES",
+  "puntaje": 7,
+  "categorias": [
+   "Vialidad / transito"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-16T11:30",
+  "fecha_publicacion": "2026-07-27",
+  "descripcion": "La presente consultoría permitirá conocer el estado estructural y funcional de los pavimentos rurales o caminos básicos, administrados por la Dirección de Vialidad. Se usarán métodos automatizados y de alto rendimiento que otorguen seguridad, eficiencia y eficacia, tanto a los procesos como a los resultados que se obtienen de ellos.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-24-O126"
+ },
+ {
   "codigo": "2216-21-O126",
   "nombre": "ESTUDIO INTEGRAL CONCESIÓN CONEXIÓN PUENTE INDUSTRIAL - RUTA INTERPORTUARIA",
   "puntaje": 7,
@@ -271,6 +290,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3336-19-LE26"
  },
  {
+  "codigo": "5048-27-O126",
+  "nombre": "EST. PREF. CONST. PTE. SOBRE EL RIO BIOBÍO EN EJE ALESSANDRI, R. DEL BIOBÍO",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región del Biobío ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-01T09:30",
+  "fecha_publicacion": "2026-07-27",
+  "descripcion": "El objetivo del presente estudio es desarrollar la prefactibilidad y anteproyecto de un nuevo puente sobre el río Biobío en el eje Alessandri y sus conexiones asociadas, mejorando la conectividad vial entre las comunas del Gran Concepción.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-27-O126"
+ },
+ {
   "codigo": "2261-15-O126",
   "nombre": "Consultoría Caminos Rurales Malleco-Cautín, Región de La Araucanía",
   "puntaje": 4,
@@ -379,6 +415,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2010-9-O126"
  },
  {
+  "codigo": "5268-24-O126",
+  "nombre": "EI REPOSICIÓN PUENTE PONOTRO EN RUTA P-632, COMUNA DE CAÑETE",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - VIII Región - Licitación de Obras",
+  "region": "Región del Biobío ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-08T10:00",
+  "fecha_publicacion": "2026-07-31",
+  "descripcion": "ESTUDIO DE INGENIERIA  REPOSICION PUENTE PONOTRO EN RUTAP-632, COMUNA DE CAÑETE, PROVINCIA DE ARAUCO, REGION DEL BIOBIO.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-24-O126"
+ },
+ {
   "codigo": "1068829-19-O126",
   "nombre": "ESTUDIO DE INGENIERIA REPOSICIÓN RUTA N-447, COIHUECO, REGION DE ÑUBLE",
   "puntaje": 4,
@@ -462,6 +515,40 @@
   "fecha_publicacion": "2026-07-31",
   "descripcion": "El presente estudio tiene por objeto evaluar la factibilidad de un nuevo emplazamiento para la ruta 21 CH entre Chiu Chiu y Estación San Pedro, considerando criterios técnicos, económicos, ambientales, territoriales y sociales.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-38-O126"
+ },
+ {
+  "codigo": "5895-17-O126",
+  "nombre": "E.I. Mejoramiento Ruta T-625 Reumen-Nontuela",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - XIV Región - Licitación de Obras",
+  "region": "Región de Los Ríos",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-23T08:00",
+  "fecha_publicacion": "2026-08-18",
+  "descripcion": "El objetivo del presente trabajo de consultoría es desarrollar un Estudio de Ingeniería de detalle, que concluya en un proyecto vial que, a través de sus planos, documentos y memorias de respaldo, permita construir las obras consideradas en estas Bases de Concurso.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5895-17-O126"
+ },
+ {
+  "codigo": "5895-21-O126",
+  "nombre": "E.I. Reposicion Puentes Cuyaima y Cano Rodríguez",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - XIV Región - Licitación de Obras",
+  "region": "Región de Los Ríos",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-24T08:00",
+  "fecha_publicacion": "2026-08-21",
+  "descripcion": "El presente estudio de ingeniería tiene como objetivo primordial el análisis y diseño de carácter definitivo de los puentes Cano Rodríguez y Cuyaima, incluyendo sus respectivos accesos. El proyecto tiene por finalidad mejorar sustantivamente las condiciones de operación, transitabilidad y conectividad permanente en los sectores de Mashue y Llancacura y sus áreas de influencia, mediante la intervención del puente Cano Rodríguez, ubicado en la comuna de La Unión. En forma análoga, la intervención del puente Cuyaima permitirá restituir y elevar el estándar de servicio en el sector Filuco y su entorno, en la comuna de Río Bueno, asegurando la continuidad y confiabilidad de la conectividad vial en ambos territorios.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5895-21-O126"
  },
  {
   "codigo": "2216-22-O126",
