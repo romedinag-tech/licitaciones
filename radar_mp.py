@@ -183,7 +183,11 @@ def main():
         if not (es_key or tipo_mop.match(n) or ESTUDIO.search(n) or ESTUDIO_FUERTE.search(n) or TEMA.search(n) or PIEP.search(n)):
             continue
         p = clasificar(lic.get("Nombre", ""))[0]
-        p += 5 if es_key else (3 if ESTUDIO.search(n) else (2 if tipo_mop.match(n) else 0))
+        # Los estudios MOP (tipo_mop) pesan como un organismo clave: su nombre suele
+        # no traer ninguna palabra de transporte (p.ej. "EST. PREF. CONST. PTE. ...
+        # EJE ALESSANDRI"), puntúa 0 en categorías y, con +2, quedaba bajo el corte
+        # de MAX_DETALLE=200 y nunca se le pedía el detalle. Con +5 sobrevive el tope.
+        p += 5 if es_key else (3 if ESTUDIO.search(n) else (5 if tipo_mop.match(n) else 0))
         candidatas.append({**lic, "p": p, "es_key": es_key})
     candidatas.sort(key=lambda x: -x["p"])
     print(f"  {len(candidatas)} candidatas (incl. organismos clave sembrados).")
