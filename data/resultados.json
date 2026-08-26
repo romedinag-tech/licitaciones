@@ -1,26 +1,5 @@
 [
  {
-  "codigo": "5407-57-LE26",
-  "nombre": "DIAGNÓSTICO  PLAN MAESTRO BARRIO EL SANTO - TOMÉ",
-  "puntaje": 17,
-  "categorias": [
-   "Espacio publico / PIEP",
-   "Planificacion urbana / IPT",
-   "Transporte / movilidad"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION REGIÓN DEL BIO BIO",
-  "unidad": "Departamento Técnico",
-  "region": "Región del Biobío ",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-08-25T12:00",
-  "fecha_publicacion": "2026-07-30",
-  "descripcion": "El “DIAGNÓSTICO Y ELABORACIÓN PLAN MAESTRO BARRIO EL SANTO -  HABILITACIÓN DE CIRCUITO SEGURO, COMUNA DE TOMÉ”, tiene como objetivo garantizar una evacuación eficiente y segura de peatones y vehículos ante situaciones de emergencia, mediante el mejoramiento integral de las condiciones de conectividad, iluminación, accesibilidad y soporte comunitario, fortaleciendo a su vez el uso y apropiación del espacio público.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5407-57-LE26"
- },
- {
   "codigo": "619284-6-LR26",
   "nombre": "Actualización Encuesta Origen Destino  Coquimbo—La Serena",
   "puntaje": 14,
@@ -35,7 +14,7 @@
   "region": "Región Metropolitana de Santiago",
   "tipo": "LR",
   "monto": "483.193.277 CLP",
-  "fecha_cierre": "2026-09-07T15:00",
+  "fecha_cierre": "2026-09-08T11:00",
   "fecha_publicacion": "2026-08-07",
   "descripcion": "El objetivo general del presente estudio es desarrollar una encuesta de movilidad en la conurbación Coquimbo—La Serena y un conjunto de mediciones complementarias, de manera de disponer de información actualizada de la demanda de transporte urbano. ",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-6-LR26"
@@ -358,6 +337,25 @@
   "fecha_publicacion": "2026-08-10",
   "descripcion": "Estudio actualización Plan Regulador de la comuna de Parral.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2600-22-LP26"
+ },
+ {
+  "codigo": "4164-42-LE26",
+  "nombre": "Actualización PLADECO 2027–2030 y Diag.de la Niñez",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE DONIHUE",
+  "unidad": "Municipalidad",
+  "region": "Región del Libertador General Bernardo O´Higgins",
+  "tipo": "LE",
+  "monto": "15.000.000 CLP",
+  "fecha_cierre": "2026-09-04T14:24",
+  "fecha_publicacion": "2026-08-25",
+  "descripcion": "Contratar una consultoría especializada para actualizar el Plan de Desarrollo Comunal PLADECO de la comuna de Doñihue para el período 2027–2030, incorporando el Diagnóstico Comunal de Niñez y Adolescencia, con el propósito de contar con un instrumento de planificación que oriente el desarrollo comunal y considere las necesidades y prioridades de la comunidad.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4164-42-LE26"
  },
  {
   "codigo": "4134-31-LE26",

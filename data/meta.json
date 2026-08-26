@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-08-25T14:07:58+00:00",
- "total_activas": 4435,
+ "actualizado": "2026-08-26T13:10:03+00:00",
+ "total_activas": 4467,
  "candidatas": 200,
  "resultados": 33,
- "clave": 25,
+ "clave": 24,
  "modo_ticket": "personal",
  "regiones": [
   "Región Aysén del General Carlos Ibáñez del Campo",
@@ -17,6 +17,7 @@
   "Región de la Araucanía ",
   "Región de los Lagos ",
   "Región del Biobío ",
+  "Región del Libertador General Bernardo O´Higgins",
   "Región del Maule ",
   "Región del Ñuble"
  ],
