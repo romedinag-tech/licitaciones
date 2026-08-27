@@ -98,6 +98,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-5-LP26"
  },
  {
+  "codigo": "926-11-LP26",
+  "nombre": "Análisis y Modelación del Sistema de Transporte",
+  "puntaje": 9,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "DIRECTORIO DE TRANSPORTES DE SANTIAGO - MTT",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "300.000.000 CLP",
+  "fecha_cierre": "2026-09-28T15:01",
+  "fecha_publicacion": "2026-08-26",
+  "descripcion": "En este sentido, se requiere un servicio destinado a explotar los modelos de asignación de viajes -períodos punta mañana, fuera de punta y punta tarde- construidos sobre la plataforma EMME a partir de modelaciones de escenarios y realizar con ellos análisis técnicos yo económicos. Esto se realiza examinando diversos escenarios de demanda yo redes, desde escenarios menores como la extensión de un servicio de buses, hasta escenarios más complejos como un plan de proyectos, una nueva línea de Metro, un nuevo programa de operaciones licitado, incluyendo la asignación de nuevas matrices de demanda.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-11-LP26"
+ },
+ {
   "codigo": "2261-14-O126",
   "nombre": "Consultoría Varios Cruces Region de La Araucanía",
   "puntaje": 7,
@@ -153,6 +172,25 @@
   "fecha_publicacion": "2026-07-27",
   "descripcion": "La presente consultoría permitirá conocer el estado estructural y funcional de los pavimentos rurales o caminos básicos, administrados por la Dirección de Vialidad. Se usarán métodos automatizados y de alto rendimiento que otorguen seguridad, eficiencia y eficacia, tanto a los procesos como a los resultados que se obtienen de ellos.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-24-O126"
+ },
+ {
+  "codigo": "619284-7-LP26",
+  "nombre": "Análisis Táctico de Proyectos de Transporte Urbano Etapa VII",
+  "puntaje": 7,
+  "categorias": [
+   "Vialidad / transito"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "294.117.647 CLP",
+  "fecha_cierre": "2026-09-21T15:01",
+  "fecha_publicacion": "2026-08-26",
+  "descripcion": "El objetivo principal de este estudio será el desarrollo y análisis de estudios tácticos\r\nde transporte urbano en las distintas regiones del país, destinados a resolver\r\nproblemas de infraestructura y gestión de tránsito y transporte.\r\nPor lo anterior, tiene como objetivo apoyar el análisis y la formulación de proyectos\r\ntácticos de transporte urbano, en las áreas de infraestructura de transporte y\r\ngestión de tránsito. Ha sido concebido para responder, de manera rápida y\r\neficiente, a requerimientos de estudios específicos a lo largo del país y su\r\ndesarrollo se efectuará bajo la modalidad de Órdenes de Trabajo. El espectro de\r\nlos análisis técnicos incluye tareas que abarcan distintos estudios, como por\r\nejemplo: estudio de base de transporte e ingeniería, simulaciones aplicando\r\nmodelos de transporte, diseño vial urbano, evaluación social de proyectos, entre\r\notros.\r\n",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-7-LP26"
  },
  {
   "codigo": "2216-21-O126",
@@ -212,25 +250,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4610-68-LP26"
  },
  {
-  "codigo": "3885-45-LE26",
-  "nombre": "Actualización Plan de Desarrollo Comunal de Pica",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE PICA",
-  "unidad": "Municipalidad de Pica",
-  "region": "Región de Tarapacá  ",
-  "tipo": "LE",
-  "monto": "16.000.000 CLP",
-  "fecha_cierre": "2026-08-26T16:00",
-  "fecha_publicacion": "2026-08-05",
-  "descripcion": "servicios especializados para la actualización del Plan de Desarrollo Comunal PLADECO, instrumento rector de la planificación estratégica comunal, orientado a guiar el desarrollo integral del territorio en el mediano y largo plazo.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3885-45-LE26"
- },
- {
   "codigo": "2660-68-LE26",
   "nombre": "Consultoría para la actualización de PLADECO IMA",
   "puntaje": 4,
@@ -248,25 +267,6 @@
   "fecha_publicacion": "2026-08-21",
   "descripcion": "La Ilustre Municipalidad requiere contratar el servicio de consultoría para la actualización del Plan de Desarrollo Comunal PLADECO 2027–2032, instrumento de planificación estratégica establecido en la Ley N° 18.695, Orgánica Constitucional de Municipalidades, que orienta el desarrollo integral de la comuna en sus dimensiones social, económica, territorial, ambiental e institucional.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2660-68-LE26"
- },
- {
-  "codigo": "3336-19-LE26",
-  "nombre": "ACTUALIZACIÓN PLADECO LA UNIÓN 2026-2030.",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE LA UNION",
-  "unidad": "Dirección de SECPLA",
-  "region": "Región de Los Ríos",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-08-31T15:30",
-  "fecha_publicacion": "2026-08-14",
-  "descripcion": "La Ilustre Municipalidad de La Unión requiere actualización del plan de desarrollo comunal de La Unión 2026-2030.\r\n\r\nEl estudio busca actualizar el instrumento rector del desarrollo comunal, definiendo objetivos estratégicos, una visión compartida de futuro y una cartera de proyectos para el periodo 2026-2030. Debe orientar la gestión municipal considerando las dinámicas locales, regionales y nacionales de acuerdo a los términos de referencia que rigen la licitación del estudio.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3336-19-LE26"
  },
  {
   "codigo": "5048-27-O126",
@@ -320,25 +320,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-17-O126"
  },
  {
-  "codigo": "2600-22-LP26",
-  "nombre": "Estudio actualización Plan Regulador Comunal",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE PARRAL",
-  "unidad": "SECPLAN",
-  "region": "Región del Maule ",
-  "tipo": "LP",
-  "monto": "",
-  "fecha_cierre": "2026-09-01T15:30",
-  "fecha_publicacion": "2026-08-10",
-  "descripcion": "Estudio actualización Plan Regulador de la comuna de Parral.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2600-22-LP26"
- },
- {
   "codigo": "4164-42-LE26",
   "nombre": "Actualización PLADECO 2027–2030 y Diag.de la Niñez",
   "puntaje": 4,
@@ -375,6 +356,25 @@
   "fecha_publicacion": "2026-08-20",
   "descripcion": "La presente contratación tiene por objeto la Elaboración del Plan de Desarrollo Comunal de Sagrada Familia 2026-2031, de conformidad con lo establecido en las presentes Bases Administrativas Generales, las Bases Técnicas, los Términos Técnicos de Referencia, las aclaraciones, modificaciones, consultas y respuestas que se emitan durante el proceso licitatorio, y demás antecedentes que formen parte integrante de la licitación",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4134-31-LE26"
+ },
+ {
+  "codigo": "3336-19-LE26",
+  "nombre": "ACTUALIZACIÓN PLADECO LA UNIÓN 2026-2030.",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE LA UNION",
+  "unidad": "Dirección de SECPLA",
+  "region": "Región de Los Ríos",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-09-04T15:30",
+  "fecha_publicacion": "2026-08-14",
+  "descripcion": "La Ilustre Municipalidad de La Unión requiere actualización del plan de desarrollo comunal de La Unión 2026-2030.\r\n\r\nEl estudio busca actualizar el instrumento rector del desarrollo comunal, definiendo objetivos estratégicos, una visión compartida de futuro y una cartera de proyectos para el periodo 2026-2030. Debe orientar la gestión municipal considerando las dinámicas locales, regionales y nacionales de acuerdo a los términos de referencia que rigen la licitación del estudio.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3336-19-LE26"
  },
  {
   "codigo": "4110-21-LP26",
@@ -428,6 +428,25 @@
   "fecha_publicacion": "2026-07-31",
   "descripcion": "ESTUDIO DE INGENIERIA  REPOSICION PUENTE PONOTRO EN RUTAP-632, COMUNA DE CAÑETE, PROVINCIA DE ARAUCO, REGION DEL BIOBIO.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-24-O126"
+ },
+ {
+  "codigo": "2600-22-LP26",
+  "nombre": "Estudio actualización Plan Regulador Comunal",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE PARRAL",
+  "unidad": "SECPLAN",
+  "region": "Región del Maule ",
+  "tipo": "LP",
+  "monto": "",
+  "fecha_cierre": "2026-09-08T15:30",
+  "fecha_publicacion": "2026-08-10",
+  "descripcion": "Estudio actualización Plan Regulador de la comuna de Parral.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2600-22-LP26"
  },
  {
   "codigo": "1068829-19-O126",
