@@ -60,6 +60,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-35-O126"
  },
  {
+  "codigo": "926-9-LR26",
+  "nombre": "MANTENIMIENTO DE VIAS DEL STPM",
+  "puntaje": 9,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "DIRECTORIO DE TRANSPORTES DE SANTIAGO - MTT",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LR",
+  "monto": "",
+  "fecha_cierre": "2026-08-31T15:01",
+  "fecha_publicacion": "2026-07-29",
+  "descripcion": "La contratación del servicio de mantenimiento de vías del Sistema de Transporte Público Metropolitano el cual comprende entre otras actividades, la ejecución de tareas de suministro, instalación y mantención de señalización, obras de demarcación y otras obras complementarias. Estas tareas consideran los distintos dispositivos viales utilizados por el Sistema de Transporte Público",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-9-LR26"
+ },
+ {
   "codigo": "619284-4-LR26",
   "nombre": "Diagnóstico Sistema de Transporte Público del Área Metropolitana de Alto Hospicio—Iquique",
   "puntaje": 9,
@@ -98,6 +117,44 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-5-LP26"
  },
  {
+  "codigo": "712307-64-CO26",
+  "nombre": "Consultoría Multidisciplinaria de Apoyo Técnico para Proyectos de Normalización y Mejoramiento de Rutas Peatonales en la Provincia de Cautín Línea 3 Arquitectura",
+  "puntaje": 9,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION",
+  "unidad": "Licitaciones y Costos",
+  "region": "Región de la Araucanía ",
+  "tipo": "CO",
+  "monto": "22.800.000 CLP",
+  "fecha_cierre": "2026-09-08T10:00",
+  "fecha_publicacion": "2026-08-28",
+  "descripcion": "Consultoría Multidisciplinaria de Apoyo Técnico para Proyectos de Normalización y Mejoramiento de Rutas Peatonales en la Provincia de Cautín, Línea 3 Arquitectura",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=712307-64-CO26"
+ },
+ {
+  "codigo": "926-10-LR26",
+  "nombre": "ASESORIA DE APOYO A LA GESTIÓN E INSPECCIÓN TEC.",
+  "puntaje": 9,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "DIRECTORIO DE TRANSPORTES DE SANTIAGO - MTT",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LR",
+  "monto": "",
+  "fecha_cierre": "2026-09-14T15:00",
+  "fecha_publicacion": "2026-08-11",
+  "descripcion": "Se requiere la contratación del servicio de Asesoría de apoyo a la gestión e inspección  técnica de puntos de parada, cuyo objetivo es apoyar la inspección en terreno de contratos, proyectos, obras e iniciativas vinculadas a la construcción, conservación, mantención y mejoramiento de los puntos de parada, así como la elaboración de catastros, diagnósticos, y evaluación de los diversos dispositivos que conforman esta infraestructura que compone el Sistema de Transporte Público Metropolitano, a fin de establecer mejoras a los planes y programas tendientes a la conservación, mantención y mejoramiento de ésta.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-10-LR26"
+ },
+ {
   "codigo": "926-11-LP26",
   "nombre": "Análisis y Modelación del Sistema de Transporte",
   "puntaje": 9,
@@ -115,6 +172,26 @@
   "fecha_publicacion": "2026-08-26",
   "descripcion": "En este sentido, se requiere un servicio destinado a explotar los modelos de asignación de viajes -períodos punta mañana, fuera de punta y punta tarde- construidos sobre la plataforma EMME a partir de modelaciones de escenarios y realizar con ellos análisis técnicos yo económicos. Esto se realiza examinando diversos escenarios de demanda yo redes, desde escenarios menores como la extensión de un servicio de buses, hasta escenarios más complejos como un plan de proyectos, una nueva línea de Metro, un nuevo programa de operaciones licitado, incluyendo la asignación de nuevas matrices de demanda.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-11-LP26"
+ },
+ {
+  "codigo": "2667-78-LR26",
+  "nombre": "ACTUALIZACIÓN PLAN REGULADOR COMUNAL COMUNA DE VITACURA",
+  "puntaje": 9,
+  "categorias": [
+   "Planificacion urbana / IPT",
+   "Transporte / movilidad"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE VITACURA",
+  "unidad": "SECPLA",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LR",
+  "monto": "550.000.000 CLP",
+  "fecha_cierre": "2026-10-13T15:01",
+  "fecha_publicacion": "2026-08-28",
+  "descripcion": "El objeto de la presente licitación es contratar a una persona natural o jurídica para realizar todos los estudios técnicos requeridos, la asistencia técnica especializada, así como el cumplimiento de los procedimientos conducentes a la Actualización del Plan Regulador Comunal de Vitacura (PRC-V), hasta la aprobación del Informe Ambiental por parte del Ministerio de Medio Ambiente y la posterior obtención del Informe Favorable por parte de la Secretaría Regional Ministerial del Ministerio de Vivienda y Urbanismo de la Región Metropolitana de Santiago, en apoyo del ejercicio de la potestad planificadora que la Municipalidad conserva de manera privativa e indelegable conforme al artículo 3°, letra b), de la Ley N°18.695.\r\n\r\nEl servicio comprende la elaboración de los estudios exigidos por la normativa vigente (movilidad urbana, equipamiento comunal, riesgos, factibilidad sanitaria, infraes",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2667-78-LR26"
  },
  {
   "codigo": "2261-14-O126",
@@ -511,7 +588,7 @@
   "region": "Región del Ñuble",
   "tipo": "O1",
   "monto": "",
-  "fecha_cierre": "2026-09-15T08:00",
+  "fecha_cierre": "2026-09-22T08:00",
   "fecha_publicacion": "2026-08-14",
   "descripcion": "ESTUDIO DE INGENIERÍA “REPOSICIÓN RUTA N-55, KM 52.600 AL KM 77.248, COMUNA DE PINTO, REGIÓN DE ÑUBLE”",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1068829-20-O126"
@@ -566,6 +643,25 @@
   "fecha_publicacion": "2026-08-21",
   "descripcion": "El presente estudio de ingeniería tiene como objetivo primordial el análisis y diseño de carácter definitivo de los puentes Cano Rodríguez y Cuyaima, incluyendo sus respectivos accesos. El proyecto tiene por finalidad mejorar sustantivamente las condiciones de operación, transitabilidad y conectividad permanente en los sectores de Mashue y Llancacura y sus áreas de influencia, mediante la intervención del puente Cano Rodríguez, ubicado en la comuna de La Unión. En forma análoga, la intervención del puente Cuyaima permitirá restituir y elevar el estándar de servicio en el sector Filuco y su entorno, en la comuna de Río Bueno, asegurando la continuidad y confiabilidad de la conectividad vial en ambos territorios.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5895-21-O126"
+ },
+ {
+  "codigo": "2693-34-LP26",
+  "nombre": "PROYECTO FNDR DENOMINADO “ACTUALIZACION PLAN REGULADOR” COMUNA DE ALGARROBO",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE ALGARROBO",
+  "unidad": "MUNICIPALIDAD DE ALGARROBO - SECPLA",
+  "region": "Región de Valparaíso ",
+  "tipo": "LP",
+  "monto": "",
+  "fecha_cierre": "2026-09-28T15:00",
+  "fecha_publicacion": "2026-08-28",
+  "descripcion": "PROYECTO FNDR DENOMINADO “ACTUALIZACION PLAN REGULADOR”, COMUNA DE ALGARROBO",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2693-34-LP26"
  },
  {
   "codigo": "2216-22-O126",
