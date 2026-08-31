@@ -40,26 +40,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10"
  },
  {
-  "codigo": "5048-35-O126",
-  "nombre": "EP MEJ. RUTA 9 PUNTA ARENAS, R. MAGALLANES Y ANT. CHILENA",
-  "puntaje": 12,
-  "categorias": [
-   "Transporte / movilidad",
-   "Vialidad / transito"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de Magallanes y de la Antártica",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-09-15T10:30",
-  "fecha_publicacion": "2026-07-31",
-  "descripcion": "Evaluar y desarrollar alternativas de mejoramiento de la conexión vial de la Ruta 9 en la ciudad de Punta Arenas, mediante análisis técnicos, económicos, ambientales y sociales, con el fin de fortalecer la conectividad, la seguridad vial y la movilidad urbana.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-35-O126"
- },
- {
   "codigo": "926-9-LR26",
   "nombre": "MANTENIMIENTO DE VIAS DEL STPM",
   "puntaje": 9,
@@ -380,23 +360,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2261-15-O126"
  },
  {
-  "codigo": "5268-17-O126",
-  "nombre": "CONSULTORIA DIAG Y ELAB PROY PAV RURALES PROV ARAUCO Y CONCEP",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - VIII Región - Licitación de Obras",
-  "region": "Región del Biobío ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-09-01T11:00",
-  "fecha_publicacion": "2026-07-23",
-  "descripcion": "“CONSULTORÍA DIAGNÓSTICO Y ELABORACIÓN DE PROYECTOS PAVIMENTOS RURALES, PROVINCIAS DE ARAUCO Y CONCEPCIÓN, REGIÓN DEL BIOBÍO”.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-17-O126"
- },
- {
   "codigo": "4164-42-LE26",
   "nombre": "Actualización PLADECO 2027–2030 y Diag.de la Niñez",
   "puntaje": 4,
@@ -543,21 +506,42 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1068829-19-O126"
  },
  {
-  "codigo": "5048-37-O126",
-  "nombre": "E.BÁSICO DIAGNÓSTICO ZONAS DE ADELANTAMIENTO REGIONES BIOBÍO Y ARAUCANÍA",
+  "codigo": "3567-30-LE26",
+  "nombre": "CARTOGRAFÍA PARA PLAN REGULADOR COMUNAL FLORIDA",
   "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
   "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "organismo": "I MUNICIPALIDAD DE FLORIDA",
+  "unidad": "Ilustre Municipalidad De Florida",
   "region": "Región del Biobío ",
-  "tipo": "O1",
+  "tipo": "LE",
   "monto": "",
-  "fecha_cierre": "2026-09-10T11:30",
-  "fecha_publicacion": "2026-07-31",
-  "descripcion": "Estudio para diagnosticar, evaluar y definir las zonas donde se permite adelantar y las zonas donde debe existir una prohibición o restricción de adelantamiento, específicamente en vías bidireccionales, con el fin de establecer  la señalización horizontal y vertical reglamentaria a ejecutar.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-37-O126"
+  "fecha_cierre": "2026-09-11T15:01",
+  "fecha_publicacion": "2026-08-31",
+  "descripcion": "El proyecto busca Lo requerido, debido a que actualmente la comuna cuenta con un Instrumento de Planificación Territorial IPT vigente, el que, entre otras falencias, no responde a las necesidades y realidad comunal. Es un insumo previo a la confección del diagnóstico, imagen objetivo y anteproyecto de\r\nla Actualización del Plan Regulador Comunal de Florida a efectuarse el año 2027.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3567-30-LE26"
+ },
+ {
+  "codigo": "966131-53-LE26",
+  "nombre": "ACTUALIZACIÓN PLADECO - “PLAN DE DESARROLLO COMUNAL CASTRO 2027 - 2030",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE CASTRO",
+  "unidad": "SECPLAN",
+  "region": "Región de los Lagos ",
+  "tipo": "LE",
+  "monto": "25.000.000 CLP",
+  "fecha_cierre": "2026-09-14T15:01",
+  "fecha_publicacion": "2026-08-31",
+  "descripcion": "La necesidad de actualizar el Plan de Desarrollo Comunal (PLADECO) de Castro 2027–2030.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-53-LE26"
  },
  {
   "codigo": "1068829-20-O126",
@@ -575,23 +559,6 @@
   "fecha_publicacion": "2026-08-14",
   "descripcion": "ESTUDIO DE INGENIERÍA “REPOSICIÓN RUTA N-55, KM 52.600 AL KM 77.248, COMUNA DE PINTO, REGIÓN DE ÑUBLE”",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1068829-20-O126"
- },
- {
-  "codigo": "5048-38-O126",
-  "nombre": "EP CONST P FRONT OLLAGÜE. RUTA 21 CH. SECTOR: CHIU CHIU-ESTACIÓN SAN PEDRO",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de Antofagasta ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-09-22T11:30",
-  "fecha_publicacion": "2026-07-31",
-  "descripcion": "El presente estudio tiene por objeto evaluar la factibilidad de un nuevo emplazamiento para la ruta 21 CH entre Chiu Chiu y Estación San Pedro, considerando criterios técnicos, económicos, ambientales, territoriales y sociales.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-38-O126"
  },
  {
   "codigo": "5895-17-O126",
@@ -664,25 +631,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-22-O126"
  },
  {
-  "codigo": "5048-41-O126",
-  "nombre": "EP MEJ. RUTA ALTIPLANICA , EL TATIO, R. ANTOFAGASTA",
+  "codigo": "5048-46-O126",
+  "nombre": "EI CONSTR. CAMINO ESTANCIA VICUÑA - YENDEGAIA ETAPA XIV",
   "puntaje": 4,
   "categorias": [],
   "org_clave": true,
   "bip": "",
   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
   "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de Antofagasta ",
+  "region": "Región de Magallanes y de la Antártica",
   "tipo": "O1",
   "monto": "",
-  "fecha_cierre": "2026-10-06T15:30",
-  "fecha_publicacion": "2026-08-19",
-  "descripcion": "Definir una alternativa vial de acceso a El Tatio que resguarde el entorno geotérmico y asegure una conectividad segura y eficiente, mediante evaluaciones técnicas, ambientales, sociales y económicas.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-41-O126"
+  "fecha_cierre": "2026-10-15T10:30",
+  "fecha_publicacion": "2026-08-31",
+  "descripcion": "Estudio de ingeniería para analizar y desarrollar una variante de camino destinada a optimizar el trazado existente, mejorando la conectividad e integración territorial de la región, en una longitud aproximada de 6 kilómetros.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-46-O126"
  },
  {
-  "codigo": "5048-42-O126",
-  "nombre": "E.FACTIBILIDAD CONSTR. YO MEJ.RUTA G-16 SECTOR: A.VESPUCIO – LAMPA, RM",
+  "codigo": "5048-44-O126",
+  "nombre": "EST. BÁS: DIAG. OFERTA-DEMANDA VIAL CORREDOR BIOCEÁNICO JAMA-SICO, R. ANT.",
   "puntaje": 4,
   "categorias": [],
   "org_clave": true,
@@ -692,9 +659,9 @@
   "region": "Región Metropolitana de Santiago",
   "tipo": "O1",
   "monto": "",
-  "fecha_cierre": "2026-10-07T11:30",
-  "fecha_publicacion": "2026-08-18",
-  "descripcion": "Estudio para desarrollar un análisis técnico, económico, social y ambiental para el mejoramiento de la conectividad entre la comuna de Lampa y el Gran Santiago en una longitud aproximada de 16 kilómetros.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-42-O126"
+  "fecha_cierre": "2026-10-16T10:30",
+  "fecha_publicacion": "2026-08-31",
+  "descripcion": "El objetivo del presente estudio es diagnosticar la oferta y demanda vial del Corredor Bioceánico en los pasos fronterizos Jama y Sico, identificando brechas de infraestructura y requerimientos de conectividad para apoyar el desarrollo del transporte y comercio internacional.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-44-O126"
  }
 ]
