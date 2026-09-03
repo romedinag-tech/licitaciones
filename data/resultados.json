@@ -40,26 +40,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10"
  },
  {
-  "codigo": "5048-35-O126",
-  "nombre": "EP MEJ. RUTA 9 PUNTA ARENAS, R. MAGALLANES Y ANT. CHILENA",
-  "puntaje": 12,
-  "categorias": [
-   "Transporte / movilidad",
-   "Vialidad / transito"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de Magallanes y de la Antártica",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-09-15T10:30",
-  "fecha_publicacion": "2026-07-31",
-  "descripcion": "Evaluar y desarrollar alternativas de mejoramiento de la conexión vial de la Ruta 9 en la ciudad de Punta Arenas, mediante análisis técnicos, económicos, ambientales y sociales, con el fin de fortalecer la conectividad, la seguridad vial y la movilidad urbana.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-35-O126"
- },
- {
   "codigo": "619284-4-LR26",
   "nombre": "Diagnóstico Sistema de Transporte Público del Área Metropolitana de Alto Hospicio—Iquique",
   "puntaje": 9,
@@ -134,6 +114,25 @@
   "fecha_publicacion": "2026-08-11",
   "descripcion": "Se requiere la contratación del servicio de Asesoría de apoyo a la gestión e inspección  técnica de puntos de parada, cuyo objetivo es apoyar la inspección en terreno de contratos, proyectos, obras e iniciativas vinculadas a la construcción, conservación, mantención y mejoramiento de los puntos de parada, así como la elaboración de catastros, diagnósticos, y evaluación de los diversos dispositivos que conforman esta infraestructura que compone el Sistema de Transporte Público Metropolitano, a fin de establecer mejoras a los planes y programas tendientes a la conservación, mantención y mejoramiento de ésta.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-10-LR26"
+ },
+ {
+  "codigo": "926-13-LE26",
+  "nombre": "Producción Ceremonia de reconocimiento conductores",
+  "puntaje": 9,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "DIRECTORIO DE TRANSPORTES DE SANTIAGO - MTT",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "30.000.000 CLP",
+  "fecha_cierre": "2026-09-23T15:01",
+  "fecha_publicacion": "2026-09-02",
+  "descripcion": "Contratar el servicio de “PRODUCCIÓN DE CEREMONIA DE RECONOCIMIENTO AL PERSONAL DE CONDUCCIÓN 2026” con el objeto de apoyar las labores de la Gerencia de usuarios del DTPM en la realización de una ceremonia de reconocimiento a la labor que desempeñan conductores y conductoras de las distintas empresas operadoras del sistema de transporte público metropolitano.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-13-LE26"
  },
  {
   "codigo": "926-11-LP26",
@@ -340,7 +339,7 @@
   "region": "Región Aysén del General Carlos Ibáñez del Campo",
   "tipo": "LP",
   "monto": "",
-  "fecha_cierre": "2026-09-09T09:00",
+  "fecha_cierre": "2026-09-25T09:00",
   "fecha_publicacion": "2026-08-19",
   "descripcion": "Las presentes Bases Administrativas y Términos Técnicos de Referencia reglamentan la contratación por parte de la Municipalidad de Chile Chico, del llamado a licitación para la contratación del Estudio “Diseño de un Parador de Buses en Puerto Guadal”. Lo anterior, en el marco del Convenio de tansferencia de recursos entre la Subsecretaría de Transportes y la I. Municipalidad de Chile Chico.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4610-68-LP26"
@@ -475,23 +474,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1068829-19-O126"
  },
  {
-  "codigo": "5048-37-O126",
-  "nombre": "E.BÁSICO DIAGNÓSTICO ZONAS DE ADELANTAMIENTO REGIONES BIOBÍO Y ARAUCANÍA",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región del Biobío ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-09-10T11:30",
-  "fecha_publicacion": "2026-07-31",
-  "descripcion": "Estudio para diagnosticar, evaluar y definir las zonas donde se permite adelantar y las zonas donde debe existir una prohibición o restricción de adelantamiento, específicamente en vías bidireccionales, con el fin de establecer  la señalización horizontal y vertical reglamentaria a ejecutar.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-37-O126"
- },
- {
   "codigo": "3567-30-LE26",
   "nombre": "CARTOGRAFÍA PARA PLAN REGULADOR COMUNAL FLORIDA",
   "puntaje": 4,
@@ -564,23 +546,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1068829-20-O126"
  },
  {
-  "codigo": "5048-38-O126",
-  "nombre": "EP CONST P FRONT OLLAGÜE. RUTA 21 CH. SECTOR: CHIU CHIU-ESTACIÓN SAN PEDRO",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de Antofagasta ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-09-22T11:30",
-  "fecha_publicacion": "2026-07-31",
-  "descripcion": "El presente estudio tiene por objeto evaluar la factibilidad de un nuevo emplazamiento para la ruta 21 CH entre Chiu Chiu y Estación San Pedro, considerando criterios técnicos, económicos, ambientales, territoriales y sociales.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-38-O126"
- },
- {
   "codigo": "5895-17-O126",
   "nombre": "E.I. Mejoramiento Ruta T-625 Reumen-Nontuela",
   "puntaje": 4,
@@ -649,40 +614,6 @@
   "fecha_publicacion": "2026-08-07",
   "descripcion": "Prestar los servicios de elaboración, ingreso y tramitación ambiental del Estudio de Impacto Ambiental EIA del Proyecto de Conducción y Almacenamiento, y de las respuestas y complementos que sean requeridos durante la evaluación en el SEIA incluyendo Adendas, aclaraciones, rectificaciones y antecedentes complementarios, hasta la dictación de la Resolución de Calificación Ambiental RCA favorable, cumpliendo con la Ley N°19.300 de Bases Generales de Medio Ambiente, el Reglamento del Sistema de Evaluación de Impacto Ambiental RSEIA y sus modificaciones.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-22-O126"
- },
- {
-  "codigo": "5048-41-O126",
-  "nombre": "EP MEJ. RUTA ALTIPLANICA , EL TATIO, R. ANTOFAGASTA",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de Antofagasta ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-10-06T15:30",
-  "fecha_publicacion": "2026-08-19",
-  "descripcion": "Definir una alternativa vial de acceso a El Tatio que resguarde el entorno geotérmico y asegure una conectividad segura y eficiente, mediante evaluaciones técnicas, ambientales, sociales y económicas.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-41-O126"
- },
- {
-  "codigo": "5048-42-O126",
-  "nombre": "E.FACTIBILIDAD CONSTR. YO MEJ.RUTA G-16 SECTOR: A.VESPUCIO – LAMPA, RM",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-10-07T11:30",
-  "fecha_publicacion": "2026-08-18",
-  "descripcion": "Estudio para desarrollar un análisis técnico, económico, social y ambiental para el mejoramiento de la conectividad entre la comuna de Lampa y el Gran Santiago en una longitud aproximada de 16 kilómetros.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-42-O126"
  },
  {
   "codigo": "5048-46-O126",
