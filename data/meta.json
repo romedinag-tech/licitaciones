@@ -1,13 +1,14 @@
 {
- "actualizado": "2026-09-07T17:43:42+00:00",
- "total_activas": 4957,
+ "actualizado": "2026-09-08T16:30:13+00:00",
+ "total_activas": 4576,
  "candidatas": 200,
- "resultados": 31,
- "clave": 23,
+ "resultados": 33,
+ "clave": 25,
  "modo_ticket": "personal",
  "regiones": [
   "Región Aysén del General Carlos Ibáñez del Campo",
   "Región Metropolitana de Santiago",
+  "Región de Antofagasta ",
   "Región de Coquimbo ",
   "Región de Los Ríos",
   "Región de Magallanes y de la Antártica",

@@ -1,25 +1,5 @@
 [
  {
-  "codigo": "619284-6-LR26",
-  "nombre": "Actualización Encuesta Origen Destino  Coquimbo—La Serena",
-  "puntaje": 14,
-  "categorias": [
-   "Demanda / EOD / aforos",
-   "Transporte / movilidad"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DE TRANSPORTES",
-  "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LR",
-  "monto": "483.193.277 CLP",
-  "fecha_cierre": "2026-09-08T11:00",
-  "fecha_publicacion": "2026-08-07",
-  "descripcion": "El objetivo general del presente estudio es desarrollar una encuesta de movilidad en la conurbación Coquimbo—La Serena y un conjunto de mediciones complementarias, de manera de disponer de información actualizada de la demanda de transporte urbano. ",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-6-LR26"
- },
- {
   "codigo": "520663-35-LS10",
   "nombre": "ACTUALIZACIÓN DEL PLAN DE TRANSPORTE DEL GRAN CONCEPCIÓN",
   "puntaje": 13,
@@ -40,42 +20,24 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10"
  },
  {
-  "codigo": "712307-64-CO26",
-  "nombre": "Consultoría Multidisciplinaria de Apoyo Técnico para Proyectos de Normalización y Mejoramiento de Rutas Peatonales en la Provincia de Cautín Línea 3 Arquitectura",
-  "puntaje": 9,
+  "codigo": "5048-35-O126",
+  "nombre": "EP MEJ. RUTA 9 PUNTA ARENAS, R. MAGALLANES Y ANT. CHILENA",
+  "puntaje": 12,
   "categorias": [
-   "Transporte / movilidad"
+   "Transporte / movilidad",
+   "Vialidad / transito"
   ],
   "org_clave": true,
   "bip": "",
-  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION",
-  "unidad": "Licitaciones y Costos",
-  "region": "Región de la Araucanía ",
-  "tipo": "CO",
-  "monto": "22.800.000 CLP",
-  "fecha_cierre": "2026-09-08T10:00",
-  "fecha_publicacion": "2026-08-28",
-  "descripcion": "Consultoría Multidisciplinaria de Apoyo Técnico para Proyectos de Normalización y Mejoramiento de Rutas Peatonales en la Provincia de Cautín, Línea 3 Arquitectura",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=712307-64-CO26"
- },
- {
-  "codigo": "619284-5-LP26",
-  "nombre": "Análisis de Servicios de Transporte Público Sector Norte Región Metropolitana",
-  "puntaje": 9,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DE TRANSPORTES",
-  "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LP",
-  "monto": "268.907.563 CLP",
-  "fecha_cierre": "2026-09-08T11:00",
-  "fecha_publicacion": "2026-08-06",
-  "descripcion": "El objetivo principal del presente estudio es analizar la oferta y demanda actual de los servicios de pasajeros de transporte público mayor y menor del sector norte de la Región Metropolitana, con el fin de utilizar este insumo para proponer futuras medidas de gestión e infraestructura para la intermodalidad con el servicio ferroviario de pasajeros Santiago - Batuco.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-5-LP26"
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región de Magallanes y de la Antártica",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-15T10:30",
+  "fecha_publicacion": "2026-07-31",
+  "descripcion": "Evaluar y desarrollar alternativas de mejoramiento de la conexión vial de la Ruta 9 en la ciudad de Punta Arenas, mediante análisis técnicos, económicos, ambientales y sociales, con el fin de fortalecer la conectividad, la seguridad vial y la movilidad urbana.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-35-O126"
  },
  {
   "codigo": "926-10-LR26",
@@ -326,42 +288,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4610-68-LP26"
  },
  {
-  "codigo": "3336-19-LE26",
-  "nombre": "ACTUALIZACIÓN PLADECO LA UNIÓN 2026-2030.",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE LA UNION",
-  "unidad": "Dirección de SECPLA",
-  "region": "Región de Los Ríos",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-09-07T15:30",
-  "fecha_publicacion": "2026-08-14",
-  "descripcion": "La Ilustre Municipalidad de La Unión requiere actualización del plan de desarrollo comunal de La Unión 2026-2030.\r\n\r\nEl estudio busca actualizar el instrumento rector del desarrollo comunal, definiendo objetivos estratégicos, una visión compartida de futuro y una cartera de proyectos para el periodo 2026-2030. Debe orientar la gestión municipal considerando las dinámicas locales, regionales y nacionales de acuerdo a los términos de referencia que rigen la licitación del estudio.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3336-19-LE26"
- },
- {
-  "codigo": "2010-9-O126",
-  "nombre": "ESTUDIO ING.MEJORAMIENTO CIRCUITO VIAL RUTAS F-382 Y F-326,QTA.Y LA CRUZ",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - V Región - Licitación de Obras",
-  "region": "Región de Valparaíso ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-09-08T09:00",
-  "fecha_publicacion": "2026-07-10",
-  "descripcion": "SE CONTEMPLA EL ESTUDIO Y ANÁLISIS TÉCNICO DEL MEJORAMIENTO INTEGRAL DE LAS RUTAS F-382 Y F-326.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2010-9-O126"
- },
- {
   "codigo": "2600-22-LP26",
   "nombre": "Estudio actualización Plan Regulador Comunal",
   "puntaje": 4,
@@ -396,6 +322,40 @@
   "fecha_publicacion": "2026-08-11",
   "descripcion": "ESTUDIO DE INGENIERIA “REPOSICIÓN RUTA N-447, KM 11.55 AL KM 25.95, TRES ESQUINAS - COIHUECO, COMUNA DE COIHUECO, REGIÓN DE ÑUBLE”\r\n",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1068829-19-O126"
+ },
+ {
+  "codigo": "5048-37-O126",
+  "nombre": "E.BÁSICO DIAGNÓSTICO ZONAS DE ADELANTAMIENTO REGIONES BIOBÍO Y ARAUCANÍA",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región del Biobío ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-10T11:30",
+  "fecha_publicacion": "2026-07-31",
+  "descripcion": "Estudio para diagnosticar, evaluar y definir las zonas donde se permite adelantar y las zonas donde debe existir una prohibición o restricción de adelantamiento, específicamente en vías bidireccionales, con el fin de establecer  la señalización horizontal y vertical reglamentaria a ejecutar.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-37-O126"
+ },
+ {
+  "codigo": "5283-10-O126",
+  "nombre": "ASESORÍA PAVIMENTOS RURALES PROVINCIA DE GENERAL CARRERA, REGIÓN DE AYSÉN",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - XI Región - Licitación de Obras",
+  "region": "Región Aysén del General Carlos Ibáñez del Campo",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-11T15:00",
+  "fecha_publicacion": "2026-08-18",
+  "descripcion": "ASESORÍA PAVIMENTOS RURALES PROVINCIA DE GENERAL CARRERA, REGIÓN DE AYSÉN",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5283-10-O126"
  },
  {
   "codigo": "3567-30-LE26",
@@ -470,6 +430,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1068829-20-O126"
  },
  {
+  "codigo": "5048-38-O126",
+  "nombre": "EP CONST P FRONT OLLAGÜE. RUTA 21 CH. SECTOR: CHIU CHIU-ESTACIÓN SAN PEDRO",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región de Antofagasta ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-22T11:30",
+  "fecha_publicacion": "2026-07-31",
+  "descripcion": "El presente estudio tiene por objeto evaluar la factibilidad de un nuevo emplazamiento para la ruta 21 CH entre Chiu Chiu y Estación San Pedro, considerando criterios técnicos, económicos, ambientales, territoriales y sociales.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-38-O126"
+ },
+ {
   "codigo": "5895-17-O126",
   "nombre": "E.I. Mejoramiento Ruta T-625 Reumen-Nontuela",
   "puntaje": 4,
@@ -540,6 +517,40 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-22-O126"
  },
  {
+  "codigo": "5048-41-O126",
+  "nombre": "EP MEJ. RUTA ALTIPLANICA , EL TATIO, R. ANTOFAGASTA",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región de Antofagasta ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-10-06T15:30",
+  "fecha_publicacion": "2026-08-19",
+  "descripcion": "Definir una alternativa vial de acceso a El Tatio que resguarde el entorno geotérmico y asegure una conectividad segura y eficiente, mediante evaluaciones técnicas, ambientales, sociales y económicas.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-41-O126"
+ },
+ {
+  "codigo": "5048-42-O126",
+  "nombre": "E.FACTIBILIDAD CONSTR. YO MEJ.RUTA G-16 SECTOR: A.VESPUCIO – LAMPA, RM",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-10-07T11:30",
+  "fecha_publicacion": "2026-08-18",
+  "descripcion": "Estudio para desarrollar un análisis técnico, económico, social y ambiental para el mejoramiento de la conectividad entre la comuna de Lampa y el Gran Santiago en una longitud aproximada de 16 kilómetros.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-42-O126"
+ },
+ {
   "codigo": "5048-46-O126",
   "nombre": "EI CONSTR. CAMINO ESTANCIA VICUÑA - YENDEGAIA ETAPA XIV",
   "puntaje": 4,
@@ -572,5 +583,24 @@
   "fecha_publicacion": "2026-08-31",
   "descripcion": "El objetivo del presente estudio es diagnosticar la oferta y demanda vial del Corredor Bioceánico en los pasos fronterizos Jama y Sico, identificando brechas de infraestructura y requerimientos de conectividad para apoyar el desarrollo del transporte y comercio internacional.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-44-O126"
+ },
+ {
+  "codigo": "4127-41-LE26",
+  "nombre": "[DIVAP] Estudio del bodegaje de ajuares",
+  "puntaje": 3,
+  "categorias": [
+   "Concesiones / logistica"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE SALUD PUBLICA",
+  "unidad": "Subsecretaria de Redes Asistenciales",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "18.000.000 CLP",
+  "fecha_cierre": "2026-09-21T16:00",
+  "fecha_publicacion": "2026-09-07",
+  "descripcion": "Se requiere realizar un diagnóstico nacional del bodegaje de ajuares del Programa de Apoyo al Recién Nacido de Chile Crece Contigo en las maternidades de la red pública de salud de Chile, realizando recomendaciones para mejorar el costo-efectividad, gestión y logística del almacenamiento.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4127-41-LE26"
  }
 ]
