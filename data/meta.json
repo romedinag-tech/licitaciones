@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-08T16:30:13+00:00",
- "total_activas": 4576,
+ "actualizado": "2026-09-08T18:49:38+00:00",
+ "total_activas": 4515,
  "candidatas": 200,
- "resultados": 33,
- "clave": 25,
+ "resultados": 37,
+ "clave": 26,
  "modo_ticket": "personal",
  "regiones": [
   "Región Aysén del General Carlos Ibáñez del Campo",
@@ -27,6 +27,6 @@
   "Espacio publico / PIEP",
   "Vialidad / transito",
   "Concesiones / logistica",
-  "Datos / analitica"
+  "Datos / SIG / encuestas"
  ]
 }
