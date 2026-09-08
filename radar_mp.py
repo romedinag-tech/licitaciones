@@ -55,7 +55,9 @@ CATEGORIAS = {
     "Espacio publico / PIEP":      (4, r"\bpiep\b|espacio publico|infraestructura de movilidad|aporte.*espacio publico"),
     "Vialidad / transito":         (3, r"\bvialidad\b|\btransito\b|\btrafico\b|gestion de trafico|seguridad vial|estudio vial|gestion vial|interseccion"),
     "Concesiones / logistica":     (3, r"concesion|iniciativa privada|portuari|logistic|comercio exterior"),
-    "Datos / analitica":           (2, r"\bgps\b|big data|analitica|georrefer|\bsig\b|geoespacial"),
+    "Datos / SIG / encuestas":     (3, r"\bgps\b|big data|analitica|analisis de datos|ciencia de datos|mineria de datos|modelamiento de datos|visualizacion de datos|tablero de datos|\bdashboard\b|analisis estadistic|"
+                                       r"sistema de informacion geografic|geoespacial|georrefer|geomatic|teledeteccion|geoportal|\bsig\b|\bcartograf|observatorio|"
+                                       r"\bencuesta\b|estudio de percepcion|estudio de opinion|sondeo|\blinea de base\b"),
 }
 
 def C(p): return re.compile(p, re.I)
@@ -67,7 +69,10 @@ ESTUDIO = C(r"\bestudio\b|estudios|consultoria|\basesoria\b|diagnostico|levantam
             r"evaluacion social|encuesta|origen.?destino|\beod\b|\bimiv\b|impacto vial|"
             r"analisis de demanda|matriz.*viaje|ordenamiento territorial|instrumento de planificacion|\bpiep\b|"
             r"preinversion|pre.?inversion|anteproyecto|alternativas de\s*(pre)?inversion|"
-            r"estudio de ingenieria|evaluacion tecnico.?economica|\bep\b")
+            r"estudio de ingenieria|evaluacion tecnico.?economica|\bep\b|"
+            r"sistema de informacion geografic|geoespacial|geomatic|teledeteccion|\bcartograf|observatorio|"
+            r"analisis de datos|ciencia de datos|analitica de datos|mineria de datos|visualizacion de datos|"
+            r"estudio de percepcion|estudio de opinion|sondeo|linea de base")
 
 # 1b) Marcadores FUERTES de estudio (preinversion/planificacion): protegen contra
 #     palabras de obra fisica (p.ej. "EP CONSTRUCCION..." es un estudio, no la obra).
@@ -92,13 +97,19 @@ EXCLUIR = C(r"inspeccion fiscal|\baif\b|\baifo\b|asesoria a la inspecc|inspeccio
             r"edificacion|edificio|remodelacion|\bbanos?\b|climatizacion|ascensor|areas verdes|"
             r"neumatic|naumatic|combustible|petroleo|lubricante|repuestos|pijama|\bropa\b|vestuario|"
             r"transporte escolar|transporte de (residuos|aridos|agua|personal|pasajeros|carga|alimentos|lena|valores|internos|funcionarios?|mezcla|material|hormigon)|"
-            r"servicio de transporte|\baseo\b|vigilancia|guardias|alimentacion|\braciones?\b|destruccion de|mercancias")
+            r"servicio de transporte|\baseo\b|vigilancia|guardias|alimentacion|\braciones?\b|destruccion de|mercancias|"
+            # candado anti-ruido para la categoria Datos/SIG/encuestas (medico, IT, equipos):
+            r"\bmedic|clinic|hospital|radiolog|imagenolog|farmac|\baps\b|paciente|terapeuta|dispositivo medic|"
+            r"imagenes?.{0,4}diagnost|diagnostico por imagen|\bsoftware\b|licencia de|antivirus|servidor|data ?center|equipamiento medic")
 
 # 3) ON_TEMA: transporte + planificacion urbana/territorial.
 TEMA = C(r"transporte|movilidad|\bvial\b|\bvialidad\b|\btransito\b|\btrafico\b|peaton|ciclo|"
          r"\burban|territorial|plan regulador|\bpladeco\b|uso de suelo|suelo urbano|mercado de suelo|espacio publico|\bpiep\b|"
          r"origen.?destino|demanda de viaje|particion modal|accesibilidad|logistic|portuari|concesion|"
-         r"\brutas?\b|\bcaminos?\b|corredor|pasada urbana|conectividad")
+         r"\brutas?\b|\bcaminos?\b|corredor|pasada urbana|conectividad|"
+         r"sistema de informacion geografic|geoespacial|georreferen|geomatic|teledeteccion|geoportal|\bsig\b|\bcartograf|observatorio|"
+         r"analisis de datos|ciencia de datos|analitica de datos|mineria de datos|visualizacion de datos|\bdashboard\b|analisis estadistic|"
+         r"\bencuesta\b|estudio de percepcion|estudio de opinion|sondeo|\blinea de base\b")
 
 # Organismos clave — se evalua sobre organismo + unidad.
 # NIVEL A: agencias de planificacion de transporte/territorio -> entra TODO
