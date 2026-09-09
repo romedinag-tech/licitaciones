@@ -155,25 +155,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=613-8-LR26"
  },
  {
-  "codigo": "5048-33-O126",
-  "nombre": "EST. BAS. DIAGNÓSTICO SEGURIDAD VIAL, REGIONES VI, VII Y XVI ",
-  "puntaje": 7,
-  "categorias": [
-   "Vialidad / transito"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región del Maule ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-09-09T09:30",
-  "fecha_publicacion": "2026-07-31",
-  "descripcion": "Evaluación del estado de la seguridad vial y determinación de mejoras en la materia para adecuar el estándar de la red vial.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-33-O126"
- },
- {
   "codigo": "3567-30-LE26",
   "nombre": "CARTOGRAFÍA PARA PLAN REGULADOR COMUNAL FLORIDA",
   "puntaje": 7,
@@ -323,23 +304,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-37-O126"
  },
  {
-  "codigo": "5283-10-O126",
-  "nombre": "ASESORÍA PAVIMENTOS RURALES PROVINCIA DE GENERAL CARRERA, REGIÓN DE AYSÉN",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - XI Región - Licitación de Obras",
-  "region": "Región Aysén del General Carlos Ibáñez del Campo",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-09-11T15:00",
-  "fecha_publicacion": "2026-08-18",
-  "descripcion": "ASESORÍA PAVIMENTOS RURALES PROVINCIA DE GENERAL CARRERA, REGIÓN DE AYSÉN",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5283-10-O126"
- },
- {
   "codigo": "966131-53-LE26",
   "nombre": "ACTUALIZACIÓN PLADECO - “PLAN DE DESARROLLO COMUNAL CASTRO 2027 - 2030",
   "puntaje": 4,
@@ -444,23 +408,6 @@
   "fecha_publicacion": "2026-08-28",
   "descripcion": "PROYECTO FNDR DENOMINADO “ACTUALIZACION PLAN REGULADOR”, COMUNA DE ALGARROBO",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2693-34-LP26"
- },
- {
-  "codigo": "587-38-LE26",
-  "nombre": "SELICO 421-2026 Servicio diagnostico adherencia",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
-  "unidad": "Ministerio de Vivienda y Urbanismo(766)",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "1.320 CLF",
-  "fecha_cierre": "2026-09-30T15:10",
-  "fecha_publicacion": "2026-09-03",
-  "descripcion": "Identificar zonas con pérdida de adherencia parcial o total de la losa de hormigón armado existente e indicar si tal condición supone riesgo de desprendimiento",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=587-38-LE26"
  },
  {
   "codigo": "5895-21-O126",
@@ -639,6 +586,25 @@
   "fecha_publicacion": "2026-09-01",
   "descripcion": "El principal objetivo de las Encuestas de Inserción y Progresión Laboral es levantar sistemáticamente información oportuna acerca de la incorporación de las y los titulados de la UTEM en el mercado laboral, de la prosecución de estudios de postítulo yo postgrado y también de otros aspectos evaluativos importantes para la institución. Esta información busca informar, orientar y difundir la toma de decisiones de las unidades académicas y administrativas de la Universidad.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5251-74-LE26"
+ },
+ {
+  "codigo": "4889-36-LE26",
+  "nombre": "Ss Técnicos y Profesionales - Cartografía AAEE",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
+  "unidad": "Consejo Regional de Cultura Región de Aysen",
+  "region": "Región Aysén del General Carlos Ibáñez del Campo",
+  "tipo": "LE",
+  "monto": "15.000.000 CLP",
+  "fecha_cierre": "2026-09-21T15:01",
+  "fecha_publicacion": "2026-09-08",
+  "descripcion": "Servicios Técnicos y Profesionales para la Elaboración de una Cartografía sobre las Artes Escénicas de la Región de Aysén",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4889-36-LE26"
  },
  {
   "codigo": "4127-41-LE26",
