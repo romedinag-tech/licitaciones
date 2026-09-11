@@ -20,6 +20,26 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10"
  },
  {
+  "codigo": "619284-8-LE26",
+  "nombre": "Adquisición de suscripción de licencias Aimsun Nex",
+  "puntaje": 12,
+  "categorias": [
+   "Demanda / EOD / aforos",
+   "Vialidad / transito"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "14.000 USD",
+  "fecha_cierre": "2026-09-28T15:00",
+  "fecha_publicacion": "2026-09-10",
+  "descripcion": "El objetivo de la adquisición es disponer de todas las funcionalidades del software Aimsun Next, herramienta informática especializada orientada a la modelación de transportes, necesaria para el desarrollo de las labores estratégicas de los funcionarios y servidores públicos que se desempeñan en el Programa de Vialidad y Transporte Urbano: Sectra.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-8-LE26"
+ },
+ {
   "codigo": "926-10-LR26",
   "nombre": "ASESORIA DE APOYO A LA GESTIÓN E INSPECCIÓN TEC.",
   "puntaje": 9,
@@ -71,7 +91,7 @@
   "region": "Región Metropolitana de Santiago",
   "tipo": "LP",
   "monto": "300.000.000 CLP",
-  "fecha_cierre": "2026-09-28T15:01",
+  "fecha_cierre": "2026-09-29T15:01",
   "fecha_publicacion": "2026-08-26",
   "descripcion": "En este sentido, se requiere un servicio destinado a explotar los modelos de asignación de viajes -períodos punta mañana, fuera de punta y punta tarde- construidos sobre la plataforma EMME a partir de modelaciones de escenarios y realizar con ellos análisis técnicos yo económicos. Esto se realiza examinando diversos escenarios de demanda yo redes, desde escenarios menores como la extensión de un servicio de buses, hasta escenarios más complejos como un plan de proyectos, una nueva línea de Metro, un nuevo programa de operaciones licitado, incluyendo la asignación de nuevas matrices de demanda.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-11-LP26"
@@ -191,6 +211,25 @@
   "fecha_publicacion": "2026-08-31",
   "descripcion": "Contratar el servicio de “Mejora y conservación integral de la infraestructura de puntos de parada del STPM”. Se busca seleccionar un contratista con capacidad técnica, operativa y logística necesaria para ejecutar adecuadamente labores de mejoramiento, conservación, reposición y adecuación de la infraestructura de los puntos de puntos de parada.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-12-LR26"
+ },
+ {
+  "codigo": "5895-24-O126",
+  "nombre": "E.I. Normalizacion Seguridad Vial Varios Cruces",
+  "puntaje": 7,
+  "categorias": [
+   "Vialidad / transito"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - XIV Región - Licitación de Obras",
+  "region": "Región de Los Ríos",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-10-15T08:00",
+  "fecha_publicacion": "2026-09-11",
+  "descripcion": "El Estudio de Ingeniería Normalización Seguridad Vial Varios Cruces, Región de Los Ríos tiene como objetivo principal realizar la elaboración de proyectos con soluciones integrales a cruces emplazadas en diversos sectores en la región de Los Ríos, con los respectivos análisis técnicos - económicos para el desarrollo de proyectos destinados a la ejecución de sus obras",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5895-24-O126"
  },
  {
   "codigo": "5048-24-O126",
@@ -426,23 +465,21 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-44-O126"
  },
  {
-  "codigo": "799595-4-LP26",
-  "nombre": "Encuesta deportistas y paradeportistas MINDEP",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
+  "codigo": "5048-52-O126",
+  "nombre": "EST.BÁS. ANÁLISIS INCORP. POLVO DE CAUCHO PAVIMENTO SOSTENIBLE",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
   "bip": "",
-  "organismo": "SUBSECRETARIA DEL DEPORTE",
-  "unidad": "Subsecretaría del Deporte",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
   "region": "Región Metropolitana de Santiago",
-  "tipo": "LP",
-  "monto": "186.000.000 CLP",
-  "fecha_cierre": "2026-09-10T15:30",
-  "fecha_publicacion": "2026-08-21",
-  "descripcion": "Contratación servicio de diseño, validación, implementación y análisis de la encuesta nacional de deportistas y paradeportistas de alto rendimiento para el Ministerio del Deporte",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=799595-4-LP26"
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-10-29T10:30",
+  "fecha_publicacion": "2026-09-11",
+  "descripcion": "Evaluar la factibilidad técnica de incorporar la tecnología del polvo de caucho proveniente de neumáticos fuera de uso en pavimentos asfálticos para su aplicación en la red vial nacional.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-52-O126"
  },
  {
   "codigo": "2430-55-LE26",
@@ -557,25 +594,6 @@
   "fecha_publicacion": "2026-09-08",
   "descripcion": "Servicios Técnicos y Profesionales para la Elaboración de una Cartografía sobre las Artes Escénicas de la Región de Aysén",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4889-36-LE26"
- },
- {
-  "codigo": "4127-41-LE26",
-  "nombre": "[DIVAP] Estudio del bodegaje de ajuares",
-  "puntaje": 3,
-  "categorias": [
-   "Concesiones / logistica"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DE SALUD PUBLICA",
-  "unidad": "Subsecretaria de Redes Asistenciales",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "18.000.000 CLP",
-  "fecha_cierre": "2026-09-21T16:00",
-  "fecha_publicacion": "2026-09-07",
-  "descripcion": "Se requiere realizar un diagnóstico nacional del bodegaje de ajuares del Programa de Apoyo al Recién Nacido de Chile Crece Contigo en las maternidades de la red pública de salud de Chile, realizando recomendaciones para mejorar el costo-efectividad, gestión y logística del almacenamiento.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4127-41-LE26"
  },
  {
   "codigo": "730566-25-LR26",
