@@ -155,26 +155,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=613-8-LR26"
  },
  {
-  "codigo": "3567-30-LE26",
-  "nombre": "CARTOGRAFÍA PARA PLAN REGULADOR COMUNAL FLORIDA",
-  "puntaje": 7,
-  "categorias": [
-   "Datos / SIG / encuestas",
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE FLORIDA",
-  "unidad": "Ilustre Municipalidad De Florida",
-  "region": "Región del Biobío ",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-09-11T15:01",
-  "fecha_publicacion": "2026-08-31",
-  "descripcion": "El proyecto busca Lo requerido, debido a que actualmente la comuna cuenta con un Instrumento de Planificación Territorial IPT vigente, el que, entre otras falencias, no responde a las necesidades y realidad comunal. Es un insumo previo a la confección del diagnóstico, imagen objetivo y anteproyecto de\r\nla Actualización del Plan Regulador Comunal de Florida a efectuarse el año 2027.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3567-30-LE26"
- },
- {
   "codigo": "619284-7-LP26",
   "nombre": "Análisis Táctico de Proyectos de Transporte Urbano Etapa VII",
   "puntaje": 7,
@@ -594,6 +574,25 @@
   "fecha_publicacion": "2026-09-08",
   "descripcion": "Servicios Técnicos y Profesionales para la Elaboración de una Cartografía sobre las Artes Escénicas de la Región de Aysén",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4889-36-LE26"
+ },
+ {
+  "codigo": "966131-60-CO26",
+  "nombre": "Estudio Vial de Seguridad y Gestión de Riesgo y Desastres para el PQMB Barrio Tejiendo Sueños Comuna de Castro ",
+  "puntaje": 3,
+  "categorias": [
+   "Vialidad / transito"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE CASTRO",
+  "unidad": "SECPLAN",
+  "region": "Región de los Lagos ",
+  "tipo": "CO",
+  "monto": "",
+  "fecha_cierre": "2026-09-25T18:36",
+  "fecha_publicacion": "2026-09-11",
+  "descripcion": "La necesidad de contribuir al mejoramiento de la calidad de vida de los habitantes de barrios que presentan problemas de deterioro urbano y vulnerabilidad social, mediante el mejoramiento y/o dotación de espacios públicos, equipamiento comunitario y entor",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-60-CO26"
  },
  {
   "codigo": "730566-25-LR26",
