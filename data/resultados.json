@@ -377,6 +377,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2693-34-LP26"
  },
  {
+  "codigo": "2387-79-LE26",
+  "nombre": "Actualización PLADECO Pucón 2027-2031",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE PUCON",
+  "unidad": "Municipalidad de Pucon",
+  "region": "Región de la Araucanía ",
+  "tipo": "LE",
+  "monto": "18.000.000 CLP",
+  "fecha_cierre": "2026-09-29T14:00",
+  "fecha_publicacion": "2026-09-14",
+  "descripcion": "El objeto del contrato es la prestación integral del servicio de actualización del Plan de Desarrollo Comunal PLADECO de la Comuna de Pucón. El Servicio comprende cada una de las acciones y productos establecidos en los Términos Técnicos de Referencia.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2387-79-LE26"
+ },
+ {
   "codigo": "5895-21-O126",
   "nombre": "E.I. Reposicion Puentes Cuyaima y Cano Rodríguez",
   "puntaje": 4,
@@ -462,25 +481,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-52-O126"
  },
  {
-  "codigo": "2430-55-LE26",
-  "nombre": "ESTUDIO DISEÑO OBSERVATORIO COMUNAL DEL DELITO",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE ANTOFAGASTA",
-  "unidad": "IMUNI_ANTOFAGASTA Gestion.Secoplan",
-  "region": "Región de Antofagasta ",
-  "tipo": "LE",
-  "monto": "50.000.000 CLP",
-  "fecha_cierre": "2026-09-14T15:00",
-  "fecha_publicacion": "2026-09-02",
-  "descripcion": "ESTUDIO DISEÑO OBSERVATORIO COMUNAL DEL DELITO",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2430-55-LE26"
- },
- {
   "codigo": "1233822-22-L126",
   "nombre": "SEMINARIO DIAGNÓSTICO DEL DEPORTE CMDR",
   "puntaje": 3,
@@ -557,6 +557,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5061-31-L126"
  },
  {
+  "codigo": "2430-55-LE26",
+  "nombre": "ESTUDIO DISEÑO OBSERVATORIO COMUNAL DEL DELITO",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE ANTOFAGASTA",
+  "unidad": "IMUNI_ANTOFAGASTA Gestion.Secoplan",
+  "region": "Región de Antofagasta ",
+  "tipo": "LE",
+  "monto": "50.000.000 CLP",
+  "fecha_cierre": "2026-09-21T15:01",
+  "fecha_publicacion": "2026-09-02",
+  "descripcion": "ESTUDIO DISEÑO OBSERVATORIO COMUNAL DEL DELITO",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2430-55-LE26"
+ },
+ {
   "codigo": "4889-36-LE26",
   "nombre": "Ss Técnicos y Profesionales - Cartografía AAEE",
   "puntaje": 3,
@@ -574,6 +593,25 @@
   "fecha_publicacion": "2026-09-08",
   "descripcion": "Servicios Técnicos y Profesionales para la Elaboración de una Cartografía sobre las Artes Escénicas de la Región de Aysén",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4889-36-LE26"
+ },
+ {
+  "codigo": "5877-35-L126",
+  "nombre": "SEREMI DE LOS RIOS REQUIERE SERVICIO TÉCNICO PROFESIONAL PARA LA ACTUALIZACIÓN Y AMPLIACIÓN DE LA CARTOGRAFÍA DEL SECTOR DE LA MÚSICA DE LA REGIÓN DE LOS RÍOS COMO PARTE DEL PROGRAMA LOS RÍOS: TERRITORIO MUSICAL, EN EL MARCO DEL MES DE LA MÚSICA DEL MINIS",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
+  "unidad": "Consejo de la Cultura y Las Artes Región de Los Ríos",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "L1",
+  "monto": "5.000.000 CLP",
+  "fecha_cierre": "2026-09-25T15:00",
+  "fecha_publicacion": "2026-09-14",
+  "descripcion": "SEREMI DE LOS RIOS REQUIERE SERVICIO TÉCNICO PROFESIONAL PARA LA ACTUALIZACIÓN Y AMPLIACIÓN DE LA CARTOGRAFÍA DEL SECTOR DE LA MÚSICA DE LA REGIÓN DE LOS RÍOS COMO PARTE DEL PROGRAMA LOS RÍOS: TERRITORIO MUSICAL, EN EL MARCO DEL MES DE LA MÚSICA DEL MINISTERIO DE LAS CULTURAS, LAS ARTES Y EL PATRIMONIO, REGIÓN DE LOS RÍOS.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5877-35-L126"
  },
  {
   "codigo": "966131-60-CO26",
