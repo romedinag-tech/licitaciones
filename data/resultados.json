@@ -40,23 +40,24 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-8-LE26"
  },
  {
-  "codigo": "926-10-LR26",
-  "nombre": "ASESORIA DE APOYO A LA GESTIÓN E INSPECCIÓN TEC.",
-  "puntaje": 9,
+  "codigo": "660-13-LE26",
+  "nombre": "ANÁLISIS PLAN REGULADOR COMUNAL DE LONCOCHE",
+  "puntaje": 11,
   "categorias": [
-   "Transporte / movilidad"
+   "Datos / SIG / encuestas",
+   "Planificacion urbana / IPT"
   ],
   "org_clave": true,
   "bip": "",
-  "organismo": "SUBSECRETARIA DE TRANSPORTES",
-  "unidad": "DIRECTORIO DE TRANSPORTES DE SANTIAGO - MTT",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LR",
-  "monto": "",
-  "fecha_cierre": "2026-09-14T15:00",
-  "fecha_publicacion": "2026-08-11",
-  "descripcion": "Se requiere la contratación del servicio de Asesoría de apoyo a la gestión e inspección  técnica de puntos de parada, cuyo objetivo es apoyar la inspección en terreno de contratos, proyectos, obras e iniciativas vinculadas a la construcción, conservación, mantención y mejoramiento de los puntos de parada, así como la elaboración de catastros, diagnósticos, y evaluación de los diversos dispositivos que conforman esta infraestructura que compone el Sistema de Transporte Público Metropolitano, a fin de establecer mejoras a los planes y programas tendientes a la conservación, mantención y mejoramiento de ésta.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-10-LR26"
+  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
+  "unidad": "SEREMI IX REGION",
+  "region": "Región de la Araucanía ",
+  "tipo": "LE",
+  "monto": "45.000.000 CLP",
+  "fecha_cierre": "2026-10-05T15:10",
+  "fecha_publicacion": "2026-09-15",
+  "descripcion": "ANÁLISIS PLAN REGULADOR COMUNAL DE LONCOCHE VUELO AEROFOTOGRAMÉTRICO Y CARTOGRAFÍA BASE",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-13-LE26"
  },
  {
   "codigo": "926-13-LE26",
@@ -269,25 +270,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4610-68-LP26"
  },
  {
-  "codigo": "966131-53-LE26",
-  "nombre": "ACTUALIZACIÓN PLADECO - “PLAN DE DESARROLLO COMUNAL CASTRO 2027 - 2030",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE CASTRO",
-  "unidad": "SECPLAN",
-  "region": "Región de los Lagos ",
-  "tipo": "LE",
-  "monto": "25.000.000 CLP",
-  "fecha_cierre": "2026-09-14T15:01",
-  "fecha_publicacion": "2026-08-31",
-  "descripcion": "La necesidad de actualizar el Plan de Desarrollo Comunal (PLADECO) de Castro 2027–2030.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-53-LE26"
- },
- {
   "codigo": "5268-24-O126",
   "nombre": "EI REPOSICIÓN PUENTE PONOTRO EN RUTA P-632, COMUNA DE CAÑETE",
   "puntaje": 4,
@@ -358,25 +340,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3847-41-LE26"
  },
  {
-  "codigo": "2693-34-LP26",
-  "nombre": "PROYECTO FNDR DENOMINADO “ACTUALIZACION PLAN REGULADOR” COMUNA DE ALGARROBO",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE ALGARROBO",
-  "unidad": "MUNICIPALIDAD DE ALGARROBO - SECPLA",
-  "region": "Región de Valparaíso ",
-  "tipo": "LP",
-  "monto": "",
-  "fecha_cierre": "2026-09-28T15:00",
-  "fecha_publicacion": "2026-08-28",
-  "descripcion": "PROYECTO FNDR DENOMINADO “ACTUALIZACION PLAN REGULADOR”, COMUNA DE ALGARROBO",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2693-34-LP26"
- },
- {
   "codigo": "2387-79-LE26",
   "nombre": "Actualización PLADECO Pucón 2027-2031",
   "puntaje": 4,
@@ -430,6 +393,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-22-O126"
  },
  {
+  "codigo": "2693-34-LP26",
+  "nombre": "PROYECTO FNDR DENOMINADO “ACTUALIZACION PLAN REGULADOR” COMUNA DE ALGARROBO",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE ALGARROBO",
+  "unidad": "MUNICIPALIDAD DE ALGARROBO - SECPLA",
+  "region": "Región de Valparaíso ",
+  "tipo": "LP",
+  "monto": "",
+  "fecha_cierre": "2026-10-13T15:01",
+  "fecha_publicacion": "2026-08-28",
+  "descripcion": "PROYECTO FNDR DENOMINADO “ACTUALIZACION PLAN REGULADOR”, COMUNA DE ALGARROBO",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2693-34-LP26"
+ },
+ {
   "codigo": "5048-46-O126",
   "nombre": "EI CONSTR. CAMINO ESTANCIA VICUÑA - YENDEGAIA ETAPA XIV",
   "puntaje": 4,
@@ -464,6 +446,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-44-O126"
  },
  {
+  "codigo": "4631-19-LP26",
+  "nombre": "CONSULTORÍA PLAN MAESTRO VIDEOVIGILANCIA L12-26",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE COPIAPO",
+  "unidad": "Secpla",
+  "region": "Región de Atacama ",
+  "tipo": "LP",
+  "monto": "",
+  "fecha_cierre": "2026-10-19T15:00",
+  "fecha_publicacion": "2026-09-15",
+  "descripcion": "La presente consultoría se enmarca en el desarrollo del Plan Maestro de Videovigilancia y Control Territorial, en la comuna de Copiapó, Región de Atacama, cuyo propósito es generar los antecedentes técnicos, territoriales, operacionales y de especialidad necesarios para sustentar, de manera integral y técnicamente fundada, la futura implementación de un sistema de videovigilancia orientado a fortalecer la seguridad pública, el monitoreo preventivo, la capacidad de respuesta, la trazabilidad de eventos y el control territorial, considerando la totalidad del territorio de influencia del sistema incluyendo áreas urbanas, periurbanas, rurales, rutas de conexión y accesos estratégicos pudiendo extenderse más allá del límite urbano o comunal cuando resulte necesario para asegurar la continuidad operacional, la cobertura funcional y la correcta integración territorial de las soluciones propuest",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4631-19-LP26"
+ },
+ {
   "codigo": "5048-52-O126",
   "nombre": "EST.BÁS. ANÁLISIS INCORP. POLVO DE CAUCHO PAVIMENTO SOSTENIBLE",
   "puntaje": 4,
@@ -479,25 +480,6 @@
   "fecha_publicacion": "2026-09-11",
   "descripcion": "Evaluar la factibilidad técnica de incorporar la tecnología del polvo de caucho proveniente de neumáticos fuera de uso en pavimentos asfálticos para su aplicación en la red vial nacional.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-52-O126"
- },
- {
-  "codigo": "1233822-22-L126",
-  "nombre": "SEMINARIO DIAGNÓSTICO DEL DEPORTE CMDR",
-  "puntaje": 3,
-  "categorias": [
-   "Concesiones / logistica"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "CORPORACION MUNICIPAL DE DEPORTES Y RECREACIÓN DE ANTOFAGASTA",
-  "unidad": "CORPORACION MUNICIPAL DE DEPORTES Y RECREACIÓN DE ANTOFAGASTA",
-  "region": "Región de Antofagasta ",
-  "tipo": "L1",
-  "monto": "",
-  "fecha_cierre": "2026-09-15T12:00",
-  "fecha_publicacion": "2026-09-09",
-  "descripcion": "Contratar un servicio integral de producción, implementación y apoyo logístico para la correcta ejecución del “Seminario Diagnóstico del Deporte y Actividad Física en Antofagasta”, a realizar el día martes 29 de septiembre a las 11:00 horas en el auditorio de la CMDR, Avenida Angamos 0393. El servicio  a contratar debe garantizar el adecuado desarrollo técnico, operativo, comunicacional y protocolar de la actividad, mediante la provisión y coordinación de los servicios de producción, equipamiento audiovisual, escenografía, iluminación, ambientación, alimentación, difusión y plan de difusión apoyo al desarrollo del evento y logística de los expositores, asegurando condiciones de calidad, seguridad, oportunidad y continuidad operacional durante todas las etapas de preparación, ejecución y cierre del seminario.\r\n\r\nLa realización de este Seminario se enmarca dentro de las actividades planifi",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1233822-22-L126"
  },
  {
   "codigo": "2345-138-LP26",
@@ -631,6 +613,25 @@
   "fecha_publicacion": "2026-09-11",
   "descripcion": "La necesidad de contribuir al mejoramiento de la calidad de vida de los habitantes de barrios que presentan problemas de deterioro urbano y vulnerabilidad social, mediante el mejoramiento y/o dotación de espacios públicos, equipamiento comunitario y entor",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-60-CO26"
+ },
+ {
+  "codigo": "889473-52-LE26",
+  "nombre": "SC 8507 - Serv. de Encuesta Barómetro Regional",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "UNIVERSIDAD DE O'HIGGINS",
+  "unidad": "UNIVERSIDAD DE O'HIGGINS",
+  "region": "Región del Libertador General Bernardo O´Higgins",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-09-30T12:00",
+  "fecha_publicacion": "2026-09-15",
+  "descripcion": "La Universidad de O’Higgins, a través de su Observatorio Laboral, requiere contratar un servicio especializado para la planificación, levantamiento y procesamiento de información mediante la aplicación de una encuesta cuantitativa de carácter representativo, en modalidad presencial y telefónica, a personas mayores de 18 años de las comunas de la Región de O’Higgins",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=889473-52-LE26"
  },
  {
   "codigo": "730566-25-LR26",
