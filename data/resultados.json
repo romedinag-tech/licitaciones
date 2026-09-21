@@ -137,25 +137,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=613-8-LR26"
  },
  {
-  "codigo": "619284-7-LP26",
-  "nombre": "Análisis Táctico de Proyectos de Transporte Urbano Etapa VII",
-  "puntaje": 7,
-  "categorias": [
-   "Vialidad / transito"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DE TRANSPORTES",
-  "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LP",
-  "monto": "294.117.647 CLP",
-  "fecha_cierre": "2026-09-21T15:01",
-  "fecha_publicacion": "2026-08-26",
-  "descripcion": "El objetivo principal de este estudio será el desarrollo y análisis de estudios tácticos\r\nde transporte urbano en las distintas regiones del país, destinados a resolver\r\nproblemas de infraestructura y gestión de tránsito y transporte.\r\nPor lo anterior, tiene como objetivo apoyar el análisis y la formulación de proyectos\r\ntácticos de transporte urbano, en las áreas de infraestructura de transporte y\r\ngestión de tránsito. Ha sido concebido para responder, de manera rápida y\r\neficiente, a requerimientos de estudios específicos a lo largo del país y su\r\ndesarrollo se efectuará bajo la modalidad de Órdenes de Trabajo. El espectro de\r\nlos análisis técnicos incluye tareas que abarcan distintos estudios, como por\r\nejemplo: estudio de base de transporte e ingeniería, simulaciones aplicando\r\nmodelos de transporte, diseño vial urbano, evaluación social de proyectos, entre\r\notros.\r\n",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-7-LP26"
- },
- {
   "codigo": "926-12-LR26",
   "nombre": "MEJORA Y CONSERVACIÓN INTEGRAL DE LA INFRAEST. PP",
   "puntaje": 7,
@@ -461,44 +442,6 @@
   "fecha_publicacion": "2026-09-11",
   "descripcion": "Evaluar la factibilidad técnica de incorporar la tecnología del polvo de caucho proveniente de neumáticos fuera de uso en pavimentos asfálticos para su aplicación en la red vial nacional.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-52-O126"
- },
- {
-  "codigo": "2430-55-LE26",
-  "nombre": "ESTUDIO DISEÑO OBSERVATORIO COMUNAL DEL DELITO",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE ANTOFAGASTA",
-  "unidad": "IMUNI_ANTOFAGASTA Gestion.Secoplan",
-  "region": "Región de Antofagasta ",
-  "tipo": "LE",
-  "monto": "50.000.000 CLP",
-  "fecha_cierre": "2026-09-21T15:01",
-  "fecha_publicacion": "2026-09-02",
-  "descripcion": "ESTUDIO DISEÑO OBSERVATORIO COMUNAL DEL DELITO",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2430-55-LE26"
- },
- {
-  "codigo": "4889-36-LE26",
-  "nombre": "Ss Técnicos y Profesionales - Cartografía AAEE",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
-  "unidad": "Consejo Regional de Cultura Región de Aysen",
-  "region": "Región Aysén del General Carlos Ibáñez del Campo",
-  "tipo": "LE",
-  "monto": "15.000.000 CLP",
-  "fecha_cierre": "2026-09-21T15:01",
-  "fecha_publicacion": "2026-09-08",
-  "descripcion": "Servicios Técnicos y Profesionales para la Elaboración de una Cartografía sobre las Artes Escénicas de la Región de Aysén",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4889-36-LE26"
  },
  {
   "codigo": "5877-35-L126",
