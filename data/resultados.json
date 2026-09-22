@@ -213,23 +213,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-21-O126"
  },
  {
-  "codigo": "1068829-20-O126",
-  "nombre": "ESTUDIO DE INGENIERIA REPOSICIÓN RUTA N-55, PINTO, REGIÓN DE ÑUBLE",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - DR Ñuble - Licitación Obra",
-  "region": "Región del Ñuble",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-09-22T08:00",
-  "fecha_publicacion": "2026-08-14",
-  "descripcion": "ESTUDIO DE INGENIERÍA “REPOSICIÓN RUTA N-55, KM 52.600 AL KM 77.248, COMUNA DE PINTO, REGIÓN DE ÑUBLE”",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1068829-20-O126"
- },
- {
   "codigo": "5895-17-O126",
   "nombre": "E.I. Mejoramiento Ruta T-625 Reumen-Nontuela",
   "puntaje": 4,
@@ -499,6 +482,25 @@
   "fecha_publicacion": "2026-09-15",
   "descripcion": "La Universidad de O’Higgins, a través de su Observatorio Laboral, requiere contratar un servicio especializado para la planificación, levantamiento y procesamiento de información mediante la aplicación de una encuesta cuantitativa de carácter representativo, en modalidad presencial y telefónica, a personas mayores de 18 años de las comunas de la Región de O’Higgins",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=889473-52-LE26"
+ },
+ {
+  "codigo": "568963-22-LE26",
+  "nombre": "ENCUESTA DE SEGUIMIENTO LABORAL FCS",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "COMISION DEL SISTEMA NACIONAL DE CERTIFICACION DE COMPETENCIAS LABORALES",
+  "unidad": "CSNCCL",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-10-02T15:00",
+  "fecha_publicacion": "2026-09-22",
+  "descripcion": "El presente requerimiento tiene por objeto la contratación de un servicio externo que consiste en la ejecución del trabajo de campo y el procesamiento de datos de una encuesta de seguimiento a las personas que se evaluaron con cargo al Fondo de cesantía Solidario durante el año 2025.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=568963-22-LE26"
  },
  {
   "codigo": "591-28-LE26",
