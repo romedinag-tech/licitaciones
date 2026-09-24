@@ -81,25 +81,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-13-LE26"
  },
  {
-  "codigo": "926-13-LE26",
-  "nombre": "Producción Ceremonia de reconocimiento conductores",
-  "puntaje": 9,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DE TRANSPORTES",
-  "unidad": "DIRECTORIO DE TRANSPORTES DE SANTIAGO - MTT",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "30.000.000 CLP",
-  "fecha_cierre": "2026-09-23T15:01",
-  "fecha_publicacion": "2026-09-02",
-  "descripcion": "Contratar el servicio de “PRODUCCIÓN DE CEREMONIA DE RECONOCIMIENTO AL PERSONAL DE CONDUCCIÓN 2026” con el objeto de apoyar las labores de la Gerencia de usuarios del DTPM en la realización de una ceremonia de reconocimiento a la labor que desempeñan conductores y conductoras de las distintas empresas operadoras del sistema de transporte público metropolitano.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-13-LE26"
- },
- {
   "codigo": "926-11-LP26",
   "nombre": "Análisis y Modelación del Sistema de Transporte",
   "puntaje": 9,
@@ -171,7 +152,7 @@
   "region": "Región Metropolitana de Santiago",
   "tipo": "LR",
   "monto": "",
-  "fecha_cierre": "2026-10-01T15:00",
+  "fecha_cierre": "2026-10-05T15:01",
   "fecha_publicacion": "2026-08-31",
   "descripcion": "Contratar el servicio de “Mejora y conservación integral de la infraestructura de puntos de parada del STPM”. Se busca seleccionar un contratista con capacidad técnica, operativa y logística necesaria para ejecutar adecuadamente labores de mejoramiento, conservación, reposición y adecuación de la infraestructura de los puntos de puntos de parada.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-12-LR26"
@@ -247,7 +228,7 @@
   "region": "Región de la Araucanía ",
   "tipo": "LE",
   "monto": "18.000.000 CLP",
-  "fecha_cierre": "2026-09-29T14:00",
+  "fecha_cierre": "2026-10-01T14:00",
   "fecha_publicacion": "2026-09-14",
   "descripcion": "El objeto del contrato es la prestación integral del servicio de actualización del Plan de Desarrollo Comunal PLADECO de la Comuna de Pucón. El Servicio comprende cada una de las acciones y productos establecidos en los Términos Técnicos de Referencia.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2387-79-LE26"
@@ -395,25 +376,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-44-O126"
  },
  {
-  "codigo": "4631-19-LP26",
-  "nombre": "CONSULTORÍA PLAN MAESTRO VIDEOVIGILANCIA L12-26",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE COPIAPO",
-  "unidad": "Secpla",
-  "region": "Región de Atacama ",
-  "tipo": "LP",
-  "monto": "",
-  "fecha_cierre": "2026-10-19T15:00",
-  "fecha_publicacion": "2026-09-15",
-  "descripcion": "La presente consultoría se enmarca en el desarrollo del Plan Maestro de Videovigilancia y Control Territorial, en la comuna de Copiapó, Región de Atacama, cuyo propósito es generar los antecedentes técnicos, territoriales, operacionales y de especialidad necesarios para sustentar, de manera integral y técnicamente fundada, la futura implementación de un sistema de videovigilancia orientado a fortalecer la seguridad pública, el monitoreo preventivo, la capacidad de respuesta, la trazabilidad de eventos y el control territorial, considerando la totalidad del territorio de influencia del sistema incluyendo áreas urbanas, periurbanas, rurales, rutas de conexión y accesos estratégicos pudiendo extenderse más allá del límite urbano o comunal cuando resulte necesario para asegurar la continuidad operacional, la cobertura funcional y la correcta integración territorial de las soluciones propuest",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4631-19-LP26"
- },
- {
   "codigo": "5048-52-O126",
   "nombre": "EST.BÁS. ANÁLISIS INCORP. POLVO DE CAUCHO PAVIMENTO SOSTENIBLE",
   "puntaje": 4,
@@ -543,6 +505,25 @@
   "fecha_publicacion": "2026-09-15",
   "descripcion": "Se requiere un servicio de levantamiento de una encuesta telefónica a una muestra objetivo de, a lo menos, 1.970 personas a nivel nacional, correspondientes a titulares de Isapre y de Fonasa tramos B, C y D, de 18 y más años, distribuidos en celdas muestrales de manera estratificada y proporcional por sexo, edad y tramo de ingreso en todas las regiones del país.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=591-28-LE26"
+ },
+ {
+  "codigo": "4127-50-LE26",
+  "nombre": "[DIVAP] Estudio del bodegaje de ajuares",
+  "puntaje": 3,
+  "categorias": [
+   "Concesiones / logistica"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE SALUD PUBLICA",
+  "unidad": "Subsecretaria de Redes Asistenciales",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "18.000.000 CLP",
+  "fecha_cierre": "2026-10-05T16:00",
+  "fecha_publicacion": "2026-09-23",
+  "descripcion": "Se requiere realizar un diagnóstico nacional del bodegaje de ajuares del Programa de Apoyo al Recién Nacido de Chile Crece Contigo en las maternidades de la red pública de salud de Chile, realizando recomendaciones para mejorar el costo-efectividad, gestión y logística del almacenamiento.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4127-50-LE26"
  },
  {
   "codigo": "730566-25-LR26",
