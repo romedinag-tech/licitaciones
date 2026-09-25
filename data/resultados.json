@@ -81,6 +81,26 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-13-LE26"
  },
  {
+  "codigo": "660-14-LP26",
+  "nombre": "MODIFICACIÓN PLAN REGULADOR COMUNAL DE VICTORIA",
+  "puntaje": 11,
+  "categorias": [
+   "Datos / SIG / encuestas",
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
+  "unidad": "SEREMI IX REGION",
+  "region": "Región de la Araucanía ",
+  "tipo": "LP",
+  "monto": "75.000.000 CLP",
+  "fecha_cierre": "2026-10-19T15:10",
+  "fecha_publicacion": "2026-09-25",
+  "descripcion": "MODIFICACIÓN PLAN REGULADOR COMUNAL DE VICTORIA, LOCALIDADES DE VICTORIA, QUINO, PÚA Y SELVA OSCURA. LEVANTAMIENTO AEROFOTOGRAMÉTRICO Y CARTOGRAFÍA BASE",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-14-LP26"
+ },
+ {
   "codigo": "926-11-LP26",
   "nombre": "Análisis y Modelación del Sistema de Transporte",
   "puntaje": 9,
