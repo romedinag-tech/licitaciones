@@ -413,63 +413,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-52-O126"
  },
  {
-  "codigo": "5877-35-L126",
-  "nombre": "SEREMI DE LOS RIOS REQUIERE SERVICIO TÉCNICO PROFESIONAL PARA LA ACTUALIZACIÓN Y AMPLIACIÓN DE LA CARTOGRAFÍA DEL SECTOR DE LA MÚSICA DE LA REGIÓN DE LOS RÍOS COMO PARTE DEL PROGRAMA LOS RÍOS: TERRITORIO MUSICAL, EN EL MARCO DEL MES DE LA MÚSICA DEL MINIS",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
-  "unidad": "Consejo de la Cultura y Las Artes Región de Los Ríos",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "L1",
-  "monto": "5.000.000 CLP",
-  "fecha_cierre": "2026-09-25T15:00",
-  "fecha_publicacion": "2026-09-14",
-  "descripcion": "SEREMI DE LOS RIOS REQUIERE SERVICIO TÉCNICO PROFESIONAL PARA LA ACTUALIZACIÓN Y AMPLIACIÓN DE LA CARTOGRAFÍA DEL SECTOR DE LA MÚSICA DE LA REGIÓN DE LOS RÍOS COMO PARTE DEL PROGRAMA LOS RÍOS: TERRITORIO MUSICAL, EN EL MARCO DEL MES DE LA MÚSICA DEL MINISTERIO DE LAS CULTURAS, LAS ARTES Y EL PATRIMONIO, REGIÓN DE LOS RÍOS.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5877-35-L126"
- },
- {
-  "codigo": "966131-60-CO26",
-  "nombre": "Estudio Vial de Seguridad y Gestión de Riesgo y Desastres para el PQMB Barrio Tejiendo Sueños Comuna de Castro ",
-  "puntaje": 3,
-  "categorias": [
-   "Vialidad / transito"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE CASTRO",
-  "unidad": "SECPLAN",
-  "region": "Región de los Lagos ",
-  "tipo": "CO",
-  "monto": "",
-  "fecha_cierre": "2026-09-25T18:36",
-  "fecha_publicacion": "2026-09-11",
-  "descripcion": "La necesidad de contribuir al mejoramiento de la calidad de vida de los habitantes de barrios que presentan problemas de deterioro urbano y vulnerabilidad social, mediante el mejoramiento y/o dotación de espacios públicos, equipamiento comunitario y entor",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-60-CO26"
- },
- {
-  "codigo": "633-59-L126",
-  "nombre": "ENCUESTA DE SATISFACCIÓN USUARIA – ENTREGA DE PLANTAS PROGRAMA DE ARBORIZACIÓN",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "CORP NACIONAL FORESTAL",
-  "unidad": "Conaf - Oficina Central - Abastecimiento",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "L1",
-  "monto": "5.000.000 CLP",
-  "fecha_cierre": "2026-09-28T15:00",
-  "fecha_publicacion": "2026-09-23",
-  "descripcion": "La Corporación Nacional Forestal, en adelante “CONAF” o “la Corporación”, indistintamente, invita a los oferentes inscritos en el portal de compras del Estado www.mercadopublico.cl, a participar en la licitación pública denominada “ENCUESTA DE SATISFACCIÓN USUARIA – ENTREGA DE PLANTAS PROGRAMA DE ARBORIZACIÓN”, según especificaciones incluidas en Bases de Licitación y Anexos.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=633-59-L126"
- },
- {
   "codigo": "889473-52-LE26",
   "nombre": "SC 8507 - Serv. de Encuesta Barómetro Regional",
   "puntaje": 3,
@@ -487,6 +430,25 @@
   "fecha_publicacion": "2026-09-15",
   "descripcion": "La Universidad de O’Higgins, a través de su Observatorio Laboral, requiere contratar un servicio especializado para la planificación, levantamiento y procesamiento de información mediante la aplicación de una encuesta cuantitativa de carácter representativo, en modalidad presencial y telefónica, a personas mayores de 18 años de las comunas de la Región de O’Higgins",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=889473-52-LE26"
+ },
+ {
+  "codigo": "633-59-L126",
+  "nombre": "ENCUESTA DE SATISFACCIÓN USUARIA – ENTREGA DE PLANTAS PROGRAMA DE ARBORIZACIÓN",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "CORP NACIONAL FORESTAL",
+  "unidad": "Conaf - Oficina Central - Abastecimiento",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "L1",
+  "monto": "5.000.000 CLP",
+  "fecha_cierre": "2026-10-02T08:00",
+  "fecha_publicacion": "2026-09-23",
+  "descripcion": "La Corporación Nacional Forestal, en adelante “CONAF” o “la Corporación”, indistintamente, invita a los oferentes inscritos en el portal de compras del Estado www.mercadopublico.cl, a participar en la licitación pública denominada “ENCUESTA DE SATISFACCIÓN USUARIA – ENTREGA DE PLANTAS PROGRAMA DE ARBORIZACIÓN”, según especificaciones incluidas en Bases de Licitación y Anexos.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=633-59-L126"
  },
  {
   "codigo": "568963-22-LE26",
@@ -527,23 +489,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=591-28-LE26"
  },
  {
-  "codigo": "4127-50-LE26",
-  "nombre": "[DIVAP] Estudio del bodegaje de ajuares",
+  "codigo": "1810-5-L126",
+  "nombre": "SERVICIO DE PLAN DE DATOS PARA ENCUESTA ENE",
   "puntaje": 3,
   "categorias": [
-   "Concesiones / logistica"
+   "Datos / SIG / encuestas"
   ],
   "org_clave": false,
   "bip": "",
-  "organismo": "SUBSECRETARIA DE SALUD PUBLICA",
-  "unidad": "Subsecretaria de Redes Asistenciales",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "18.000.000 CLP",
-  "fecha_cierre": "2026-10-05T16:00",
-  "fecha_publicacion": "2026-09-23",
-  "descripcion": "Se requiere realizar un diagnóstico nacional del bodegaje de ajuares del Programa de Apoyo al Recién Nacido de Chile Crece Contigo en las maternidades de la red pública de salud de Chile, realizando recomendaciones para mejorar el costo-efectividad, gestión y logística del almacenamiento.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4127-50-LE26"
+  "organismo": "INSTITUTO NACIONAL DE ESTADISTICAS",
+  "unidad": "INE -  X Región",
+  "region": "Región de los Lagos ",
+  "tipo": "L1",
+  "monto": "1.276.800 CLP",
+  "fecha_cierre": "2026-10-06T15:00",
+  "fecha_publicacion": "2026-09-25",
+  "descripcion": "El Instituto Nacional de Estadísticas es un servicio público funcionalmente descentralizado, encargado de generar las estadísticas oficiales del país y de articular el Sistema Estadístico Nacional. En este contexto, se hace necesario contratar un servicio de planes de telefonía y datos móviles por un periodo de 12 meses, que permita asegurar la continuidad operativa del trabajo en terreno.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1810-5-L126"
  },
  {
   "codigo": "730566-25-LR26",
