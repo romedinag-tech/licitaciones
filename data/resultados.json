@@ -15,7 +15,7 @@
   "region": "Región de Coquimbo ",
   "tipo": "LE",
   "monto": "",
-  "fecha_cierre": "2026-10-06T15:30",
+  "fecha_cierre": "2026-10-07T15:30",
   "fecha_publicacion": "2026-09-23",
   "descripcion": "La consultoría materia de la presente licitación se denomina “Estudio Elaboración Plan de Inversiones en Infraestructura de Movilidad y Espacio Público PIIMEP”. Esta consultoría comprende elaborar el primer Plan de Inversiones en Infraestructura de Movilidad y Espacio Público de la comuna de Coquimbo, mediante un proceso integral de diagnóstico comunal prospectivo, identificación de brechas y  necesidades, levantamiento y formulación de iniciativas, definición de criterios de priorización, elaboración de una cartera de inversiones, consulta pública y formulación de una propuesta final, que permita orientar y priorizar las inversiones en movilidad y espacio público en la comuna, fundamentadas en la búsqueda de mejorar las condiciones de conectividad, accesibilidad, operación y movilidad de la comuna, así como también  la calidad de los espacios públicos, favoreciendo la cohesión social, l",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2446-279-LE26"
@@ -39,26 +39,6 @@
   "fecha_publicacion": "2010-12-29",
   "descripcion": "Identificar proyectos complementarios al Plan Maestro de Desarrollo y Gestión del Sistema de Transporte Urbano (STU) del Gran Concepción",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10"
- },
- {
-  "codigo": "619284-8-LE26",
-  "nombre": "Adquisición de suscripción de licencias Aimsun Nex",
-  "puntaje": 12,
-  "categorias": [
-   "Demanda / EOD / aforos",
-   "Vialidad / transito"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DE TRANSPORTES",
-  "unidad": "Programa de Vialidad y Transporte Urbano - Sectra",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "14.000 USD",
-  "fecha_cierre": "2026-09-28T15:00",
-  "fecha_publicacion": "2026-09-10",
-  "descripcion": "El objetivo de la adquisición es disponer de todas las funcionalidades del software Aimsun Next, herramienta informática especializada orientada a la modelación de transportes, necesaria para el desarrollo de las labores estratégicas de los funcionarios y servidores públicos que se desempeñan en el Programa de Vialidad y Transporte Urbano: Sectra.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=619284-8-LE26"
  },
  {
   "codigo": "660-13-LE26",
@@ -191,7 +171,7 @@
   "region": "Región de Los Ríos",
   "tipo": "O1",
   "monto": "",
-  "fecha_cierre": "2026-10-15T08:00",
+  "fecha_cierre": "2026-10-29T08:00",
   "fecha_publicacion": "2026-09-11",
   "descripcion": "El Estudio de Ingeniería Normalización Seguridad Vial Varios Cruces, Región de Los Ríos tiene como objetivo principal realizar la elaboración de proyectos con soluciones integrales a cruces emplazadas en diversos sectores en la región de Los Ríos, con los respectivos análisis técnicos - económicos para el desarrollo de proyectos destinados a la ejecución de sus obras",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5895-24-O126"
@@ -487,6 +467,25 @@
   "fecha_publicacion": "2026-09-15",
   "descripcion": "Se requiere un servicio de levantamiento de una encuesta telefónica a una muestra objetivo de, a lo menos, 1.970 personas a nivel nacional, correspondientes a titulares de Isapre y de Fonasa tramos B, C y D, de 18 y más años, distribuidos en celdas muestrales de manera estratificada y proporcional por sexo, edad y tramo de ingreso en todas las regiones del país.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=591-28-LE26"
+ },
+ {
+  "codigo": "4127-50-LE26",
+  "nombre": "[DIVAP] Estudio del bodegaje de ajuares",
+  "puntaje": 3,
+  "categorias": [
+   "Concesiones / logistica"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE SALUD PUBLICA",
+  "unidad": "Subsecretaria de Redes Asistenciales",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "18.000.000 CLP",
+  "fecha_cierre": "2026-10-05T16:00",
+  "fecha_publicacion": "2026-09-23",
+  "descripcion": "Se requiere realizar un diagnóstico nacional del bodegaje de ajuares del Programa de Apoyo al Recién Nacido de Chile Crece Contigo en las maternidades de la red pública de salud de Chile, realizando recomendaciones para mejorar el costo-efectividad, gestión y logística del almacenamiento.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4127-50-LE26"
  },
  {
   "codigo": "1810-5-L126",
