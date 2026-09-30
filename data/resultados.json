@@ -81,25 +81,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-14-LP26"
  },
  {
-  "codigo": "926-11-LP26",
-  "nombre": "Análisis y Modelación del Sistema de Transporte",
-  "puntaje": 9,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DE TRANSPORTES",
-  "unidad": "DIRECTORIO DE TRANSPORTES DE SANTIAGO - MTT",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LP",
-  "monto": "300.000.000 CLP",
-  "fecha_cierre": "2026-09-29T15:01",
-  "fecha_publicacion": "2026-08-26",
-  "descripcion": "En este sentido, se requiere un servicio destinado a explotar los modelos de asignación de viajes -períodos punta mañana, fuera de punta y punta tarde- construidos sobre la plataforma EMME a partir de modelaciones de escenarios y realizar con ellos análisis técnicos yo económicos. Esto se realiza examinando diversos escenarios de demanda yo redes, desde escenarios menores como la extensión de un servicio de buses, hasta escenarios más complejos como un plan de proyectos, una nueva línea de Metro, un nuevo programa de operaciones licitado, incluyendo la asignación de nuevas matrices de demanda.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-11-LP26"
- },
- {
   "codigo": "2667-78-LR26",
   "nombre": "ACTUALIZACIÓN PLAN REGULADOR COMUNAL COMUNA DE VITACURA",
   "puntaje": 9,
@@ -118,6 +99,25 @@
   "fecha_publicacion": "2026-08-28",
   "descripcion": "El objeto de la presente licitación es contratar a una persona natural o jurídica para realizar todos los estudios técnicos requeridos, la asistencia técnica especializada, así como el cumplimiento de los procedimientos conducentes a la Actualización del Plan Regulador Comunal de Vitacura (PRC-V), hasta la aprobación del Informe Ambiental por parte del Ministerio de Medio Ambiente y la posterior obtención del Informe Favorable por parte de la Secretaría Regional Ministerial del Ministerio de Vivienda y Urbanismo de la Región Metropolitana de Santiago, en apoyo del ejercicio de la potestad planificadora que la Municipalidad conserva de manera privativa e indelegable conforme al artículo 3°, letra b), de la Ley N°18.695.\r\n\r\nEl servicio comprende la elaboración de los estudios exigidos por la normativa vigente (movilidad urbana, equipamiento comunal, riesgos, factibilidad sanitaria, infraes",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2667-78-LR26"
+ },
+ {
+  "codigo": "926-14-LR26",
+  "nombre": "Ejecutivos de información monitores",
+  "puntaje": 9,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "DIRECTORIO DE TRANSPORTES DE SANTIAGO - MTT",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LR",
+  "monto": "",
+  "fecha_cierre": "2026-10-30T15:00",
+  "fecha_publicacion": "2026-09-29",
+  "descripcion": "Adjudicar y contratar un servicio destinado a proveer el despliegue en terreno de ejecutivos de información monitores para informar, educar, atender y orientar las necesidades de las personas usuarias y no usuarias, así como a otros actores que interactúan con el Sistema de Transporte Público Metropolitano.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-14-LR26"
  },
  {
   "codigo": "613-8-LR26",
@@ -393,23 +393,21 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-52-O126"
  },
  {
-  "codigo": "889473-52-LE26",
-  "nombre": "SC 8507 - Serv. de Encuesta Barómetro Regional",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
+  "codigo": "5048-55-O126",
+  "nombre": "E.PREF. AMPLIACION Y PASADA URBANA RUTA N-55 SECTOR CHILLAN-PINTO",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
   "bip": "",
-  "organismo": "UNIVERSIDAD DE O'HIGGINS",
-  "unidad": "UNIVERSIDAD DE O'HIGGINS",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "LE",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región del Ñuble",
+  "tipo": "O1",
   "monto": "",
-  "fecha_cierre": "2026-09-30T12:00",
-  "fecha_publicacion": "2026-09-15",
-  "descripcion": "La Universidad de O’Higgins, a través de su Observatorio Laboral, requiere contratar un servicio especializado para la planificación, levantamiento y procesamiento de información mediante la aplicación de una encuesta cuantitativa de carácter representativo, en modalidad presencial y telefónica, a personas mayores de 18 años de las comunas de la Región de O’Higgins",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=889473-52-LE26"
+  "fecha_cierre": "2026-11-03T10:30",
+  "fecha_publicacion": "2026-09-30",
+  "descripcion": "Estudio para desarrollar el análisis técnico, económico, social, territorial y ambiental para la ampliación de la Ruta N-55 y una variante interurbana en la comuna de Pinto, en una longitud aproximada de 20,6 kilómetros.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
  },
  {
   "codigo": "633-59-L126",

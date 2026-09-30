@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-09-29T18:04:10+00:00",
- "total_activas": 4171,
+ "actualizado": "2026-09-30T17:58:42+00:00",
+ "total_activas": 4359,
  "candidatas": 200,
  "resultados": 28,
- "clave": 16,
+ "clave": 17,
  "modo_ticket": "personal",
  "regiones": [
   "Región Aysén del General Carlos Ibáñez del Campo",
@@ -16,7 +16,8 @@
   "Región de la Araucanía ",
   "Región de los Lagos ",
   "Región del Biobío ",
-  "Región del Libertador General Bernardo O´Higgins"
+  "Región del Libertador General Bernardo O´Higgins",
+  "Región del Ñuble"
  ],
  "categorias": [
   "IMIV / impacto vial",
