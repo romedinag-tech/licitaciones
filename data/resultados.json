@@ -81,6 +81,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-14-LP26"
  },
  {
+  "codigo": "712307-76-LE26",
+  "nombre": "Consultoría para la Normalización y Mejoramiento de Sistemas Eléctricos Asociados a Rutas Peatonales ",
+  "puntaje": 9,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION",
+  "unidad": "Licitaciones y Costos",
+  "region": "Región de la Araucanía ",
+  "tipo": "LE",
+  "monto": "19.000.000 CLP",
+  "fecha_cierre": "2026-10-13T15:01",
+  "fecha_publicacion": "2026-09-30",
+  "descripcion": "Consultoría para la Normalización y Mejoramiento de Sistemas Eléctricos Asociados a Rutas Peatonales de la Provincia de Malleco",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=712307-76-LE26"
+ },
+ {
   "codigo": "2667-78-LR26",
   "nombre": "ACTUALIZACIÓN PLAN REGULADOR COMUNAL COMUNA DE VITACURA",
   "puntaje": 9,
@@ -118,25 +137,6 @@
   "fecha_publicacion": "2026-09-29",
   "descripcion": "Adjudicar y contratar un servicio destinado a proveer el despliegue en terreno de ejecutivos de información monitores para informar, educar, atender y orientar las necesidades de las personas usuarias y no usuarias, así como a otros actores que interactúan con el Sistema de Transporte Público Metropolitano.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-14-LR26"
- },
- {
-  "codigo": "613-8-LR26",
-  "nombre": "PLAN REGULADOR COMUNAL DE COYHAIQUE",
-  "puntaje": 8,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
-  "unidad": "SEREMI MINVU XI REGION",
-  "region": "Región Aysén del General Carlos Ibáñez del Campo",
-  "tipo": "LR",
-  "monto": "365.000.000 CLP",
-  "fecha_cierre": "2026-10-01T15:00",
-  "fecha_publicacion": "2026-08-31",
-  "descripcion": "Elaborar el Plan Regulador de Coyhaique para la ciudad de Coyhaique y las localidades Villa Frei y Lago Atravesado, con todos sus componentes normativos, preceptos legales y reglamentos vigentes, contenidos en la Ley General de Urbanismo y Construcciones y respectiva Ordenanza General.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=613-8-LR26"
  },
  {
   "codigo": "926-12-LR26",
@@ -215,25 +215,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-21-O126"
  },
  {
-  "codigo": "2387-79-LE26",
-  "nombre": "Actualización PLADECO Pucón 2027-2031",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE PUCON",
-  "unidad": "Municipalidad de Pucon",
-  "region": "Región de la Araucanía ",
-  "tipo": "LE",
-  "monto": "18.000.000 CLP",
-  "fecha_cierre": "2026-10-01T14:00",
-  "fecha_publicacion": "2026-09-14",
-  "descripcion": "El objeto del contrato es la prestación integral del servicio de actualización del Plan de Desarrollo Comunal PLADECO de la Comuna de Pucón. El Servicio comprende cada una de las acciones y productos establecidos en los Términos Técnicos de Referencia.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2387-79-LE26"
- },
- {
   "codigo": "5895-21-O126",
   "nombre": "E.I. Reposicion Puentes Cuyaima y Cano Rodríguez",
   "puntaje": 4,
@@ -285,6 +266,23 @@
   "fecha_publicacion": "2026-08-07",
   "descripcion": "Prestar los servicios de elaboración, ingreso y tramitación ambiental del Estudio de Impacto Ambiental EIA del Proyecto de Conducción y Almacenamiento, y de las respuestas y complementos que sean requeridos durante la evaluación en el SEIA incluyendo Adendas, aclaraciones, rectificaciones y antecedentes complementarios, hasta la dictación de la Resolución de Calificación Ambiental RCA favorable, cumpliendo con la Ley N°19.300 de Bases Generales de Medio Ambiente, el Reglamento del Sistema de Evaluación de Impacto Ambiental RSEIA y sus modificaciones.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-22-O126"
+ },
+ {
+  "codigo": "5048-41-O126",
+  "nombre": "EP MEJ. RUTA ALTIPLANICA , EL TATIO, R. ANTOFAGASTA",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región de Antofagasta ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-10-06T15:30",
+  "fecha_publicacion": "2026-08-19",
+  "descripcion": "Definir una alternativa vial de acceso a El Tatio que resguarde el entorno geotérmico y asegure una conectividad segura y eficiente, mediante evaluaciones técnicas, ambientales, sociales y económicas.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-41-O126"
  },
  {
   "codigo": "2693-34-LP26",
