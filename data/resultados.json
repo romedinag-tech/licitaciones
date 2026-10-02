@@ -177,6 +177,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5895-24-O126"
  },
  {
+  "codigo": "2261-32-O126",
+  "nombre": "Consultoría Mejoramiento Seguridad Vial Varios Cruces, 2do. Llamado ",
+  "puntaje": 7,
+  "categorias": [
+   "Vialidad / transito"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - IX Región - Licitación de Obras",
+  "region": "Región de la Araucanía ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-03T10:00",
+  "fecha_publicacion": "2026-10-02",
+  "descripcion": "Esta consultoría considera el desarrollo de estudios y proyectos de ingeniería para la normalización y mejoramiento de la seguridad vial en intersecciones de la Región de La Araucanía",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2261-32-O126"
+ },
+ {
   "codigo": "5048-24-O126",
   "nombre": "EST BASICO AUSCULTACION PAV RURALES",
   "puntaje": 7,
@@ -215,42 +234,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-21-O126"
  },
  {
-  "codigo": "5895-21-O126",
-  "nombre": "E.I. Reposicion Puentes Cuyaima y Cano Rodríguez",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - XIV Región - Licitación de Obras",
-  "region": "Región de Los Ríos",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-10-02T08:00",
-  "fecha_publicacion": "2026-08-21",
-  "descripcion": "El presente estudio de ingeniería tiene como objetivo primordial el análisis y diseño de carácter definitivo de los puentes Cano Rodríguez y Cuyaima, incluyendo sus respectivos accesos. El proyecto tiene por finalidad mejorar sustantivamente las condiciones de operación, transitabilidad y conectividad permanente en los sectores de Mashue y Llancacura y sus áreas de influencia, mediante la intervención del puente Cano Rodríguez, ubicado en la comuna de La Unión. En forma análoga, la intervención del puente Cuyaima permitirá restituir y elevar el estándar de servicio en el sector Filuco y su entorno, en la comuna de Río Bueno, asegurando la continuidad y confiabilidad de la conectividad vial en ambos territorios.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5895-21-O126"
- },
- {
-  "codigo": "3847-41-LE26",
-  "nombre": "DISEÑO PLAN MAESTRO PARQUE URBANO BAQUEDANO",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE SIERRA GORDA",
-  "unidad": "Secoplac",
-  "region": "Región de Antofagasta ",
-  "tipo": "LE",
-  "monto": "70.000.000 CLP",
-  "fecha_cierre": "2026-10-02T10:05",
-  "fecha_publicacion": "2026-09-09",
-  "descripcion": "El servicio consiste en desarrollar el diseño del Plan Maestro del Parque Urbano Baquedano, concebido como un Balneario Natural Desértico, e identificar la Etapa I priorizada del proyecto, mediante la elaboración de una propuesta integral de organización espacial, funcional y programática, que permita definir sus lineamientos de diseño, orientar su desarrollo futuro y generar los antecedentes técnicos, normativos y económicos necesarios para la implementación y eventual ejecución de la Primera Etapa del proyecto.\r\nLa propuesta deberá considerar las condiciones territoriales y climáticas del emplazamiento, así como las necesidades de la comunidad, constituyéndose como una herramienta de planificación y gestión para el desarrollo futuro del proyecto",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3847-41-LE26"
- },
- {
   "codigo": "2216-22-O126",
   "nombre": "CONSULTORÍA AMBIENTAL ESTRATÉGICA PARA LA ELABORACIÓN DEL ESTUDIO DE IMPACT",
   "puntaje": 4,
@@ -266,23 +249,6 @@
   "fecha_publicacion": "2026-08-07",
   "descripcion": "Prestar los servicios de elaboración, ingreso y tramitación ambiental del Estudio de Impacto Ambiental EIA del Proyecto de Conducción y Almacenamiento, y de las respuestas y complementos que sean requeridos durante la evaluación en el SEIA incluyendo Adendas, aclaraciones, rectificaciones y antecedentes complementarios, hasta la dictación de la Resolución de Calificación Ambiental RCA favorable, cumpliendo con la Ley N°19.300 de Bases Generales de Medio Ambiente, el Reglamento del Sistema de Evaluación de Impacto Ambiental RSEIA y sus modificaciones.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-22-O126"
- },
- {
-  "codigo": "5048-41-O126",
-  "nombre": "EP MEJ. RUTA ALTIPLANICA , EL TATIO, R. ANTOFAGASTA",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de Antofagasta ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-10-06T15:30",
-  "fecha_publicacion": "2026-08-19",
-  "descripcion": "Definir una alternativa vial de acceso a El Tatio que resguarde el entorno geotérmico y asegure una conectividad segura y eficiente, mediante evaluaciones técnicas, ambientales, sociales y económicas.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-41-O126"
  },
  {
   "codigo": "2693-34-LP26",
@@ -408,25 +374,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
  },
  {
-  "codigo": "633-59-L126",
-  "nombre": "ENCUESTA DE SATISFACCIÓN USUARIA – ENTREGA DE PLANTAS PROGRAMA DE ARBORIZACIÓN",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "CORP NACIONAL FORESTAL",
-  "unidad": "Conaf - Oficina Central - Abastecimiento",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "L1",
-  "monto": "5.000.000 CLP",
-  "fecha_cierre": "2026-10-02T08:00",
-  "fecha_publicacion": "2026-09-23",
-  "descripcion": "La Corporación Nacional Forestal, en adelante “CONAF” o “la Corporación”, indistintamente, invita a los oferentes inscritos en el portal de compras del Estado www.mercadopublico.cl, a participar en la licitación pública denominada “ENCUESTA DE SATISFACCIÓN USUARIA – ENTREGA DE PLANTAS PROGRAMA DE ARBORIZACIÓN”, según especificaciones incluidas en Bases de Licitación y Anexos.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=633-59-L126"
- },
- {
   "codigo": "568963-22-LE26",
   "nombre": "ENCUESTA DE SEGUIMIENTO LABORAL FCS",
   "puntaje": 3,
@@ -520,5 +467,24 @@
   "fecha_publicacion": "2026-09-08",
   "descripcion": "El Ministerio de Desarrollo Social y Familia requiere contratar el servicio de Levantamiento Encuesta de Bienestar Social 2027 de acuerdo con lo dispuesto en las Bases Administrativas, Técnicas y Anexos de la Licitación Pública.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=730566-25-LR26"
+ },
+ {
+  "codigo": "1049-78-LE26",
+  "nombre": "SERVICIO APLICACION DE ENCUESTA SOCIOECONOMICA A ARMADORES ARTESANALES DE JIBIA",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "INSTITUTO DE FOMENTO PESQUERO",
+  "unidad": "IFOP",
+  "region": "Región de Valparaíso ",
+  "tipo": "LE",
+  "monto": "10.000.000 CLP",
+  "fecha_cierre": "2026-10-13T16:00",
+  "fecha_publicacion": "2026-10-02",
+  "descripcion": "REQ 53808 CC P-581237, Realizar el levantamiento de datos de los armadores artesanales de la pesquería de jibia localizados en las regiones de Coquimbo, Valparaíso, Maule y Biobío, mediante la aplicación de la encuesta socioeconómica",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1049-78-LE26"
  }
 ]
