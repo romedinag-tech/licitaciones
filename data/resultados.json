@@ -234,23 +234,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-21-O126"
  },
  {
-  "codigo": "2216-22-O126",
-  "nombre": "CONSULTORÍA AMBIENTAL ESTRATÉGICA PARA LA ELABORACIÓN DEL ESTUDIO DE IMPACT",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MOP Dirección General de Concesiones",
-  "unidad": "MOP Dirección General de Concesiones",
-  "region": "Región de Coquimbo ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-10-02T15:00",
-  "fecha_publicacion": "2026-08-07",
-  "descripcion": "Prestar los servicios de elaboración, ingreso y tramitación ambiental del Estudio de Impacto Ambiental EIA del Proyecto de Conducción y Almacenamiento, y de las respuestas y complementos que sean requeridos durante la evaluación en el SEIA incluyendo Adendas, aclaraciones, rectificaciones y antecedentes complementarios, hasta la dictación de la Resolución de Calificación Ambiental RCA favorable, cumpliendo con la Ley N°19.300 de Bases Generales de Medio Ambiente, el Reglamento del Sistema de Evaluación de Impacto Ambiental RSEIA y sus modificaciones.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-22-O126"
- },
- {
   "codigo": "2693-34-LP26",
   "nombre": "PROYECTO FNDR DENOMINADO “ACTUALIZACION PLAN REGULADOR” COMUNA DE ALGARROBO",
   "puntaje": 4,
@@ -334,7 +317,7 @@
   "region": "Región Metropolitana de Santiago",
   "tipo": "O1",
   "monto": "",
-  "fecha_cierre": "2026-10-16T10:30",
+  "fecha_cierre": "2026-10-26T15:30",
   "fecha_publicacion": "2026-08-31",
   "descripcion": "El objetivo del presente estudio es diagnosticar la oferta y demanda vial del Corredor Bioceánico en los pasos fronterizos Jama y Sico, identificando brechas de infraestructura y requerimientos de conectividad para apoyar el desarrollo del transporte y comercio internacional.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-44-O126"
@@ -372,25 +355,6 @@
   "fecha_publicacion": "2026-09-30",
   "descripcion": "Estudio para desarrollar el análisis técnico, económico, social, territorial y ambiental para la ampliación de la Ruta N-55 y una variante interurbana en la comuna de Pinto, en una longitud aproximada de 20,6 kilómetros.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
- },
- {
-  "codigo": "568963-22-LE26",
-  "nombre": "ENCUESTA DE SEGUIMIENTO LABORAL FCS",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "COMISION DEL SISTEMA NACIONAL DE CERTIFICACION DE COMPETENCIAS LABORALES",
-  "unidad": "CSNCCL",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-10-02T15:00",
-  "fecha_publicacion": "2026-09-22",
-  "descripcion": "El presente requerimiento tiene por objeto la contratación de un servicio externo que consiste en la ejecución del trabajo de campo y el procesamiento de datos de una encuesta de seguimiento a las personas que se evaluaron con cargo al Fondo de cesantía Solidario durante el año 2025.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=568963-22-LE26"
  },
  {
   "codigo": "591-28-LE26",
@@ -450,6 +414,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1810-5-L126"
  },
  {
+  "codigo": "2467-105-L126",
+  "nombre": "SERV. APLICACIÓN DE ENCUESTA DE PERCEPCIÓN Y SATIS",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE CHILLAN",
+  "unidad": "IMUNI_CHILLAN ADQUISICIONES",
+  "region": "Región del Ñuble",
+  "tipo": "L1",
+  "monto": "",
+  "fecha_cierre": "2026-10-08T13:21",
+  "fecha_publicacion": "2026-10-02",
+  "descripcion": "El objetivo de esta compra es contratar el SERVICIO DE APLICACIÓN DE ENCUESTA DE PERCEPCIÓN Y SATISFACCIÓN VECINAL, PROGRAMA QUIERO MI BARRIOS LUIS CRUZ MARTÍNEZ, CHILLÁN, de acuerdo lo indicado base técnica adjunta.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2467-105-L126"
+ },
+ {
   "codigo": "730566-25-LR26",
   "nombre": "Levantamiento Encuesta Bienestar Social 2027",
   "puntaje": 3,
@@ -467,6 +450,25 @@
   "fecha_publicacion": "2026-09-08",
   "descripcion": "El Ministerio de Desarrollo Social y Familia requiere contratar el servicio de Levantamiento Encuesta de Bienestar Social 2027 de acuerdo con lo dispuesto en las Bases Administrativas, Técnicas y Anexos de la Licitación Pública.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=730566-25-LR26"
+ },
+ {
+  "codigo": "4880-41-LE26",
+  "nombre": "SERVICIO DE PRODUCCIÓN Y APOYO LOGISTICO SEMINARIO",
+  "puntaje": 3,
+  "categorias": [
+   "Concesiones / logistica"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
+  "unidad": "Consejo Regional de la Cultura y Las Artes Antofagasta",
+  "region": "Región de Antofagasta ",
+  "tipo": "LE",
+  "monto": "8.400.000 CLP",
+  "fecha_cierre": "2026-10-13T15:11",
+  "fecha_publicacion": "2026-10-01",
+  "descripcion": "”SERVICIO DE PRODUCCIÓN Y APOYO LOGÍSTICO PARA LA EJECUCIÓN DEL PROGRAMA DE FORMACIÓN Y SEMINARIO REGIONAL DE EDUCACIÓN ARTÍSTICA 2026 “HABITANTES DEL TERRITORIO”, EN EL MARCO DEL PLAN DE TRABAJO DE LA MESA REGIONAL DE EDUCACIÓN ARTÍSTICA DE LA REGIÓN DE ANTOFAGASTA”",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4880-41-LE26"
  },
  {
   "codigo": "1049-78-LE26",
