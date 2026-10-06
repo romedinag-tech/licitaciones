@@ -41,26 +41,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10"
  },
  {
-  "codigo": "660-13-LE26",
-  "nombre": "ANÁLISIS PLAN REGULADOR COMUNAL DE LONCOCHE",
-  "puntaje": 11,
-  "categorias": [
-   "Datos / SIG / encuestas",
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
-  "unidad": "SEREMI IX REGION",
-  "region": "Región de la Araucanía ",
-  "tipo": "LE",
-  "monto": "45.000.000 CLP",
-  "fecha_cierre": "2026-10-05T15:10",
-  "fecha_publicacion": "2026-09-15",
-  "descripcion": "ANÁLISIS PLAN REGULADOR COMUNAL DE LONCOCHE VUELO AEROFOTOGRAMÉTRICO Y CARTOGRAFÍA BASE",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-13-LE26"
- },
- {
   "codigo": "660-14-LP26",
   "nombre": "MODIFICACIÓN PLAN REGULADOR COMUNAL DE VICTORIA",
   "puntaje": 11,
@@ -139,23 +119,43 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-14-LR26"
  },
  {
-  "codigo": "926-12-LR26",
-  "nombre": "MEJORA Y CONSERVACIÓN INTEGRAL DE LA INFRAEST. PP",
-  "puntaje": 7,
+  "codigo": "2216-28-O126",
+  "nombre": "ESTUDIO DE ANTEPROYECTO TELEFÉRICO VALPARAÍSO",
+  "puntaje": 9,
   "categorias": [
-   "Concesiones / logistica"
+   "Transporte / movilidad"
   ],
   "org_clave": true,
   "bip": "",
-  "organismo": "SUBSECRETARIA DE TRANSPORTES",
-  "unidad": "DIRECTORIO DE TRANSPORTES DE SANTIAGO - MTT",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LR",
+  "organismo": "MOP Dirección General de Concesiones",
+  "unidad": "MOP Dirección General de Concesiones",
+  "region": "Región de Valparaíso ",
+  "tipo": "O1",
   "monto": "",
-  "fecha_cierre": "2026-10-05T15:01",
-  "fecha_publicacion": "2026-08-31",
-  "descripcion": "Contratar el servicio de “Mejora y conservación integral de la infraestructura de puntos de parada del STPM”. Se busca seleccionar un contratista con capacidad técnica, operativa y logística necesaria para ejecutar adecuadamente labores de mejoramiento, conservación, reposición y adecuación de la infraestructura de los puntos de puntos de parada.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-12-LR26"
+  "fecha_cierre": "2026-12-21T15:00",
+  "fecha_publicacion": "2026-10-05",
+  "descripcion": "El desarrollo de dichos estudios indicará los mejoramientos, complementos y obras nuevas que se requieran implementar para la materialización del proyecto de teleférico, para lo cual es necesario desarrollar una serie de estudios base referidos a Ingeniería, Demanda y Evaluación Social, Expropiaciones, Urbano - Territorial con Participación Ciudadana, Asuntos Indígenas, Ambiental, Modelo de Negocio y Jurídico",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-28-O126"
+ },
+ {
+  "codigo": "2713-186-LE26",
+  "nombre": "Estudio Proyectos de Semaforos",
+  "puntaje": 7,
+  "categorias": [
+   "Planificacion urbana / IPT",
+   "Vialidad / transito"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE AYSEN",
+  "unidad": "I.MUNICIPALIDAD AYSEN-ADQUISICIONES",
+  "region": "Región Aysén del General Carlos Ibáñez del Campo",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-10-21T15:00",
+  "fecha_publicacion": "2026-10-06",
+  "descripcion": "La Ilustre Municipalidad de Aysén, o indistintamente el Municipio, necesita la ejecución de estudios de justificación para la instalación de semáforos en diversas intersecciones del área urbana de la ciudad de Puerto Aysén, conforme a los criterios establecidos en el Capítulo N° 4 del Manual de Señalización.\r\nEn este contexto, la Ilustre Municipalidad de Aysén, en el marco de las atribuciones que le confiere la Ley Nº 18.695 Orgánica Constitucional de Municipalidades, en su Artículo N° 4, se ve en la necesidad de realizar gestiones con diferentes servicios públicos dentro del territorio regional yo nacional, enfocados en la búsqueda de líneas de financiamiento para proyectos de inversión pública, los cuales deberán ser elaborados y diseñados de acuerdo a los lineamientos del PLADECO y metodologías de las distintas fuentes financieras del estado.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2713-186-LE26"
  },
  {
   "codigo": "5895-24-O126",
@@ -234,6 +234,40 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-21-O126"
  },
  {
+  "codigo": "5048-41-O126",
+  "nombre": "EP MEJ. RUTA ALTIPLANICA , EL TATIO, R. ANTOFAGASTA",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región de Antofagasta ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-10-06T15:30",
+  "fecha_publicacion": "2026-08-19",
+  "descripcion": "Definir una alternativa vial de acceso a El Tatio que resguarde el entorno geotérmico y asegure una conectividad segura y eficiente, mediante evaluaciones técnicas, ambientales, sociales y económicas.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-41-O126"
+ },
+ {
+  "codigo": "5048-42-O126",
+  "nombre": "E.FACTIBILIDAD CONSTR. YO MEJ.RUTA G-16 SECTOR: A.VESPUCIO – LAMPA, RM",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-10-07T11:30",
+  "fecha_publicacion": "2026-08-18",
+  "descripcion": "Estudio para desarrollar un análisis técnico, económico, social y ambiental para el mejoramiento de la conectividad entre la comuna de Lampa y el Gran Santiago en una longitud aproximada de 16 kilómetros.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-42-O126"
+ },
+ {
   "codigo": "2693-34-LP26",
   "nombre": "PROYECTO FNDR DENOMINADO “ACTUALIZACION PLAN REGULADOR” COMUNA DE ALGARROBO",
   "puntaje": 4,
@@ -251,23 +285,6 @@
   "fecha_publicacion": "2026-08-28",
   "descripcion": "PROYECTO FNDR DENOMINADO “ACTUALIZACION PLAN REGULADOR”, COMUNA DE ALGARROBO",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2693-34-LP26"
- },
- {
-  "codigo": "2262-11-O126",
-  "nombre": "E.I. PUENTE LA PUNTILLA",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - VI Región - Licitación de Obras",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-10-14T23:00",
-  "fecha_publicacion": "2026-09-17",
-  "descripcion": "ESTUDIO DE INGENIERIA CONSTRUCCION PUENTE LA PUNTILLA, COMUNA DE LOLOL, REGION DE O´HIGGINS ",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2262-11-O126"
  },
  {
   "codigo": "5048-46-O126",
@@ -323,6 +340,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-44-O126"
  },
  {
+  "codigo": "2262-11-O126",
+  "nombre": "E.I. PUENTE LA PUNTILLA",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - VI Región - Licitación de Obras",
+  "region": "Región del Libertador General Bernardo O´Higgins",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-10-27T23:00",
+  "fecha_publicacion": "2026-09-17",
+  "descripcion": "ESTUDIO DE INGENIERIA CONSTRUCCION PUENTE LA PUNTILLA, COMUNA DE LOLOL, REGION DE O´HIGGINS ",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2262-11-O126"
+ },
+ {
   "codigo": "5048-52-O126",
   "nombre": "EST.BÁS. ANÁLISIS INCORP. POLVO DE CAUCHO PAVIMENTO SOSTENIBLE",
   "puntaje": 4,
@@ -357,61 +391,38 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
  },
  {
-  "codigo": "591-28-LE26",
-  "nombre": "“ENCUESTA TELEFÓNICA SOBRE ELSISTEMA DE SALUD.",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
+  "codigo": "5048-54-O126",
+  "nombre": "EST PREFACTIBILIDAD PUENTE ANTOLIN, REGION AYSEN",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
   "bip": "",
-  "organismo": "FONDO NACIONAL DE SALUD",
-  "unidad": "FONASA, Nivel Central",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "17.000.000 CLP",
-  "fecha_cierre": "2026-10-05T15:00",
-  "fecha_publicacion": "2026-09-15",
-  "descripcion": "Se requiere un servicio de levantamiento de una encuesta telefónica a una muestra objetivo de, a lo menos, 1.970 personas a nivel nacional, correspondientes a titulares de Isapre y de Fonasa tramos B, C y D, de 18 y más años, distribuidos en celdas muestrales de manera estratificada y proporcional por sexo, edad y tramo de ingreso en todas las regiones del país.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=591-28-LE26"
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región Aysén del General Carlos Ibáñez del Campo",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-06T11:30",
+  "fecha_publicacion": "2026-09-16",
+  "descripcion": "El estudio busca analizar una nueva estructura acorde con el actual estándar mínimo exigido, la que a su vez permitirá mantener la conectividad del principal eje regional, que conecta el puerto de Chacabuco – Aysén – Coyhaique – aeródromo de Balmaceda – paso fronterizo Huemules.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-54-O126"
  },
  {
-  "codigo": "4127-50-LE26",
-  "nombre": "[DIVAP] Estudio del bodegaje de ajuares",
-  "puntaje": 3,
-  "categorias": [
-   "Concesiones / logistica"
-  ],
-  "org_clave": false,
+  "codigo": "5048-59-O126",
+  "nombre": "EST. BAS. DIAGNÓSTICO CONECTIVIDAD RUTA 5 - PASO MAMUIL MALAL, R. ARAUCANÍA",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
   "bip": "",
-  "organismo": "SUBSECRETARIA DE SALUD PUBLICA",
-  "unidad": "Subsecretaria de Redes Asistenciales",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LE",
-  "monto": "18.000.000 CLP",
-  "fecha_cierre": "2026-10-05T16:00",
-  "fecha_publicacion": "2026-09-23",
-  "descripcion": "Se requiere realizar un diagnóstico nacional del bodegaje de ajuares del Programa de Apoyo al Recién Nacido de Chile Crece Contigo en las maternidades de la red pública de salud de Chile, realizando recomendaciones para mejorar el costo-efectividad, gestión y logística del almacenamiento.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4127-50-LE26"
- },
- {
-  "codigo": "1810-5-L126",
-  "nombre": "SERVICIO DE PLAN DE DATOS PARA ENCUESTA ENE",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "INSTITUTO NACIONAL DE ESTADISTICAS",
-  "unidad": "INE -  X Región",
-  "region": "Región de los Lagos ",
-  "tipo": "L1",
-  "monto": "1.276.800 CLP",
-  "fecha_cierre": "2026-10-06T15:00",
-  "fecha_publicacion": "2026-09-25",
-  "descripcion": "El Instituto Nacional de Estadísticas es un servicio público funcionalmente descentralizado, encargado de generar las estadísticas oficiales del país y de articular el Sistema Estadístico Nacional. En este contexto, se hace necesario contratar un servicio de planes de telefonía y datos móviles por un periodo de 12 meses, que permita asegurar la continuidad operativa del trabajo en terreno.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1810-5-L126"
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región de la Araucanía ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-17T09:30",
+  "fecha_publicacion": "2026-09-30",
+  "descripcion": "Diagnóstico de la situación territorial, ambiental, económica, social y análisis de las necesidades de conectividad entre la Ruta 5 Freire - Loncoche y el Paso Internacional Mamuil Malal.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-59-O126"
  },
  {
   "codigo": "2467-105-L126",
@@ -431,6 +442,25 @@
   "fecha_publicacion": "2026-10-02",
   "descripcion": "El objetivo de esta compra es contratar el SERVICIO DE APLICACIÓN DE ENCUESTA DE PERCEPCIÓN Y SATISFACCIÓN VECINAL, PROGRAMA QUIERO MI BARRIOS LUIS CRUZ MARTÍNEZ, CHILLÁN, de acuerdo lo indicado base técnica adjunta.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2467-105-L126"
+ },
+ {
+  "codigo": "1810-5-L126",
+  "nombre": "SERVICIO DE PLAN DE DATOS PARA ENCUESTA ENE",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "INSTITUTO NACIONAL DE ESTADISTICAS",
+  "unidad": "INE -  X Región",
+  "region": "Región de los Lagos ",
+  "tipo": "L1",
+  "monto": "1.276.800 CLP",
+  "fecha_cierre": "2026-10-08T15:00",
+  "fecha_publicacion": "2026-09-25",
+  "descripcion": "El Instituto Nacional de Estadísticas es un servicio público funcionalmente descentralizado, encargado de generar las estadísticas oficiales del país y de articular el Sistema Estadístico Nacional. En este contexto, se hace necesario contratar un servicio de planes de telefonía y datos móviles por un periodo de 12 meses, que permita asegurar la continuidad operativa del trabajo en terreno.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1810-5-L126"
  },
  {
   "codigo": "730566-25-LR26",
