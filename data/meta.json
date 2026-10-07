@@ -1,15 +1,14 @@
 {
- "actualizado": "2026-10-06T18:17:50+00:00",
- "total_activas": 4450,
+ "actualizado": "2026-10-07T18:50:53+00:00",
+ "total_activas": 4604,
  "candidatas": 200,
- "resultados": 28,
- "clave": 19,
+ "resultados": 27,
+ "clave": 17,
  "modo_ticket": "personal",
  "regiones": [
   "Región Aysén del General Carlos Ibáñez del Campo",
   "Región Metropolitana de Santiago",
   "Región de Antofagasta ",
-  "Región de Coquimbo ",
   "Región de Los Ríos",
   "Región de Magallanes y de la Antártica",
   "Región de Valparaíso ",
@@ -17,6 +16,7 @@
   "Región de los Lagos ",
   "Región del Biobío ",
   "Región del Libertador General Bernardo O´Higgins",
+  "Región del Maule ",
   "Región del Ñuble"
  ],
  "categorias": [

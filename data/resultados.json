@@ -1,26 +1,5 @@
 [
  {
-  "codigo": "2446-279-LE26",
-  "nombre": "ESTUDIO ELABORACIÓN PIIMEP",
-  "puntaje": 20,
-  "categorias": [
-   "Espacio publico / PIEP",
-   "Planificacion urbana / IPT",
-   "Transporte / movilidad"
-  ],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE COQUIMBO",
-  "unidad": "IMUNI_COQUIMBO",
-  "region": "Región de Coquimbo ",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-10-07T15:30",
-  "fecha_publicacion": "2026-09-23",
-  "descripcion": "La consultoría materia de la presente licitación se denomina “Estudio Elaboración Plan de Inversiones en Infraestructura de Movilidad y Espacio Público PIIMEP”. Esta consultoría comprende elaborar el primer Plan de Inversiones en Infraestructura de Movilidad y Espacio Público de la comuna de Coquimbo, mediante un proceso integral de diagnóstico comunal prospectivo, identificación de brechas y  necesidades, levantamiento y formulación de iniciativas, definición de criterios de priorización, elaboración de una cartera de inversiones, consulta pública y formulación de una propuesta final, que permita orientar y priorizar las inversiones en movilidad y espacio público en la comuna, fundamentadas en la búsqueda de mejorar las condiciones de conectividad, accesibilidad, operación y movilidad de la comuna, así como también  la calidad de los espacios públicos, favoreciendo la cohesión social, l",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2446-279-LE26"
- },
- {
   "codigo": "520663-35-LS10",
   "nombre": "ACTUALIZACIÓN DEL PLAN DE TRANSPORTE DEL GRAN CONCEPCIÓN",
   "puntaje": 13,
@@ -138,6 +117,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-28-O126"
  },
  {
+  "codigo": "691-8-LP26",
+  "nombre": "Diagnóstico y Tramitación Plan Regulador Comunal Empedrado",
+  "puntaje": 8,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
+  "unidad": "SEREMI MINVU VII REGION",
+  "region": "Región del Maule ",
+  "tipo": "LP",
+  "monto": "200.000.000 CLP",
+  "fecha_cierre": "2026-11-04T17:00",
+  "fecha_publicacion": "2026-10-06",
+  "descripcion": "Elaborar el Plan Regulador Comunal de Empedrado que aborde el crecimiento en torno al límite urbano actual, con todos sus componentes normativos, preceptos legales y reglamentos vigentes, contenidos en la Ley General de Urbanismo y Construcciones y respectiva Ordenanza General. ",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=691-8-LP26"
+ },
+ {
   "codigo": "2713-186-LE26",
   "nombre": "Estudio Proyectos de Semaforos",
   "puntaje": 7,
@@ -232,40 +230,6 @@
   "fecha_publicacion": "2026-08-25",
   "descripcion": "definir la factibilidad de licitar la actual Ruta que conecta el Puente Industrial y la Ruta Interportuaria, para lo cual es necesario desarrollar una serie de estudios base referidos a Ingeniería, Demanda y Evaluación Social, Expropiaciones, Territorial con Participación Ciudadana, Asuntos Indígenas, Ambiental, Costos de Operación y Mantenimiento y Programa de Ejecución de las Obras. El desarrollo de dichos estudios indicará los mejoramientos, complementos y obras nuevas que se requieran implementar en la infraestructura existente de la ruta actual.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-21-O126"
- },
- {
-  "codigo": "5048-41-O126",
-  "nombre": "EP MEJ. RUTA ALTIPLANICA , EL TATIO, R. ANTOFAGASTA",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de Antofagasta ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-10-06T15:30",
-  "fecha_publicacion": "2026-08-19",
-  "descripcion": "Definir una alternativa vial de acceso a El Tatio que resguarde el entorno geotérmico y asegure una conectividad segura y eficiente, mediante evaluaciones técnicas, ambientales, sociales y económicas.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-41-O126"
- },
- {
-  "codigo": "5048-42-O126",
-  "nombre": "E.FACTIBILIDAD CONSTR. YO MEJ.RUTA G-16 SECTOR: A.VESPUCIO – LAMPA, RM",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-10-07T11:30",
-  "fecha_publicacion": "2026-08-18",
-  "descripcion": "Estudio para desarrollar un análisis técnico, económico, social y ambiental para el mejoramiento de la conectividad entre la comuna de Lampa y el Gran Santiago en una longitud aproximada de 16 kilómetros.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-42-O126"
  },
  {
   "codigo": "2693-34-LP26",
@@ -518,5 +482,24 @@
   "fecha_publicacion": "2026-10-02",
   "descripcion": "REQ 53808 CC P-581237, Realizar el levantamiento de datos de los armadores artesanales de la pesquería de jibia localizados en las regiones de Coquimbo, Valparaíso, Maule y Biobío, mediante la aplicación de la encuesta socioeconómica",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1049-78-LE26"
+ },
+ {
+  "codigo": "1071775-16-LE26",
+  "nombre": "ENCUESTA BARÓMETRO REGIONAL 2026",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "UNIVERSIDAD DE LOS LAGOS",
+  "unidad": "SEDE CHILOÉ",
+  "region": "Región de los Lagos ",
+  "tipo": "LE",
+  "monto": "15.000.000 CLP",
+  "fecha_cierre": "2026-10-19T15:30",
+  "fecha_publicacion": "2026-10-06",
+  "descripcion": "Contratar Servicio de aplicación de encuesta Barómetro regional año 2026 para la Universidad de Los Lagos.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1071775-16-LE26"
  }
 ]
