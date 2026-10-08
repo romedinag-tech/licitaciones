@@ -98,6 +98,26 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-14-LR26"
  },
  {
+  "codigo": "2713-190-LP26",
+  "nombre": "Estudio diseño parador de buses Villa Mañihuales",
+  "puntaje": 9,
+  "categorias": [
+   "Planificacion urbana / IPT",
+   "Transporte / movilidad"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE AYSEN",
+  "unidad": "I.MUNICIPALIDAD AYSEN-ADQUISICIONES",
+  "region": "Región Aysén del General Carlos Ibáñez del Campo",
+  "tipo": "LP",
+  "monto": "",
+  "fecha_cierre": "2026-11-02T15:01",
+  "fecha_publicacion": "2026-10-08",
+  "descripcion": "La Ilustre Municipalidad de Aysén, o indistintamente el Municipio, necesita la ejecución de un “Estudio Diseño de un Parador de Buses en Villa Mañihuales”, ubicada en la comuna de Puerto Aysén, Región de Aysén.\r\nEn este contexto, la Ilustre Municipalidad de Aysén, en el marco de las atribuciones que le confiere la Ley Nº 18.695 Orgánica Constitucional de Municipalidades, en su Artículo N° 4, se ve en la necesidad de realizar gestiones con diferentes servicios públicos dentro del territorio regional yo nacional, enfocados en la búsqueda de líneas de financiamiento para proyectos de inversión pública, los cuales deberán ser elaborados y diseñados de acuerdo a los lineamientos del PLADECO y metodologías de las distintas fuentes financieras del estado.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2713-190-LP26"
+ },
+ {
   "codigo": "2216-28-O126",
   "nombre": "ESTUDIO DE ANTEPROYECTO TELEFÉRICO VALPARAÍSO",
   "puntaje": 9,
@@ -287,6 +307,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2408-49-LR26"
  },
  {
+  "codigo": "2898-15-LE26",
+  "nombre": "ACTUALIZACIÓN PLAN DE DESARROLLO COMUNAL TDP",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "ILUSTRE MUNICIPALIDAD DE TORRES DEL PAIN",
+  "unidad": "SECPLAN",
+  "region": "Región de Magallanes y de la Antártica",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-10-23T18:00",
+  "fecha_publicacion": "2026-10-08",
+  "descripcion": "En general, se trata de una licitación para la contratación de una empresa que realice la consultoría vinculada a la “ACTUALIZACIÓN PLAN DE DESARROLLO COMUNAL DE TORRES DEL PAINE”, el cual debe ser elaborado en base a un diagnóstico comunal integrado, con datos verídicos y actualizados que permitan reconocer y puntualizar los escenarios tendenciales y potenciales del territorio en estudio, vale decir, un nuevo PLADECO que permita dar cuenta de la realidad social, productiva, demográfica, comercial, cultural, ambiental, económica, turística, patrimonial, etc. de la comuna al año 2026.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2898-15-LE26"
+ },
+ {
   "codigo": "5048-44-O126",
   "nombre": "EST. BÁS: DIAG. OFERTA-DEMANDA VIAL CORREDOR BIOCEÁNICO JAMA-SICO, R. ANT.",
   "puntaje": 4,
@@ -372,6 +411,23 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-54-O126"
  },
  {
+  "codigo": "5048-66-O126",
+  "nombre": "E.BÁSICO DIAGNÓSTICO ZONAS ADELANTAM.,BIOBÍO Y ARAUCANÍA SEGUNDO LLAMADO ",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región del Biobío ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-11T10:30",
+  "fecha_publicacion": "2026-10-08",
+  "descripcion": "Estudio para diagnosticar, evaluar y definir las zonas donde se permite adelantar y las zonas donde debe existir una prohibición o restricción de adelantamiento, específicamente en vías bidireccionales, con el fin de establecer  la señalización horizontal y vertical reglamentaria a ejecutar.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-66-O126"
+ },
+ {
   "codigo": "5048-59-O126",
   "nombre": "EST. BAS. DIAGNÓSTICO CONECTIVIDAD RUTA 5 - PASO MAMUIL MALAL, R. ARAUCANÍA",
   "puntaje": 4,
@@ -387,63 +443,6 @@
   "fecha_publicacion": "2026-09-30",
   "descripcion": "Diagnóstico de la situación territorial, ambiental, económica, social y análisis de las necesidades de conectividad entre la Ruta 5 Freire - Loncoche y el Paso Internacional Mamuil Malal.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-59-O126"
- },
- {
-  "codigo": "2467-105-L126",
-  "nombre": "SERV. APLICACIÓN DE ENCUESTA DE PERCEPCIÓN Y SATIS",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE CHILLAN",
-  "unidad": "IMUNI_CHILLAN ADQUISICIONES",
-  "region": "Región del Ñuble",
-  "tipo": "L1",
-  "monto": "",
-  "fecha_cierre": "2026-10-08T13:21",
-  "fecha_publicacion": "2026-10-02",
-  "descripcion": "El objetivo de esta compra es contratar el SERVICIO DE APLICACIÓN DE ENCUESTA DE PERCEPCIÓN Y SATISFACCIÓN VECINAL, PROGRAMA QUIERO MI BARRIOS LUIS CRUZ MARTÍNEZ, CHILLÁN, de acuerdo lo indicado base técnica adjunta.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2467-105-L126"
- },
- {
-  "codigo": "1810-5-L126",
-  "nombre": "SERVICIO DE PLAN DE DATOS PARA ENCUESTA ENE",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "INSTITUTO NACIONAL DE ESTADISTICAS",
-  "unidad": "INE -  X Región",
-  "region": "Región de los Lagos ",
-  "tipo": "L1",
-  "monto": "1.276.800 CLP",
-  "fecha_cierre": "2026-10-08T15:00",
-  "fecha_publicacion": "2026-09-25",
-  "descripcion": "El Instituto Nacional de Estadísticas es un servicio público funcionalmente descentralizado, encargado de generar las estadísticas oficiales del país y de articular el Sistema Estadístico Nacional. En este contexto, se hace necesario contratar un servicio de planes de telefonía y datos móviles por un periodo de 12 meses, que permita asegurar la continuidad operativa del trabajo en terreno.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1810-5-L126"
- },
- {
-  "codigo": "730566-25-LR26",
-  "nombre": "Levantamiento Encuesta Bienestar Social 2027",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DE EVALUACION SOCIAL",
-  "unidad": "Subsecretaría de Evaluación Social",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LR",
-  "monto": "976.460.138 CLP",
-  "fecha_cierre": "2026-10-08T15:30",
-  "fecha_publicacion": "2026-09-08",
-  "descripcion": "El Ministerio de Desarrollo Social y Familia requiere contratar el servicio de Levantamiento Encuesta de Bienestar Social 2027 de acuerdo con lo dispuesto en las Bases Administrativas, Técnicas y Anexos de la Licitación Pública.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=730566-25-LR26"
  },
  {
   "codigo": "4880-41-LE26",
@@ -501,5 +500,24 @@
   "fecha_publicacion": "2026-10-06",
   "descripcion": "Contratar Servicio de aplicación de encuesta Barómetro regional año 2026 para la Universidad de Los Lagos.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1071775-16-LE26"
+ },
+ {
+  "codigo": "3445-11-LE26",
+  "nombre": "ANALISIS ALTERNATIVAS VIALES Y GESTION DE TRANSITO",
+  "puntaje": 3,
+  "categorias": [
+   "Vialidad / transito"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE RINCONADA",
+  "unidad": "Ilustre Municipalidad de Rinconada",
+  "region": "Región de Valparaíso ",
+  "tipo": "LE",
+  "monto": "30.000.000 CLP",
+  "fecha_cierre": "2026-10-22T09:20",
+  "fecha_publicacion": "2026-10-07",
+  "descripcion": "Contratación de una consultoría técnica para diagnosticar el funcionamiento del tránsito asociado a la Carretera General San Martín y formular y evaluar alternativas viales y de gestión de tránsito, según documentos adjuntos.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3445-11-LE26"
  }
 ]
