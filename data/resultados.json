@@ -307,6 +307,25 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2408-49-LR26"
  },
  {
+  "codigo": "2699-36-LE26",
+  "nombre": "Actualización Plan de Desarrollo Comunal de La Reina",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE LA REINA",
+  "unidad": "Secretaría de Planificación",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-10-22T15:00",
+  "fecha_publicacion": "2026-10-08",
+  "descripcion": "La presente licitación tiene por objeto la contratación de una consultoría para la actualización del Plan de Desarrollo Comunal (PLADECO) de la comuna de La Reina.\r\n\r\n",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2699-36-LE26"
+ },
+ {
   "codigo": "2898-15-LE26",
   "nombre": "ACTUALIZACIÓN PLAN DE DESARROLLO COMUNAL TDP",
   "puntaje": 4,
@@ -392,57 +411,6 @@
   "fecha_publicacion": "2026-09-30",
   "descripcion": "Estudio para desarrollar el análisis técnico, económico, social, territorial y ambiental para la ampliación de la Ruta N-55 y una variante interurbana en la comuna de Pinto, en una longitud aproximada de 20,6 kilómetros.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
- },
- {
-  "codigo": "5048-54-O126",
-  "nombre": "EST PREFACTIBILIDAD PUENTE ANTOLIN, REGION AYSEN",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región Aysén del General Carlos Ibáñez del Campo",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-11-06T11:30",
-  "fecha_publicacion": "2026-09-16",
-  "descripcion": "El estudio busca analizar una nueva estructura acorde con el actual estándar mínimo exigido, la que a su vez permitirá mantener la conectividad del principal eje regional, que conecta el puerto de Chacabuco – Aysén – Coyhaique – aeródromo de Balmaceda – paso fronterizo Huemules.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-54-O126"
- },
- {
-  "codigo": "5048-66-O126",
-  "nombre": "E.BÁSICO DIAGNÓSTICO ZONAS ADELANTAM.,BIOBÍO Y ARAUCANÍA SEGUNDO LLAMADO ",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región del Biobío ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-11-11T10:30",
-  "fecha_publicacion": "2026-10-08",
-  "descripcion": "Estudio para diagnosticar, evaluar y definir las zonas donde se permite adelantar y las zonas donde debe existir una prohibición o restricción de adelantamiento, específicamente en vías bidireccionales, con el fin de establecer  la señalización horizontal y vertical reglamentaria a ejecutar.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-66-O126"
- },
- {
-  "codigo": "5048-59-O126",
-  "nombre": "EST. BAS. DIAGNÓSTICO CONECTIVIDAD RUTA 5 - PASO MAMUIL MALAL, R. ARAUCANÍA",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de la Araucanía ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-11-17T09:30",
-  "fecha_publicacion": "2026-09-30",
-  "descripcion": "Diagnóstico de la situación territorial, ambiental, económica, social y análisis de las necesidades de conectividad entre la Ruta 5 Freire - Loncoche y el Paso Internacional Mamuil Malal.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-59-O126"
  },
  {
   "codigo": "4880-41-LE26",
