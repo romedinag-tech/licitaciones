@@ -20,6 +20,26 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10"
  },
  {
+  "codigo": "632-11-LE26",
+  "nombre": "SERVICIO DE DESARROLLO DEL INFORME 5 PARA EL DIAGNOSTICO Y ELABORACIÓN DEL PLAN MAESTRO DEL BARRIO PUDEPAR DE LA COMUNA DE CARTAGENA",
+  "puntaje": 12,
+  "categorias": [
+   "Espacio publico / PIEP",
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
+  "unidad": "SEREMI MINVU V REGION",
+  "region": "Región de Valparaíso ",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-10-28T15:10",
+  "fecha_publicacion": "2026-10-09",
+  "descripcion": "Se requiere desarrollar el diseño de ocho proyectos de mejoramiento urbano y espacio público que respondan a las problemáticas y oportunidades identificadas durante los estudios y procesos participativos realizados en la Fase I del Programa de Recuperación de Barrios. De estos, cinco corresponden a proyectos integrales de diseño y futura ejecución de obras.\r\nEl propósito de esta consultoría es abordar las materias técnicas necesarias para la elaboración de los diseños de arquitectura, ingeniería y especialidades, permitiendo avanzar en la recuperación socio-urbana del Barrio PUDEPAR y en la consolidación de las iniciativas contempladas en el Plan Maestro del barrio. En el caso de los cinco proyectos integrales, la consultoría deberá generar los antecedentes técnicos necesarios para su posterior ejecución mediante financiamiento del Programa de Recuperación de Barrios del Ministerio de Vi",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=632-11-LE26"
+ },
+ {
   "codigo": "660-14-LP26",
   "nombre": "MODIFICACIÓN PLAN REGULADOR COMUNAL DE VICTORIA",
   "puntaje": 11,
@@ -411,25 +431,6 @@
   "fecha_publicacion": "2026-09-30",
   "descripcion": "Estudio para desarrollar el análisis técnico, económico, social, territorial y ambiental para la ampliación de la Ruta N-55 y una variante interurbana en la comuna de Pinto, en una longitud aproximada de 20,6 kilómetros.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
- },
- {
-  "codigo": "4880-41-LE26",
-  "nombre": "SERVICIO DE PRODUCCIÓN Y APOYO LOGISTICO SEMINARIO",
-  "puntaje": 3,
-  "categorias": [
-   "Concesiones / logistica"
-  ],
-  "org_clave": false,
-  "bip": "",
-  "organismo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
-  "unidad": "Consejo Regional de la Cultura y Las Artes Antofagasta",
-  "region": "Región de Antofagasta ",
-  "tipo": "LE",
-  "monto": "8.400.000 CLP",
-  "fecha_cierre": "2026-10-13T15:11",
-  "fecha_publicacion": "2026-10-01",
-  "descripcion": "”SERVICIO DE PRODUCCIÓN Y APOYO LOGÍSTICO PARA LA EJECUCIÓN DEL PROGRAMA DE FORMACIÓN Y SEMINARIO REGIONAL DE EDUCACIÓN ARTÍSTICA 2026 “HABITANTES DEL TERRITORIO”, EN EL MARCO DEL PLAN DE TRABAJO DE LA MESA REGIONAL DE EDUCACIÓN ARTÍSTICA DE LA REGIÓN DE ANTOFAGASTA”",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4880-41-LE26"
  },
  {
   "codigo": "1049-78-LE26",
