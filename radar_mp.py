@@ -18,6 +18,7 @@ Actions; archivo .env local ignorado por git). Sin ticket usa el de prueba.
 """
 import json, re, sys, time, unicodedata, csv, os, datetime
 import urllib.request
+from collections import Counter
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")  # logs con tildes en cualquier consola
@@ -115,8 +116,15 @@ TEMA = C(r"transporte|movilidad|\bvial\b|\bvialidad\b|\btransito\b|\btrafico\b|p
 # NIVEL A: agencias de planificacion de transporte/territorio -> entra TODO
 #          lo que licitan (no hacen obras; sus insumos como ortofotos son
 #          parte de estudios). Se salta el filtro de obra.
+# OJO (medido 2026-10-13): la API NO devuelve el nombre de la division. La
+# 577290-5-LP26, licitada por la DTPR, llega como organismo "SUBSECRETARIA DE
+# TRANSPORTES" y unidad "Subsidio Nacional Transporte Publico": ningun patron
+# con "regional" ni "dtpr" la reconocia. Por eso ORG_A ahora incluye a la
+# Subsecretaria y a su unidad de Subsidio Nacional, que es por donde la DTPR
+# compra.
 ORG_A = C(r"sectra|programa de vialidad y transporte urbano|secretariatransporte|"
           r"secretaria\s*de?\s*planificacion.*transporte|"
+          r"subsecretaria de transporte|subsidio nacional.*transporte|division de transporte publico|"
           r"transporte publico regional|\bdtpr\b|transporte publico metropolitano|\bdtpm\b|directorio de transporte|"
           r"\bdirplan\b|direccion de planeamiento")
 # NIVEL B: organismos que hacen obras y estudios -> solo sus ESTUDIOS, con estrella.
@@ -129,7 +137,16 @@ PIEP = C(r"\bpiep\b|plan de inversion(es)? en (infraestructura|movilidad|espacio
 # Cache de prefijos de organismos clave (data/key_orgs.json). Se siembra con
 # los conocidos y se auto-completa: cualquier licitacion cuyo prefijo este aqui
 # se consulta en detalle aunque el nombre no calce con el tema.
-KEY_ORGS_SEED = {"520663": "SECTRA (Gran Concepcion)", "619284": "SECTRA (Talca-Maule)"}
+KEY_ORGS_SEED = {
+    "520663": "SECTRA (Gran Concepcion)",
+    "619284": "SECTRA (Talca-Maule)",
+    "926":    "DIRECTORIO DE TRANSPORTES DE SANTIAGO - MTT (DTPM)",
+    # Subsecretaria de Transportes / Subsidio Nacional Transporte Publico: es la
+    # unidad por la que licita la DTPR (medido en la 577290-5-LP26, 2026-10-13).
+    # Sembrado porque el auto-aprendizaje es circular: solo agrega el prefijo
+    # cuando una licitacion de ese organismo YA llego al detalle.
+    "577290": "SUBSECRETARIA DE TRANSPORTES - Subsidio Nacional TP (DTPR)",
+}
 
 def sin_tildes(s):
     return unicodedata.normalize("NFD", s or "").encode("ascii", "ignore").decode().lower()
@@ -200,11 +217,35 @@ def main():
         # de MAX_DETALLE=200 y nunca se le pedía el detalle. Con +5 sobrevive el tope.
         p += 5 if es_key else (3 if ESTUDIO.search(n) else (5 if tipo_mop.match(n) else 0))
         candidatas.append({**lic, "p": p, "es_key": es_key})
-    candidatas.sort(key=lambda x: -x["p"])
-    print(f"  {len(candidatas)} candidatas (incl. organismos clave sembrados).")
-    if len(candidatas) > MAX_DETALLE:
-        print(f"  (limito el detalle a {MAX_DETALLE})")
-        candidatas = candidatas[:MAX_DETALLE]
+    # El tope de MAX_DETALLE no se aplica a los organismos clave: su detalle se
+    # pide siempre. Antes competian por el mismo cupo y, con el corte cayendo en
+    # un puntaje muy poblado (medido 2026-10-13: 463 candidatas, corte en p=3 con
+    # 231 empatadas), cual sobrevivia era arbitrario. El segundo criterio de orden
+    # es el codigo, para que dos corridas del mismo listado den lo mismo.
+    candidatas.sort(key=lambda x: (-x["p"], x["CodigoExterno"]))
+    siempre = [c for c in candidatas if c["es_key"]]
+    resto   = [c for c in candidatas if not c["es_key"]]
+    print(f"  {len(candidatas)} candidatas ({len(siempre)} de organismos clave sembrados, sin tope).")
+    descartadas = []
+    if len(resto) > MAX_DETALLE:
+        descartadas = resto[MAX_DETALLE:]
+        resto = resto[:MAX_DETALLE]
+        print(f"  (limito el detalle a {MAX_DETALLE} + {len(siempre)} de organismo clave; "
+              f"{len(descartadas)} candidatas quedan fuera del tope)")
+    corte = {
+        "candidatas_totales": len(candidatas),
+        "candidatas_organismo_clave": len(siempre),
+        "candidatas_fuera_del_tope": len(descartadas),
+        "puntaje_de_corte": resto[-1]["p"] if descartadas else None,
+        "empatadas_en_el_corte": sum(1 for c in candidatas if descartadas and c["p"] == resto[-1]["p"]),
+        # Solo los que mas pierden: la lista completa son ~180 prefijos y
+        # ensuciaria el diff de data/ en cada corrida del bot.
+        "organismos_que_mas_pierden": [
+            {"prefijo": p, "fuera": n} for p, n in
+            Counter(prefijo(c["CodigoExterno"]) for c in descartadas).most_common(15)
+        ],
+    }
+    candidatas = siempre + resto
 
     resultados = []
     for i, c in enumerate(candidatas):
@@ -241,8 +282,13 @@ def main():
         # Regla final por niveles:
         #  A) agencia de planificacion  -> entra TODO (se salta filtro de obra).
         #  B/muni/general -> solo estudios, no obra, y del tema (o org B) con >=1 pto.
+        # Nivel A entra saltandose el filtro de obra. Cuando ese salto es lo unico
+        # que la rescata, se deja el flag visible en vez de incluirla en silencio:
+        # asi se ve por que esta ahi una licitacion que dice "software" o "adquisicion".
+        rescatada = False
         if org_a:
             star = True
+            rescatada = bool(es_obra or not es_estudio)
         elif es_estudio and not es_obra and (org_b or muni_piep or (on_tema and p2 >= 1)):
             star = org_b or muni_piep
         else:
@@ -260,6 +306,7 @@ def main():
             "puntaje": p2,
             "categorias": sorted(set(cats2)),
             "org_clave": star,
+            "rescatada_por_organismo": rescatada,
             "bip": det.get("CodigoBIP") or "",
             "organismo": organismo,
             "unidad": unidad,
@@ -290,8 +337,10 @@ def main():
         "actualizado": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
         "total_activas": len(listado),
         "candidatas": len(candidatas),
+        "corte": corte,
         "resultados": len(resultados),
         "clave": sum(1 for r in resultados if r["org_clave"]),
+        "rescatadas_por_organismo": sum(1 for r in resultados if r["rescatada_por_organismo"]),
         "modo_ticket": "prueba" if ES_TEST else "personal",
         "regiones": sorted({r["region"] for r in resultados if r["region"]}),
         "categorias": list(CATEGORIAS.keys()),

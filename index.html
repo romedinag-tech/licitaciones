@@ -156,6 +156,7 @@ function render(){
       <div class="foot" style="margin:0 0 4px">
         ${badgeCierre(x.fecha_cierre)}
         ${x.org_clave?'<span class="badge b-inst">⭐ Institución clave</span>':''}
+        ${x.rescatada_por_organismo?'<span class="badge b-amar" title="El nombre no pasa el filtro de estudio (dice software, adquisición u obra). Está en la lista sólo porque la licita una institución clave: revísala antes de descartarla.">⚑ Entró por la institución</span>':''}
         <span class="score">relevancia ${x.puntaje} · ${esc(x.codigo)}</span>
       </div>
       <h3><a href="${x.url}" target="_blank">${esc(x.nombre)}</a></h3>

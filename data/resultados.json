@@ -8,6 +8,7 @@
    "Transporte / movilidad"
   ],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "SUBSECRETARIA DE SERVICIOS SOCIALES",
   "unidad": "SecretariaTransporte",
@@ -20,6 +21,27 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10"
  },
  {
+  "codigo": "577290-3-LP26",
+  "nombre": "Estudio Mediciones de Demanda de Pasajeros",
+  "puntaje": 12,
+  "categorias": [
+   "Datos / SIG / encuestas",
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "rescatada_por_organismo": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Subsidio Nacional Transporte Publico",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "",
+  "fecha_cierre": "2026-10-21T15:00",
+  "fecha_publicacion": "2026-09-23",
+  "descripcion": "El objetivo general del estudio es medir la demanda y caracterizar la oferta de transporte público asociada a los servicios de buses rurales de la provincia de Cachapoal.\r\nDel objetivo general, se desprenden los siguientes objetivos específicos:\r\nA. Identificar y caracterizar los servicios de transporte público que circulan en la provincia de Cachapoal, incluyendo entre otros aspectos; la ubicación de los terminales, las mallas de recorridos, tiempos de ciclo, puntos de retorno de los servicios, ubicaciones de los paraderos yo paradas, cantidad de flota por empresa y servicio.\r\nB. Cuantificar la demanda de pasajeros para cada uno de los servicios rurales de buses ofrecidos a los usuarios, a través del registro del número de pasajeros clasificados según tipología predefinida, que ingresa a una muestra de buses en un intervalo de tiempo predefinido.\r\nC. Generar mapas georreferenciados graf",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-3-LP26"
+ },
+ {
   "codigo": "632-11-LE26",
   "nombre": "SERVICIO DE DESARROLLO DEL INFORME 5 PARA EL DIAGNOSTICO Y ELABORACIÓN DEL PLAN MAESTRO DEL BARRIO PUDEPAR DE LA COMUNA DE CARTAGENA",
   "puntaje": 12,
@@ -28,6 +50,7 @@
    "Planificacion urbana / IPT"
   ],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
   "unidad": "SEREMI MINVU V REGION",
@@ -48,6 +71,7 @@
    "Planificacion urbana / IPT"
   ],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
   "unidad": "SEREMI IX REGION",
@@ -67,6 +91,7 @@
    "Transporte / movilidad"
   ],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION",
   "unidad": "Licitaciones y Costos",
@@ -87,6 +112,7 @@
    "Transporte / movilidad"
   ],
   "org_clave": false,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "I MUNICIPALIDAD DE VITACURA",
   "unidad": "SECPLA",
@@ -99,6 +125,26 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2667-78-LR26"
  },
  {
+  "codigo": "577290-4-LP26",
+  "nombre": "RENOVACIÓN Y ADQUISICIÓN DE LICENCIAS DE SOFTWARE",
+  "puntaje": 9,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "rescatada_por_organismo": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Subsidio Nacional Transporte Publico",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "74.076.010 CLP",
+  "fecha_cierre": "2026-10-26T15:00",
+  "fecha_publicacion": "2026-10-06",
+  "descripcion": "La Subsecretaría de Transportes llama a participar en esta licitación a personas naturales y jurídicas, chilenas o extranjeras, con el objeto de renovar las licencias de software Toad y Adobe o equivalentes, y adquirir las licencias de software Devexpress y PowerDesigner o equivalentes, para la División de Transporte Público Regional. \r\nVER NUMERAL 1.2 OBJETIVO Y REQUERIMIENTOS",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-4-LP26"
+ },
+ {
   "codigo": "926-14-LR26",
   "nombre": "Ejecutivos de información monitores",
   "puntaje": 9,
@@ -106,6 +152,7 @@
    "Transporte / movilidad"
   ],
   "org_clave": true,
+  "rescatada_por_organismo": true,
   "bip": "",
   "organismo": "SUBSECRETARIA DE TRANSPORTES",
   "unidad": "DIRECTORIO DE TRANSPORTES DE SANTIAGO - MTT",
@@ -126,6 +173,7 @@
    "Transporte / movilidad"
   ],
   "org_clave": false,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "I MUNICIPALIDAD DE AYSEN",
   "unidad": "I.MUNICIPALIDAD AYSEN-ADQUISICIONES",
@@ -138,6 +186,46 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2713-190-LP26"
  },
  {
+  "codigo": "577290-2-LP26",
+  "nombre": "SERVICIO TECNOLÓGICO INTEGRAL RED REGIONAL",
+  "puntaje": 9,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "rescatada_por_organismo": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Subsidio Nacional Transporte Publico",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "",
+  "fecha_cierre": "2026-11-10T15:00",
+  "fecha_publicacion": "2026-09-08",
+  "descripcion": "La Subsecretaría de Transportes tiene como uno de sus objetivos prioritarios el contar con un sistema de transporte público regional eficiente, seguro y de calidad que se extienda a lo largo de todas las regiones de nuestro país. A fin de dar cumplimiento a dicho objetivo, se realiza el llamado a licitación para contratar un servicio tecnológico integral que permita implementar, operar y mantener una aplicación móvil y sus sistemas asociados, destinada a entregar información en tiempo real, precisa y accesible a las personas usuarias del sistema de transporte público regional en adelante, “sistema tecnológico integral”. Esta solución debe contribuir a mejorar la experiencia de viaje, fortalecer la infraestructura tecnológica del sistema y asegurar la continuidad, calidad y escalabilidad del servicio en múltiples ciudades del país. Las presentes bases técnicas contienen los requerimientos",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-2-LP26"
+ },
+ {
+  "codigo": "577290-5-LP26",
+  "nombre": "Servicio Programación Calculo Del Tamaño de Flota",
+  "puntaje": 9,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "rescatada_por_organismo": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Subsidio Nacional Transporte Publico",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "",
+  "fecha_cierre": "2026-12-01T13:00",
+  "fecha_publicacion": "2026-10-13",
+  "descripcion": "El Ministerio de Transportes y Telecomunicaciones tiene como uno de sus objetivos prioritarios el contar con un sistema de transporte público regional eficiente, seguro y de calidad que se extienda a lo largo de todas las regiones de nuestro país. A fin de dar cumplimiento a dicho objetivo, se realiza el llamado a licitación para contratar un servicio provisto bajo modalidad Software como Servicio SaaS de programación operacional y modelación de servicios de transporte público, orientado al cálculo del tamaño de flota necesaria para la operación y al dimensionamiento de personal de conducción. Esta plataforma debe contribuir a mejorar la evaluación y diseño de sistemas de transporte público al permitir establecer de manera precisa y fundamentada la cantidad de buses y personal de conducción necesarios para cumplir un plan operacional determinado, considerando el análisis de distintos esc",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-5-LP26"
+ },
+ {
   "codigo": "2216-28-O126",
   "nombre": "ESTUDIO DE ANTEPROYECTO TELEFÉRICO VALPARAÍSO",
   "puntaje": 9,
@@ -145,6 +233,7 @@
    "Transporte / movilidad"
   ],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "MOP Dirección General de Concesiones",
   "unidad": "MOP Dirección General de Concesiones",
@@ -164,6 +253,7 @@
    "Planificacion urbana / IPT"
   ],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
   "unidad": "SEREMI MINVU VII REGION",
@@ -184,6 +274,7 @@
    "Vialidad / transito"
   ],
   "org_clave": false,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "I MUNICIPALIDAD DE AYSEN",
   "unidad": "I.MUNICIPALIDAD AYSEN-ADQUISICIONES",
@@ -203,6 +294,7 @@
    "Vialidad / transito"
   ],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
   "unidad": "Dirección de Vialidad - XIV Región - Licitación de Obras",
@@ -222,6 +314,7 @@
    "Vialidad / transito"
   ],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
   "unidad": "Dirección de Vialidad - IX Región - Licitación de Obras",
@@ -241,6 +334,7 @@
    "Vialidad / transito"
   ],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
   "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
@@ -260,6 +354,7 @@
    "Concesiones / logistica"
   ],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "MOP Dirección General de Concesiones",
   "unidad": "MOP Dirección General de Concesiones",
@@ -279,6 +374,7 @@
    "Planificacion urbana / IPT"
   ],
   "org_clave": false,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "I MUNICIPALIDAD DE ALGARROBO",
   "unidad": "MUNICIPALIDAD DE ALGARROBO - SECPLA",
@@ -296,6 +392,7 @@
   "puntaje": 4,
   "categorias": [],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
   "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
@@ -315,6 +412,7 @@
    "Planificacion urbana / IPT"
   ],
   "org_clave": false,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "I MUNICIPALIDAD DE LOS ANGELES",
   "unidad": "IMUNI_LOSANGELES ADQUISICIONES",
@@ -334,6 +432,7 @@
    "Planificacion urbana / IPT"
   ],
   "org_clave": false,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "I MUNICIPALIDAD DE LA REINA",
   "unidad": "Secretaría de Planificación",
@@ -353,6 +452,7 @@
    "Planificacion urbana / IPT"
   ],
   "org_clave": false,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "ILUSTRE MUNICIPALIDAD DE TORRES DEL PAIN",
   "unidad": "SECPLAN",
@@ -370,6 +470,7 @@
   "puntaje": 4,
   "categorias": [],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
   "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
@@ -387,6 +488,7 @@
   "puntaje": 4,
   "categorias": [],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
   "unidad": "Dirección de Vialidad - VI Región - Licitación de Obras",
@@ -404,6 +506,7 @@
   "puntaje": 4,
   "categorias": [],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
   "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
@@ -421,6 +524,7 @@
   "puntaje": 4,
   "categorias": [],
   "org_clave": true,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
   "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
@@ -440,6 +544,7 @@
    "Datos / SIG / encuestas"
   ],
   "org_clave": false,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "INSTITUTO DE FOMENTO PESQUERO",
   "unidad": "IFOP",
@@ -452,6 +557,26 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1049-78-LE26"
  },
  {
+  "codigo": "2772-26-L126",
+  "nombre": "Estudio de Determinación de Velocidad Máxima",
+  "puntaje": 3,
+  "categorias": [
+   "Vialidad / transito"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE CHIGUAYANTE",
+  "unidad": "SECRETARIA COMUNAL DE PLANIFICACION",
+  "region": "Región del Biobío ",
+  "tipo": "L1",
+  "monto": "4.000.000 CLP",
+  "fecha_cierre": "2026-10-19T15:00",
+  "fecha_publicacion": "2026-10-13",
+  "descripcion": "El presente estudio tiene por objetivo determinar técnicamente la velocidad máxima de circulación que resulte adecuada para el tramo de Calle 8 Oriente, en una extensión aproximada de tres 3 kms, comprendidos entre el cruce con calle Wilhelm Schaub y el cruce con Santa Sofía 8 Oriente, en la comuna de Chiguayante. \r\nEl estudio deberá entregar los antecedentes técnicos necesarios para que la Municipalidad pueda evaluar y, cuando corresponda, implementar la velocidad máxima propuesta, considerando las condiciones de operación y seguridad vial existentes en el tramo.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2772-26-L126"
+ },
+ {
   "codigo": "1071775-16-LE26",
   "nombre": "ENCUESTA BARÓMETRO REGIONAL 2026",
   "puntaje": 3,
@@ -459,6 +584,7 @@
    "Datos / SIG / encuestas"
   ],
   "org_clave": false,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "UNIVERSIDAD DE LOS LAGOS",
   "unidad": "SEDE CHILOÉ",
@@ -478,6 +604,7 @@
    "Vialidad / transito"
   ],
   "org_clave": false,
+  "rescatada_por_organismo": false,
   "bip": "",
   "organismo": "I MUNICIPALIDAD DE RINCONADA",
   "unidad": "Ilustre Municipalidad de Rinconada",
