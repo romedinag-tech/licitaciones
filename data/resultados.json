@@ -84,47 +84,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-14-LP26"
  },
  {
-  "codigo": "712307-76-LE26",
-  "nombre": "Consultoría para la Normalización y Mejoramiento de Sistemas Eléctricos Asociados a Rutas Peatonales ",
-  "puntaje": 9,
-  "categorias": [
-   "Transporte / movilidad"
-  ],
-  "org_clave": true,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION",
-  "unidad": "Licitaciones y Costos",
-  "region": "Región de la Araucanía ",
-  "tipo": "LE",
-  "monto": "19.000.000 CLP",
-  "fecha_cierre": "2026-10-13T15:01",
-  "fecha_publicacion": "2026-09-30",
-  "descripcion": "Consultoría para la Normalización y Mejoramiento de Sistemas Eléctricos Asociados a Rutas Peatonales de la Provincia de Malleco",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=712307-76-LE26"
- },
- {
-  "codigo": "2667-78-LR26",
-  "nombre": "ACTUALIZACIÓN PLAN REGULADOR COMUNAL COMUNA DE VITACURA",
-  "puntaje": 9,
-  "categorias": [
-   "Planificacion urbana / IPT",
-   "Transporte / movilidad"
-  ],
-  "org_clave": false,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE VITACURA",
-  "unidad": "SECPLA",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LR",
-  "monto": "550.000.000 CLP",
-  "fecha_cierre": "2026-10-13T15:01",
-  "fecha_publicacion": "2026-08-28",
-  "descripcion": "El objeto de la presente licitación es contratar a una persona natural o jurídica para realizar todos los estudios técnicos requeridos, la asistencia técnica especializada, así como el cumplimiento de los procedimientos conducentes a la Actualización del Plan Regulador Comunal de Vitacura (PRC-V), hasta la aprobación del Informe Ambiental por parte del Ministerio de Medio Ambiente y la posterior obtención del Informe Favorable por parte de la Secretaría Regional Ministerial del Ministerio de Vivienda y Urbanismo de la Región Metropolitana de Santiago, en apoyo del ejercicio de la potestad planificadora que la Municipalidad conserva de manera privativa e indelegable conforme al artículo 3°, letra b), de la Ley N°18.695.\r\n\r\nEl servicio comprende la elaboración de los estudios exigidos por la normativa vigente (movilidad urbana, equipamiento comunal, riesgos, factibilidad sanitaria, infraes",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2667-78-LR26"
- },
- {
   "codigo": "577290-4-LP26",
   "nombre": "RENOVACIÓN Y ADQUISICIÓN DE LICENCIAS DE SOFTWARE",
   "puntaje": 9,
@@ -287,6 +246,26 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2713-186-LE26"
  },
  {
+  "codigo": "3755-6-LP26",
+  "nombre": "Serv datos de tránsito y tráfico de dispositivos",
+  "puntaje": 7,
+  "categorias": [
+   "Vialidad / transito"
+  ],
+  "org_clave": true,
+  "rescatada_por_organismo": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Fiscalización y Control",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "",
+  "fecha_cierre": "2026-10-26T16:00",
+  "fecha_publicacion": "2026-10-06",
+  "descripcion": "Se requiere contratar el servicio de suscripción o acceso a una plataforma de datos, servicios web o bases de datos que entregue información sobre la velocidad de circulación, volúmenes o cantidad de vehículos, con cobertura para la red vial terrestre urbana y rural de Chile en que exista la disponibilidad de los datos.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-6-LP26"
+ },
+ {
   "codigo": "5895-24-O126",
   "nombre": "E.I. Normalizacion Seguridad Vial Varios Cruces",
   "puntaje": 7,
@@ -365,26 +344,6 @@
   "fecha_publicacion": "2026-08-25",
   "descripcion": "definir la factibilidad de licitar la actual Ruta que conecta el Puente Industrial y la Ruta Interportuaria, para lo cual es necesario desarrollar una serie de estudios base referidos a Ingeniería, Demanda y Evaluación Social, Expropiaciones, Territorial con Participación Ciudadana, Asuntos Indígenas, Ambiental, Costos de Operación y Mantenimiento y Programa de Ejecución de las Obras. El desarrollo de dichos estudios indicará los mejoramientos, complementos y obras nuevas que se requieran implementar en la infraestructura existente de la ruta actual.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-21-O126"
- },
- {
-  "codigo": "2693-34-LP26",
-  "nombre": "PROYECTO FNDR DENOMINADO “ACTUALIZACION PLAN REGULADOR” COMUNA DE ALGARROBO",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "I MUNICIPALIDAD DE ALGARROBO",
-  "unidad": "MUNICIPALIDAD DE ALGARROBO - SECPLA",
-  "region": "Región de Valparaíso ",
-  "tipo": "LP",
-  "monto": "",
-  "fecha_cierre": "2026-10-13T15:01",
-  "fecha_publicacion": "2026-08-28",
-  "descripcion": "PROYECTO FNDR DENOMINADO “ACTUALIZACION PLAN REGULADOR”, COMUNA DE ALGARROBO",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2693-34-LP26"
  },
  {
   "codigo": "5048-46-O126",
@@ -537,24 +496,22 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
  },
  {
-  "codigo": "1049-78-LE26",
-  "nombre": "SERVICIO APLICACION DE ENCUESTA SOCIOECONOMICA A ARMADORES ARTESANALES DE JIBIA",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
+  "codigo": "5048-54-O126",
+  "nombre": "EST PREFACTIBILIDAD PUENTE ANTOLIN, REGION AYSEN",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
   "rescatada_por_organismo": false,
   "bip": "",
-  "organismo": "INSTITUTO DE FOMENTO PESQUERO",
-  "unidad": "IFOP",
-  "region": "Región de Valparaíso ",
-  "tipo": "LE",
-  "monto": "10.000.000 CLP",
-  "fecha_cierre": "2026-10-13T16:00",
-  "fecha_publicacion": "2026-10-02",
-  "descripcion": "REQ 53808 CC P-581237, Realizar el levantamiento de datos de los armadores artesanales de la pesquería de jibia localizados en las regiones de Coquimbo, Valparaíso, Maule y Biobío, mediante la aplicación de la encuesta socioeconómica",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1049-78-LE26"
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región Aysén del General Carlos Ibáñez del Campo",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-06T11:30",
+  "fecha_publicacion": "2026-09-16",
+  "descripcion": "El estudio busca analizar una nueva estructura acorde con el actual estándar mínimo exigido, la que a su vez permitirá mantener la conectividad del principal eje regional, que conecta el puerto de Chacabuco – Aysén – Coyhaique – aeródromo de Balmaceda – paso fronterizo Huemules.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-54-O126"
  },
  {
   "codigo": "2772-26-L126",
