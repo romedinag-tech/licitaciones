@@ -50,7 +50,7 @@ MAX_DETALLE = int(os.environ.get("MP_MAX_DETALLE", "250"))
 # --- Categorias (para etiquetar y puntuar) -> (peso, patron) ---
 CATEGORIAS = {
     "IMIV / impacto vial":         (5, r"\bimiv\b|impacto vial|estudio de impacto sobre el sistema de transporte"),
-    "Transporte / movilidad":      (5, r"plan de transporte|sistema de transporte|movilidad|transporte publico|\bbuses\b|ferroviari|telefer|ciclovia|ciclo.?rutas?|peaton|micromovilidad"),
+    "Transporte / movilidad":      (5, r"plan de transporte|sistema de transporte|movilidad|transporte publico|\bbuses\b|ferroviari|telefer|ciclovia|ciclo.?rutas?|peaton|micromovilidad|taxis? colectivos?|locomocion colectiva|transporte sostenible|digitalizacion de (recorridos|rutas|servicios de transporte)"),
     "Demanda / EOD / aforos":      (5, r"encuesta origen|origen.?destino|\beod\b|analisis de demanda|matriz.*viaje|particion modal|modelacion de transporte"),
     "Planificacion urbana / IPT":  (4, r"plan regulador|\bpladeco\b|plan seccional|plan maestro|instrumento.*planificacion|desarrollo urbano|ordenamiento territorial|uso de suelo|plan de inversion"),
     "Espacio publico / PIEP":      (4, r"\bpiep\b|espacio publico|infraestructura de movilidad|aporte.*espacio publico"),
