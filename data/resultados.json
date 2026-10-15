@@ -346,6 +346,26 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-21-O126"
  },
  {
+  "codigo": "1606-34-LE26",
+  "nombre": "Consultoría para la digitalización de rutas de taxis colectivos. Proyecto Apoyo a la estrategia Chilena de transporte sostenible - CLETS Financiado por la GEF e implementado por CAF",
+  "puntaje": 5,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "AGENCIA CHILENA DE COOPERACION INTERNACIONAL PARA EL DESARROLLO",
+  "unidad": "AGCID",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "20.000 USD",
+  "fecha_cierre": "2026-10-22T15:00",
+  "fecha_publicacion": "2026-10-08",
+  "descripcion": "Diseñar, desarrollar, probar, sistematizar e implementar una plataforma digital interoperable, compuesta por un Módulo Operador y un Módulo Ministerio, que permita administrar el ciclo completo de registro, revisión, validación y actualización de digitalización de recorridos y atributos operacionales de los servicios de taxis colectivos, integrándose con las plataformas institucionales existentes y validando su funcionamiento mediante una implementación piloto.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1606-34-LE26"
+ },
+ {
   "codigo": "2408-49-LR26",
   "nombre": "ACTUALIZACION PLAN REGULADOR COMUNAL DE LOS ANGELES ETAPA PROYECTO",
   "puntaje": 4,
@@ -512,6 +532,24 @@
   "fecha_publicacion": "2026-09-30",
   "descripcion": "Estudio para desarrollar el análisis técnico, económico, social, territorial y ambiental para la ampliación de la Ruta N-55 y una variante interurbana en la comuna de Pinto, en una longitud aproximada de 20,6 kilómetros.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
+ },
+ {
+  "codigo": "5048-54-O126",
+  "nombre": "EST PREFACTIBILIDAD PUENTE ANTOLIN, REGION AYSEN",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región Aysén del General Carlos Ibáñez del Campo",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-06T11:30",
+  "fecha_publicacion": "2026-09-16",
+  "descripcion": "El estudio busca analizar una nueva estructura acorde con el actual estándar mínimo exigido, la que a su vez permitirá mantener la conectividad del principal eje regional, que conecta el puerto de Chacabuco – Aysén – Coyhaique – aeródromo de Balmaceda – paso fronterizo Huemules.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-54-O126"
  },
  {
   "codigo": "2772-26-L126",
