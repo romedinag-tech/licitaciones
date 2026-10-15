@@ -346,24 +346,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-21-O126"
  },
  {
-  "codigo": "5048-46-O126",
-  "nombre": "EI CONSTR. CAMINO ESTANCIA VICUÑA - YENDEGAIA ETAPA XIV",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de Magallanes y de la Antártica",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-10-15T10:30",
-  "fecha_publicacion": "2026-08-31",
-  "descripcion": "Estudio de ingeniería para analizar y desarrollar una variante de camino destinada a optimizar el trazado existente, mejorando la conectividad e integración territorial de la región, en una longitud aproximada de 6 kilómetros.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-46-O126"
- },
- {
   "codigo": "2408-49-LR26",
   "nombre": "ACTUALIZACION PLAN REGULADOR COMUNAL DE LOS ANGELES ETAPA PROYECTO",
   "puntaje": 4,
@@ -404,24 +386,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2699-36-LE26"
  },
  {
-  "codigo": "3755-4-LP26",
-  "nombre": "Suministro vales canje para adquisición uniformes",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "rescatada_por_organismo": true,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DE TRANSPORTES",
-  "unidad": "Fiscalización y Control",
-  "region": "Región Metropolitana de Santiago",
-  "tipo": "LP",
-  "monto": "250.000.000 CLP",
-  "fecha_cierre": "2026-10-23T16:00",
-  "fecha_publicacion": "2026-09-28",
-  "descripcion": "con el fin de resguardar la seguridad y buena presentación del personal que realiza labores de control de modo que la vestimenta utilizada por los inspectores mantenga una línea homogénea en su diseño y en su calidad, adecuándose a las distintas necesidades, según la diversidad de condiciones climáticas a nivel nacional.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-4-LP26"
- },
- {
   "codigo": "2898-15-LE26",
   "nombre": "ACTUALIZACIÓN PLAN DE DESARROLLO COMUNAL TDP",
   "puntaje": 4,
@@ -458,6 +422,24 @@
   "fecha_publicacion": "2026-08-31",
   "descripcion": "El objetivo del presente estudio es diagnosticar la oferta y demanda vial del Corredor Bioceánico en los pasos fronterizos Jama y Sico, identificando brechas de infraestructura y requerimientos de conectividad para apoyar el desarrollo del transporte y comercio internacional.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-44-O126"
+ },
+ {
+  "codigo": "3755-4-LP26",
+  "nombre": "Suministro vales canje para adquisición uniformes",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "rescatada_por_organismo": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "Fiscalización y Control",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LP",
+  "monto": "250.000.000 CLP",
+  "fecha_cierre": "2026-10-26T16:00",
+  "fecha_publicacion": "2026-09-28",
+  "descripcion": "con el fin de resguardar la seguridad y buena presentación del personal que realiza labores de control de modo que la vestimenta utilizada por los inspectores mantenga una línea homogénea en su diseño y en su calidad, adecuándose a las distintas necesidades, según la diversidad de condiciones climáticas a nivel nacional.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-4-LP26"
  },
  {
   "codigo": "2262-11-O126",
@@ -530,24 +512,6 @@
   "fecha_publicacion": "2026-09-30",
   "descripcion": "Estudio para desarrollar el análisis técnico, económico, social, territorial y ambiental para la ampliación de la Ruta N-55 y una variante interurbana en la comuna de Pinto, en una longitud aproximada de 20,6 kilómetros.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
- },
- {
-  "codigo": "5048-54-O126",
-  "nombre": "EST PREFACTIBILIDAD PUENTE ANTOLIN, REGION AYSEN",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región Aysén del General Carlos Ibáñez del Campo",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-11-06T11:30",
-  "fecha_publicacion": "2026-09-16",
-  "descripcion": "El estudio busca analizar una nueva estructura acorde con el actual estándar mínimo exigido, la que a su vez permitirá mantener la conectividad del principal eje regional, que conecta el puerto de Chacabuco – Aysén – Coyhaique – aeródromo de Balmaceda – paso fronterizo Huemules.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-54-O126"
  },
  {
   "codigo": "2772-26-L126",
