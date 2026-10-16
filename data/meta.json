@@ -1,21 +1,25 @@
 {
- "actualizado": "2026-10-15T19:32:46+00:00",
- "total_activas": 4695,
- "candidatas": 209,
+ "actualizado": "2026-10-16T16:32:37+00:00",
+ "total_activas": 4911,
+ "candidatas": 210,
  "corte": {
-  "candidatas_totales": 426,
-  "candidatas_organismo_clave": 9,
-  "candidatas_fuera_del_tope": 217,
+  "candidatas_totales": 443,
+  "candidatas_organismo_clave": 10,
+  "candidatas_fuera_del_tope": 233,
   "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 206,
+  "empatadas_en_el_corte": 211,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
-    "fuera": 15
+    "fuera": 17
    },
    {
     "prefijo": "5268",
-    "fuera": 7
+    "fuera": 6
+   },
+   {
+    "prefijo": "687236",
+    "fuera": 5
    },
    {
     "prefijo": "812799",
@@ -30,6 +34,10 @@
     "fuera": 5
    },
    {
+    "prefijo": "2261",
+    "fuera": 5
+   },
+   {
     "prefijo": "584105",
     "fuera": 4
    },
@@ -38,19 +46,15 @@
     "fuera": 4
    },
    {
+    "prefijo": "997",
+    "fuera": 4
+   },
+   {
     "prefijo": "1297",
     "fuera": 4
    },
    {
-    "prefijo": "633",
-    "fuera": 4
-   },
-   {
     "prefijo": "979",
-    "fuera": 3
-   },
-   {
-    "prefijo": "997",
     "fuera": 3
    },
    {
@@ -64,16 +68,12 @@
    {
     "prefijo": "2675",
     "fuera": 3
-   },
-   {
-    "prefijo": "2713",
-    "fuera": 3
    }
   ]
  },
  "resultados": 31,
  "clave": 22,
- "rescatadas_por_organismo": 8,
+ "rescatadas_por_organismo": 9,
  "modo_ticket": "personal",
  "regiones": [
   "Región Aysén del General Carlos Ibáñez del Campo",

@@ -165,6 +165,26 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-2-LP26"
  },
  {
+  "codigo": "926-15-LR26",
+  "nombre": "ASESORÍA TÉC. PARA DISEÑO PROYECTOS CONSERVACIÓN",
+  "puntaje": 9,
+  "categorias": [
+   "Transporte / movilidad"
+  ],
+  "org_clave": true,
+  "rescatada_por_organismo": true,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DE TRANSPORTES",
+  "unidad": "DIRECTORIO DE TRANSPORTES DE SANTIAGO - MTT",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LR",
+  "monto": "",
+  "fecha_cierre": "2026-11-16T15:01",
+  "fecha_publicacion": "2026-10-15",
+  "descripcion": "Contratación de un servicio de asesoría técnica para la elaboración de estudios de conservación y el diseño de soluciones orientadas al mejoramiento de la infraestructura vial en determinados tramos de rutas del Sistema de \r\nTransporte Público Metropolitano, a fin de optimizar las condiciones de operación de la red y mejorar la calidad del servicio prestado a los usuarios.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-15-LR26"
+ },
+ {
   "codigo": "577290-5-LP26",
   "nombre": "Servicio Programación Calculo Del Tamaño de Flota",
   "puntaje": 9,
@@ -380,7 +400,7 @@
   "region": "Región del Biobío ",
   "tipo": "LR",
   "monto": "364.954.000 CLP",
-  "fecha_cierre": "2026-10-16T09:00",
+  "fecha_cierre": "2026-10-16T17:00",
   "fecha_publicacion": "2026-09-15",
   "descripcion": "Desarrollar estudio de imagen objetivo y proyecto de modificación del Plan Regulador Comunal, para dar Cumplimiento a la normativa que establece la \r\nobligatoriedad de actualizar periódicamente el instrumento en un plazo no mayor .\r\na 10 años",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2408-49-LR26"
@@ -462,24 +482,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-4-LP26"
  },
  {
-  "codigo": "2262-11-O126",
-  "nombre": "E.I. PUENTE LA PUNTILLA",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - VI Región - Licitación de Obras",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-10-27T23:00",
-  "fecha_publicacion": "2026-09-17",
-  "descripcion": "ESTUDIO DE INGENIERIA CONSTRUCCION PUENTE LA PUNTILLA, COMUNA DE LOLOL, REGION DE O´HIGGINS ",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2262-11-O126"
- },
- {
   "codigo": "5048-52-O126",
   "nombre": "EST.BÁS. ANÁLISIS INCORP. POLVO DE CAUCHO PAVIMENTO SOSTENIBLE",
   "puntaje": 4,
@@ -516,6 +518,24 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-5-LP26"
  },
  {
+  "codigo": "2262-11-O126",
+  "nombre": "E.I. PUENTE LA PUNTILLA",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - VI Región - Licitación de Obras",
+  "region": "Región del Libertador General Bernardo O´Higgins",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-10-29T23:00",
+  "fecha_publicacion": "2026-09-17",
+  "descripcion": "ESTUDIO DE INGENIERIA CONSTRUCCION PUENTE LA PUNTILLA, COMUNA DE LOLOL, REGION DE O´HIGGINS ",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2262-11-O126"
+ },
+ {
   "codigo": "5048-55-O126",
   "nombre": "E.PREF. AMPLIACION Y PASADA URBANA RUTA N-55 SECTOR CHILLAN-PINTO",
   "puntaje": 4,
@@ -532,24 +552,6 @@
   "fecha_publicacion": "2026-09-30",
   "descripcion": "Estudio para desarrollar el análisis técnico, económico, social, territorial y ambiental para la ampliación de la Ruta N-55 y una variante interurbana en la comuna de Pinto, en una longitud aproximada de 20,6 kilómetros.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
- },
- {
-  "codigo": "5048-54-O126",
-  "nombre": "EST PREFACTIBILIDAD PUENTE ANTOLIN, REGION AYSEN",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región Aysén del General Carlos Ibáñez del Campo",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-11-06T11:30",
-  "fecha_publicacion": "2026-09-16",
-  "descripcion": "El estudio busca analizar una nueva estructura acorde con el actual estándar mínimo exigido, la que a su vez permitirá mantener la conectividad del principal eje regional, que conecta el puerto de Chacabuco – Aysén – Coyhaique – aeródromo de Balmaceda – paso fronterizo Huemules.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-54-O126"
  },
  {
   "codigo": "2772-26-L126",
