@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-10-16T16:32:37+00:00",
- "total_activas": 4911,
+ "actualizado": "2026-10-17T15:25:52+00:00",
+ "total_activas": 4884,
  "candidatas": 210,
  "corte": {
-  "candidatas_totales": 443,
+  "candidatas_totales": 440,
   "candidatas_organismo_clave": 10,
-  "candidatas_fuera_del_tope": 233,
+  "candidatas_fuera_del_tope": 230,
   "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 211,
+  "empatadas_en_el_corte": 208,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
@@ -15,6 +15,10 @@
    },
    {
     "prefijo": "5268",
+    "fuera": 6
+   },
+   {
+    "prefijo": "997",
     "fuera": 6
    },
    {
@@ -38,20 +42,16 @@
     "fuera": 5
    },
    {
-    "prefijo": "584105",
-    "fuera": 4
-   },
-   {
     "prefijo": "948806",
-    "fuera": 4
-   },
-   {
-    "prefijo": "997",
     "fuera": 4
    },
    {
     "prefijo": "1297",
     "fuera": 4
+   },
+   {
+    "prefijo": "584105",
+    "fuera": 3
    },
    {
     "prefijo": "979",
@@ -71,7 +71,7 @@
    }
   ]
  },
- "resultados": 31,
+ "resultados": 30,
  "clave": 22,
  "rescatadas_por_organismo": 9,
  "modo_ticket": "personal",
