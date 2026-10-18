@@ -1,11 +1,11 @@
 {
- "actualizado": "2026-10-17T15:25:52+00:00",
- "total_activas": 4884,
+ "actualizado": "2026-10-18T15:47:38+00:00",
+ "total_activas": 4887,
  "candidatas": 210,
  "corte": {
-  "candidatas_totales": 440,
+  "candidatas_totales": 439,
   "candidatas_organismo_clave": 10,
-  "candidatas_fuera_del_tope": 230,
+  "candidatas_fuera_del_tope": 229,
   "puntaje_de_corte": 3,
   "empatadas_en_el_corte": 208,
   "organismos_que_mas_pierden": [
