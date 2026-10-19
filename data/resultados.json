@@ -63,27 +63,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=632-11-LE26"
  },
  {
-  "codigo": "660-14-LP26",
-  "nombre": "MODIFICACIÓN PLAN REGULADOR COMUNAL DE VICTORIA",
-  "puntaje": 11,
-  "categorias": [
-   "Datos / SIG / encuestas",
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": true,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
-  "unidad": "SEREMI IX REGION",
-  "region": "Región de la Araucanía ",
-  "tipo": "LP",
-  "monto": "75.000.000 CLP",
-  "fecha_cierre": "2026-10-19T15:10",
-  "fecha_publicacion": "2026-09-25",
-  "descripcion": "MODIFICACIÓN PLAN REGULADOR COMUNAL DE VICTORIA, LOCALIDADES DE VICTORIA, QUINO, PÚA Y SELVA OSCURA. LEVANTAMIENTO AEROFOTOGRAMÉTRICO Y CARTOGRAFÍA BASE",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-14-LP26"
- },
- {
   "codigo": "577290-4-LP26",
   "nombre": "RENOVACIÓN Y ADQUISICIÓN DE LICENCIAS DE SOFTWARE",
   "puntaje": 9,
@@ -380,7 +359,7 @@
   "region": "Región Metropolitana de Santiago",
   "tipo": "LE",
   "monto": "20.000 USD",
-  "fecha_cierre": "2026-10-22T15:00",
+  "fecha_cierre": "2026-10-27T15:00",
   "fecha_publicacion": "2026-10-08",
   "descripcion": "Diseñar, desarrollar, probar, sistematizar e implementar una plataforma digital interoperable, compuesta por un Módulo Operador y un Módulo Ministerio, que permita administrar el ciclo completo de registro, revisión, validación y actualización de digitalización de recorridos y atributos operacionales de los servicios de taxis colectivos, integrándose con las plataformas institucionales existentes y validando su funcionamiento mediante una implementación piloto.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1606-34-LE26"
@@ -534,44 +513,58 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
  },
  {
-  "codigo": "2772-26-L126",
-  "nombre": "Estudio de Determinación de Velocidad Máxima",
-  "puntaje": 3,
-  "categorias": [
-   "Vialidad / transito"
-  ],
-  "org_clave": false,
+  "codigo": "5048-54-O126",
+  "nombre": "EST PREFACTIBILIDAD PUENTE ANTOLIN, REGION AYSEN",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
   "rescatada_por_organismo": false,
   "bip": "",
-  "organismo": "I MUNICIPALIDAD DE CHIGUAYANTE",
-  "unidad": "SECRETARIA COMUNAL DE PLANIFICACION",
-  "region": "Región del Biobío ",
-  "tipo": "L1",
-  "monto": "4.000.000 CLP",
-  "fecha_cierre": "2026-10-19T15:00",
-  "fecha_publicacion": "2026-10-13",
-  "descripcion": "El presente estudio tiene por objetivo determinar técnicamente la velocidad máxima de circulación que resulte adecuada para el tramo de Calle 8 Oriente, en una extensión aproximada de tres 3 kms, comprendidos entre el cruce con calle Wilhelm Schaub y el cruce con Santa Sofía 8 Oriente, en la comuna de Chiguayante. \r\nEl estudio deberá entregar los antecedentes técnicos necesarios para que la Municipalidad pueda evaluar y, cuando corresponda, implementar la velocidad máxima propuesta, considerando las condiciones de operación y seguridad vial existentes en el tramo.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2772-26-L126"
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región Aysén del General Carlos Ibáñez del Campo",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-06T11:30",
+  "fecha_publicacion": "2026-09-16",
+  "descripcion": "El estudio busca analizar una nueva estructura acorde con el actual estándar mínimo exigido, la que a su vez permitirá mantener la conectividad del principal eje regional, que conecta el puerto de Chacabuco – Aysén – Coyhaique – aeródromo de Balmaceda – paso fronterizo Huemules.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-54-O126"
  },
  {
-  "codigo": "1071775-16-LE26",
-  "nombre": "ENCUESTA BARÓMETRO REGIONAL 2026",
-  "puntaje": 3,
-  "categorias": [
-   "Datos / SIG / encuestas"
-  ],
-  "org_clave": false,
+  "codigo": "5048-66-O126",
+  "nombre": "E.BÁSICO DIAGNÓSTICO ZONAS ADELANTAM.,BIOBÍO Y ARAUCANÍA SEGUNDO LLAMADO ",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
   "rescatada_por_organismo": false,
   "bip": "",
-  "organismo": "UNIVERSIDAD DE LOS LAGOS",
-  "unidad": "SEDE CHILOÉ",
-  "region": "Región de los Lagos ",
-  "tipo": "LE",
-  "monto": "15.000.000 CLP",
-  "fecha_cierre": "2026-10-19T15:30",
-  "fecha_publicacion": "2026-10-06",
-  "descripcion": "Contratar Servicio de aplicación de encuesta Barómetro regional año 2026 para la Universidad de Los Lagos.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1071775-16-LE26"
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región del Biobío ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-11T10:30",
+  "fecha_publicacion": "2026-10-08",
+  "descripcion": "Estudio para diagnosticar, evaluar y definir las zonas donde se permite adelantar y las zonas donde debe existir una prohibición o restricción de adelantamiento, específicamente en vías bidireccionales, con el fin de establecer  la señalización horizontal y vertical reglamentaria a ejecutar.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-66-O126"
+ },
+ {
+  "codigo": "5048-59-O126",
+  "nombre": "EST. BAS. DIAGNÓSTICO CONECTIVIDAD RUTA 5 - PASO MAMUIL MALAL, R. ARAUCANÍA",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región de la Araucanía ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-17T09:30",
+  "fecha_publicacion": "2026-09-30",
+  "descripcion": "Diagnóstico de la situación territorial, ambiental, económica, social y análisis de las necesidades de conectividad entre la Ruta 5 Freire - Loncoche y el Paso Internacional Mamuil Malal.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-59-O126"
  },
  {
   "codigo": "3445-11-LE26",
@@ -592,5 +585,25 @@
   "fecha_publicacion": "2026-10-07",
   "descripcion": "Contratación de una consultoría técnica para diagnosticar el funcionamiento del tránsito asociado a la Carretera General San Martín y formular y evaluar alternativas viales y de gestión de tránsito, según documentos adjuntos.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3445-11-LE26"
+ },
+ {
+  "codigo": "1593-28-LE26",
+  "nombre": "Estudio Dimensionamiento y Valorización de Emisarios Submarinos 2027-2029",
+  "puntaje": 3,
+  "categorias": [
+   "Concesiones / logistica"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "SUPERINTENDENCIA DE SERVICIOS SANITARIOS",
+  "unidad": "Superintendencia de Servicios Sanitarios - SISS",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "32.500.000 CLP",
+  "fecha_cierre": "2026-10-29T15:00",
+  "fecha_publicacion": "2026-10-19",
+  "descripcion": "La Superintendencia de Servicios Sanitarios requiere el estudio de Valorización de la infraestructura y gastos de las Plantas de Pretratamiento de Aguas y emisarios de las concesiones: Aguas del Altiplano S.A. y Nueva Atacama S.A. que regirán por 5 años a contar de la fecha de término de sus decretos tarifarios vigentes. según especificaciones adjuntas",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1593-28-LE26"
  }
 ]
