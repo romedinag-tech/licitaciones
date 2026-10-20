@@ -1,21 +1,17 @@
 {
- "actualizado": "2026-10-19T18:42:48+00:00",
- "total_activas": 4680,
+ "actualizado": "2026-10-20T16:46:02+00:00",
+ "total_activas": 4730,
  "candidatas": 210,
  "corte": {
-  "candidatas_totales": 424,
+  "candidatas_totales": 418,
   "candidatas_organismo_clave": 10,
-  "candidatas_fuera_del_tope": 214,
+  "candidatas_fuera_del_tope": 208,
   "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 198,
+  "empatadas_en_el_corte": 193,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
-    "fuera": 11
-   },
-   {
-    "prefijo": "5268",
-    "fuera": 6
+    "fuera": 10
    },
    {
     "prefijo": "687236",
@@ -26,10 +22,6 @@
     "fuera": 6
    },
    {
-    "prefijo": "812799",
-    "fuera": 5
-   },
-   {
     "prefijo": "1896",
     "fuera": 5
    },
@@ -38,8 +30,12 @@
     "fuera": 5
    },
    {
-    "prefijo": "2261",
+    "prefijo": "5268",
     "fuera": 5
+   },
+   {
+    "prefijo": "812799",
+    "fuera": 4
    },
    {
     "prefijo": "948806",
@@ -62,6 +58,10 @@
     "fuera": 3
    },
    {
+    "prefijo": "2261",
+    "fuera": 3
+   },
+   {
     "prefijo": "2675",
     "fuera": 3
    },
@@ -71,8 +71,8 @@
    }
   ]
  },
- "resultados": 31,
- "clave": 24,
+ "resultados": 33,
+ "clave": 25,
  "rescatadas_por_organismo": 9,
  "modo_ticket": "personal",
  "regiones": [
@@ -82,6 +82,7 @@
   "Región de Magallanes y de la Antártica",
   "Región de Valparaíso ",
   "Región de la Araucanía ",
+  "Región de los Lagos ",
   "Región del Biobío ",
   "Región del Libertador General Bernardo O´Higgins",
   "Región del Maule ",

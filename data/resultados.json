@@ -1,5 +1,28 @@
 [
  {
+  "codigo": "966131-66-LE26",
+  "nombre": "Proyecto de Mejoramiento de Seguridad Vial de la Comuna de Castro para el Plan de Inversiones en Infraestructura de Movilidad y Espacio Público PIIMEP 2026",
+  "puntaje": 23,
+  "categorias": [
+   "Espacio publico / PIEP",
+   "Planificacion urbana / IPT",
+   "Transporte / movilidad",
+   "Vialidad / transito"
+  ],
+  "org_clave": true,
+  "rescatada_por_organismo": false,
+  "bip": "0",
+  "organismo": "I MUNICIPALIDAD DE CASTRO",
+  "unidad": "SECPLAN",
+  "region": "Región de los Lagos ",
+  "tipo": "LE",
+  "monto": "61.499.430 CLP",
+  "fecha_cierre": "2026-11-02T15:01",
+  "fecha_publicacion": "2026-10-20",
+  "descripcion": "La necesidad de Mejorar la seguridad Vial de la Comuna de Castro.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-66-LE26"
+ },
+ {
   "codigo": "520663-35-LS10",
   "nombre": "ACTUALIZACIÓN DEL PLAN DE TRANSPORTE DEL GRAN CONCEPCIÓN",
   "puntaje": 13,
@@ -547,6 +570,26 @@
   "fecha_publicacion": "2026-10-08",
   "descripcion": "Estudio para diagnosticar, evaluar y definir las zonas donde se permite adelantar y las zonas donde debe existir una prohibición o restricción de adelantamiento, específicamente en vías bidireccionales, con el fin de establecer  la señalización horizontal y vertical reglamentaria a ejecutar.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-66-O126"
+ },
+ {
+  "codigo": "3775-35-LP26",
+  "nombre": "ACTUALIZACIÓN PLAN REGULADOR COMUNA DE HIJUELAS",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE HIJUELAS",
+  "unidad": "Secretaria Comunal De Planificacion",
+  "region": "Región de Valparaíso ",
+  "tipo": "LP",
+  "monto": "340.052.000 CLP",
+  "fecha_cierre": "2026-11-16T15:30",
+  "fecha_publicacion": "2026-10-19",
+  "descripcion": "“ACTUALIZACIÓN PLAN REGULADOR COMUNA DE HIJUELAS”, Código BIP N°40000505-0",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3775-35-LP26"
  },
  {
   "codigo": "5048-59-O126",
