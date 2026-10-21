@@ -247,6 +247,26 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=691-8-LP26"
  },
  {
+  "codigo": "644-6-LP26",
+  "nombre": "DIAGN Y ELAB PLAN MAESTRO BARRIO PUDETO BAJO",
+  "puntaje": 8,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": true,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
+  "unidad": "SEREMI MINVU X REGION",
+  "region": "Región de los Lagos ",
+  "tipo": "LP",
+  "monto": "100.000.000 CLP",
+  "fecha_cierre": "2026-11-09T17:31",
+  "fecha_publicacion": "2026-10-20",
+  "descripcion": "CONTRATACIÓN DEL DIAGNÓSTICO Y ELABORACIÓN DEL PLAN MAESTRO, BARRIO PUDETO BAJO, COMUNA DE ANCUD, PARA EL PROGRAMA RECUPERACIÓN DE BARRIOS DE LA SEREMI DE VIVIENDA Y URBANISMO REGIÓN DE LOS LAGOS",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=644-6-LP26"
+ },
+ {
   "codigo": "2713-186-LE26",
   "nombre": "Estudio Proyectos de Semaforos",
   "puntaje": 7,
@@ -282,7 +302,7 @@
   "region": "Región Metropolitana de Santiago",
   "tipo": "LP",
   "monto": "",
-  "fecha_cierre": "2026-10-26T16:00",
+  "fecha_cierre": "2026-10-28T16:00",
   "fecha_publicacion": "2026-10-06",
   "descripcion": "Se requiere contratar el servicio de suscripción o acceso a una plataforma de datos, servicios web o bases de datos que entregue información sobre la velocidad de circulación, volúmenes o cantidad de vehículos, con cobertura para la red vial terrestre urbana y rural de Chile en que exista la disponibilidad de los datos.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-6-LP26"
@@ -408,26 +428,6 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2699-36-LE26"
  },
  {
-  "codigo": "2898-15-LE26",
-  "nombre": "ACTUALIZACIÓN PLAN DE DESARROLLO COMUNAL TDP",
-  "puntaje": 4,
-  "categorias": [
-   "Planificacion urbana / IPT"
-  ],
-  "org_clave": false,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "ILUSTRE MUNICIPALIDAD DE TORRES DEL PAIN",
-  "unidad": "SECPLAN",
-  "region": "Región de Magallanes y de la Antártica",
-  "tipo": "LE",
-  "monto": "",
-  "fecha_cierre": "2026-10-23T18:00",
-  "fecha_publicacion": "2026-10-08",
-  "descripcion": "En general, se trata de una licitación para la contratación de una empresa que realice la consultoría vinculada a la “ACTUALIZACIÓN PLAN DE DESARROLLO COMUNAL DE TORRES DEL PAINE”, el cual debe ser elaborado en base a un diagnóstico comunal integrado, con datos verídicos y actualizados que permitan reconocer y puntualizar los escenarios tendenciales y potenciales del territorio en estudio, vale decir, un nuevo PLADECO que permita dar cuenta de la realidad social, productiva, demográfica, comercial, cultural, ambiental, económica, turística, patrimonial, etc. de la comuna al año 2026.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2898-15-LE26"
- },
- {
   "codigo": "5048-44-O126",
   "nombre": "EST. BÁS: DIAG. OFERTA-DEMANDA VIAL CORREDOR BIOCEÁNICO JAMA-SICO, R. ANT.",
   "puntaje": 4,
@@ -500,6 +500,26 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-5-LP26"
  },
  {
+  "codigo": "2898-15-LE26",
+  "nombre": "ACTUALIZACIÓN PLAN DE DESARROLLO COMUNAL TDP",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "ILUSTRE MUNICIPALIDAD DE TORRES DEL PAIN",
+  "unidad": "SECPLAN",
+  "region": "Región de Magallanes y de la Antártica",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-10-29T18:00",
+  "fecha_publicacion": "2026-10-08",
+  "descripcion": "En general, se trata de una licitación para la contratación de una empresa que realice la consultoría vinculada a la “ACTUALIZACIÓN PLAN DE DESARROLLO COMUNAL DE TORRES DEL PAINE”, el cual debe ser elaborado en base a un diagnóstico comunal integrado, con datos verídicos y actualizados que permitan reconocer y puntualizar los escenarios tendenciales y potenciales del territorio en estudio, vale decir, un nuevo PLADECO que permita dar cuenta de la realidad social, productiva, demográfica, comercial, cultural, ambiental, económica, turística, patrimonial, etc. de la comuna al año 2026.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2898-15-LE26"
+ },
+ {
   "codigo": "2262-11-O126",
   "nombre": "E.I. PUENTE LA PUNTILLA",
   "puntaje": 4,
@@ -536,40 +556,22 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
  },
  {
-  "codigo": "5048-54-O126",
-  "nombre": "EST PREFACTIBILIDAD PUENTE ANTOLIN, REGION AYSEN",
+  "codigo": "1070997-1-LE26",
+  "nombre": "Estudio de suelos para Villa Santa Fe",
   "puntaje": 4,
   "categorias": [],
   "org_clave": true,
   "rescatada_por_organismo": false,
   "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región Aysén del General Carlos Ibáñez del Campo",
-  "tipo": "O1",
+  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
+  "unidad": "SEREMI ÑUBLE-REGIÓN XVI",
+  "region": "Región del Ñuble",
+  "tipo": "LE",
   "monto": "",
-  "fecha_cierre": "2026-11-06T11:30",
-  "fecha_publicacion": "2026-09-16",
-  "descripcion": "El estudio busca analizar una nueva estructura acorde con el actual estándar mínimo exigido, la que a su vez permitirá mantener la conectividad del principal eje regional, que conecta el puerto de Chacabuco – Aysén – Coyhaique – aeródromo de Balmaceda – paso fronterizo Huemules.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-54-O126"
- },
- {
-  "codigo": "5048-66-O126",
-  "nombre": "E.BÁSICO DIAGNÓSTICO ZONAS ADELANTAM.,BIOBÍO Y ARAUCANÍA SEGUNDO LLAMADO ",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región del Biobío ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-11-11T10:30",
-  "fecha_publicacion": "2026-10-08",
-  "descripcion": "Estudio para diagnosticar, evaluar y definir las zonas donde se permite adelantar y las zonas donde debe existir una prohibición o restricción de adelantamiento, específicamente en vías bidireccionales, con el fin de establecer  la señalización horizontal y vertical reglamentaria a ejecutar.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-66-O126"
+  "fecha_cierre": "2026-11-03T15:10",
+  "fecha_publicacion": "2026-10-20",
+  "descripcion": "Estudio de suelos para Villa Santa Fe, Comuna de Bulnes",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1070997-1-LE26"
  },
  {
   "codigo": "3775-35-LP26",
@@ -590,24 +592,6 @@
   "fecha_publicacion": "2026-10-19",
   "descripcion": "“ACTUALIZACIÓN PLAN REGULADOR COMUNA DE HIJUELAS”, Código BIP N°40000505-0",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3775-35-LP26"
- },
- {
-  "codigo": "5048-59-O126",
-  "nombre": "EST. BAS. DIAGNÓSTICO CONECTIVIDAD RUTA 5 - PASO MAMUIL MALAL, R. ARAUCANÍA",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región de la Araucanía ",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-11-17T09:30",
-  "fecha_publicacion": "2026-09-30",
-  "descripcion": "Diagnóstico de la situación territorial, ambiental, económica, social y análisis de las necesidades de conectividad entre la Ruta 5 Freire - Loncoche y el Paso Internacional Mamuil Malal.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-59-O126"
  },
  {
   "codigo": "3445-11-LE26",
