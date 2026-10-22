@@ -46,6 +46,9 @@ os.makedirs(DATA, exist_ok=True)
 
 THROTTLE = 2.2 if ES_TEST else 0.6
 MAX_DETALLE = int(os.environ.get("MP_MAX_DETALLE", "250"))
+# Días que una licitación ya cerrada se conserva en seguimiento (apertura técnica,
+# evaluación, adjudicación) antes de purgarla. ~3 meses desde el cierre.
+RETENCION_DIAS = int(os.environ.get("MP_RETENCION_DIAS", "92"))
 
 # --- Categorias (para etiquetar y puntuar) -> (peso, patron) ---
 CATEGORIAS = {
@@ -177,6 +180,45 @@ def fmt_monto(det):
     try: return f"{float(m):,.0f} {mon}".replace(",", ".")
     except Exception: return f"{m} {mon}"
 
+def estado_desde_detalle(rec, det):
+    """Refresca en `rec` el estado y los datos de adjudicación leídos del detalle
+    de la API (estado, fechas de etapa, N° de oferentes, ganador, acta)."""
+    rec["estado"]        = det.get("Estado", "") or ""
+    rec["codigo_estado"] = det.get("CodigoEstado")
+    fch = det.get("Fechas") or {}
+    rec["fecha_adjudicacion"]     = (fch.get("FechaAdjudicacion") or "")[:16]
+    rec["fecha_apertura_tecnica"] = (fch.get("FechaActoAperturaTecnica") or "")[:16]
+    adj = det.get("Adjudicacion") or {}
+    rec["n_oferentes"] = adj.get("NumeroOferentes")
+    rec["url_acta"]    = adj.get("UrlActa") or ""
+    gan = []
+    for it in (det.get("Items", {}) or {}).get("Listado", []):
+        nom = ((it.get("Adjudicacion") or {}).get("NombreProveedor") or "").strip()
+        if nom and nom not in gan:
+            gan.append(nom)
+    rec["adjudicatarios"] = gan
+    return rec
+
+def fase_de(rec):
+    """activa = aún se puede postular; posterior = cerrada / en evaluación / adjudicada."""
+    ce = rec.get("codigo_estado")
+    if ce is not None and ce != 5:   # 5 = Publicada; cualquier otro código ya avanzó
+        return "posterior"
+    fc = rec.get("fecha_cierre") or ""
+    try:
+        if datetime.datetime.fromisoformat(fc.replace(" ", "T")) > datetime.datetime.now():
+            return "activa"
+    except Exception:
+        pass
+    return "posterior"
+
+def dias_desde_cierre(rec):
+    fc = rec.get("fecha_cierre") or ""
+    try:
+        return (datetime.datetime.now() - datetime.datetime.fromisoformat(fc.replace(" ", "T"))).days
+    except Exception:
+        return None
+
 def main():
     modo = "TICKET DE PRUEBA (limitado)" if ES_TEST else "ticket personal"
     print(f"Radar Mercado Publico — {modo}")
@@ -192,6 +234,15 @@ def main():
     if os.path.exists(kpath):
         try: key_orgs.update(json.load(open(kpath, encoding="utf-8")))
         except Exception: pass
+
+    # Estado previo: se conserva para seguir las que ya cerraron hasta su adjudicación.
+    PREV_PATH = os.path.join(DATA, "resultados.json")
+    prev = []
+    if os.path.exists(PREV_PATH):
+        try: prev = json.load(open(PREV_PATH, encoding="utf-8"))
+        except Exception: prev = []
+    prev_idx = {r.get("codigo"): r for r in prev if r.get("codigo")}
+    HOY = datetime.date.today().isoformat()
 
     def prefijo(cod): return cod.split("-")[0]
 
@@ -300,7 +351,7 @@ def main():
         if muni_piep or PIEP.search(texto): p2 += 3
         fch = det.get("Fechas") or {}
         print(f"  [+] {p2:>2} {cod} {'*' if star else ' '} {c['Nombre'][:50]}")
-        resultados.append({
+        item = {
             "codigo": cod,
             "nombre": c["Nombre"],
             "puntaje": p2,
@@ -317,7 +368,43 @@ def main():
             "fecha_publicacion": (fch.get("FechaPublicacion") or "")[:10],
             "descripcion": desc[:900],
             "url": f"https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion={cod}",
-        })
+        }
+        estado_desde_detalle(item, det)
+        item["primera_vez"] = (prev_idx.get(cod) or {}).get("primera_vez") or HOY
+        item["fase"] = fase_de(item)
+        resultados.append(item)
+
+    # --- Seguimiento post-cierre: conservar las que ya salieron de "activas" y
+    #     re-consultar su estado (apertura técnica -> evaluación -> adjudicación)
+    #     hasta RETENCION_DIAS después del cierre. ---
+    fresh = {r["codigo"] for r in resultados}
+    arrastradas = 0
+    for pr in prev:
+        cod = pr.get("codigo")
+        if not cod or cod in fresh:
+            continue
+        dc = dias_desde_cierre(pr)
+        if dc is not None and dc > RETENCION_DIAS:
+            continue  # cumplió los ~3 meses: se purga
+        if dc is None:  # sin cierre fiable: purgar por antigüedad de captura
+            try:
+                edad = (datetime.date.today() - datetime.date.fromisoformat((pr.get("primera_vez") or "")[:10])).days
+                if edad > RETENCION_DIAS + 30:
+                    continue
+            except Exception:
+                pass
+        d = get(f"{BASE}?codigo={cod}&ticket={TICKET}")
+        time.sleep(THROTTLE)
+        det = (d or {}).get("Listado", [{}])[0] if d else {}
+        if det:  # si la API responde, refresca estado; si no, conserva lo previo
+            estado_desde_detalle(pr, det)
+            fch2 = det.get("Fechas") or {}
+            pr["fecha_cierre"] = (fch2.get("FechaCierre") or pr.get("fecha_cierre") or "")[:16]
+        pr.setdefault("primera_vez", HOY)
+        pr["fase"] = fase_de(pr)
+        resultados.append(pr)
+        arrastradas += 1
+    print(f"  {arrastradas} en seguimiento post-cierre (<= {RETENCION_DIAS} días del cierre).")
 
     resultados.sort(key=lambda x: (-x["puntaje"], x["fecha_cierre"] or "9"))
 
@@ -328,7 +415,8 @@ def main():
         json.dump(resultados, f, ensure_ascii=False, indent=1)
     if resultados:
         cols = ["codigo", "nombre", "puntaje", "org_clave", "organismo", "region",
-                "monto", "fecha_cierre", "fecha_publicacion", "url"]
+                "monto", "fecha_cierre", "fecha_publicacion", "fase", "estado",
+                "fecha_adjudicacion", "n_oferentes", "url"]
         with open(os.path.join(DATA, "resultados.csv"), "w", encoding="utf-8-sig", newline="") as f:
             w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
             w.writeheader(); w.writerows(resultados)
@@ -339,6 +427,10 @@ def main():
         "candidatas": len(candidatas),
         "corte": corte,
         "resultados": len(resultados),
+        "activas_vigentes": sum(1 for r in resultados if r.get("fase", "activa") == "activa"),
+        "en_seguimiento": sum(1 for r in resultados if r.get("fase") == "posterior"),
+        "adjudicadas": sum(1 for r in resultados if (r.get("estado") or "").lower().startswith("adjudicada")),
+        "retencion_dias": RETENCION_DIAS,
         "clave": sum(1 for r in resultados if r["org_clave"]),
         "rescatadas_por_organismo": sum(1 for r in resultados if r["rescatada_por_organismo"]),
         "modo_ticket": "prueba" if ES_TEST else "personal",

@@ -85,6 +85,9 @@
         background:var(--warn);color:#17202b;font-weight:700;border-radius:50%;font-size:.85rem}
   .mv{cursor:pointer;font-weight:700;padding:5px 10px;line-height:1}
   .mv:hover{border-color:var(--warn);color:#f0c675}
+  .meta.seg{background:var(--panel2);border:1px solid var(--line);border-radius:8px;
+            padding:7px 11px;margin-top:8px;color:#cdd}
+  .meta.seg span{color:#d8e2ee}
 </style>
 </head>
 <body>
@@ -108,6 +111,7 @@
     <div class="tabs">
       <div class="tab active" data-vista="todas">📋 Todas</div>
       <div class="tab" data-vista="prio">🚩 Mis prioridades<span class="n" id="tabn">0</span></div>
+      <div class="tab" data-vista="seg" title="Licitaciones que ya cerraron: apertura técnica, evaluación y adjudicación. Se conservan 3 meses tras el cierre.">📈 Seguimiento<span class="n" id="tabs">0</span></div>
     </div>
     <input id="q" type="search" placeholder="Buscar por nombre, organismo, descripción…">
     <select id="cat"><option value="">Todas las categorías</option></select>
@@ -167,8 +171,16 @@ function badgeCierre(iso){
   return `<span class="badge b-verde">Cierra en ${n} días</span>`;
 }
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function nSeg(){return DATA.filter(x=>(x.fase||'activa')==='posterior').length;}
+function badgeEstado(x){
+  const e=x.estado||'';
+  if(/adjudicada/i.test(e)) return '<span class="badge b-verde">✔ Adjudicada</span>';
+  if(/desierta|revocada|suspendida|cancelada/i.test(e)) return `<span class="badge b-rojo">${esc(e)}</span>`;
+  if(/cerrada/i.test(e)) return '<span class="badge b-amar">⏳ En evaluación</span>';
+  return e?`<span class="badge b-inst">${esc(e)}</span>`:'<span class="badge b-amar">⏳ En evaluación</span>';
+}
 
-function tarjeta(x,i,prioView){
+function tarjeta(x,i,prioView,segView){
   const flag=esPrio(x.codigo);
   const rank=prioView?`<span class="rank">${PRIO.indexOf(x.codigo)+1}</span>`:'';
   const mover=prioView
@@ -179,7 +191,7 @@ function tarjeta(x,i,prioView){
     <div class="card${x.org_clave?' clave':''}${flag?' flag':''}">
       <div class="foot" style="margin:0 0 4px">
         ${rank}
-        ${badgeCierre(x.fecha_cierre)}
+        ${segView?badgeEstado(x):badgeCierre(x.fecha_cierre)}
         ${x.org_clave?'<span class="badge b-inst">⭐ Institución clave</span>':''}
         ${x.rescatada_por_organismo?'<span class="badge b-amar" title="El nombre no pasa el filtro de estudio (dice software, adquisición u obra). Está en la lista sólo porque la licita una institución clave: revísala antes de descartarla.">⚑ Entró por la institución</span>':''}
         <span class="score">relevancia ${x.puntaje} · ${esc(x.codigo)}</span>
@@ -195,11 +207,18 @@ function tarjeta(x,i,prioView){
               ? ` · <a href="https://bip.ministeriodesarrollosocial.gob.cl/bip2-consulta/" target="_blank" rel="noopener" title="El monto no es público. Consulta el monto máximo del proyecto en el Banco Integrado de Proyectos: busca por Código BIP ${esc(x.bip)}.">ver monto en BIP ${esc(x.bip)}</a>`
               : ``}</span>`}
       </div>
+      ${segView?`<div class="meta seg">
+        ${x.fecha_apertura_tecnica?`<span>📂 Apertura técnica: ${esc(x.fecha_apertura_tecnica.replace('T',' '))}</span>`:''}
+        ${x.fecha_adjudicacion?`<span>🏅 Adjudicación: ${esc(x.fecha_adjudicacion.replace('T',' '))}</span>`:''}
+        ${x.n_oferentes!=null?`<span>👥 ${x.n_oferentes} oferente${x.n_oferentes==1?'':'s'}</span>`:''}
+        ${(x.adjudicatarios&&x.adjudicatarios.length)?`<span>🏆 Adjudicatario: ${x.adjudicatarios.map(esc).join(', ')}</span>`:''}
+      </div>`:''}
       <div class="chips">${(x.categorias||[]).map(c=>`<span class="chip">${esc(c)}</span>`).join('')}</div>
       <div class="acciones">
         <span class="mini flagbtn${flag?' on':''}" data-cod="${esc(x.codigo)}"
           title="Marca o quita esta licitación como prioridad tuya. Se guarda en este navegador y aparece en la pestaña «Mis prioridades».">${flag?'🚩 Prioritaria':'🏳️ Marcar prioridad'}</span>
         ${mover}
+        ${(segView&&x.url_acta)?`<a class="mini" href="${esc(x.url_acta)}" target="_blank" rel="noopener" title="Acta de adjudicación en Mercado Público">📄 Acta de adjudicación</a>`:''}
         <a class="mini anexos" href="${x.url}" target="_blank" rel="noopener"
            title="Abre la ficha en Mercado Público. Dentro, haz clic en el ícono 📎 Adjuntos para ver y descargar las bases y anexos.">📎 Ver anexos</a>
         <a class="mini" href="${x.url}" target="_blank" rel="noopener">↗ Ficha en Mercado Público</a>
@@ -213,9 +232,12 @@ function render(){
   const q=$('#q').value.toLowerCase().trim();
   const cat=$('#cat').value, reg=$('#reg').value, ord=$('#ord').value;
   const soloClave=$('#clave').checked;
-  const prioView=(VISTA==='prio');
+  const prioView=(VISTA==='prio'), segView=(VISTA==='seg');
   let items=DATA.filter(x=>{
-    if(prioView && !esPrio(x.codigo)) return false;
+    const fase=x.fase||'activa';
+    if(prioView){ if(!esPrio(x.codigo)) return false; }
+    else if(segView){ if(fase!=='posterior') return false; }
+    else { if(fase!=='activa') return false; }
     if(soloClave && !x.org_clave) return false;
     if(cat && !(x.categorias||[]).includes(cat)) return false;
     if(reg && x.region!==reg) return false;
@@ -226,21 +248,26 @@ function render(){
     return true;
   });
   if(prioView) items=[...items].sort((a,b)=>PRIO.indexOf(a.codigo)-PRIO.indexOf(b.codigo));
+  else if(segView) items=[...items].sort((a,b)=>(b.fecha_cierre||'').localeCompare(a.fecha_cierre||''));
   else if(ord==='cierre') items=[...items].sort((a,b)=>(a.fecha_cierre||'9').localeCompare(b.fecha_cierre||'9'));
   else items=[...items].sort((a,b)=>b.puntaje-a.puntaje || (a.fecha_cierre||'9').localeCompare(b.fecha_cierre||'9'));
 
-  $('#ord').disabled=prioView;
+  $('#ord').disabled=prioView||segView;
   $('#count').textContent=prioView
     ? `${items.length} prioritaria${items.length==1?'':'s'}`
+    : segView
+    ? `${items.length} en seguimiento`
     : `${items.length} de ${DATA.length} licitaciones`;
   const L=$('#lista');
   if(!items.length){
     L.innerHTML='<div class="empty">'+(prioView
       ? 'Aún no marcas prioridades. En la pestaña <b>📋 Todas</b>, pulsa <b>🏳️ Marcar prioridad</b> en las licitaciones que te interesen; luego vuelve aquí y ordénalas con ▲▼.'
+      : segView
+      ? 'Aún no hay licitaciones en seguimiento. Aparecen aquí cuando una que estaba activa cierra: el radar las conserva 3 meses y sigue su apertura técnica, evaluación y adjudicación.'
       : 'Sin licitaciones que coincidan con el filtro.')+'</div>';
     return;
   }
-  L.innerHTML=items.map((x,i)=>tarjeta(x,i,prioView)).join('');
+  L.innerHTML=items.map((x,i)=>tarjeta(x,i,prioView,segView)).join('');
   L.querySelectorAll('.toggle').forEach(t=>t.onclick=()=>{
     const d=$('#d'+t.dataset.i); d.classList.toggle('open');
     t.textContent=(d.classList.contains('open')?'▾ Ocultar':'▸ Ver')+' descripción';
@@ -268,14 +295,17 @@ function initStats(){
   const upd=META.actualizado?new Date(META.actualizado).toLocaleString('es-CL'):'—';
   const urg=DATA.filter(x=>{const n=diasRestantes(x.fecha_cierre);return n!==null&&n>=0&&n<=10}).length;
   const clave=DATA.filter(x=>x.org_clave).length;
+  const vig=DATA.filter(x=>(x.fase||'activa')==='activa').length;
   $('#stats').innerHTML=`
-    <div class="stat"><b>${DATA.length}</b>estudios</div>
+    <div class="stat"><b>${vig}</b>estudios vigentes</div>
     <div class="stat"><b>${nPrio()}</b>🚩 mis prioridades</div>
+    <div class="stat"><b>${nSeg()}</b>📈 en seguimiento</div>
     <div class="stat"><b>${clave}</b>⭐ instituciones clave</div>
     <div class="stat"><b>${urg}</b>cierran ≤ 10 días</div>
     <div class="stat"><b>${META.total_activas||'—'}</b>activas en MP</div>
     <div class="stat" style="min-width:190px"><b style="font-size:.9rem">${upd}</b>última actualización${META.modo_ticket==='prueba'?' · <i>ticket de prueba</i>':''}</div>`;
   const tn=$('#tabn'); if(tn) tn.textContent=nPrio();
+  const ts=$('#tabs'); if(ts) ts.textContent=nSeg();
 }
 
 function cargarDatos(primera){
