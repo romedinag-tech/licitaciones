@@ -20,7 +20,16 @@
   "fecha_cierre": "2026-11-02T15:01",
   "fecha_publicacion": "2026-10-20",
   "descripcion": "La necesidad de Mejorar la seguridad Vial de la Comuna de Castro.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-66-LE26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-66-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-23T17:33",
+  "fecha_apertura_tecnica": "2026-11-02T15:02",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "520663-35-LS10",
@@ -41,7 +50,16 @@
   "fecha_cierre": "",
   "fecha_publicacion": "2010-12-29",
   "descripcion": "Identificar proyectos complementarios al Plan Maestro de Desarrollo y Gestión del Sistema de Transporte Urbano (STU) del Gran Concepción",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520663-35-LS10",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "",
+  "fecha_apertura_tecnica": "",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "posterior"
  },
  {
   "codigo": "577290-3-LP26",
@@ -62,7 +80,16 @@
   "fecha_cierre": "2026-10-21T15:00",
   "fecha_publicacion": "2026-09-23",
   "descripcion": "El objetivo general del estudio es medir la demanda y caracterizar la oferta de transporte público asociada a los servicios de buses rurales de la provincia de Cachapoal.\r\nDel objetivo general, se desprenden los siguientes objetivos específicos:\r\nA. Identificar y caracterizar los servicios de transporte público que circulan en la provincia de Cachapoal, incluyendo entre otros aspectos; la ubicación de los terminales, las mallas de recorridos, tiempos de ciclo, puntos de retorno de los servicios, ubicaciones de los paraderos yo paradas, cantidad de flota por empresa y servicio.\r\nB. Cuantificar la demanda de pasajeros para cada uno de los servicios rurales de buses ofrecidos a los usuarios, a través del registro del número de pasajeros clasificados según tipología predefinida, que ingresa a una muestra de buses en un intervalo de tiempo predefinido.\r\nC. Generar mapas georreferenciados graf",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-3-LP26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-3-LP26",
+  "estado": "Cerrada",
+  "codigo_estado": 6,
+  "fecha_adjudicacion": "2026-12-17T23:59",
+  "fecha_apertura_tecnica": "2026-10-21T15:01",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "posterior"
  },
  {
   "codigo": "632-11-LE26",
@@ -83,7 +110,16 @@
   "fecha_cierre": "2026-10-28T15:10",
   "fecha_publicacion": "2026-10-09",
   "descripcion": "Se requiere desarrollar el diseño de ocho proyectos de mejoramiento urbano y espacio público que respondan a las problemáticas y oportunidades identificadas durante los estudios y procesos participativos realizados en la Fase I del Programa de Recuperación de Barrios. De estos, cinco corresponden a proyectos integrales de diseño y futura ejecución de obras.\r\nEl propósito de esta consultoría es abordar las materias técnicas necesarias para la elaboración de los diseños de arquitectura, ingeniería y especialidades, permitiendo avanzar en la recuperación socio-urbana del Barrio PUDEPAR y en la consolidación de las iniciativas contempladas en el Plan Maestro del barrio. En el caso de los cinco proyectos integrales, la consultoría deberá generar los antecedentes técnicos necesarios para su posterior ejecución mediante financiamiento del Programa de Recuperación de Barrios del Ministerio de Vi",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=632-11-LE26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=632-11-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-30T23:59",
+  "fecha_apertura_tecnica": "2026-10-28T15:30",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "577290-4-LP26",
@@ -103,7 +139,16 @@
   "fecha_cierre": "2026-10-26T15:00",
   "fecha_publicacion": "2026-10-06",
   "descripcion": "La Subsecretaría de Transportes llama a participar en esta licitación a personas naturales y jurídicas, chilenas o extranjeras, con el objeto de renovar las licencias de software Toad y Adobe o equivalentes, y adquirir las licencias de software Devexpress y PowerDesigner o equivalentes, para la División de Transporte Público Regional. \r\nVER NUMERAL 1.2 OBJETIVO Y REQUERIMIENTOS",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-4-LP26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-4-LP26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-01-14T23:59",
+  "fecha_apertura_tecnica": "2026-10-26T15:10",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "926-14-LR26",
@@ -123,7 +168,16 @@
   "fecha_cierre": "2026-10-30T15:00",
   "fecha_publicacion": "2026-09-29",
   "descripcion": "Adjudicar y contratar un servicio destinado a proveer el despliegue en terreno de ejecutivos de información monitores para informar, educar, atender y orientar las necesidades de las personas usuarias y no usuarias, así como a otros actores que interactúan con el Sistema de Transporte Público Metropolitano.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-14-LR26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-14-LR26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-12-04T22:00",
+  "fecha_apertura_tecnica": "2026-11-02T11:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "2713-190-LP26",
@@ -144,7 +198,16 @@
   "fecha_cierre": "2026-11-02T15:01",
   "fecha_publicacion": "2026-10-08",
   "descripcion": "La Ilustre Municipalidad de Aysén, o indistintamente el Municipio, necesita la ejecución de un “Estudio Diseño de un Parador de Buses en Villa Mañihuales”, ubicada en la comuna de Puerto Aysén, Región de Aysén.\r\nEn este contexto, la Ilustre Municipalidad de Aysén, en el marco de las atribuciones que le confiere la Ley Nº 18.695 Orgánica Constitucional de Municipalidades, en su Artículo N° 4, se ve en la necesidad de realizar gestiones con diferentes servicios públicos dentro del territorio regional yo nacional, enfocados en la búsqueda de líneas de financiamiento para proyectos de inversión pública, los cuales deberán ser elaborados y diseñados de acuerdo a los lineamientos del PLADECO y metodologías de las distintas fuentes financieras del estado.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2713-190-LP26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2713-190-LP26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-01-29T17:30",
+  "fecha_apertura_tecnica": "2026-11-02T15:02",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "577290-2-LP26",
@@ -164,7 +227,16 @@
   "fecha_cierre": "2026-11-10T15:00",
   "fecha_publicacion": "2026-09-08",
   "descripcion": "La Subsecretaría de Transportes tiene como uno de sus objetivos prioritarios el contar con un sistema de transporte público regional eficiente, seguro y de calidad que se extienda a lo largo de todas las regiones de nuestro país. A fin de dar cumplimiento a dicho objetivo, se realiza el llamado a licitación para contratar un servicio tecnológico integral que permita implementar, operar y mantener una aplicación móvil y sus sistemas asociados, destinada a entregar información en tiempo real, precisa y accesible a las personas usuarias del sistema de transporte público regional en adelante, “sistema tecnológico integral”. Esta solución debe contribuir a mejorar la experiencia de viaje, fortalecer la infraestructura tecnológica del sistema y asegurar la continuidad, calidad y escalabilidad del servicio en múltiples ciudades del país. Las presentes bases técnicas contienen los requerimientos",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-2-LP26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-2-LP26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-12-23T23:59",
+  "fecha_apertura_tecnica": "2026-11-10T15:01",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "926-15-LR26",
@@ -184,7 +256,16 @@
   "fecha_cierre": "2026-11-16T15:01",
   "fecha_publicacion": "2026-10-15",
   "descripcion": "Contratación de un servicio de asesoría técnica para la elaboración de estudios de conservación y el diseño de soluciones orientadas al mejoramiento de la infraestructura vial en determinados tramos de rutas del Sistema de \r\nTransporte Público Metropolitano, a fin de optimizar las condiciones de operación de la red y mejorar la calidad del servicio prestado a los usuarios.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-15-LR26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-15-LR26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-12-22T22:00",
+  "fecha_apertura_tecnica": "2026-11-17T11:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "577290-5-LP26",
@@ -204,7 +285,16 @@
   "fecha_cierre": "2026-12-01T13:00",
   "fecha_publicacion": "2026-10-13",
   "descripcion": "El Ministerio de Transportes y Telecomunicaciones tiene como uno de sus objetivos prioritarios el contar con un sistema de transporte público regional eficiente, seguro y de calidad que se extienda a lo largo de todas las regiones de nuestro país. A fin de dar cumplimiento a dicho objetivo, se realiza el llamado a licitación para contratar un servicio provisto bajo modalidad Software como Servicio SaaS de programación operacional y modelación de servicios de transporte público, orientado al cálculo del tamaño de flota necesaria para la operación y al dimensionamiento de personal de conducción. Esta plataforma debe contribuir a mejorar la evaluación y diseño de sistemas de transporte público al permitir establecer de manera precisa y fundamentada la cantidad de buses y personal de conducción necesarios para cumplir un plan operacional determinado, considerando el análisis de distintos esc",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-5-LP26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-5-LP26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-01-08T23:59",
+  "fecha_apertura_tecnica": "2026-12-01T15:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "2216-28-O126",
@@ -224,7 +314,16 @@
   "fecha_cierre": "2026-12-21T15:00",
   "fecha_publicacion": "2026-10-05",
   "descripcion": "El desarrollo de dichos estudios indicará los mejoramientos, complementos y obras nuevas que se requieran implementar para la materialización del proyecto de teleférico, para lo cual es necesario desarrollar una serie de estudios base referidos a Ingeniería, Demanda y Evaluación Social, Expropiaciones, Urbano - Territorial con Participación Ciudadana, Asuntos Indígenas, Ambiental, Modelo de Negocio y Jurídico",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-28-O126"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-28-O126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-04-12T17:26",
+  "fecha_apertura_tecnica": "2026-12-21T16:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "691-8-LP26",
@@ -244,7 +343,16 @@
   "fecha_cierre": "2026-11-04T17:00",
   "fecha_publicacion": "2026-10-06",
   "descripcion": "Elaborar el Plan Regulador Comunal de Empedrado que aborde el crecimiento en torno al límite urbano actual, con todos sus componentes normativos, preceptos legales y reglamentos vigentes, contenidos en la Ley General de Urbanismo y Construcciones y respectiva Ordenanza General. ",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=691-8-LP26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=691-8-LP26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-19T18:00",
+  "fecha_apertura_tecnica": "2026-11-05T09:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "644-6-LP26",
@@ -264,7 +372,16 @@
   "fecha_cierre": "2026-11-09T17:31",
   "fecha_publicacion": "2026-10-20",
   "descripcion": "CONTRATACIÓN DEL DIAGNÓSTICO Y ELABORACIÓN DEL PLAN MAESTRO, BARRIO PUDETO BAJO, COMUNA DE ANCUD, PARA EL PROGRAMA RECUPERACIÓN DE BARRIOS DE LA SEREMI DE VIVIENDA Y URBANISMO REGIÓN DE LOS LAGOS",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=644-6-LP26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=644-6-LP26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-19T17:32",
+  "fecha_apertura_tecnica": "2026-11-09T17:32",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "2713-186-LE26",
@@ -285,7 +402,16 @@
   "fecha_cierre": "2026-10-21T15:00",
   "fecha_publicacion": "2026-10-06",
   "descripcion": "La Ilustre Municipalidad de Aysén, o indistintamente el Municipio, necesita la ejecución de estudios de justificación para la instalación de semáforos en diversas intersecciones del área urbana de la ciudad de Puerto Aysén, conforme a los criterios establecidos en el Capítulo N° 4 del Manual de Señalización.\r\nEn este contexto, la Ilustre Municipalidad de Aysén, en el marco de las atribuciones que le confiere la Ley Nº 18.695 Orgánica Constitucional de Municipalidades, en su Artículo N° 4, se ve en la necesidad de realizar gestiones con diferentes servicios públicos dentro del territorio regional yo nacional, enfocados en la búsqueda de líneas de financiamiento para proyectos de inversión pública, los cuales deberán ser elaborados y diseñados de acuerdo a los lineamientos del PLADECO y metodologías de las distintas fuentes financieras del estado.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2713-186-LE26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2713-186-LE26",
+  "estado": "Cerrada",
+  "codigo_estado": 6,
+  "fecha_adjudicacion": "2026-11-30T17:46",
+  "fecha_apertura_tecnica": "2026-10-21T15:01",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "posterior"
  },
  {
   "codigo": "3755-6-LP26",
@@ -305,7 +431,16 @@
   "fecha_cierre": "2026-10-28T16:00",
   "fecha_publicacion": "2026-10-06",
   "descripcion": "Se requiere contratar el servicio de suscripción o acceso a una plataforma de datos, servicios web o bases de datos que entregue información sobre la velocidad de circulación, volúmenes o cantidad de vehículos, con cobertura para la red vial terrestre urbana y rural de Chile en que exista la disponibilidad de los datos.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-6-LP26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-6-LP26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-12-09T18:00",
+  "fecha_apertura_tecnica": "2026-10-28T16:01",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "5895-24-O126",
@@ -325,7 +460,16 @@
   "fecha_cierre": "2026-10-29T08:00",
   "fecha_publicacion": "2026-09-11",
   "descripcion": "El Estudio de Ingeniería Normalización Seguridad Vial Varios Cruces, Región de Los Ríos tiene como objetivo principal realizar la elaboración de proyectos con soluciones integrales a cruces emplazadas en diversos sectores en la región de Los Ríos, con los respectivos análisis técnicos - económicos para el desarrollo de proyectos destinados a la ejecución de sus obras",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5895-24-O126"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5895-24-O126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-11-19T12:18",
+  "fecha_apertura_tecnica": "2026-10-29T10:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "2261-32-O126",
@@ -345,7 +489,16 @@
   "fecha_cierre": "2026-11-03T10:00",
   "fecha_publicacion": "2026-10-02",
   "descripcion": "Esta consultoría considera el desarrollo de estudios y proyectos de ingeniería para la normalización y mejoramiento de la seguridad vial en intersecciones de la Región de La Araucanía",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2261-32-O126"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2261-32-O126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-02-24T18:00",
+  "fecha_apertura_tecnica": "2026-11-03T11:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "5048-24-O126",
@@ -365,7 +518,16 @@
   "fecha_cierre": "2026-11-05T11:30",
   "fecha_publicacion": "2026-07-27",
   "descripcion": "La presente consultoría permitirá conocer el estado estructural y funcional de los pavimentos rurales o caminos básicos, administrados por la Dirección de Vialidad. Se usarán métodos automatizados y de alto rendimiento que otorguen seguridad, eficiencia y eficacia, tanto a los procesos como a los resultados que se obtienen de ellos.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-24-O126"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-24-O126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-12-31T23:59",
+  "fecha_apertura_tecnica": "2026-11-05T12:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "2216-21-O126",
@@ -385,7 +547,16 @@
   "fecha_cierre": "2026-11-19T15:00",
   "fecha_publicacion": "2026-08-25",
   "descripcion": "definir la factibilidad de licitar la actual Ruta que conecta el Puente Industrial y la Ruta Interportuaria, para lo cual es necesario desarrollar una serie de estudios base referidos a Ingeniería, Demanda y Evaluación Social, Expropiaciones, Territorial con Participación Ciudadana, Asuntos Indígenas, Ambiental, Costos de Operación y Mantenimiento y Programa de Ejecución de las Obras. El desarrollo de dichos estudios indicará los mejoramientos, complementos y obras nuevas que se requieran implementar en la infraestructura existente de la ruta actual.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-21-O126"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2216-21-O126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-02-15T16:41",
+  "fecha_apertura_tecnica": "2026-11-19T16:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "1606-34-LE26",
@@ -405,7 +576,16 @@
   "fecha_cierre": "2026-10-27T15:00",
   "fecha_publicacion": "2026-10-08",
   "descripcion": "Diseñar, desarrollar, probar, sistematizar e implementar una plataforma digital interoperable, compuesta por un Módulo Operador y un Módulo Ministerio, que permita administrar el ciclo completo de registro, revisión, validación y actualización de digitalización de recorridos y atributos operacionales de los servicios de taxis colectivos, integrándose con las plataformas institucionales existentes y validando su funcionamiento mediante una implementación piloto.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1606-34-LE26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1606-34-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-12T19:00",
+  "fecha_apertura_tecnica": "2026-10-27T15:01",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "2699-36-LE26",
@@ -425,7 +605,16 @@
   "fecha_cierre": "2026-10-22T15:00",
   "fecha_publicacion": "2026-10-08",
   "descripcion": "La presente licitación tiene por objeto la contratación de una consultoría para la actualización del Plan de Desarrollo Comunal (PLADECO) de la comuna de La Reina.\r\n\r\n",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2699-36-LE26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2699-36-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-05T17:00",
+  "fecha_apertura_tecnica": "2026-10-22T15:30",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "5048-44-O126",
@@ -443,7 +632,16 @@
   "fecha_cierre": "2026-10-26T15:30",
   "fecha_publicacion": "2026-08-31",
   "descripcion": "El objetivo del presente estudio es diagnosticar la oferta y demanda vial del Corredor Bioceánico en los pasos fronterizos Jama y Sico, identificando brechas de infraestructura y requerimientos de conectividad para apoyar el desarrollo del transporte y comercio internacional.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-44-O126"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-44-O126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-09-30T20:00",
+  "fecha_apertura_tecnica": "2026-10-26T16:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "3755-4-LP26",
@@ -461,7 +659,16 @@
   "fecha_cierre": "2026-10-26T16:00",
   "fecha_publicacion": "2026-09-28",
   "descripcion": "con el fin de resguardar la seguridad y buena presentación del personal que realiza labores de control de modo que la vestimenta utilizada por los inspectores mantenga una línea homogénea en su diseño y en su calidad, adecuándose a las distintas necesidades, según la diversidad de condiciones climáticas a nivel nacional.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-4-LP26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-4-LP26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-02-22T18:00",
+  "fecha_apertura_tecnica": "2026-10-26T16:10",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "5048-52-O126",
@@ -479,7 +686,16 @@
   "fecha_cierre": "2026-10-29T10:30",
   "fecha_publicacion": "2026-09-11",
   "descripcion": "Evaluar la factibilidad técnica de incorporar la tecnología del polvo de caucho proveniente de neumáticos fuera de uso en pavimentos asfálticos para su aplicación en la red vial nacional.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-52-O126"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-52-O126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-12-30T20:00",
+  "fecha_apertura_tecnica": "2026-10-29T11:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "3755-5-LP26",
@@ -497,7 +713,16 @@
   "fecha_cierre": "2026-10-29T16:00",
   "fecha_publicacion": "2026-10-05",
   "descripcion": "Contar con un servicio de aseo integral para las dependencias de la División de Fiscalización del Transporte y del Centro de Control y Certificación Vehicular 3CV, ambos dependientes de la Subsecretaría de Transportes, para sus sedes ubicadas en la región Metropolitana, que permita mantener en óptimas condiciones de limpieza, higiene y presentación, para el debido cuidado, tanto del personal y del público que concurre a ellos, como de los equipos que ahí se resguardan.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-5-LP26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-5-LP26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-06-03T18:00",
+  "fecha_apertura_tecnica": "2026-10-29T16:10",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "2898-15-LE26",
@@ -517,25 +742,16 @@
   "fecha_cierre": "2026-10-29T18:00",
   "fecha_publicacion": "2026-10-08",
   "descripcion": "En general, se trata de una licitación para la contratación de una empresa que realice la consultoría vinculada a la “ACTUALIZACIÓN PLAN DE DESARROLLO COMUNAL DE TORRES DEL PAINE”, el cual debe ser elaborado en base a un diagnóstico comunal integrado, con datos verídicos y actualizados que permitan reconocer y puntualizar los escenarios tendenciales y potenciales del territorio en estudio, vale decir, un nuevo PLADECO que permita dar cuenta de la realidad social, productiva, demográfica, comercial, cultural, ambiental, económica, turística, patrimonial, etc. de la comuna al año 2026.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2898-15-LE26"
- },
- {
-  "codigo": "2262-11-O126",
-  "nombre": "E.I. PUENTE LA PUNTILLA",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - VI Región - Licitación de Obras",
-  "region": "Región del Libertador General Bernardo O´Higgins",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-10-29T23:00",
-  "fecha_publicacion": "2026-09-17",
-  "descripcion": "ESTUDIO DE INGENIERIA CONSTRUCCION PUENTE LA PUNTILLA, COMUNA DE LOLOL, REGION DE O´HIGGINS ",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2262-11-O126"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2898-15-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-09T10:00",
+  "fecha_apertura_tecnica": "2026-11-02T10:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "5048-55-O126",
@@ -553,7 +769,16 @@
   "fecha_cierre": "2026-11-03T10:30",
   "fecha_publicacion": "2026-09-30",
   "descripcion": "Estudio para desarrollar el análisis técnico, económico, social, territorial y ambiental para la ampliación de la Ruta N-55 y una variante interurbana en la comuna de Pinto, en una longitud aproximada de 20,6 kilómetros.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-03-30T14:47",
+  "fecha_apertura_tecnica": "2026-11-03T11:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "1070997-1-LE26",
@@ -571,7 +796,101 @@
   "fecha_cierre": "2026-11-03T15:10",
   "fecha_publicacion": "2026-10-20",
   "descripcion": "Estudio de suelos para Villa Santa Fe, Comuna de Bulnes",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1070997-1-LE26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1070997-1-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-09T20:00",
+  "fecha_apertura_tecnica": "2026-11-03T15:30",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
+ },
+ {
+  "codigo": "2262-11-O126",
+  "nombre": "E.I. PUENTE LA PUNTILLA",
+  "puntaje": 4,
+  "categorias": [],
+  "org_clave": true,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - VI Región - Licitación de Obras",
+  "region": "Región del Libertador General Bernardo O´Higgins",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-04T23:00",
+  "fecha_publicacion": "2026-09-17",
+  "descripcion": "ESTUDIO DE INGENIERIA CONSTRUCCION PUENTE LA PUNTILLA, COMUNA DE LOLOL, REGION DE O´HIGGINS ",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2262-11-O126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-12-31T17:54",
+  "fecha_apertura_tecnica": "2026-11-05T16:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
+ },
+ {
+  "codigo": "4031-19-LE26",
+  "nombre": "CONSULTORIAS ELABORACIÓN PLAN DESARROLLO COMUNAL",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "ILUSTRE MUNICIPALIDAD DE CAMINA",
+  "unidad": "Secoplac",
+  "region": "Región de Tarapacá  ",
+  "tipo": "LE",
+  "monto": "22.000.000 CLP",
+  "fecha_cierre": "2026-11-05T12:00",
+  "fecha_publicacion": "2026-10-21",
+  "descripcion": "Se requiere contratar el servicio de consultorias para la elaboración de Plan de Desarrollo comunal PLADECO 2026-2030, Comuna de Camiña.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4031-19-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-13T12:00",
+  "fecha_apertura_tecnica": "2026-11-05T12:10",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
+ },
+ {
+  "codigo": "2661-43-LP26",
+  "nombre": "ACTUALIZACIÓN PLADECO COMUNA DE NATALES 2026-2034",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "ILUSTRE MUNICIPALIDAD DE NATALES",
+  "unidad": "SECRETARIA DE PLANIFICACION",
+  "region": "Región de Magallanes y de la Antártica",
+  "tipo": "LP",
+  "monto": "97.661.000 CLP",
+  "fecha_cierre": "2026-11-10T12:00",
+  "fecha_publicacion": "2026-10-21",
+  "descripcion": "SE CONTEMPLA LA ACTUALIZACIÓN DEL PLADECO COMUNA DE NATALES 2026-2034",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2661-43-LP26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-12-10T17:00",
+  "fecha_apertura_tecnica": "2026-11-10T15:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "3775-35-LP26",
@@ -591,7 +910,16 @@
   "fecha_cierre": "2026-11-16T15:30",
   "fecha_publicacion": "2026-10-19",
   "descripcion": "“ACTUALIZACIÓN PLAN REGULADOR COMUNA DE HIJUELAS”, Código BIP N°40000505-0",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3775-35-LP26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3775-35-LP26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-12-21T18:00",
+  "fecha_apertura_tecnica": "2026-11-16T15:31",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "3445-11-LE26",
@@ -611,7 +939,16 @@
   "fecha_cierre": "2026-10-22T09:20",
   "fecha_publicacion": "2026-10-07",
   "descripcion": "Contratación de una consultoría técnica para diagnosticar el funcionamiento del tránsito asociado a la Carretera General San Martín y formular y evaluar alternativas viales y de gestión de tránsito, según documentos adjuntos.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3445-11-LE26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3445-11-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-23T15:01",
+  "fecha_apertura_tecnica": "2026-10-22T09:21",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  },
  {
   "codigo": "1593-28-LE26",
@@ -631,6 +968,15 @@
   "fecha_cierre": "2026-10-29T15:00",
   "fecha_publicacion": "2026-10-19",
   "descripcion": "La Superintendencia de Servicios Sanitarios requiere el estudio de Valorización de la infraestructura y gastos de las Plantas de Pretratamiento de Aguas y emisarios de las concesiones: Aguas del Altiplano S.A. y Nueva Atacama S.A. que regirán por 5 años a contar de la fecha de término de sus decretos tarifarios vigentes. según especificaciones adjuntas",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1593-28-LE26"
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1593-28-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-19T18:00",
+  "fecha_apertura_tecnica": "2026-10-29T15:01",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa"
  }
 ]
