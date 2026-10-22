@@ -171,7 +171,8 @@ function badgeCierre(iso){
   return `<span class="badge b-verde">Cierra en ${n} días</span>`;
 }
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
-function nSeg(){return DATA.filter(x=>(x.fase||'activa')==='posterior').length;}
+function enSeguimiento(x){return (x.fase||'activa')==='posterior' || !!x.seguido_manual;}
+function nSeg(){return DATA.filter(enSeguimiento).length;}
 function badgeEstado(x){
   const e=x.estado||'';
   if(/adjudicada/i.test(e)) return '<span class="badge b-verde">✔ Adjudicada</span>';
@@ -192,6 +193,7 @@ function tarjeta(x,i,prioView,segView){
       <div class="foot" style="margin:0 0 4px">
         ${rank}
         ${segView?badgeEstado(x):badgeCierre(x.fecha_cierre)}
+        ${(segView&&x.seguido_manual)?`<span class="badge b-verde" title="La marcaste para seguir (p. ej. postulada).">📌 ${esc(x.nota_seguimiento||'En seguimiento')}</span>`:''}
         ${x.org_clave?'<span class="badge b-inst">⭐ Institución clave</span>':''}
         ${x.rescatada_por_organismo?'<span class="badge b-amar" title="El nombre no pasa el filtro de estudio (dice software, adquisición u obra). Está en la lista sólo porque la licita una institución clave: revísala antes de descartarla.">⚑ Entró por la institución</span>':''}
         <span class="score">relevancia ${x.puntaje} · ${esc(x.codigo)}</span>
@@ -234,10 +236,10 @@ function render(){
   const soloClave=$('#clave').checked;
   const prioView=(VISTA==='prio'), segView=(VISTA==='seg');
   let items=DATA.filter(x=>{
-    const fase=x.fase||'activa';
+    const seg=enSeguimiento(x);
     if(prioView){ if(!esPrio(x.codigo)) return false; }
-    else if(segView){ if(fase!=='posterior') return false; }
-    else { if(fase!=='activa') return false; }
+    else if(segView){ if(!seg) return false; }
+    else { if(seg) return false; }
     if(soloClave && !x.org_clave) return false;
     if(cat && !(x.categorias||[]).includes(cat)) return false;
     if(reg && x.region!==reg) return false;
@@ -295,7 +297,7 @@ function initStats(){
   const upd=META.actualizado?new Date(META.actualizado).toLocaleString('es-CL'):'—';
   const urg=DATA.filter(x=>{const n=diasRestantes(x.fecha_cierre);return n!==null&&n>=0&&n<=10}).length;
   const clave=DATA.filter(x=>x.org_clave).length;
-  const vig=DATA.filter(x=>(x.fase||'activa')==='activa').length;
+  const vig=DATA.filter(x=>!enSeguimiento(x)).length;
   $('#stats').innerHTML=`
     <div class="stat"><b>${vig}</b>estudios vigentes</div>
     <div class="stat"><b>${nPrio()}</b>🚩 mis prioridades</div>

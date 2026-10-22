@@ -219,6 +219,31 @@ def dias_desde_cierre(rec):
     except Exception:
         return None
 
+def construir_desde_detalle(cod, det, nota):
+    """Construye una tarjeta completa desde el detalle de la API, para una
+    licitación de seguimiento manual que el filtro no capturó (p.ej. postulada)."""
+    comp = det.get("Comprador") or {}
+    fch  = det.get("Fechas") or {}
+    nombre = det.get("Nombre", "") or ""
+    desc   = det.get("Descripcion", "") or ""
+    p2, cats2 = clasificar(nombre + " " + desc)
+    rec = {
+        "codigo": cod, "nombre": nombre, "puntaje": p2,
+        "categorias": sorted(set(cats2)), "org_clave": False,
+        "rescatada_por_organismo": False, "bip": det.get("CodigoBIP") or "",
+        "organismo": comp.get("NombreOrganismo", ""), "unidad": comp.get("NombreUnidad", ""),
+        "region": comp.get("RegionUnidad", ""), "tipo": det.get("Tipo", ""),
+        "monto": fmt_monto(det),
+        "fecha_cierre": (fch.get("FechaCierre") or "")[:16],
+        "fecha_publicacion": (fch.get("FechaPublicacion") or "")[:10],
+        "descripcion": desc[:900],
+        "url": f"https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion={cod}",
+        "seguido_manual": True, "nota_seguimiento": nota or "",
+    }
+    estado_desde_detalle(rec, det)
+    rec["fase"] = fase_de(rec)
+    return rec
+
 def main():
     modo = "TICKET DE PRUEBA (limitado)" if ES_TEST else "ticket personal"
     print(f"Radar Mercado Publico — {modo}")
@@ -406,6 +431,52 @@ def main():
         arrastradas += 1
     print(f"  {arrastradas} en seguimiento post-cierre (<= {RETENCION_DIAS} días del cierre).")
 
+    # --- Seguimiento manual: licitaciones que Rodrigo marca para seguir (p.ej.
+    #     postuladas) aunque el filtro no las haya capturado. Se fuerzan a entrar,
+    #     se re-consultan cada corrida y NO se purgan mientras estén en la lista. ---
+    man_path = os.path.join(DATA, "seguimiento_manual.json")
+    manual = []
+    if os.path.exists(man_path):
+        try: manual = json.load(open(man_path, encoding="utf-8"))
+        except Exception: manual = []
+    ya = {r["codigo"]: r for r in resultados}
+    seg_manual = 0
+    for ent in manual:
+        cod = ((ent.get("codigo") if isinstance(ent, dict) else ent) or "").strip()
+        if not cod:
+            continue
+        nota = ent.get("nota", "") if isinstance(ent, dict) else ""
+        if cod in ya:  # ya está en resultados: solo marcarla como seguida
+            ya[cod]["seguido_manual"] = True
+            ya[cod]["nota_seguimiento"] = nota
+            seg_manual += 1
+            continue
+        d = get(f"{BASE}?codigo={cod}&ticket={TICKET}")
+        time.sleep(THROTTLE)
+        det = (d or {}).get("Listado", [{}])[0] if d else {}
+        if not det:
+            continue  # la API no respondió; se reintenta la próxima corrida
+        rec = construir_desde_detalle(cod, det, nota)
+        rec["primera_vez"] = (ent.get("desde") if isinstance(ent, dict) else None) or HOY
+        resultados.append(rec)
+        seg_manual += 1
+        print(f"  [seg-manual] {cod} {det.get('Estado','')}")
+    print(f"  {seg_manual} en seguimiento manual.")
+
+    # --- Exclusiones manuales: códigos que Rodrigo quita a mano (pegadas en el
+    #     portal, errores). Se eliminan del resultado final en cada corrida. ---
+    exc_path = os.path.join(DATA, "excluir_manual.json")
+    excluir_cods = set()
+    if os.path.exists(exc_path):
+        try:
+            excluir_cods = {((e.get("codigo") if isinstance(e, dict) else e) or "").strip()
+                            for e in json.load(open(exc_path, encoding="utf-8"))}
+        except Exception: excluir_cods = set()
+    if excluir_cods:
+        antes = len(resultados)
+        resultados = [r for r in resultados if r["codigo"] not in excluir_cods]
+        print(f"  {antes - len(resultados)} excluidas manualmente.")
+
     resultados.sort(key=lambda x: (-x["puntaje"], x["fecha_cierre"] or "9"))
 
     with open(kpath, "w", encoding="utf-8") as f:
@@ -428,7 +499,8 @@ def main():
         "corte": corte,
         "resultados": len(resultados),
         "activas_vigentes": sum(1 for r in resultados if r.get("fase", "activa") == "activa"),
-        "en_seguimiento": sum(1 for r in resultados if r.get("fase") == "posterior"),
+        "en_seguimiento": sum(1 for r in resultados if r.get("fase") == "posterior" or r.get("seguido_manual")),
+        "seguidos_manual": sum(1 for r in resultados if r.get("seguido_manual")),
         "adjudicadas": sum(1 for r in resultados if (r.get("estado") or "").lower().startswith("adjudicada")),
         "retencion_dias": RETENCION_DIAS,
         "clave": sum(1 for r in resultados if r["org_clave"]),
