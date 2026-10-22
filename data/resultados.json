@@ -584,7 +584,7 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "posterior"
  },
  {
   "codigo": "5048-44-O126",
@@ -941,15 +941,15 @@
   "fecha_publicacion": "2026-10-07",
   "descripcion": "Contratación de una consultoría técnica para diagnosticar el funcionamiento del tránsito asociado a la Carretera General San Martín y formular y evaluar alternativas viales y de gestión de tránsito, según documentos adjuntos.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3445-11-LE26",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Cerrada",
+  "codigo_estado": 6,
   "fecha_adjudicacion": "2026-11-23T15:01",
   "fecha_apertura_tecnica": "2026-10-22T09:21",
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "posterior"
  },
  {
   "codigo": "1593-28-LE26",
