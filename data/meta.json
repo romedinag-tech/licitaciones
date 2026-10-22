@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T01:45:43+00:00",
+ "actualizado": "2026-10-22T02:05:53+00:00",
  "total_activas": 4821,
  "candidatas": 209,
  "corte": {
@@ -74,9 +74,10 @@
  "resultados": 34,
  "activas_vigentes": 31,
  "en_seguimiento": 3,
+ "seguidos_manual": 1,
  "adjudicadas": 0,
  "retencion_dias": 92,
- "clave": 24,
+ "clave": 23,
  "rescatadas_por_organismo": 9,
  "modo_ticket": "personal",
  "regiones": [
