@@ -834,6 +834,35 @@
   "fase": "activa"
  },
  {
+  "codigo": "1213301-16-LE26",
+  "nombre": "Consultoría confección PLADETUR 2027-2032",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "ILUSTRE MUNICIPALIDAD DE QUILLON",
+  "unidad": "OFICINA DE TURISMO Y CULTURA",
+  "region": "Región del Ñuble",
+  "tipo": "LE",
+  "monto": "20.000.000 CLP",
+  "fecha_cierre": "2026-11-06T15:01",
+  "fecha_publicacion": "2026-10-23",
+  "descripcion": "La Ilustre Municipalidad de Quillón requiere contratar el “Servicio de Consultoría para la Confección del Plan de Desarrollo Turístico”, cuyo objetivo es disponer de un instrumento de planificación estratégica que oriente el desarrollo turístico sustentable de la comuna, considerando sus características territoriales, patrimonio natural y cultural, oferta turística y potencialidades de desarrollo.\r\nEl servicio deberá contemplar un diagnóstico de la situación turística comunal, instancias de participación de actores públicos, privados y comunitarios, y la definición de objetivos, lineamientos estratégicos y un plan de acción con iniciativas priorizadas, plazos, responsables e indicadores de seguimiento, en concordancia con los instrumentos de planificación comunal vigentes.\r\nLa consultoría deberá ejecutarse conforme a los alcances, metodología, productos, plazos y demás condiciones establ",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1213301-16-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-20T17:30",
+  "fecha_apertura_tecnica": "2026-11-06T15:02",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-24",
+  "fase": "activa"
+ },
+ {
   "codigo": "2661-43-LP26",
   "nombre": "ACTUALIZACIÓN PLADECO COMUNA DE NATALES 2026-2034",
   "puntaje": 4,
