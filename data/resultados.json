@@ -603,15 +603,15 @@
   "fecha_publicacion": "2026-08-31",
   "descripcion": "El objetivo del presente estudio es diagnosticar la oferta y demanda vial del Corredor Bioceánico en los pasos fronterizos Jama y Sico, identificando brechas de infraestructura y requerimientos de conectividad para apoyar el desarrollo del transporte y comercio internacional.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-44-O126",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Cerrada",
+  "codigo_estado": 6,
   "fecha_adjudicacion": "2027-09-30T20:00",
   "fecha_apertura_tecnica": "2026-10-26T16:00",
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "posterior"
  },
  {
   "codigo": "3755-4-LP26",
@@ -638,7 +638,7 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "posterior"
  },
  {
   "codigo": "5048-52-O126",
