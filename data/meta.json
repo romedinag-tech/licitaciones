@@ -1,13 +1,13 @@
 {
- "actualizado": "2026-10-27T17:55:38+00:00",
- "total_activas": 4919,
+ "actualizado": "2026-10-28T18:20:44+00:00",
+ "total_activas": 4973,
  "candidatas": 207,
  "corte": {
-  "candidatas_totales": 435,
+  "candidatas_totales": 448,
   "candidatas_organismo_clave": 7,
-  "candidatas_fuera_del_tope": 228,
+  "candidatas_fuera_del_tope": 241,
   "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 204,
+  "empatadas_en_el_corte": 206,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
@@ -19,26 +19,26 @@
    },
    {
     "prefijo": "2010",
+    "fuera": 8
+   },
+   {
+    "prefijo": "2261",
     "fuera": 7
    },
    {
     "prefijo": "1896",
-    "fuera": 5
+    "fuera": 6
    },
    {
-    "prefijo": "2261",
-    "fuera": 5
+    "prefijo": "5268",
+    "fuera": 6
    },
    {
     "prefijo": "5261",
     "fuera": 5
    },
    {
-    "prefijo": "5268",
-    "fuera": 5
-   },
-   {
-    "prefijo": "1297",
+    "prefijo": "1068829",
     "fuera": 4
    },
    {
@@ -62,18 +62,18 @@
     "fuera": 3
    },
    {
-    "prefijo": "1068829",
+    "prefijo": "1297",
     "fuera": 3
    },
    {
-    "prefijo": "2011",
+    "prefijo": "2675",
     "fuera": 3
    }
   ]
  },
- "resultados": 40,
- "activas_vigentes": 32,
- "en_seguimiento": 8,
+ "resultados": 41,
+ "activas_vigentes": 31,
+ "en_seguimiento": 10,
  "seguidos_manual": 1,
  "adjudicadas": 0,
  "retencion_dias": 92,

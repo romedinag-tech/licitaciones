@@ -81,15 +81,15 @@
   "fecha_publicacion": "2026-10-09",
   "descripcion": "Se requiere desarrollar el diseño de ocho proyectos de mejoramiento urbano y espacio público que respondan a las problemáticas y oportunidades identificadas durante los estudios y procesos participativos realizados en la Fase I del Programa de Recuperación de Barrios. De estos, cinco corresponden a proyectos integrales de diseño y futura ejecución de obras.\r\nEl propósito de esta consultoría es abordar las materias técnicas necesarias para la elaboración de los diseños de arquitectura, ingeniería y especialidades, permitiendo avanzar en la recuperación socio-urbana del Barrio PUDEPAR y en la consolidación de las iniciativas contempladas en el Plan Maestro del barrio. En el caso de los cinco proyectos integrales, la consultoría deberá generar los antecedentes técnicos necesarios para su posterior ejecución mediante financiamiento del Programa de Recuperación de Barrios del Ministerio de Vi",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=632-11-LE26",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Cerrada",
+  "codigo_estado": 6,
   "fecha_adjudicacion": "2026-11-30T23:59",
   "fecha_apertura_tecnica": "2026-10-28T15:30",
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "posterior"
  },
  {
   "codigo": "577290-4-LP26",
@@ -432,7 +432,7 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=613-9-LR26",
   "estado": "Publicada",
   "codigo_estado": 5,
-  "fecha_adjudicacion": "2026-11-30T17:00",
+  "fecha_adjudicacion": "2026-12-03T17:00",
   "fecha_apertura_tecnica": "2026-11-26T15:30",
   "n_oferentes": null,
   "url_acta": "",
@@ -497,7 +497,7 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "posterior"
  },
  {
   "codigo": "5895-24-O126",
@@ -1152,6 +1152,35 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-23",
+  "fase": "activa"
+ },
+ {
+  "codigo": "2982-60-L126",
+  "nombre": "DIPLOMADO CON CONTENIDOS DE ASESORÍA LEGISLATIVA O PARLAMENTARIA",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+  "unidad": "JEFATURA NACIONAL DE EDUCACIÓN Y DOCTRINA (JENAED)",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "L1",
+  "monto": "4.800.000 CLP",
+  "fecha_cierre": "2026-11-06T17:03",
+  "fecha_publicacion": "2026-10-27",
+  "descripcion": "Capacitar a 03 Funcionarios de la Jefatura Jurídica de la Policía de Investigaciones de Chile\nen :\nTécnica legislativa y redacción normativa.\nAnálisis de datos legislativos\nComunicación estratégica.\nCompliance o ética y conflicto de interés.\n",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2982-60-L126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-13T17:03",
+  "fecha_apertura_tecnica": "2026-11-09T17:03",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-28",
   "fase": "activa"
  }
 ]
