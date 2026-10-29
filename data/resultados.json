@@ -489,8 +489,8 @@
   "fecha_publicacion": "2026-10-06",
   "descripcion": "Se requiere contratar el servicio de suscripción o acceso a una plataforma de datos, servicios web o bases de datos que entregue información sobre la velocidad de circulación, volúmenes o cantidad de vehículos, con cobertura para la red vial terrestre urbana y rural de Chile en que exista la disponibilidad de los datos.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-6-LP26",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Cerrada",
+  "codigo_estado": 6,
   "fecha_adjudicacion": "2026-12-09T18:00",
   "fecha_apertura_tecnica": "2026-10-28T16:01",
   "n_oferentes": null,
@@ -518,15 +518,15 @@
   "fecha_publicacion": "2026-09-11",
   "descripcion": "El Estudio de Ingeniería Normalización Seguridad Vial Varios Cruces, Región de Los Ríos tiene como objetivo principal realizar la elaboración de proyectos con soluciones integrales a cruces emplazadas en diversos sectores en la región de Los Ríos, con los respectivos análisis técnicos - económicos para el desarrollo de proyectos destinados a la ejecución de sus obras",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5895-24-O126",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Cerrada",
+  "codigo_estado": 6,
   "fecha_adjudicacion": "2027-11-19T12:18",
   "fecha_apertura_tecnica": "2026-10-29T10:00",
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "posterior"
  },
  {
   "codigo": "2261-32-O126",
@@ -587,6 +587,64 @@
   "fase": "activa"
  },
  {
+  "codigo": "640-8-LE26",
+  "nombre": "ACTUALIZACIÓN VUELO RESTITUCIÓN CARTOGRAFÍA ALHUE",
+  "puntaje": 7,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": true,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
+  "unidad": "SEREMI  MINVU RM",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "70.000.000 CLP",
+  "fecha_cierre": "2026-11-09T16:00",
+  "fecha_publicacion": "2026-10-29",
+  "descripcion": "servicio de “ACTUALIZACIÓN VUELO, RESTITUCIÓN Y CARTOGRAFIA PRC ALHUÉ”",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=640-8-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-19T18:00",
+  "fecha_apertura_tecnica": "2026-11-09T16:01",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-29",
+  "fase": "activa"
+ },
+ {
+  "codigo": "640-9-LE26",
+  "nombre": "ACT. VUELO RESTITUCIÓN CARTOGRAFÍA SAN PEDRO",
+  "puntaje": 7,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": true,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "SUBSECRETARIA DEL MINISTERIO DE LA VIVIENDA Y URBANISMO",
+  "unidad": "SEREMI  MINVU RM",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "",
+  "fecha_cierre": "2026-11-09T16:00",
+  "fecha_publicacion": "2026-10-29",
+  "descripcion": "servicio de “ACTUALIZACIÓN VUELO, RESTITUCIÓN Y CARTOGRAFIA PRC SAN PEDRO”",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=640-9-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-19T18:00",
+  "fecha_apertura_tecnica": "2026-11-09T16:01",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-29",
+  "fase": "activa"
+ },
+ {
   "codigo": "2216-21-O126",
   "nombre": "ESTUDIO INTEGRAL CONCESIÓN CONEXIÓN PUENTE INDUSTRIAL - RUTA INTERPORTUARIA",
   "puntaje": 7,
@@ -634,15 +692,15 @@
   "fecha_publicacion": "2026-10-08",
   "descripcion": "Diseñar, desarrollar, probar, sistematizar e implementar una plataforma digital interoperable, compuesta por un Módulo Operador y un Módulo Ministerio, que permita administrar el ciclo completo de registro, revisión, validación y actualización de digitalización de recorridos y atributos operacionales de los servicios de taxis colectivos, integrándose con las plataformas institucionales existentes y validando su funcionamiento mediante una implementación piloto.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1606-34-LE26",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Cerrada",
+  "codigo_estado": 6,
   "fecha_adjudicacion": "2026-11-19T19:00",
   "fecha_apertura_tecnica": "2026-10-29T15:01",
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "posterior"
  },
  {
   "codigo": "2699-36-LE26",
@@ -744,15 +802,15 @@
   "fecha_publicacion": "2026-09-11",
   "descripcion": "Evaluar la factibilidad técnica de incorporar la tecnología del polvo de caucho proveniente de neumáticos fuera de uso en pavimentos asfálticos para su aplicación en la red vial nacional.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-52-O126",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Desierta (o art. 3 ó 9 Ley 19.886)",
+  "codigo_estado": 7,
   "fecha_adjudicacion": "2027-12-30T20:00",
   "fecha_apertura_tecnica": "2026-10-29T11:00",
-  "n_oferentes": null,
-  "url_acta": "",
+  "n_oferentes": 0,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=fkXE0VPniXX/obWULvXVm/knGFnNezCBaE+ZS91jdfA=",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "posterior"
  },
  {
   "codigo": "2898-15-LE26",
@@ -781,7 +839,7 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "posterior"
  },
  {
   "codigo": "5048-55-O126",
@@ -950,6 +1008,35 @@
   "fase": "activa"
  },
  {
+  "codigo": "1736-124-LE26",
+  "nombre": "JORNADA DE TRABAJO PLADECO 2025-2030",
+  "puntaje": 4,
+  "categorias": [
+   "Planificacion urbana / IPT"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "I MUNICIPALIDAD DE LA COMUNA DE EL BOSQUE",
+  "unidad": "I MUNICIPALIDAD DE LA COMUNA DE EL BOSQUE",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "35.000.000 CLP",
+  "fecha_cierre": "2026-11-09T15:30",
+  "fecha_publicacion": "2026-10-28",
+  "descripcion": "Se requiere la contratación del servicio de salón, alojamiento y alimentación denominada “JORNADA DE TRABAJO PLADECO 2025-2030” con el objetivo de desarrollar una jornada de trabajo de tres días, con capacidad para 200 personas durante el mes de noviembre de 2026, destinada a la presentación, socialización y validación comunitaria del Plan de Desarrollo Comunal PLADECO 2025–2030 de la comuna de El Bosque.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1736-124-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-12-21T17:30",
+  "fecha_apertura_tecnica": "2026-11-09T15:31",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-29",
+  "fase": "activa"
+ },
+ {
   "codigo": "2661-43-LP26",
   "nombre": "ACTUALIZACIÓN PLADECO COMUNA DE NATALES 2026-2034",
   "puntaje": 4,
@@ -1086,15 +1173,15 @@
   "fecha_publicacion": "2026-10-19",
   "descripcion": "La Superintendencia de Servicios Sanitarios requiere el estudio de Valorización de la infraestructura y gastos de las Plantas de Pretratamiento de Aguas y emisarios de las concesiones: Aguas del Altiplano S.A. y Nueva Atacama S.A. que regirán por 5 años a contar de la fecha de término de sus decretos tarifarios vigentes. según especificaciones adjuntas",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1593-28-LE26",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Desierta (o art. 3 ó 9 Ley 19.886)",
+  "codigo_estado": 7,
   "fecha_adjudicacion": "2026-11-19T18:00",
   "fecha_apertura_tecnica": "2026-10-29T15:01",
-  "n_oferentes": null,
-  "url_acta": "",
+  "n_oferentes": 0,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=hf3UGoo/z04mjmLOnBmOXA6yP2DrOeku9mBXI6vAiXs=",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "posterior"
  },
  {
   "codigo": "879-19-L126",
@@ -1123,7 +1210,7 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-23",
-  "fase": "activa"
+  "fase": "posterior"
  },
  {
   "codigo": "1057500-83-LE26",
@@ -1181,6 +1268,35 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-28",
+  "fase": "activa"
+ },
+ {
+  "codigo": "599-43-LE26",
+  "nombre": "Curso Gestión y Análisis de Datos E-Learning Junji",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "JUNTA NACIONAL DE JARDINES         INFANTILES",
+  "unidad": "JUNTA NACIONAL DE JARDINES         INFANTILES",
+  "region": "Región Metropolitana de Santiago",
+  "tipo": "LE",
+  "monto": "23.279.000 CLP",
+  "fecha_cierre": "2026-11-09T18:00",
+  "fecha_publicacion": "2026-10-28",
+  "descripcion": "Fortalecer las competencias de las y los participantes para gestionar, transformar, integrar, analizar y visualizar datos, mediante el uso de herramientas que permitan optimizar procesos, automatizar tareas recurrentes y generar información confiable y oportuna para apoyar la gestión y la toma de decisiones institucionales",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=599-43-LE26",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-11-27T19:14",
+  "fecha_apertura_tecnica": "2026-11-10T09:30",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-29",
   "fase": "activa"
  }
 ]
