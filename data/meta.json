@@ -1,44 +1,44 @@
 {
- "actualizado": "2026-10-29T18:26:04+00:00",
- "total_activas": 5052,
+ "actualizado": "2026-10-30T18:01:37+00:00",
+ "total_activas": 5260,
  "candidatas": 206,
  "corte": {
-  "candidatas_totales": 464,
+  "candidatas_totales": 470,
   "candidatas_organismo_clave": 6,
-  "candidatas_fuera_del_tope": 258,
+  "candidatas_fuera_del_tope": 264,
   "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 214,
+  "empatadas_en_el_corte": 217,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
-    "fuera": 15
+    "fuera": 13
+   },
+   {
+    "prefijo": "687236",
+    "fuera": 9
    },
    {
     "prefijo": "2010",
     "fuera": 9
    },
    {
-    "prefijo": "687236",
+    "prefijo": "1068829",
     "fuera": 7
+   },
+   {
+    "prefijo": "2261",
+    "fuera": 7
+   },
+   {
+    "prefijo": "5261",
+    "fuera": 6
    },
    {
     "prefijo": "1896",
     "fuera": 6
    },
    {
-    "prefijo": "5268",
-    "fuera": 6
-   },
-   {
-    "prefijo": "1068829",
-    "fuera": 5
-   },
-   {
-    "prefijo": "5261",
-    "fuera": 5
-   },
-   {
-    "prefijo": "2261",
+    "prefijo": "997",
     "fuera": 4
    },
    {
@@ -46,19 +46,19 @@
     "fuera": 4
    },
    {
+    "prefijo": "5268",
+    "fuera": 4
+   },
+   {
     "prefijo": "642",
     "fuera": 3
    },
    {
-    "prefijo": "712307",
-    "fuera": 3
-   },
-   {
-    "prefijo": "1297",
-    "fuera": 3
-   },
-   {
     "prefijo": "1340",
+    "fuera": 3
+   },
+   {
+    "prefijo": "2770",
     "fuera": 3
    },
    {
@@ -71,18 +71,19 @@
    }
   ]
  },
- "resultados": 45,
- "activas_vigentes": 29,
- "en_seguimiento": 16,
+ "resultados": 46,
+ "activas_vigentes": 28,
+ "en_seguimiento": 18,
  "seguidos_manual": 1,
  "adjudicadas": 0,
  "retencion_dias": 92,
- "clave": 28,
+ "clave": 29,
  "rescatadas_por_organismo": 9,
  "modo_ticket": "personal",
  "regiones": [
   "Región Aysén del General Carlos Ibáñez del Campo",
   "Región Metropolitana de Santiago",
+  "Región de Arica y Parinacota",
   "Región de Los Ríos",
   "Región de Magallanes y de la Antártica",
   "Región de Tarapacá  ",
