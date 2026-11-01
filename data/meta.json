@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T18:50:09+00:00",
+ "actualizado": "2026-11-01T19:31:37+00:00",
  "total_activas": 5174,
  "candidatas": 210,
  "corte": {
@@ -72,24 +72,37 @@
    }
   ]
  },
- "resultados": 48,
- "activas_vigentes": 29,
- "en_seguimiento": 19,
+ "resultados": 90,
+ "activas_vigentes": 31,
+ "en_seguimiento": 59,
  "seguidos_manual": 2,
  "adjudicadas": 0,
  "retencion_dias": 92,
- "archivadas": 0,
- "adjudicadas_archivo": 0,
- "proveedores_no_publicados": {},
- "bytes_resultados": 67886,
- "bytes_archivo": 5,
- "clave": 30,
- "rescatadas_por_organismo": 9,
+ "archivadas": 70,
+ "adjudicadas_archivo": 49,
+ "proveedores_no_publicados": {
+  "Persona natural": 5,
+  "Proveedor no publicado": 3,
+  "Empresa individual": 1
+ },
+ "reposicion": {
+  "en_lista": 112,
+  "pendientes_al_inicio": 112,
+  "al_archivo_hoy": 70,
+  "a_resultados_hoy": 42,
+  "no_pasan_hoy": 0
+ },
+ "bytes_resultados": 125090,
+ "bytes_archivo": 110078,
+ "clave": 55,
+ "rescatadas_por_organismo": 12,
  "modo_ticket": "personal",
  "regiones": [
   "Región Aysén del General Carlos Ibáñez del Campo",
   "Región Metropolitana de Santiago",
+  "Región de Antofagasta ",
   "Región de Arica y Parinacota",
+  "Región de Coquimbo ",
   "Región de Los Ríos",
   "Región de Magallanes y de la Antártica",
   "Región de Tarapacá  ",
@@ -116,25 +129,26 @@
  ],
  "por_categoria": {
   "Espacio publico / PIEP": 2,
-  "Planificacion urbana / IPT": 17,
-  "Transporte / movilidad": 11,
-  "Vialidad / transito": 8,
-  "Datos / SIG / encuestas": 7,
+  "Planificacion urbana / IPT": 25,
+  "Transporte / movilidad": 16,
+  "Vialidad / transito": 11,
+  "Demanda / EOD / aforos": 1,
+  "Datos / SIG / encuestas": 18,
   "Anteproyecto vial": 1,
   "Prefactibilidad vial": 3,
-  "Semaforizacion": 1,
-  "Concesiones / logistica": 2
+  "Concesiones / logistica": 4,
+  "Semaforizacion": 1
  },
  "por_nivel": {
-  "sin_determinar": 42,
+  "sin_determinar": 76,
   "prefactibilidad": 3,
-  "anteproyecto": 1,
-  "ingenieria": 2
+  "anteproyecto": 2,
+  "ingenieria": 9
  },
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-01T18:50:09+00:00",
+   "ultima_lectura_buena": "2026-11-01T19:31:37+00:00",
    "avisos_leidos": 5174,
    "seguimiento_post_cierre": true
   }
