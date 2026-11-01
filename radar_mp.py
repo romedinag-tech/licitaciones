@@ -225,6 +225,44 @@ def fmt_monto(det):
     try: return f"{float(m):,.0f} {mon}".replace(",", ".")
     except Exception: return f"{m} {mon}"
 
+# Tipo de proveedor. El sitio publica solo el nombre de una empresa: el RUT clasifica y
+# se descarta. Bajo 50 millones es de persona natural; un E.I.R.L. suele llevar el nombre
+# de su dueño; y ante la duda (sin RUT, RUT invalido, o sin forma juridica en el nombre)
+# el nombre tampoco se publica. Cada caso va con un rotulo visible, y meta.json los cuenta.
+RUT_PATRON = re.compile(r"(\d{1,3}(?:\.?\d{3}){1,2})-?([\dkK])")
+RUT_MIN_EMPRESA = 50_000_000
+EIRL = C(r"\be\.?\s?i\.?\s?r\.?\s?l\b|empresa individual")
+FORMA_JURIDICA = C(r"\bs\.?\s?p\.?\s?a\b|\bs\.?\s?a\b|\bs\.?\s?l\.?\s?u\b|\bltda\b|\blimitada\b|\bsociedad\b|\bcompania\b|\bcia\b|"
+                   r"\buniversidad\b|\bfundacion\b|\bcorporacion\b|\basociacion\b|\bcooperativa\b|\bconsorcio\b|\bmunicipalidad\b")
+ROTULOS_PROVEEDOR = {"persona_natural": "Persona natural", "empresa_individual": "Empresa individual",
+                     "sin_clasificar": "Proveedor no publicado"}
+
+def cuerpo_rut(rut):
+    """Cuerpo numerico del RUT si su digito verificador calza; si no, None."""
+    m = RUT_PATRON.fullmatch((rut or "").strip())
+    if not m:
+        return None
+    cuerpo = m.group(1).replace(".", "")
+    s, f = 0, 2
+    for c in reversed(cuerpo):
+        s += int(c) * f
+        f = 2 if f == 7 else f + 1
+    r = 11 - s % 11
+    dv = "0" if r == 11 else "K" if r == 10 else str(r)
+    return int(cuerpo) if dv == m.group(2).upper() else None
+
+def tipo_proveedor(nombre, rut):
+    """empresa, persona_natural, empresa_individual o sin_clasificar."""
+    cuerpo = cuerpo_rut(rut)
+    if cuerpo is None:
+        return "sin_clasificar"
+    if cuerpo < RUT_MIN_EMPRESA:
+        return "persona_natural"
+    t = sin_tildes(nombre)
+    if EIRL.search(t):
+        return "empresa_individual"
+    return "empresa" if FORMA_JURIDICA.search(t) else "sin_clasificar"
+
 def estado_desde_detalle(rec, det):
     """Refresca en `rec` el estado y los datos de adjudicación leídos del detalle
     de la API (estado, fechas de etapa, N° de oferentes, ganador, acta)."""
@@ -240,10 +278,12 @@ def estado_desde_detalle(rec, det):
     for it in (det.get("Items", {}) or {}).get("Listado", []):
         ia = it.get("Adjudicacion") or {}
         nom = (ia.get("NombreProveedor") or "").strip()
-        if nom and nom not in gan:
-            gan.append(nom)
         # Lista blanca a propósito: RutProveedor viene en la API y NO se guarda
         # (puede ser el de una persona natural y este repositorio es público).
+        if nom:
+            nom = ROTULOS_PROVEEDOR.get(tipo_proveedor(nom, ia.get("RutProveedor")), nom)
+        if nom and nom not in gan:
+            gan.append(nom)
         if nom:
             items.append({"proveedor": nom, "cantidad": ia.get("Cantidad"),
                           "monto_unitario": ia.get("MontoUnitario"),
@@ -621,6 +661,9 @@ def main():
         "retencion_dias": RETENCION_DIAS,
         "archivadas": len(filas_arch),
         "adjudicadas_archivo": sum(1 for r in filas_arch if (r.get("estado") or "").lower().startswith("adjudicada")),
+        "proveedores_no_publicados": dict(Counter(it.get("proveedor") for r in resultados + filas_arch
+                                                  for it in (r.get("adjudicacion_items") or [])
+                                                  if it.get("proveedor") in ROTULOS_PROVEEDOR.values())),
         "bytes_resultados": os.path.getsize(os.path.join(DATA, "resultados.json")),
         "bytes_archivo": os.path.getsize(arch_path),
         "clave": sum(1 for r in resultados if r["org_clave"]),

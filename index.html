@@ -241,7 +241,7 @@ function tarjeta(x,i,prioView,segViewPedida){
         ${x.fecha_apertura_tecnica?`<span>📂 Apertura técnica: ${esc(x.fecha_apertura_tecnica.replace('T',' '))}</span>`:''}
         ${x.fecha_adjudicacion?`<span>🏅 Adjudicación: ${esc(x.fecha_adjudicacion.replace('T',' '))}</span>`:''}
         ${x.n_oferentes!=null?`<span>👥 ${x.n_oferentes} oferente${x.n_oferentes==1?'':'s'}</span>`:''}
-        ${(x.adjudicatarios&&x.adjudicatarios.length)?`<span>🏆 Adjudicatario: ${x.adjudicatarios.map(esc).join(', ')}</span>`:''}
+        ${(x.adjudicatarios&&x.adjudicatarios.length)?`<span title="Sólo se publica el nombre de empresas. El de personas naturales, empresas individuales y proveedores sin clasificar va como rótulo; está en la ficha de Mercado Público.">🏆 Adjudicatario: ${x.adjudicatarios.map(esc).join(', ')}</span>`:''}
         ${(x.adjudicacion_items||[]).filter(it=>it.monto_unitario!=null&&it.cantidad!=null).map(it=>`<span title="Cantidad × precio unitario adjudicado, tal como lo informa la API. En un contrato de suministro el precio unitario no es el valor del contrato.">💵 ${textoItem(it,x.moneda)}</span>`).join('')}
       </div>`:''}
       <div class="chips">${(x.categorias||[]).map(c=>`<span class="chip">${esc(c)}</span>`).join('')}</div>
