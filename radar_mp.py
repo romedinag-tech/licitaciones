@@ -50,6 +50,7 @@ MAX_DETALLE = int(os.environ.get("MP_MAX_DETALLE", "250"))
 # (apertura técnica, evaluación, adjudicación) y, pasados ~3 meses desde el cierre,
 # si ya tiene estado final, pasa a data/archivo.json y deja de re-consultarse.
 RETENCION_DIAS = int(os.environ.get("MP_RETENCION_DIAS", "92"))
+PAUSA_REPONER = float(os.environ.get("MP_PAUSA_REPONER", "5"))
 ESTADO_FINAL = re.compile(r"adjudicada|desierta|revocada", re.I)
 
 # --- Categorias (para etiquetar y puntuar) -> (peso, patron) ---
@@ -338,6 +339,87 @@ def construir_desde_detalle(cod, det, nota):
     rec["fase"] = fase_de(rec)
     return rec
 
+# Codigos MOP de estudio al inicio del nombre. Vialidad prefija sus estudios
+# con una abreviatura de "Estudio ...": EP (preinversión/prefactibilidad),
+# EI/EII (ingeniería), EST. (EST. BAS., EST. PREF.), E.BÁSICO, E.FACTIBILIDAD.
+# OJO: antes solo entraban EI/EP y se caían p.ej. "EST. PREF. CONST. PTE.
+# ... EJE ALESSANDRI" (5048-27), un estudio de prefactibilidad de un puente.
+tipo_mop = re.compile(r"^(est\.?|e\.?\s?(i{1,2}|p|b|f)|e\.?\s?(pref|prefact|bas|basic|fact))\b")
+
+def pasa_prefiltro(n, es_key=False):
+    """Primer paso, solo por el nombre (ya sin tildes): merece que se le pida el detalle."""
+    linea = bool(LINEA_PRIORITARIA.search(n) or es_semaf_estudio(n))
+    return bool(es_key or linea or tipo_mop.match(n) or ESTUDIO.search(n) or ESTUDIO_FUERTE.search(n) or TEMA.search(n) or PIEP.search(n))
+
+def filtra_detalle(cod, nombre, det, cierre_listado=None):
+    """Segundo paso, con el detalle de la API. Devuelve (item, None, org_a) si pasa o
+    (None, razon, org_a) si no."""
+    desc = det.get("Descripcion", "") or ""
+    comp = det.get("Comprador") or {}
+    organismo = comp.get("NombreOrganismo", "")
+    unidad = comp.get("NombreUnidad", "")
+
+    texto = sin_tildes(nombre + " " + desc)
+    org = sin_tildes(organismo + " " + unidad)
+
+    semaf_est  = es_semaf_estudio(sin_tildes(nombre), sin_tildes(desc))
+    es_estudio = bool(ESTUDIO.search(texto)) or semaf_est
+    # Bloqueado = inspeccion fiscal (nunca se protege), o palabra de obra/insumo
+    # SIN un marcador fuerte de estudio (preinversion/plan/imiv...) que lo rescate.
+    es_obra    = bool(INSPECCION.search(texto) or
+                      (EXCLUIR.search(texto) and not ESTUDIO_FUERTE.search(texto) and not semaf_est))
+    on_tema    = bool(TEMA.search(texto)) or semaf_est
+    org_a      = bool(ORG_A.search(org))
+    org_b      = bool(ORG_B.search(org))
+    muni_piep  = bool(MUNI.search(org) and PIEP.search(texto))
+
+    p2, cats2 = clasificar(nombre + " " + desc)
+
+    # Regla final por niveles:
+    #  A) agencia de planificacion  -> entra TODO (se salta filtro de obra).
+    #  B/muni/general -> solo estudios, no obra, y del tema (o org B) con >=1 pto.
+    # Nivel A entra saltandose el filtro de obra. Cuando ese salto es lo unico
+    # que la rescata, se deja el flag visible en vez de incluirla en silencio:
+    # asi se ve por que esta ahi una licitacion que dice "software" o "adquisicion".
+    rescatada = False
+    if org_a:
+        star = True
+        rescatada = bool(es_obra or not es_estudio)
+    elif es_estudio and not es_obra and (org_b or muni_piep or (on_tema and p2 >= 1)):
+        star = org_b or muni_piep
+    else:
+        return None, ("obra/no-estudio" if (not es_estudio or es_obra) else f"fuera de tema (p={p2})"), org_a
+
+    if star: p2 += 4
+    if muni_piep or PIEP.search(texto): p2 += 3
+    fch = det.get("Fechas") or {}
+    item = {
+        "codigo": cod,
+        "nombre": nombre,
+        "puntaje": p2,
+        "categorias": sorted(set(cats2)),
+        "org_clave": star,
+        "rescatada_por_organismo": rescatada,
+        "bip": det.get("CodigoBIP") or "",
+        "organismo": organismo,
+        "unidad": unidad,
+        "region": comp.get("RegionUnidad", ""),
+        "tipo": det.get("Tipo", ""),
+        "monto": fmt_monto(det),
+        "fecha_cierre": (fch.get("FechaCierre") or cierre_listado or "")[:16],
+        "fecha_publicacion": (fch.get("FechaPublicacion") or "")[:10],
+        "descripcion": desc[:900],
+        "url": f"https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion={cod}",
+    }
+    return item, None, org_a
+
+def completa(r):
+    """Fuente, nivel y lineas nuevas, tambien para lo arrastrado de corridas anteriores."""
+    r["fuente"] = "Mercado Publico"
+    r["nivel"] = nivel_de(r.get("nombre", ""), r.get("descripcion", ""))
+    r["categorias"] = sorted(set(r.get("categorias") or []) |
+                             set(clasificar((r.get("nombre") or "") + " " + (r.get("descripcion") or ""))[1]))
+
 def registrar_falla_fuente(fuente, motivo):
     path = os.path.join(DATA, "meta.json")
     meta = {}
@@ -402,17 +484,11 @@ def main():
     # nombre, MAS todo lo de organismos clave conocidos (por prefijo), aunque el
     # nombre no calce (asi no se pierde, p.ej., una ortofoto de SECTRA).
     candidatas = []
-    # códigos MOP de estudio al inicio del nombre. Vialidad prefija sus estudios
-    # con una abreviatura de "Estudio ...": EP (preinversión/prefactibilidad),
-    # EI/EII (ingeniería), EST. (EST. BAS., EST. PREF.), E.BÁSICO, E.FACTIBILIDAD.
-    # OJO: antes solo entraban EI/EP y se caían p.ej. "EST. PREF. CONST. PTE.
-    # ... EJE ALESSANDRI" (5048-27), un estudio de prefactibilidad de un puente.
-    tipo_mop = re.compile(r"^(est\.?|e\.?\s?(i{1,2}|p|b|f)|e\.?\s?(pref|prefact|bas|basic|fact))\b")
     for lic in listado:
         n = sin_tildes(lic.get("Nombre", ""))
         es_key = prefijo(lic["CodigoExterno"]) in key_orgs
         linea = bool(LINEA_PRIORITARIA.search(n) or es_semaf_estudio(n))
-        if not (es_key or linea or tipo_mop.match(n) or ESTUDIO.search(n) or ESTUDIO_FUERTE.search(n) or TEMA.search(n) or PIEP.search(n)):
+        if not pasa_prefiltro(n, es_key):
             continue
         p = clasificar(lic.get("Nombre", ""))[0]
         # Los estudios MOP (tipo_mop) pesan como un organismo clave: su nombre suele
@@ -460,72 +536,19 @@ def main():
         d = get(f"{BASE}?codigo={cod}&ticket={TICKET}")
         time.sleep(THROTTLE)
         det = (d or {}).get("Listado", [{}])[0] if d else {}
-        desc = det.get("Descripcion", "") or ""
-        comp = det.get("Comprador") or {}
-        organismo = comp.get("NombreOrganismo", "")
-        unidad = comp.get("NombreUnidad", "")
-
-        texto = sin_tildes(c["Nombre"] + " " + desc)
-        org = sin_tildes(organismo + " " + unidad)
-
-        semaf_est  = es_semaf_estudio(sin_tildes(c["Nombre"]), sin_tildes(desc))
-        es_estudio = bool(ESTUDIO.search(texto)) or semaf_est
-        # Bloqueado = inspeccion fiscal (nunca se protege), o palabra de obra/insumo
-        # SIN un marcador fuerte de estudio (preinversion/plan/imiv...) que lo rescate.
-        es_obra    = bool(INSPECCION.search(texto) or
-                          (EXCLUIR.search(texto) and not ESTUDIO_FUERTE.search(texto) and not semaf_est))
-        on_tema    = bool(TEMA.search(texto)) or semaf_est
-        org_a      = bool(ORG_A.search(org))
-        org_b      = bool(ORG_B.search(org))
-        muni_piep  = bool(MUNI.search(org) and PIEP.search(texto))
+        item, razon, org_a = filtra_detalle(cod, c["Nombre"], det, c.get("FechaCierre"))
 
         # Auto-aprende SOLO prefijos de Nivel A (agencias de planificacion, pocas
         # y todas relevantes). Nivel B se capta por nombre, no por prefijo, para
         # no traer a detalle cientos de obras de Vialidad/SERVIU.
+        comp = det.get("Comprador") or {}
         if org_a and prefijo(cod) not in key_orgs:
-            key_orgs[prefijo(cod)] = (unidad or organismo)[:60]
+            key_orgs[prefijo(cod)] = (comp.get("NombreUnidad", "") or comp.get("NombreOrganismo", ""))[:60]
 
-        p2, cats2 = clasificar(c["Nombre"] + " " + desc)
-
-        # Regla final por niveles:
-        #  A) agencia de planificacion  -> entra TODO (se salta filtro de obra).
-        #  B/muni/general -> solo estudios, no obra, y del tema (o org B) con >=1 pto.
-        # Nivel A entra saltandose el filtro de obra. Cuando ese salto es lo unico
-        # que la rescata, se deja el flag visible en vez de incluirla en silencio:
-        # asi se ve por que esta ahi una licitacion que dice "software" o "adquisicion".
-        rescatada = False
-        if org_a:
-            star = True
-            rescatada = bool(es_obra or not es_estudio)
-        elif es_estudio and not es_obra and (org_b or muni_piep or (on_tema and p2 >= 1)):
-            star = org_b or muni_piep
-        else:
-            razon = "obra/no-estudio" if (not es_estudio or es_obra) else f"fuera de tema (p={p2})"
+        if razon:
             print(f"  [-] {cod} {razon}")
             continue
-
-        if star: p2 += 4
-        if muni_piep or PIEP.search(texto): p2 += 3
-        fch = det.get("Fechas") or {}
-        print(f"  [+] {p2:>2} {cod} {'*' if star else ' '} {c['Nombre'][:50]}")
-        item = {
-            "codigo": cod,
-            "nombre": c["Nombre"],
-            "puntaje": p2,
-            "categorias": sorted(set(cats2)),
-            "org_clave": star,
-            "rescatada_por_organismo": rescatada,
-            "bip": det.get("CodigoBIP") or "",
-            "organismo": organismo,
-            "unidad": unidad,
-            "region": comp.get("RegionUnidad", ""),
-            "tipo": det.get("Tipo", ""),
-            "monto": fmt_monto(det),
-            "fecha_cierre": (fch.get("FechaCierre") or c.get("FechaCierre") or "")[:16],
-            "fecha_publicacion": (fch.get("FechaPublicacion") or "")[:10],
-            "descripcion": desc[:900],
-            "url": f"https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion={cod}",
-        }
+        print(f"  [+] {item['puntaje']:>2} {cod} {'*' if item['org_clave'] else ' '} {c['Nombre'][:50]}")
         estado_desde_detalle(item, det)
         item["primera_vez"] = (prev_idx.get(cod) or {}).get("primera_vez") or HOY
         item["fase"] = fase_de(item)
@@ -610,12 +633,49 @@ def main():
         resultados = [r for r in resultados if r["codigo"] not in excluir_cods]
         print(f"  {antes - len(resultados)} excluidas manualmente.")
 
-    # Nivel, fuente y lineas nuevas tambien para lo arrastrado de corridas anteriores.
+    # --- Reposicion: codigos de data/reponer.json, que pasaron por el radar antes de que
+    #     fusionara corridas. Solo entra lo que no este ya: un codigo presente en
+    #     resultados, archivo o exclusiones no se toca, asi que repetir no pisa nada. Lento y
+    #     con un solo intento: ante una respuesta mala se detiene y sigue en la proxima corrida. ---
+    rep_path = os.path.join(DATA, "reponer.json")
+    reponer = []
+    if os.path.exists(rep_path):
+        try: reponer = json.load(open(rep_path, encoding="utf-8"))
+        except Exception: reponer = []
+    presentes = {r["codigo"] for r in resultados} | set(archivo) | excluir_cods
+    pendientes = [e for e in reponer if e.get("codigo") not in presentes]
+    repuestas_res = repuestas_arch = rep_no_pasan = 0
+    for n_rep, ent in enumerate(pendientes):
+        cod = ent["codigo"]
+        d = get(f"{BASE}?codigo={cod}&ticket={TICKET}", intentos=1)
+        time.sleep(PAUSA_REPONER)
+        det = ((d or {}).get("Listado") or [{}])[0]
+        if not det:
+            print(f"  reposicion detenida en {cod} ({n_rep} de {len(pendientes)}); sigue en la proxima corrida.")
+            break
+        item, razon, _ = filtra_detalle(cod, det.get("Nombre", "") or "", det)
+        if razon:
+            rep_no_pasan += 1
+            print(f"  [rep-] {cod} {razon}")
+            continue
+        estado_desde_detalle(item, det)
+        item["primera_vez"] = ent.get("desde") or HOY
+        item["repuesta"] = HOY
+        item["fase"] = fase_de(item)
+        # Estado final: no queda nada que seguir, va directo al archivo. Lo demas se sigue.
+        if ESTADO_FINAL.search(item.get("estado") or ""):
+            item["archivada"] = HOY
+            completa(item)
+            archivo[cod] = item
+            repuestas_arch += 1
+        else:
+            resultados.append(item)
+            repuestas_res += 1
+    print(f"  reposicion: {repuestas_arch} al archivo, {repuestas_res} a resultados, {rep_no_pasan} no pasan, "
+          f"{len(pendientes)} pendientes al inicio.")
+
     for r in resultados:
-        r["fuente"] = "Mercado Publico"
-        r["nivel"] = nivel_de(r.get("nombre", ""), r.get("descripcion", ""))
-        r["categorias"] = sorted(set(r.get("categorias") or []) |
-                                 set(clasificar((r.get("nombre") or "") + " " + (r.get("descripcion") or ""))[1]))
+        completa(r)
 
     resultados.sort(key=lambda x: (-x["puntaje"], x["fecha_cierre"] or "9"))
 
@@ -664,6 +724,8 @@ def main():
         "proveedores_no_publicados": dict(Counter(it.get("proveedor") for r in resultados + filas_arch
                                                   for it in (r.get("adjudicacion_items") or [])
                                                   if it.get("proveedor") in ROTULOS_PROVEEDOR.values())),
+        "reposicion": {"en_lista": len(reponer), "pendientes_al_inicio": len(pendientes),
+                       "al_archivo_hoy": repuestas_arch, "a_resultados_hoy": repuestas_res, "no_pasan_hoy": rep_no_pasan},
         "bytes_resultados": os.path.getsize(os.path.join(DATA, "resultados.json")),
         "bytes_archivo": os.path.getsize(arch_path),
         "clave": sum(1 for r in resultados if r["org_clave"]),
