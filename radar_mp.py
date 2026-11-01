@@ -51,7 +51,15 @@ MAX_DETALLE = int(os.environ.get("MP_MAX_DETALLE", "250"))
 RETENCION_DIAS = int(os.environ.get("MP_RETENCION_DIAS", "92"))
 
 # --- Categorias (para etiquetar y puntuar) -> (peso, patron) ---
+_VIA = r"(\bvial(es)?\b|\bvialidad\b|\brutas?\b|\bcaminos?\b|\bcalles?\b|\bavenidas?\b|\bav\.|\bpuentes?\b|\bcorredor|\benlaces?\b|\bintersecci|\bpasada urbana|\bbypass\b|\bby.pass\b|\bcostanera\b|\bvariante\b|\bcarretera\b)"
+_PREF = r"(pre.?factibilidad|\best\.?\s?pref\b|\be\.\s?pref\b)"
+_ANTE = r"(ante.?proyecto)"
+_SEMAF = r"(semaforizacion|semaforic|semaforos?)"
+
 CATEGORIAS = {
+    "Prefactibilidad vial":        (5, _PREF + r".{0,160}" + _VIA + r"|" + _VIA + r".{0,160}" + _PREF),
+    "Anteproyecto vial":           (5, _ANTE + r".{0,160}" + _VIA + r"|" + _VIA + r".{0,160}" + _ANTE),
+    "Semaforizacion":              (4, r"(estudios?|proyectos?|consultoria|asesoria|diseno|programacion|sincronizacion|justificacion|modelacion|diagnostico)[^.]{0,60}" + _SEMAF),
     "IMIV / impacto vial":         (5, r"\bimiv\b|impacto vial|estudio de impacto sobre el sistema de transporte"),
     "Transporte / movilidad":      (5, r"plan de transporte|sistema de transporte|movilidad|transporte publico|\bbuses\b|ferroviari|telefer|ciclovia|ciclo.?rutas?|peaton|micromovilidad|taxis? colectivos?|locomocion colectiva|transporte sostenible|digitalizacion de (recorridos|rutas|servicios de transporte)"),
     "Demanda / EOD / aforos":      (5, r"encuesta origen|origen.?destino|\beod\b|analisis de demanda|matriz.*viaje|particion modal|modelacion de transporte"),
@@ -67,7 +75,7 @@ CATEGORIAS = {
 def C(p): return re.compile(p, re.I)
 
 # 1) Es un ESTUDIO / consultoria (servicio intelectual, no una obra).
-ESTUDIO = C(r"\bestudio\b|estudios|consultoria|\basesoria\b|diagnostico|levantamiento de informacion|"
+ESTUDIO = C(r"\bestudio\b|estudios|consultoria|\basesoria\b|diagnostico|levantamiento de informacion|\best\.?\s?pref\b|\be\.\s?pref\b|"
             r"plan (de|maestro|regulador|comunal|seccional|estrategico|de desarrollo|de transporte|de movilidad|de inversion)|"
             r"\bpladeco\b|plan regulador|actualizacion del plan|modelacion|prefactibilidad|\bfactibilidad\b|"
             r"evaluacion social|encuesta|origen.?destino|\beod\b|\bimiv\b|impacto vial|"
@@ -80,7 +88,7 @@ ESTUDIO = C(r"\bestudio\b|estudios|consultoria|\basesoria\b|diagnostico|levantam
 
 # 1b) Marcadores FUERTES de estudio (preinversion/planificacion): protegen contra
 #     palabras de obra fisica (p.ej. "EP CONSTRUCCION..." es un estudio, no la obra).
-ESTUDIO_FUERTE = C(r"preinversion|pre.?inversion|anteproyecto|alternativas de\s*(pre)?inversion|"
+ESTUDIO_FUERTE = C(r"preinversion|pre.?inversion|anteproyecto|alternativas de\s*(pre)?inversion|\best\.?\s?pref\b|\be\.\s?pref\b|"
                    r"prefactibilidad|\bfactibilidad\b|evaluacion (social|tecnico|economic)|"
                    r"estudio de (preinversion|ingenieria|prefactibilidad|factibilidad|impacto)|"
                    r"plan (maestro|regulador|de transporte|de movilidad|seccional|comunal)|\bpladeco\b|"
@@ -114,6 +122,41 @@ TEMA = C(r"transporte|movilidad|\bvial\b|\bvialidad\b|\btransito\b|\btrafico\b|p
          r"sistema de informacion geografic|geoespacial|georreferen|geomatic|teledeteccion|geoportal|\bsig\b|\bcartograf|observatorio|"
          r"analisis de datos|ciencia de datos|analitica de datos|mineria de datos|visualizacion de datos|\bdashboard\b|analisis estadistic|"
          r"\bencuesta\b|estudio de percepcion|estudio de opinion|sondeo|\blinea de base\b")
+
+# Semaforizacion: entra el estudio, no la obra ni el insumo. EXCLUIR sigue igual;
+# esto la rescata solo si el NOMBRE (o una frase explicita de la descripcion, con
+# nombre de estudio) la declara estudio. "Proyecto" o "programacion" son marcadores
+# debiles: ceden ante una palabra de obra en el nombre; "estudio" o "consultoria" no.
+SEMAF = C(_SEMAF)
+SEMAF_MARCA_FUERTE = C(r"\bestudios?\b|consultoria|\basesoria\b|diagnostico|modelacion|justificacion|ante.?proyecto|pre.?factibilidad")
+SEMAF_MARCA_DEBIL = C(r"\bproyectos?\b|\bdiseno\b|programacion|sincronizacion")
+SEMAF_OBRA = C(r"suministro|instalacion|mantencion|mantenimiento|conservacion|reposicion|reparacion|adquisicion|compra|"
+               r"implementacion|\bconst\b|\bconst\.|construccion|concesion|\bobras?\b|arriendo|provision")
+SEMAF_FRASE_DESC = C(r"(estudio|consultoria|programacion|sincronizacion)s? de[^.]{0,40}" + _SEMAF)
+
+def es_semaf_estudio(nombre, desc=""):
+    """nombre y desc ya sin tildes y en minusculas."""
+    if SEMAF.search(nombre):
+        if SEMAF_MARCA_FUERTE.search(nombre):
+            return True
+        return bool(SEMAF_MARCA_DEBIL.search(nombre)) and not SEMAF_OBRA.search(nombre)
+    return bool(ESTUDIO.search(nombre) and not SEMAF_OBRA.search(nombre) and SEMAF_FRASE_DESC.search(desc))
+
+# Lineas con detalle garantizado: por nombre, sin competir por el cupo de MAX_DETALLE.
+LINEA_PRIORITARIA = C(_PREF + r"|" + _ANTE)
+
+# Nivel del estudio: prefactibilidad, anteproyecto, ingenieria o sin determinar. Se
+# lee primero en el nombre y, si no dice, en la descripcion; gana la primera mencion.
+# "Sin determinar" nunca descarta: solo las bases aclaran el nivel.
+NIVELES = (("prefactibilidad", C(_PREF)), ("anteproyecto", C(_ANTE)),
+           ("ingenieria", C(r"estudios? de ingenieria|estudios? ingenieria|ingenieria de detalle|diseno de ingenieria|proyecto de ingenieria|^e\.?\s?ii?\b\.?|^est\.?\s?ing\b")))
+
+def nivel_de(nombre, desc=""):
+    for t in (sin_tildes(nombre).strip(), sin_tildes(desc).strip()):
+        hits = [(m.start(), niv) for niv, pat in NIVELES for m in [pat.search(t)] if m]
+        if hits:
+            return min(hits)[1]
+    return "sin_determinar"
 
 # Organismos clave — se evalua sobre organismo + unidad.
 # NIVEL A: agencias de planificacion de transporte/territorio -> entra TODO
@@ -244,12 +287,31 @@ def construir_desde_detalle(cod, det, nota):
     rec["fase"] = fase_de(rec)
     return rec
 
+def registrar_falla_fuente(fuente, motivo):
+    path = os.path.join(DATA, "meta.json")
+    meta = {}
+    if os.path.exists(path):
+        try: meta = json.load(open(path, encoding="utf-8"))
+        except Exception: meta = {}
+    ent = meta.setdefault("fuentes", {}).setdefault(fuente, {})
+    ent["estado"] = "falla"
+    ent["motivo"] = motivo
+    ent["ultimo_intento"] = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=1)
+    os.replace(tmp, path)
+    print(f"  FUENTE NO LEIDA: {fuente} ({motivo}); se conservan los datos anteriores.")
+
 def main():
     modo = "TICKET DE PRUEBA (limitado)" if ES_TEST else "ticket personal"
     print(f"Radar Mercado Publico — {modo}")
     data = get(f"{BASE}?estado=activas&ticket={TICKET}")
     if not data or "Listado" not in data:
-        sys.exit("No se pudo descargar el listado de licitaciones activas.")
+        # Una fuente que falla no es una fuente vacia: se conservan los datos y se
+        # deja constancia en meta.json, sin salir con error.
+        registrar_falla_fuente("Mercado Publico", "no se pudo leer el listado de activas")
+        return
     listado = data["Listado"]
     print(f"  {len(listado)} activas.")
 
@@ -284,7 +346,8 @@ def main():
     for lic in listado:
         n = sin_tildes(lic.get("Nombre", ""))
         es_key = prefijo(lic["CodigoExterno"]) in key_orgs
-        if not (es_key or tipo_mop.match(n) or ESTUDIO.search(n) or ESTUDIO_FUERTE.search(n) or TEMA.search(n) or PIEP.search(n)):
+        linea = bool(LINEA_PRIORITARIA.search(n) or es_semaf_estudio(n))
+        if not (es_key or linea or tipo_mop.match(n) or ESTUDIO.search(n) or ESTUDIO_FUERTE.search(n) or TEMA.search(n) or PIEP.search(n)):
             continue
         p = clasificar(lic.get("Nombre", ""))[0]
         # Los estudios MOP (tipo_mop) pesan como un organismo clave: su nombre suele
@@ -292,16 +355,18 @@ def main():
         # EJE ALESSANDRI"), puntúa 0 en categorías y, con +2, quedaba bajo el corte
         # de MAX_DETALLE=200 y nunca se le pedía el detalle. Con +5 sobrevive el tope.
         p += 5 if es_key else (3 if ESTUDIO.search(n) else (5 if tipo_mop.match(n) else 0))
-        candidatas.append({**lic, "p": p, "es_key": es_key})
+        candidatas.append({**lic, "p": p, "es_key": es_key, "linea": linea})
     # El tope de MAX_DETALLE no se aplica a los organismos clave: su detalle se
     # pide siempre. Antes competian por el mismo cupo y, con el corte cayendo en
     # un puntaje muy poblado (medido 2026-10-13: 463 candidatas, corte en p=3 con
     # 231 empatadas), cual sobrevivia era arbitrario. El segundo criterio de orden
     # es el codigo, para que dos corridas del mismo listado den lo mismo.
     candidatas.sort(key=lambda x: (-x["p"], x["CodigoExterno"]))
-    siempre = [c for c in candidatas if c["es_key"]]
-    resto   = [c for c in candidatas if not c["es_key"]]
-    print(f"  {len(candidatas)} candidatas ({len(siempre)} de organismos clave sembrados, sin tope).")
+    # Prefactibilidad, anteproyecto y estudios de semaforos tampoco compiten por el
+    # cupo: son pocos por nombre, asi que cuestan pocas llamadas a la API.
+    siempre = [c for c in candidatas if c["es_key"] or c["linea"]]
+    resto   = [c for c in candidatas if not (c["es_key"] or c["linea"])]
+    print(f"  {len(candidatas)} candidatas ({len(siempre)} sin tope: organismos clave y lineas prioritarias).")
     descartadas = []
     if len(resto) > MAX_DETALLE:
         descartadas = resto[MAX_DETALLE:]
@@ -310,7 +375,8 @@ def main():
               f"{len(descartadas)} candidatas quedan fuera del tope)")
     corte = {
         "candidatas_totales": len(candidatas),
-        "candidatas_organismo_clave": len(siempre),
+        "candidatas_organismo_clave": sum(1 for c in siempre if c["es_key"]),
+        "candidatas_linea_prioritaria": sum(1 for c in siempre if c["linea"] and not c["es_key"]),
         "candidatas_fuera_del_tope": len(descartadas),
         "puntaje_de_corte": resto[-1]["p"] if descartadas else None,
         "empatadas_en_el_corte": sum(1 for c in candidatas if descartadas and c["p"] == resto[-1]["p"]),
@@ -337,12 +403,13 @@ def main():
         texto = sin_tildes(c["Nombre"] + " " + desc)
         org = sin_tildes(organismo + " " + unidad)
 
-        es_estudio = bool(ESTUDIO.search(texto))
+        semaf_est  = es_semaf_estudio(sin_tildes(c["Nombre"]), sin_tildes(desc))
+        es_estudio = bool(ESTUDIO.search(texto)) or semaf_est
         # Bloqueado = inspeccion fiscal (nunca se protege), o palabra de obra/insumo
         # SIN un marcador fuerte de estudio (preinversion/plan/imiv...) que lo rescate.
         es_obra    = bool(INSPECCION.search(texto) or
-                          (EXCLUIR.search(texto) and not ESTUDIO_FUERTE.search(texto)))
-        on_tema    = bool(TEMA.search(texto))
+                          (EXCLUIR.search(texto) and not ESTUDIO_FUERTE.search(texto) and not semaf_est))
+        on_tema    = bool(TEMA.search(texto)) or semaf_est
         org_a      = bool(ORG_A.search(org))
         org_b      = bool(ORG_B.search(org))
         muni_piep  = bool(MUNI.search(org) and PIEP.search(texto))
@@ -477,6 +544,13 @@ def main():
         resultados = [r for r in resultados if r["codigo"] not in excluir_cods]
         print(f"  {antes - len(resultados)} excluidas manualmente.")
 
+    # Nivel, fuente y lineas nuevas tambien para lo arrastrado de corridas anteriores.
+    for r in resultados:
+        r["fuente"] = "Mercado Publico"
+        r["nivel"] = nivel_de(r.get("nombre", ""), r.get("descripcion", ""))
+        r["categorias"] = sorted(set(r.get("categorias") or []) |
+                                 set(clasificar((r.get("nombre") or "") + " " + (r.get("descripcion") or ""))[1]))
+
     resultados.sort(key=lambda x: (-x["puntaje"], x["fecha_cierre"] or "9"))
 
     with open(kpath, "w", encoding="utf-8") as f:
@@ -485,7 +559,7 @@ def main():
     with open(os.path.join(DATA, "resultados.json"), "w", encoding="utf-8") as f:
         json.dump(resultados, f, ensure_ascii=False, indent=1)
     if resultados:
-        cols = ["codigo", "nombre", "puntaje", "org_clave", "organismo", "region",
+        cols = ["codigo", "fuente", "nivel", "nombre", "puntaje", "org_clave", "organismo", "region",
                 "monto", "fecha_cierre", "fecha_publicacion", "fase", "estado",
                 "fecha_adjudicacion", "n_oferentes", "url"]
         with open(os.path.join(DATA, "resultados.csv"), "w", encoding="utf-8-sig", newline="") as f:
@@ -508,6 +582,11 @@ def main():
         "modo_ticket": "prueba" if ES_TEST else "personal",
         "regiones": sorted({r["region"] for r in resultados if r["region"]}),
         "categorias": list(CATEGORIAS.keys()),
+        "por_categoria": dict(Counter(c for r in resultados for c in r.get("categorias", []))),
+        "por_nivel": dict(Counter(r.get("nivel") for r in resultados)),
+        "fuentes": {"Mercado Publico": {
+            "estado": "ok", "ultima_lectura_buena": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+            "avisos_leidos": len(listado), "seguimiento_post_cierre": True}},
     }
     with open(os.path.join(DATA, "meta.json"), "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=1)

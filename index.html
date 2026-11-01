@@ -100,9 +100,10 @@
         <a class="btn" href="https://github.com/romedinag-tech/licitaciones/actions/workflows/actualizar.yml" target="_blank" rel="noopener">🔄 Buscar nuevas licitaciones</a>
       </div>
     </div>
-    <div class="sub">Oportunidades de Mercado Público filtradas para <b>Medina Consultoría SpA</b> — transporte, movilidad, IMIV, demanda, planificación urbana y datos.</div>
+    <div class="sub">Oportunidades de Mercado Público filtradas para <b>Medina Consultoría SpA</b> — transporte, movilidad, IMIV, demanda, planificación urbana, datos, semaforización, prefactibilidad y anteproyecto vial.</div>
     <div class="hint">Al presionar <b>Buscar nuevas licitaciones</b> se abre GitHub Actions → pulsa <code>Run workflow</code>. La búsqueda tarda ~3-5 min; luego usa <b>↻ Recargar</b> aquí para ver lo nuevo.</div>
     <div class="stats" id="stats"></div>
+    <div class="hint" id="aviso-fuentes" style="color:var(--warn)"></div>
   </div>
 </header>
 
@@ -116,6 +117,14 @@
     <input id="q" type="search" placeholder="Buscar por nombre, organismo, descripción…">
     <select id="cat"><option value="">Todas las categorías</option></select>
     <select id="reg"><option value="">Todas las regiones</option></select>
+    <select id="niv" title="Nivel declarado en el nombre o la descripción. «Sin determinar» significa que sólo las bases lo aclaran.">
+      <option value="">Todos los niveles</option>
+      <option value="prefactibilidad">Prefactibilidad</option>
+      <option value="anteproyecto">Anteproyecto</option>
+      <option value="ingenieria">Ingeniería</option>
+      <option value="sin_determinar">Nivel sin determinar</option>
+    </select>
+    <select id="fue"><option value="">Todas las fuentes</option></select>
     <select id="ord">
       <option value="score">Ordenar: relevancia</option>
       <option value="cierre">Ordenar: cierre más próximo</option>
@@ -181,6 +190,14 @@ function badgeEstado(x){
   return e?`<span class="badge b-inst">${esc(e)}</span>`:'<span class="badge b-amar">⏳ En evaluación</span>';
 }
 
+const NIVEL_TXT={prefactibilidad:'Prefactibilidad',anteproyecto:'Anteproyecto',ingenieria:'Ingeniería'};
+function nivelDe(x){return x.nivel||'sin_determinar';}
+function badgeNivel(x){
+  const n=nivelDe(x);
+  if(NIVEL_TXT[n]) return `<span class="badge b-inst">📐 ${NIVEL_TXT[n]}</span>`;
+  if((x.categorias||[]).includes('Semaforizacion')) return '<span class="badge b-amar" title="Sólo las bases aclaran el nivel.">📐 Nivel sin determinar</span>';
+  return '';
+}
 function tarjeta(x,i,prioView,segView){
   const flag=esPrio(x.codigo);
   const rank=prioView?`<span class="rank">${PRIO.indexOf(x.codigo)+1}</span>`:'';
@@ -195,6 +212,7 @@ function tarjeta(x,i,prioView,segView){
         ${segView?badgeEstado(x):badgeCierre(x.fecha_cierre)}
         ${(segView&&x.seguido_manual)?`<span class="badge b-verde" title="La marcaste para seguir (p. ej. postulada).">📌 ${esc(x.nota_seguimiento||'En seguimiento')}</span>`:''}
         ${x.org_clave?'<span class="badge b-inst">⭐ Institución clave</span>':''}
+        ${badgeNivel(x)}
         ${x.rescatada_por_organismo?'<span class="badge b-amar" title="El nombre no pasa el filtro de estudio (dice software, adquisición u obra). Está en la lista sólo porque la licita una institución clave: revísala antes de descartarla.">⚑ Entró por la institución</span>':''}
         <span class="score">relevancia ${x.puntaje} · ${esc(x.codigo)}</span>
       </div>
@@ -232,7 +250,7 @@ function tarjeta(x,i,prioView,segView){
 
 function render(){
   const q=$('#q').value.toLowerCase().trim();
-  const cat=$('#cat').value, reg=$('#reg').value, ord=$('#ord').value;
+  const cat=$('#cat').value, reg=$('#reg').value, ord=$('#ord').value, niv=$('#niv').value, fue=$('#fue').value;
   const soloClave=$('#clave').checked;
   const prioView=(VISTA==='prio'), segView=(VISTA==='seg');
   let items=DATA.filter(x=>{
@@ -243,6 +261,8 @@ function render(){
     if(soloClave && !x.org_clave) return false;
     if(cat && !(x.categorias||[]).includes(cat)) return false;
     if(reg && x.region!==reg) return false;
+    if(niv && nivelDe(x)!==niv) return false;
+    if(fue && (x.fuente||'Mercado Publico')!==fue) return false;
     if(q){
       const blob=(x.nombre+' '+x.organismo+' '+x.descripcion+' '+x.codigo).toLowerCase();
       if(!blob.includes(q)) return false;
@@ -291,7 +311,8 @@ function initFiltros(){
   const regs=[...new Set(DATA.map(x=>x.region).filter(Boolean))].sort();
   cats.forEach(c=>$('#cat').add(new Option(c,c)));
   regs.forEach(r=>$('#reg').add(new Option(r,r)));
-  ['#q','#cat','#reg','#ord','#clave'].forEach(s=>$(s).addEventListener('input',render));
+  [...new Set(DATA.map(x=>x.fuente||'Mercado Publico'))].sort().forEach(f=>$('#fue').add(new Option(f,f)));
+  ['#q','#cat','#reg','#niv','#fue','#ord','#clave'].forEach(s=>$(s).addEventListener('input',render));
 }
 function initStats(){
   const upd=META.actualizado?new Date(META.actualizado).toLocaleString('es-CL'):'—';
@@ -306,6 +327,8 @@ function initStats(){
     <div class="stat"><b>${urg}</b>cierran ≤ 10 días</div>
     <div class="stat"><b>${META.total_activas||'—'}</b>activas en MP</div>
     <div class="stat" style="min-width:190px"><b style="font-size:.9rem">${upd}</b>última actualización${META.modo_ticket==='prueba'?' · <i>ticket de prueba</i>':''}</div>`;
+  const fallas=Object.entries(META.fuentes||{}).filter(([,v])=>v.estado==='falla');
+  $('#aviso-fuentes').textContent=fallas.map(([f,v])=>`⚠ ${f}: no se pudo leer en el último intento; se muestran los datos de la última lectura buena${v.ultima_lectura_buena?' ('+new Date(v.ultima_lectura_buena).toLocaleString('es-CL')+')':''}.`).join(' ');
   const tn=$('#tabn'); if(tn) tn.textContent=nPrio();
   const ts=$('#tabs'); if(ts) ts.textContent=nSeg();
 }
