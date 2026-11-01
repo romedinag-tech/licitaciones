@@ -46,9 +46,11 @@ os.makedirs(DATA, exist_ok=True)
 
 THROTTLE = 2.2 if ES_TEST else 0.6
 MAX_DETALLE = int(os.environ.get("MP_MAX_DETALLE", "250"))
-# Días que una licitación ya cerrada se conserva en seguimiento (apertura técnica,
-# evaluación, adjudicación) antes de purgarla. ~3 meses desde el cierre.
+# Lo que entra al radar no se borra. Una licitación cerrada se queda en seguimiento
+# (apertura técnica, evaluación, adjudicación) y, pasados ~3 meses desde el cierre,
+# si ya tiene estado final, pasa a data/archivo.json y deja de re-consultarse.
 RETENCION_DIAS = int(os.environ.get("MP_RETENCION_DIAS", "92"))
+ESTADO_FINAL = re.compile(r"adjudicada|desierta|revocada", re.I)
 
 # --- Categorias (para etiquetar y puntuar) -> (peso, patron) ---
 _VIA = r"(\bvial(es)?\b|\bvialidad\b|\brutas?\b|\bcaminos?\b|\bcalles?\b|\bavenidas?\b|\bav\.|\bpuentes?\b|\bcorredor|\benlaces?\b|\bintersecci|\bpasada urbana|\bbypass\b|\bby.pass\b|\bcostanera\b|\bvariante\b|\bcarretera\b)"
@@ -234,12 +236,21 @@ def estado_desde_detalle(rec, det):
     adj = det.get("Adjudicacion") or {}
     rec["n_oferentes"] = adj.get("NumeroOferentes")
     rec["url_acta"]    = adj.get("UrlActa") or ""
-    gan = []
+    gan, items = [], []
     for it in (det.get("Items", {}) or {}).get("Listado", []):
-        nom = ((it.get("Adjudicacion") or {}).get("NombreProveedor") or "").strip()
+        ia = it.get("Adjudicacion") or {}
+        nom = (ia.get("NombreProveedor") or "").strip()
         if nom and nom not in gan:
             gan.append(nom)
+        # Lista blanca a propósito: RutProveedor viene en la API y NO se guarda
+        # (puede ser el de una persona natural y este repositorio es público).
+        if nom:
+            items.append({"proveedor": nom, "cantidad": ia.get("Cantidad"),
+                          "monto_unitario": ia.get("MontoUnitario"),
+                          "unidad": it.get("UnidadMedida") or ""})
     rec["adjudicatarios"] = gan
+    rec["adjudicacion_items"] = items
+    rec["moneda"] = det.get("Moneda") or ""
     return rec
 
 def fase_de(rec):
@@ -326,10 +337,24 @@ def main():
     PREV_PATH = os.path.join(DATA, "resultados.json")
     prev = []
     if os.path.exists(PREV_PATH):
-        try: prev = json.load(open(PREV_PATH, encoding="utf-8"))
-        except Exception: prev = []
+        try:
+            prev = json.load(open(PREV_PATH, encoding="utf-8"))
+        except Exception as e:  # seguir con prev vacío borraría todo lo que se sigue
+            registrar_falla_fuente("Mercado Publico", f"no se pudo leer data/resultados.json ({e})")
+            return
     prev_idx = {r.get("codigo"): r for r in prev if r.get("codigo")}
     HOY = datetime.date.today().isoformat()
+
+    # Archivo: lo que ya tiene estado final y pasó la retención. Si existe y no se
+    # puede leer se detiene aquí: seguir lo sobrescribiría y se perdería.
+    arch_path = os.path.join(DATA, "archivo.json")
+    archivo = {}
+    if os.path.exists(arch_path):
+        try:
+            archivo = {r["codigo"]: r for r in json.load(open(arch_path, encoding="utf-8"))}
+        except Exception as e:
+            registrar_falla_fuente("Mercado Publico", f"no se pudo leer data/archivo.json ({e})")
+            return
 
     def prefijo(cod): return cod.split("-")[0]
 
@@ -466,25 +491,23 @@ def main():
         item["fase"] = fase_de(item)
         resultados.append(item)
 
+    man_path = os.path.join(DATA, "seguimiento_manual.json")
+    manual = []
+    if os.path.exists(man_path):
+        try: manual = json.load(open(man_path, encoding="utf-8"))
+        except Exception: manual = []
+    cods_manual = {((e.get("codigo") if isinstance(e, dict) else e) or "").strip() for e in manual}
+
     # --- Seguimiento post-cierre: conservar las que ya salieron de "activas" y
-    #     re-consultar su estado (apertura técnica -> evaluación -> adjudicación)
-    #     hasta RETENCION_DIAS después del cierre. ---
+    #     re-consultar su estado (apertura técnica -> evaluación -> adjudicación).
+    #     Nada se purga: pasados RETENCION_DIAS del cierre, la que tiene estado
+    #     final pasa al archivo; la que no, sigue aquí hasta que lo tenga. ---
     fresh = {r["codigo"] for r in resultados}
-    arrastradas = 0
+    arrastradas = archivadas_hoy = 0
     for pr in prev:
         cod = pr.get("codigo")
         if not cod or cod in fresh:
             continue
-        dc = dias_desde_cierre(pr)
-        if dc is not None and dc > RETENCION_DIAS:
-            continue  # cumplió los ~3 meses: se purga
-        if dc is None:  # sin cierre fiable: purgar por antigüedad de captura
-            try:
-                edad = (datetime.date.today() - datetime.date.fromisoformat((pr.get("primera_vez") or "")[:10])).days
-                if edad > RETENCION_DIAS + 30:
-                    continue
-            except Exception:
-                pass
         d = get(f"{BASE}?codigo={cod}&ticket={TICKET}")
         time.sleep(THROTTLE)
         det = (d or {}).get("Listado", [{}])[0] if d else {}
@@ -494,18 +517,21 @@ def main():
             pr["fecha_cierre"] = (fch2.get("FechaCierre") or pr.get("fecha_cierre") or "")[:16]
         pr.setdefault("primera_vez", HOY)
         pr["fase"] = fase_de(pr)
+        dc = dias_desde_cierre(pr)
+        # Solo con lectura fresca: lo que se archiva ya no se vuelve a consultar.
+        if det and dc is not None and dc > RETENCION_DIAS and cod not in cods_manual \
+                and ESTADO_FINAL.search(pr.get("estado") or ""):
+            pr["archivada"] = HOY
+            archivo[cod] = pr
+            archivadas_hoy += 1
+            continue
         resultados.append(pr)
         arrastradas += 1
-    print(f"  {arrastradas} en seguimiento post-cierre (<= {RETENCION_DIAS} días del cierre).")
+    print(f"  {arrastradas} en seguimiento post-cierre; {archivadas_hoy} pasan hoy al archivo.")
 
     # --- Seguimiento manual: licitaciones que Rodrigo marca para seguir (p.ej.
     #     postuladas) aunque el filtro no las haya capturado. Se fuerzan a entrar,
-    #     se re-consultan cada corrida y NO se purgan mientras estén en la lista. ---
-    man_path = os.path.join(DATA, "seguimiento_manual.json")
-    manual = []
-    if os.path.exists(man_path):
-        try: manual = json.load(open(man_path, encoding="utf-8"))
-        except Exception: manual = []
+    #     se re-consultan cada corrida y NO se archivan mientras estén en la lista. ---
     ya = {r["codigo"]: r for r in resultados}
     seg_manual = 0
     for ent in manual:
@@ -553,18 +579,34 @@ def main():
 
     resultados.sort(key=lambda x: (-x["puntaje"], x["fecha_cierre"] or "9"))
 
+    # Una licitación vive en un solo archivo: si volvió a resultados (seguimiento
+    # manual, reaparición en activas), sale del archivo.
+    vivos = {r["codigo"] for r in resultados}
+    archivo = {c: r for c, r in archivo.items() if c not in vivos and c not in excluir_cods}
+
     with open(kpath, "w", encoding="utf-8") as f:
         json.dump(key_orgs, f, ensure_ascii=False, indent=1, sort_keys=True)
 
     with open(os.path.join(DATA, "resultados.json"), "w", encoding="utf-8") as f:
         json.dump(resultados, f, ensure_ascii=False, indent=1)
-    if resultados:
-        cols = ["codigo", "fuente", "nivel", "nombre", "puntaje", "org_clave", "organismo", "region",
-                "monto", "fecha_cierre", "fecha_publicacion", "fase", "estado",
-                "fecha_adjudicacion", "n_oferentes", "url"]
-        with open(os.path.join(DATA, "resultados.csv"), "w", encoding="utf-8-sig", newline="") as f:
+    cols = ["codigo", "fuente", "nivel", "nombre", "puntaje", "org_clave", "organismo", "region",
+            "monto", "fecha_cierre", "fecha_publicacion", "fase", "estado",
+            "fecha_adjudicacion", "n_oferentes", "url", "adjudicatarios"]
+    def escribe_csv(nombre, filas):
+        with open(os.path.join(DATA, nombre), "w", encoding="utf-8-sig", newline="") as f:
             w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
-            w.writeheader(); w.writerows(resultados)
+            w.writeheader()
+            w.writerows({**r, "adjudicatarios": "; ".join(r.get("adjudicatarios") or [])} for r in filas)
+    if resultados:
+        escribe_csv("resultados.csv", resultados)
+
+    # Archivo: una licitación por línea y por código, para que el diff de cada corrida
+    # muestre sólo lo que entra. Se publica con .tmp + replace: no puede quedar a medias.
+    filas_arch = [archivo[c] for c in sorted(archivo)]
+    with open(arch_path + ".tmp", "w", encoding="utf-8") as f:
+        f.write("[\n" + ",\n".join(json.dumps(r, ensure_ascii=False) for r in filas_arch) + "\n]\n")
+    os.replace(arch_path + ".tmp", arch_path)
+    escribe_csv("archivo.csv", filas_arch)
 
     meta = {
         "actualizado": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
@@ -577,6 +619,10 @@ def main():
         "seguidos_manual": sum(1 for r in resultados if r.get("seguido_manual")),
         "adjudicadas": sum(1 for r in resultados if (r.get("estado") or "").lower().startswith("adjudicada")),
         "retencion_dias": RETENCION_DIAS,
+        "archivadas": len(filas_arch),
+        "adjudicadas_archivo": sum(1 for r in filas_arch if (r.get("estado") or "").lower().startswith("adjudicada")),
+        "bytes_resultados": os.path.getsize(os.path.join(DATA, "resultados.json")),
+        "bytes_archivo": os.path.getsize(arch_path),
         "clave": sum(1 for r in resultados if r["org_clave"]),
         "rescatadas_por_organismo": sum(1 for r in resultados if r["rescatada_por_organismo"]),
         "modo_ticket": "prueba" if ES_TEST else "personal",
