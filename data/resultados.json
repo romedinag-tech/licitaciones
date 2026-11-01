@@ -29,7 +29,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "5648-1-LP26",
@@ -59,7 +61,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-30",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "577290-3-LP26",
@@ -89,7 +93,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "632-11-LE26",
@@ -119,7 +125,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "577290-4-LP26",
@@ -148,7 +156,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "926-14-LR26",
@@ -177,7 +187,71 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
+ },
+ {
+  "codigo": "5048-55-O126",
+  "nombre": "E.PREF. AMPLIACION Y PASADA URBANA RUTA N-55 SECTOR CHILLAN-PINTO",
+  "puntaje": 9,
+  "categorias": [
+   "Prefactibilidad vial"
+  ],
+  "org_clave": true,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región del Ñuble",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-03T10:30",
+  "fecha_publicacion": "2026-09-30",
+  "descripcion": "Estudio para desarrollar el análisis técnico, económico, social, territorial y ambiental para la ampliación de la Ruta N-55 y una variante interurbana en la comuna de Pinto, en una longitud aproximada de 20,6 kilómetros.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2027-03-30T14:47",
+  "fecha_apertura_tecnica": "2026-11-03T11:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-10-22",
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "prefactibilidad"
+ },
+ {
+  "codigo": "5048-54-O126",
+  "nombre": "EST PREFACTIBILIDAD PUENTE ANTOLIN, REGION AYSEN",
+  "puntaje": 9,
+  "categorias": [
+   "Prefactibilidad vial"
+  ],
+  "org_clave": true,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región Aysén del General Carlos Ibáñez del Campo",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-11-06T11:30",
+  "fecha_publicacion": "2026-09-16",
+  "descripcion": "El estudio busca analizar una nueva estructura acorde con el actual estándar mínimo exigido, la que a su vez permitirá mantener la conectividad del principal eje regional, que conecta el puerto de Chacabuco – Aysén – Coyhaique – aeródromo de Balmaceda – paso fronterizo Huemules.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-54-O126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-12-31T23:59",
+  "fecha_apertura_tecnica": "2026-11-06T12:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "primera_vez": "2026-11-01",
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "prefactibilidad"
  },
  {
   "codigo": "577290-2-LP26",
@@ -206,7 +280,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "926-15-LR26",
@@ -235,7 +311,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "2713-190-LP26",
@@ -265,7 +343,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "577290-5-LP26",
@@ -294,7 +374,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "2216-28-O126",
@@ -323,7 +405,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "anteproyecto"
  },
  {
   "codigo": "691-8-LP26",
@@ -352,7 +436,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "644-6-LP26",
@@ -381,7 +467,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "644-7-LP26",
@@ -410,7 +498,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-27",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "644-8-LP26",
@@ -439,7 +529,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-27",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "613-9-LR26",
@@ -468,7 +560,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-27",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "2713-186-LE26",
@@ -476,6 +570,7 @@
   "puntaje": 7,
   "categorias": [
    "Planificacion urbana / IPT",
+   "Semaforizacion",
    "Vialidad / transito"
   ],
   "org_clave": false,
@@ -498,7 +593,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "3755-6-LP26",
@@ -527,7 +624,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "5895-24-O126",
@@ -556,7 +655,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "ingenieria"
  },
  {
   "codigo": "2261-32-O126",
@@ -585,7 +686,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "5048-24-O126",
@@ -614,7 +717,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "640-8-LE26",
@@ -643,7 +748,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-29",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "640-9-LE26",
@@ -672,7 +779,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-29",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "2216-21-O126",
@@ -701,7 +810,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "1606-34-LE26",
@@ -730,7 +841,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "2699-36-LE26",
@@ -759,7 +872,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "5048-44-O126",
@@ -786,7 +901,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "3755-4-LP26",
@@ -813,7 +930,9 @@
   "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=/QCVwpuaQEbi28NmrZn6Ne8s/IopaXJtbOr9sc/p5nU=",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "5048-52-O126",
@@ -840,7 +959,9 @@
   "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=fkXE0VPniXX/obWULvXVm/knGFnNezCBaE+ZS91jdfA=",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "2898-15-LE26",
@@ -869,34 +990,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
- },
- {
-  "codigo": "5048-55-O126",
-  "nombre": "E.PREF. AMPLIACION Y PASADA URBANA RUTA N-55 SECTOR CHILLAN-PINTO",
-  "puntaje": 4,
-  "categorias": [],
-  "org_clave": true,
-  "rescatada_por_organismo": false,
-  "bip": "",
-  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
-  "region": "Región del Ñuble",
-  "tipo": "O1",
-  "monto": "",
-  "fecha_cierre": "2026-11-03T10:30",
-  "fecha_publicacion": "2026-09-30",
-  "descripcion": "Estudio para desarrollar el análisis técnico, económico, social, territorial y ambiental para la ampliación de la Ruta N-55 y una variante interurbana en la comuna de Pinto, en una longitud aproximada de 20,6 kilómetros.",
-  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-55-O126",
-  "estado": "Publicada",
-  "codigo_estado": 5,
-  "fecha_adjudicacion": "2027-03-30T14:47",
-  "fecha_apertura_tecnica": "2026-11-03T11:00",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "1070997-1-LE26",
@@ -923,7 +1019,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "3755-5-LP26",
@@ -950,7 +1048,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "2262-11-O126",
@@ -977,7 +1077,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "ingenieria"
  },
  {
   "codigo": "4031-19-LE26",
@@ -1006,7 +1108,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "1213301-16-LE26",
@@ -1035,7 +1139,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-24",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "1736-124-LE26",
@@ -1064,7 +1170,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-29",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "2661-43-LP26",
@@ -1093,7 +1201,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "3775-35-LP26",
@@ -1122,7 +1232,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "2772-26-L126",
@@ -1153,7 +1265,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "fase": "posterior",
-  "primera_vez": "2026-10-19"
+  "primera_vez": "2026-10-19",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "3445-11-LE26",
@@ -1182,7 +1296,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "1593-28-LE26",
@@ -1211,7 +1327,9 @@
   "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=hf3UGoo/z04mjmLOnBmOXA6yP2DrOeku9mBXI6vAiXs=",
   "adjudicatarios": [],
   "primera_vez": "2026-10-22",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "879-19-L126",
@@ -1240,7 +1358,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-23",
-  "fase": "posterior"
+  "fase": "posterior",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "1057500-83-LE26",
@@ -1269,7 +1389,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-23",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "2982-60-L126",
@@ -1298,7 +1420,9 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-28",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  },
  {
   "codigo": "599-43-LE26",
@@ -1327,6 +1451,8 @@
   "url_acta": "",
   "adjudicatarios": [],
   "primera_vez": "2026-10-29",
-  "fase": "activa"
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
  }
 ]

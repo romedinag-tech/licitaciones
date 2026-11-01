@@ -1,17 +1,18 @@
 {
- "actualizado": "2026-10-31T17:12:31+00:00",
- "total_activas": 5170,
- "candidatas": 205,
+ "actualizado": "2026-11-01T17:45:19+00:00",
+ "total_activas": 5173,
+ "candidatas": 210,
  "corte": {
   "candidatas_totales": 467,
   "candidatas_organismo_clave": 5,
-  "candidatas_fuera_del_tope": 262,
+  "candidatas_linea_prioritaria": 5,
+  "candidatas_fuera_del_tope": 257,
   "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 216,
+  "empatadas_en_el_corte": 215,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
-    "fuera": 13
+    "fuera": 12
    },
    {
     "prefijo": "687236",
@@ -62,22 +63,22 @@
     "fuera": 3
    },
    {
-    "prefijo": "3838",
+    "prefijo": "3894",
     "fuera": 2
    },
    {
-    "prefijo": "3894",
+    "prefijo": "4063",
     "fuera": 2
    }
   ]
  },
- "resultados": 46,
- "activas_vigentes": 28,
+ "resultados": 47,
+ "activas_vigentes": 29,
  "en_seguimiento": 18,
  "seguidos_manual": 1,
  "adjudicadas": 0,
  "retencion_dias": 92,
- "clave": 29,
+ "clave": 30,
  "rescatadas_por_organismo": 9,
  "modo_ticket": "personal",
  "regiones": [
@@ -96,6 +97,9 @@
   "Región del Ñuble"
  ],
  "categorias": [
+  "Prefactibilidad vial",
+  "Anteproyecto vial",
+  "Semaforizacion",
   "IMIV / impacto vial",
   "Transporte / movilidad",
   "Demanda / EOD / aforos",
@@ -104,5 +108,29 @@
   "Vialidad / transito",
   "Concesiones / logistica",
   "Datos / SIG / encuestas"
- ]
+ ],
+ "por_categoria": {
+  "Espacio publico / PIEP": 2,
+  "Planificacion urbana / IPT": 17,
+  "Transporte / movilidad": 11,
+  "Vialidad / transito": 8,
+  "Datos / SIG / encuestas": 7,
+  "Prefactibilidad vial": 2,
+  "Semaforizacion": 1,
+  "Concesiones / logistica": 2
+ },
+ "por_nivel": {
+  "sin_determinar": 42,
+  "prefactibilidad": 2,
+  "anteproyecto": 1,
+  "ingenieria": 2
+ },
+ "fuentes": {
+  "Mercado Publico": {
+   "estado": "ok",
+   "ultima_lectura_buena": "2026-11-01T17:45:19+00:00",
+   "avisos_leidos": 5173,
+   "seguimiento_post_cierre": true
+  }
+ }
 }
