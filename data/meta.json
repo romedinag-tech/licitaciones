@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-01T18:27:36+00:00",
- "total_activas": 5173,
+ "actualizado": "2026-11-01T18:50:09+00:00",
+ "total_activas": 5174,
  "candidatas": 210,
  "corte": {
   "candidatas_totales": 467,
@@ -80,6 +80,7 @@
  "retencion_dias": 92,
  "archivadas": 0,
  "adjudicadas_archivo": 0,
+ "proveedores_no_publicados": {},
  "bytes_resultados": 67886,
  "bytes_archivo": 5,
  "clave": 30,
@@ -133,8 +134,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-01T18:27:36+00:00",
-   "avisos_leidos": 5173,
+   "ultima_lectura_buena": "2026-11-01T18:50:09+00:00",
+   "avisos_leidos": 5174,
    "seguimiento_post_cierre": true
   }
  }
