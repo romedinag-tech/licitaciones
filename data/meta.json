@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T17:45:19+00:00",
+ "actualizado": "2026-11-01T17:55:52+00:00",
  "total_activas": 5173,
  "candidatas": 210,
  "corte": {
@@ -128,7 +128,7 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-01T17:45:19+00:00",
+   "ultima_lectura_buena": "2026-11-01T17:55:52+00:00",
    "avisos_leidos": 5173,
    "seguimiento_post_cierre": true
   }
