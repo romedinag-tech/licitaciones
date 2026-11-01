@@ -28,6 +28,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -60,6 +62,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-30",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -95,7 +99,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "632-11-LE26",
@@ -127,7 +133,45 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
+ },
+ {
+  "codigo": "5048-27-O126",
+  "nombre": "EST. PREF. CONST. PTE. SOBRE EL RIO BIOBÍO EN EJE ALESSANDRI, R. DEL BIOBÍO",
+  "puntaje": 10,
+  "categorias": [
+   "Anteproyecto vial",
+   "Prefactibilidad vial"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+  "unidad": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+  "region": "Región del Biobío ",
+  "tipo": "O1",
+  "monto": "",
+  "fecha_cierre": "2026-09-01T09:30",
+  "fecha_publicacion": "2026-07-27",
+  "descripcion": "El objetivo del presente estudio es desarrollar la prefactibilidad y anteproyecto de un nuevo puente sobre el río Biobío en el eje Alessandri y sus conexiones asociadas, mejorando la conectividad vial entre las comunas del Gran Concepción.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-27-O126",
+  "seguido_manual": true,
+  "nota_seguimiento": "Seguimiento",
+  "estado": "Cerrada",
+  "codigo_estado": 6,
+  "fecha_adjudicacion": "2027-12-30T20:00",
+  "fecha_apertura_tecnica": "2026-09-01T10:00",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
+  "fase": "posterior",
+  "primera_vez": "2026-11-01",
+  "fuente": "Mercado Publico",
+  "nivel": "prefactibilidad"
  },
  {
   "codigo": "577290-4-LP26",
@@ -158,7 +202,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "926-14-LR26",
@@ -189,7 +235,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "5048-55-O126",
@@ -217,6 +265,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -248,6 +298,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-11-01",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -279,6 +331,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -310,6 +364,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -342,6 +398,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -373,6 +431,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -404,6 +464,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -435,6 +497,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -466,6 +530,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -497,6 +563,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-27",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -528,6 +596,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-27",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -562,7 +632,9 @@
   "primera_vez": "2026-10-27",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "2713-186-LE26",
@@ -595,7 +667,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "3755-6-LP26",
@@ -626,7 +700,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "5895-24-O126",
@@ -657,7 +733,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "ingenieria"
+  "nivel": "ingenieria",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "2261-32-O126",
@@ -685,6 +763,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -716,6 +796,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -747,6 +829,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-29",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -778,6 +862,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-29",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -809,6 +895,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -843,7 +931,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "USD"
  },
  {
   "codigo": "2699-36-LE26",
@@ -874,7 +964,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "5048-44-O126",
@@ -903,7 +995,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "3755-4-LP26",
@@ -932,7 +1026,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "5048-52-O126",
@@ -961,7 +1057,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "2898-15-LE26",
@@ -992,7 +1090,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "1070997-1-LE26",
@@ -1018,6 +1118,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -1047,6 +1149,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -1076,6 +1180,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -1110,7 +1216,9 @@
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "1213301-16-LE26",
@@ -1138,6 +1246,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-24",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -1169,6 +1279,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-29",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -1200,6 +1312,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -1231,6 +1345,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -1267,7 +1383,9 @@
   "fase": "posterior",
   "primera_vez": "2026-10-19",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "3445-11-LE26",
@@ -1298,7 +1416,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "1593-28-LE26",
@@ -1329,7 +1449,9 @@
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "879-19-L126",
@@ -1360,7 +1482,9 @@
   "primera_vez": "2026-10-23",
   "fase": "posterior",
   "fuente": "Mercado Publico",
-  "nivel": "sin_determinar"
+  "nivel": "sin_determinar",
+  "adjudicacion_items": [],
+  "moneda": "CLP"
  },
  {
   "codigo": "1057500-83-LE26",
@@ -1388,6 +1512,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-23",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -1419,6 +1545,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-28",
   "fase": "activa",
   "fuente": "Mercado Publico",
@@ -1450,6 +1578,8 @@
   "n_oferentes": null,
   "url_acta": "",
   "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
   "primera_vez": "2026-10-29",
   "fase": "activa",
   "fuente": "Mercado Publico",
