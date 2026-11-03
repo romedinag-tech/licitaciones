@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-11-03T14:28:28+00:00",
- "total_activas": 4974,
- "candidatas": 209,
+ "actualizado": "2026-11-03T19:28:50+00:00",
+ "total_activas": 4955,
+ "candidatas": 208,
  "corte": {
-  "candidatas_totales": 451,
-  "candidatas_organismo_clave": 5,
+  "candidatas_totales": 447,
+  "candidatas_organismo_clave": 4,
   "candidatas_linea_prioritaria": 4,
-  "candidatas_fuera_del_tope": 242,
+  "candidatas_fuera_del_tope": 239,
   "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 205,
+  "empatadas_en_el_corte": 202,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
@@ -73,15 +73,15 @@
   ]
  },
  "resultados": 92,
- "activas_vigentes": 31,
- "en_seguimiento": 61,
+ "activas_vigentes": 28,
+ "en_seguimiento": 64,
  "seguidos_manual": 2,
- "adjudicadas": 1,
+ "adjudicadas": 4,
  "retencion_dias": 92,
  "archivadas": 70,
  "adjudicadas_archivo": 49,
  "proveedores_no_publicados": {
-  "Persona natural": 5,
+  "Persona natural": 6,
   "Proveedor no publicado": 3,
   "Empresa individual": 1
  },
@@ -92,7 +92,7 @@
   "a_resultados_hoy": 0,
   "no_pasan_hoy": 0
  },
- "bytes_resultados": 128818,
+ "bytes_resultados": 129753,
  "bytes_archivo": 110078,
  "clave": 55,
  "rescatadas_por_organismo": 12,
@@ -148,8 +148,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-03T14:28:28+00:00",
-   "avisos_leidos": 4974,
+   "ultima_lectura_buena": "2026-11-03T19:28:50+00:00",
+   "avisos_leidos": 4955,
    "seguimiento_post_cierre": true
   }
  }

@@ -2149,8 +2149,8 @@
   "fecha_publicacion": "2026-10-20",
   "descripcion": "Estudio de suelos para Villa Santa Fe, Comuna de Bulnes",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1070997-1-LE26",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Cerrada",
+  "codigo_estado": 6,
   "fecha_adjudicacion": "2026-11-09T20:00",
   "fecha_apertura_tecnica": "2026-11-03T15:30",
   "n_oferentes": null,
@@ -2159,7 +2159,7 @@
   "adjudicacion_items": [],
   "moneda": "CLP",
   "primera_vez": "2026-10-22",
-  "fase": "activa",
+  "fase": "posterior",
   "fuente": "Mercado Publico",
   "nivel": "sin_determinar"
  },
@@ -2180,8 +2180,8 @@
   "fecha_publicacion": "2026-10-05",
   "descripcion": "Contar con un servicio de aseo integral para las dependencias de la División de Fiscalización del Transporte y del Centro de Control y Certificación Vehicular 3CV, ambos dependientes de la Subsecretaría de Transportes, para sus sedes ubicadas en la región Metropolitana, que permita mantener en óptimas condiciones de limpieza, higiene y presentación, para el debido cuidado, tanto del personal y del público que concurre a ellos, como de los equipos que ahí se resguardan.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3755-5-LP26",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Cerrada",
+  "codigo_estado": 6,
   "fecha_adjudicacion": "2027-06-08T18:00",
   "fecha_apertura_tecnica": "2026-11-03T16:10",
   "n_oferentes": null,
@@ -2190,7 +2190,7 @@
   "adjudicacion_items": [],
   "moneda": "CLP",
   "primera_vez": "2026-10-22",
-  "fase": "activa",
+  "fase": "posterior",
   "fuente": "Mercado Publico",
   "nivel": "sin_determinar"
  },
@@ -2277,8 +2277,8 @@
   "fecha_publicacion": "2026-10-23",
   "descripcion": "La Ilustre Municipalidad de Quillón requiere contratar el “Servicio de Consultoría para la Confección del Plan de Desarrollo Turístico”, cuyo objetivo es disponer de un instrumento de planificación estratégica que oriente el desarrollo turístico sustentable de la comuna, considerando sus características territoriales, patrimonio natural y cultural, oferta turística y potencialidades de desarrollo.\r\nEl servicio deberá contemplar un diagnóstico de la situación turística comunal, instancias de participación de actores públicos, privados y comunitarios, y la definición de objetivos, lineamientos estratégicos y un plan de acción con iniciativas priorizadas, plazos, responsables e indicadores de seguimiento, en concordancia con los instrumentos de planificación comunal vigentes.\r\nLa consultoría deberá ejecutarse conforme a los alcances, metodología, productos, plazos y demás condiciones establ",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1213301-16-LE26",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Revocada",
+  "codigo_estado": 15,
   "fecha_adjudicacion": "2026-11-20T17:30",
   "fecha_apertura_tecnica": "2026-11-06T15:02",
   "n_oferentes": null,
@@ -2287,7 +2287,7 @@
   "adjudicacion_items": [],
   "moneda": "CLP",
   "primera_vez": "2026-10-24",
-  "fase": "activa",
+  "fase": "posterior",
   "fuente": "Mercado Publico",
   "nivel": "sin_determinar"
  },
@@ -2540,14 +2540,23 @@
   "fecha_publicacion": "2026-09-01",
   "descripcion": "El principal objetivo de las Encuestas de Inserción y Progresión Laboral es levantar sistemáticamente información oportuna acerca de la incorporación de las y los titulados de la UTEM en el mercado laboral, de la prosecución de estudios de postítulo yo postgrado y también de otros aspectos evaluativos importantes para la institución. Esta información busca informar, orientar y difundir la toma de decisiones de las unidades académicas y administrativas de la Universidad.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5251-74-LE26",
-  "estado": "Cerrada",
-  "codigo_estado": 12,
-  "fecha_adjudicacion": "2026-11-04T16:29",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-03T15:03",
   "fecha_apertura_tecnica": "2026-09-16T19:01",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 4,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=NfrEDBbEsy0RWh5XoPRNFQmy6PySUb0ZHFY28p/Yfrw=",
+  "adjudicatarios": [
+   "ADVISORY CONSULTANT Y INVESMENT NEXO LTDA"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "ADVISORY CONSULTANT Y INVESMENT NEXO LTDA",
+    "cantidad": 1.0,
+    "monto_unitario": 11700000.0,
+    "unidad": "Unidad"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-09-08",
   "repuesta": "2026-11-01",
@@ -2642,14 +2651,23 @@
   "fecha_publicacion": "2026-09-23",
   "descripcion": "La Corporación Nacional Forestal, en adelante “CONAF” o “la Corporación”, indistintamente, invita a los oferentes inscritos en el portal de compras del Estado www.mercadopublico.cl, a participar en la licitación pública denominada “ENCUESTA DE SATISFACCIÓN USUARIA – ENTREGA DE PLANTAS PROGRAMA DE ARBORIZACIÓN”, según especificaciones incluidas en Bases de Licitación y Anexos.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=633-59-L126",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-11-06T16:02",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-03T12:35",
   "fecha_apertura_tecnica": "2026-10-02T08:01",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 15,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=mDuGA3Qi1KDK7YI+sjhXkz1mn03cS5qa2sKj4q+Nunk=",
+  "adjudicatarios": [
+   "Persona natural"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "Persona natural",
+    "cantidad": 1.0,
+    "monto_unitario": 3850000.0,
+    "unidad": "Unidad no definida"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-09-23",
   "repuesta": "2026-11-01",
@@ -2744,14 +2762,23 @@
   "fecha_publicacion": "2026-09-25",
   "descripcion": "El Instituto Nacional de Estadísticas es un servicio público funcionalmente descentralizado, encargado de generar las estadísticas oficiales del país y de articular el Sistema Estadístico Nacional. En este contexto, se hace necesario contratar un servicio de planes de telefonía y datos móviles por un periodo de 12 meses, que permita asegurar la continuidad operativa del trabajo en terreno.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1810-5-L126",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-11-02T15:00",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-03T12:37",
   "fecha_apertura_tecnica": "2026-10-08T15:01",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 1,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=b8K+AneAo3CGvhF7GGNzwh9ZMhqeGD6/qjdAUDMFmaA=",
+  "adjudicatarios": [
+   "CLARO CHILE SPA"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "CLARO CHILE SPA",
+    "cantidad": 19.0,
+    "monto_unitario": 3001.0,
+    "unidad": "Unidad"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-09-26",
   "repuesta": "2026-11-01",
