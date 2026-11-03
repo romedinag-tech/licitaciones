@@ -95,6 +95,8 @@ ESTUDIO_FUERTE = C(r"preinversion|pre.?inversion|anteproyecto|alternativas de\s*
                    r"prefactibilidad|\bfactibilidad\b|evaluacion (social|tecnico|economic)|"
                    r"estudio de (preinversion|ingenieria|prefactibilidad|factibilidad|impacto)|"
                    r"plan (maestro|regulador|de transporte|de movilidad|seccional|comunal)|\bpladeco\b|"
+                   r"reversibilidad|gestion de (transito|trafico)|operacion de transito|"
+                   r"estudio de (transito|trafico|seguridad vial|reversibilidad|capacidad vial|demanda)|"
                    r"\bimiv\b|impacto vial|origen.?destino|\beod\b|\bep\b construc")
 
 # Inspeccion fiscal / tecnica de obras: NUNCA se protege ni se incluye (salvo Nivel A).
@@ -114,7 +116,7 @@ EXCLUIR = C(r"inspeccion fiscal|\baif\b|\baifo\b|asesoria a la inspecc|inspeccio
             r"transporte escolar|transporte de (residuos|aridos|agua|personal|pasajeros|carga|alimentos|lena|valores|internos|funcionarios?|mezcla|material|hormigon)|"
             r"servicio de transporte|\baseo\b|vigilancia|guardias|alimentacion|\braciones?\b|destruccion de|mercancias|"
             # candado anti-ruido para la categoria Datos/SIG/encuestas (medico, IT, equipos):
-            r"\bmedic|clinic|hospital|radiolog|imagenolog|farmac|\baps\b|paciente|terapeuta|dispositivo medic|"
+            r"\bmedic(o|a|in|ament)|clinic|hospital|radiolog|imagenolog|farmac|\baps\b|paciente|terapeuta|dispositivo medic|"
             r"imagenes?.{0,4}diagnost|diagnostico por imagen|\bsoftware\b|licencia de|antivirus|servidor|data ?center|equipamiento medic")
 
 # 3) ON_TEMA: transporte + planificacion urbana/territorial.
