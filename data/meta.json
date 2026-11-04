@@ -1,18 +1,18 @@
 {
- "actualizado": "2026-11-03T19:28:50+00:00",
- "total_activas": 4955,
+ "actualizado": "2026-11-04T19:46:16+00:00",
+ "total_activas": 5095,
  "candidatas": 208,
  "corte": {
-  "candidatas_totales": 447,
+  "candidatas_totales": 468,
   "candidatas_organismo_clave": 4,
   "candidatas_linea_prioritaria": 4,
-  "candidatas_fuera_del_tope": 239,
+  "candidatas_fuera_del_tope": 260,
   "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 202,
+  "empatadas_en_el_corte": 209,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
-    "fuera": 12
+    "fuera": 11
    },
    {
     "prefijo": "2010",
@@ -59,22 +59,22 @@
     "fuera": 3
    },
    {
-    "prefijo": "4464",
+    "prefijo": "621",
+    "fuera": 3
+   },
+   {
+    "prefijo": "3894",
     "fuera": 2
    },
    {
-    "prefijo": "4590",
-    "fuera": 2
-   },
-   {
-    "prefijo": "539119",
+    "prefijo": "3929",
     "fuera": 2
    }
   ]
  },
- "resultados": 92,
- "activas_vigentes": 28,
- "en_seguimiento": 64,
+ "resultados": 94,
+ "activas_vigentes": 29,
+ "en_seguimiento": 65,
  "seguidos_manual": 2,
  "adjudicadas": 4,
  "retencion_dias": 92,
@@ -92,9 +92,9 @@
   "a_resultados_hoy": 0,
   "no_pasan_hoy": 0
  },
- "bytes_resultados": 129753,
+ "bytes_resultados": 132777,
  "bytes_archivo": 110078,
- "clave": 55,
+ "clave": 56,
  "rescatadas_por_organismo": 12,
  "modo_ticket": "personal",
  "regiones": [
@@ -129,7 +129,7 @@
  ],
  "por_categoria": {
   "Espacio publico / PIEP": 2,
-  "Planificacion urbana / IPT": 26,
+  "Planificacion urbana / IPT": 28,
   "Transporte / movilidad": 17,
   "Vialidad / transito": 12,
   "Demanda / EOD / aforos": 1,
@@ -140,7 +140,7 @@
   "Semaforizacion": 1
  },
  "por_nivel": {
-  "sin_determinar": 78,
+  "sin_determinar": 80,
   "prefactibilidad": 3,
   "anteproyecto": 2,
   "ingenieria": 9
@@ -148,8 +148,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-03T19:28:50+00:00",
-   "avisos_leidos": 4955,
+   "ultima_lectura_buena": "2026-11-04T19:46:16+00:00",
+   "avisos_leidos": 5095,
    "seguimiento_post_cierre": true
   }
  }
