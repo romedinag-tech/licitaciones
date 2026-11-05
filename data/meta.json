@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-11-04T19:46:16+00:00",
- "total_activas": 5095,
+ "actualizado": "2026-11-05T20:03:01+00:00",
+ "total_activas": 5163,
  "candidatas": 208,
  "corte": {
-  "candidatas_totales": 468,
+  "candidatas_totales": 457,
   "candidatas_organismo_clave": 4,
   "candidatas_linea_prioritaria": 4,
-  "candidatas_fuera_del_tope": 260,
+  "candidatas_fuera_del_tope": 249,
   "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 209,
+  "empatadas_en_el_corte": 200,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
@@ -47,10 +47,6 @@
     "fuera": 3
    },
    {
-    "prefijo": "2262",
-    "fuera": 3
-   },
-   {
     "prefijo": "2770",
     "fuera": 3
    },
@@ -63,18 +59,22 @@
     "fuera": 3
    },
    {
-    "prefijo": "3894",
+    "prefijo": "4464",
     "fuera": 2
    },
    {
-    "prefijo": "3929",
+    "prefijo": "539119",
+    "fuera": 2
+   },
+   {
+    "prefijo": "5586",
     "fuera": 2
    }
   ]
  },
- "resultados": 94,
- "activas_vigentes": 29,
- "en_seguimiento": 65,
+ "resultados": 95,
+ "activas_vigentes": 26,
+ "en_seguimiento": 69,
  "seguidos_manual": 2,
  "adjudicadas": 4,
  "retencion_dias": 92,
@@ -92,7 +92,7 @@
   "a_resultados_hoy": 0,
   "no_pasan_hoy": 0
  },
- "bytes_resultados": 132777,
+ "bytes_resultados": 134574,
  "bytes_archivo": 110078,
  "clave": 56,
  "rescatadas_por_organismo": 12,
@@ -133,14 +133,14 @@
   "Transporte / movilidad": 17,
   "Vialidad / transito": 12,
   "Demanda / EOD / aforos": 1,
-  "Datos / SIG / encuestas": 18,
+  "Datos / SIG / encuestas": 19,
   "Anteproyecto vial": 1,
   "Prefactibilidad vial": 3,
   "Concesiones / logistica": 4,
   "Semaforizacion": 1
  },
  "por_nivel": {
-  "sin_determinar": 80,
+  "sin_determinar": 81,
   "prefactibilidad": 3,
   "anteproyecto": 2,
   "ingenieria": 9
@@ -148,8 +148,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-04T19:46:16+00:00",
-   "avisos_leidos": 5095,
+   "ultima_lectura_buena": "2026-11-05T20:03:01+00:00",
+   "avisos_leidos": 5163,
    "seguimiento_post_cierre": true
   }
  }
