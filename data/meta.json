@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-06T19:21:59+00:00",
- "total_activas": 5226,
+ "actualizado": "2026-11-07T17:49:37+00:00",
+ "total_activas": 5282,
  "candidatas": 208,
  "corte": {
   "candidatas_totales": 448,
@@ -8,15 +8,15 @@
   "candidatas_linea_prioritaria": 4,
   "candidatas_fuera_del_tope": 240,
   "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 198,
+  "empatadas_en_el_corte": 196,
   "organismos_que_mas_pierden": [
-   {
-    "prefijo": "5048",
-    "fuera": 9
-   },
    {
     "prefijo": "2010",
     "fuera": 9
+   },
+   {
+    "prefijo": "5048",
+    "fuera": 8
    },
    {
     "prefijo": "687236",
@@ -31,16 +31,16 @@
     "fuera": 7
    },
    {
+    "prefijo": "997",
+    "fuera": 6
+   },
+   {
     "prefijo": "1896",
     "fuera": 6
    },
    {
     "prefijo": "5261",
     "fuera": 5
-   },
-   {
-    "prefijo": "997",
-    "fuera": 4
    },
    {
     "prefijo": "621",
@@ -72,8 +72,8 @@
    }
   ]
  },
- "resultados": 96,
- "activas_vigentes": 23,
+ "resultados": 97,
+ "activas_vigentes": 24,
  "en_seguimiento": 73,
  "seguidos_manual": 2,
  "adjudicadas": 4,
@@ -92,7 +92,7 @@
   "a_resultados_hoy": 0,
   "no_pasan_hoy": 0
  },
- "bytes_resultados": 135835,
+ "bytes_resultados": 136972,
  "bytes_archivo": 110078,
  "clave": 56,
  "rescatadas_por_organismo": 12,
@@ -133,14 +133,14 @@
   "Transporte / movilidad": 17,
   "Vialidad / transito": 13,
   "Demanda / EOD / aforos": 1,
-  "Datos / SIG / encuestas": 19,
+  "Datos / SIG / encuestas": 20,
   "Anteproyecto vial": 1,
   "Prefactibilidad vial": 3,
   "Concesiones / logistica": 4,
   "Semaforizacion": 2
  },
  "por_nivel": {
-  "sin_determinar": 81,
+  "sin_determinar": 82,
   "prefactibilidad": 3,
   "anteproyecto": 2,
   "ingenieria": 10
@@ -148,8 +148,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-06T19:21:59+00:00",
-   "avisos_leidos": 5226,
+   "ultima_lectura_buena": "2026-11-07T17:49:37+00:00",
+   "avisos_leidos": 5282,
    "seguimiento_post_cierre": true
   }
  }
