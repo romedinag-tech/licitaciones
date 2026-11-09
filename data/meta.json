@@ -1,26 +1,18 @@
 {
- "actualizado": "2026-11-08T17:59:12+00:00",
- "total_activas": 5286,
+ "actualizado": "2026-11-09T22:19:18+00:00",
+ "total_activas": 4915,
  "candidatas": 208,
  "corte": {
-  "candidatas_totales": 448,
+  "candidatas_totales": 418,
   "candidatas_organismo_clave": 4,
   "candidatas_linea_prioritaria": 4,
-  "candidatas_fuera_del_tope": 240,
+  "candidatas_fuera_del_tope": 210,
   "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 196,
+  "empatadas_en_el_corte": 179,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "2010",
-    "fuera": 9
-   },
-   {
-    "prefijo": "5048",
     "fuera": 8
-   },
-   {
-    "prefijo": "687236",
-    "fuera": 7
    },
    {
     "prefijo": "1068829",
@@ -31,16 +23,20 @@
     "fuera": 7
    },
    {
-    "prefijo": "997",
-    "fuera": 6
+    "prefijo": "5048",
+    "fuera": 7
    },
    {
     "prefijo": "1896",
     "fuera": 6
    },
    {
-    "prefijo": "5261",
+    "prefijo": "687236",
     "fuera": 5
+   },
+   {
+    "prefijo": "5261",
+    "fuera": 4
    },
    {
     "prefijo": "621",
@@ -63,20 +59,24 @@
     "fuera": 3
    },
    {
-    "prefijo": "5283",
+    "prefijo": "761",
     "fuera": 2
    },
    {
-    "prefijo": "539119",
+    "prefijo": "1002",
+    "fuera": 2
+   },
+   {
+    "prefijo": "1164956",
     "fuera": 2
    }
   ]
  },
- "resultados": 97,
- "activas_vigentes": 24,
- "en_seguimiento": 73,
+ "resultados": 99,
+ "activas_vigentes": 21,
+ "en_seguimiento": 78,
  "seguidos_manual": 2,
- "adjudicadas": 4,
+ "adjudicadas": 6,
  "retencion_dias": 92,
  "archivadas": 70,
  "adjudicadas_archivo": 49,
@@ -92,7 +92,7 @@
   "a_resultados_hoy": 0,
   "no_pasan_hoy": 0
  },
- "bytes_resultados": 136972,
+ "bytes_resultados": 140943,
  "bytes_archivo": 110078,
  "clave": 56,
  "rescatadas_por_organismo": 12,
@@ -128,19 +128,19 @@
   "Datos / SIG / encuestas"
  ],
  "por_categoria": {
-  "Espacio publico / PIEP": 2,
-  "Planificacion urbana / IPT": 28,
-  "Transporte / movilidad": 17,
+  "Espacio publico / PIEP": 3,
+  "Planificacion urbana / IPT": 29,
+  "Transporte / movilidad": 18,
   "Vialidad / transito": 13,
   "Demanda / EOD / aforos": 1,
-  "Datos / SIG / encuestas": 20,
+  "Datos / SIG / encuestas": 21,
   "Anteproyecto vial": 1,
   "Prefactibilidad vial": 3,
   "Concesiones / logistica": 4,
   "Semaforizacion": 2
  },
  "por_nivel": {
-  "sin_determinar": 82,
+  "sin_determinar": 84,
   "prefactibilidad": 3,
   "anteproyecto": 2,
   "ingenieria": 10
@@ -148,8 +148,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-08T17:59:12+00:00",
-   "avisos_leidos": 5286,
+   "ultima_lectura_buena": "2026-11-09T22:19:18+00:00",
+   "avisos_leidos": 4915,
    "seguimiento_post_cierre": true
   }
  }
