@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-11-10T19:43:02+00:00",
- "total_activas": 4909,
+ "actualizado": "2026-11-11T19:49:40+00:00",
+ "total_activas": 5019,
  "candidatas": 207,
  "corte": {
-  "candidatas_totales": 402,
+  "candidatas_totales": 414,
   "candidatas_organismo_clave": 4,
   "candidatas_linea_prioritaria": 3,
-  "candidatas_fuera_del_tope": 195,
+  "candidatas_fuera_del_tope": 207,
   "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 171,
+  "empatadas_en_el_corte": 181,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "1068829",
@@ -19,7 +19,7 @@
     "fuera": 7
    },
    {
-    "prefijo": "2010",
+    "prefijo": "948806",
     "fuera": 6
    },
    {
@@ -31,16 +31,16 @@
     "fuera": 5
    },
    {
+    "prefijo": "2010",
+    "fuera": 5
+   },
+   {
     "prefijo": "2261",
     "fuera": 5
    },
    {
     "prefijo": "621",
     "fuera": 4
-   },
-   {
-    "prefijo": "948806",
-    "fuera": 3
    },
    {
     "prefijo": "979",
@@ -55,28 +55,28 @@
     "fuera": 3
    },
    {
+    "prefijo": "5751",
+    "fuera": 2
+   },
+   {
+    "prefijo": "591376",
+    "fuera": 2
+   },
+   {
     "prefijo": "642",
     "fuera": 2
    },
    {
-    "prefijo": "761",
-    "fuera": 2
-   },
-   {
-    "prefijo": "1002",
-    "fuera": 2
-   },
-   {
-    "prefijo": "1164956",
+    "prefijo": "734",
     "fuera": 2
    }
   ]
  },
  "resultados": 103,
- "activas_vigentes": 24,
- "en_seguimiento": 79,
+ "activas_vigentes": 23,
+ "en_seguimiento": 80,
  "seguidos_manual": 2,
- "adjudicadas": 7,
+ "adjudicadas": 9,
  "retencion_dias": 92,
  "archivadas": 70,
  "adjudicadas_archivo": 49,
@@ -92,7 +92,7 @@
   "a_resultados_hoy": 0,
   "no_pasan_hoy": 0
  },
- "bytes_resultados": 147149,
+ "bytes_resultados": 147941,
  "bytes_archivo": 110078,
  "clave": 59,
  "rescatadas_por_organismo": 12,
@@ -148,8 +148,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-10T19:43:02+00:00",
-   "avisos_leidos": 4909,
+   "ultima_lectura_buena": "2026-11-11T19:49:40+00:00",
+   "avisos_leidos": 5019,
    "seguimiento_post_cierre": true
   }
  }
