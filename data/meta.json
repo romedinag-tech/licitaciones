@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-11-12T18:29:32+00:00",
- "total_activas": 5167,
+ "actualizado": "2026-11-12T20:09:08+00:00",
+ "total_activas": 5166,
  "candidatas": 308,
  "corte": {
-  "candidatas_totales": 418,
+  "candidatas_totales": 425,
   "candidatas_organismo_clave": 4,
   "candidatas_linea_prioritaria": 4,
-  "candidatas_fuera_del_tope": 110,
+  "candidatas_fuera_del_tope": 117,
   "puntaje_de_corte": 0,
-  "empatadas_en_el_corte": 168,
+  "empatadas_en_el_corte": 170,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
@@ -35,6 +35,10 @@
     "fuera": 3
    },
    {
+    "prefijo": "2099",
+    "fuera": 2
+   },
+   {
     "prefijo": "3920",
     "fuera": 2
    },
@@ -51,29 +55,25 @@
     "fuera": 2
    },
    {
+    "prefijo": "2011",
+    "fuera": 1
+   },
+   {
+    "prefijo": "2048",
+    "fuera": 1
+   },
+   {
+    "prefijo": "2111",
+    "fuera": 1
+   },
+   {
     "prefijo": "2179",
-    "fuera": 1
-   },
-   {
-    "prefijo": "2295",
-    "fuera": 1
-   },
-   {
-    "prefijo": "2307",
-    "fuera": 1
-   },
-   {
-    "prefijo": "2374",
-    "fuera": 1
-   },
-   {
-    "prefijo": "2378",
     "fuera": 1
    }
   ]
  },
- "resultados": 107,
- "activas_vigentes": 25,
+ "resultados": 109,
+ "activas_vigentes": 27,
  "en_seguimiento": 82,
  "seguidos_manual": 2,
  "adjudicadas": 12,
@@ -98,9 +98,9 @@
   "seguimiento_manual": 0,
   "reposicion": 0
  },
- "bytes_resultados": 153644,
+ "bytes_resultados": 155973,
  "bytes_archivo": 110078,
- "clave": 63,
+ "clave": 65,
  "rescatadas_por_organismo": 12,
  "modo_ticket": "personal",
  "regiones": [
@@ -135,7 +135,7 @@
  ],
  "por_categoria": {
   "Espacio publico / PIEP": 3,
-  "Planificacion urbana / IPT": 32,
+  "Planificacion urbana / IPT": 34,
   "Transporte / movilidad": 19,
   "Vialidad / transito": 13,
   "Demanda / EOD / aforos": 1,
@@ -146,7 +146,7 @@
   "Semaforizacion": 2
  },
  "por_nivel": {
-  "sin_determinar": 92,
+  "sin_determinar": 94,
   "prefactibilidad": 3,
   "anteproyecto": 2,
   "ingenieria": 10
@@ -154,8 +154,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-12T18:29:32+00:00",
-   "avisos_leidos": 5167,
+   "ultima_lectura_buena": "2026-11-12T20:09:08+00:00",
+   "avisos_leidos": 5166,
    "seguimiento_post_cierre": true
   }
  }
