@@ -29,7 +29,7 @@ jobs:
       - name: Descargar y filtrar licitaciones
         env:
           MP_TICKET: ${{ secrets.MP_TICKET }}
-          MP_MAX_DETALLE: '200'
+          MP_MAX_DETALLE: '300'
         run: python radar_mp.py
 
       - name: Publicar cambios

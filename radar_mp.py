@@ -343,9 +343,12 @@ def construir_desde_detalle(cod, det, nota):
 
 # Codigos MOP de estudio al inicio del nombre. Vialidad prefija sus estudios
 # con una abreviatura de "Estudio ...": EP (preinversión/prefactibilidad),
-# EI/EII (ingeniería), EST. (EST. BAS., EST. PREF.), E.BÁSICO, E.FACTIBILIDAD.
+# EI/EII (ingeniería), EST. (EST. BAS., EST. PREF.), E. PREF., E. BAS.
 # OJO: antes solo entraban EI/EP y se caían p.ej. "EST. PREF. CONST. PTE.
 # ... EJE ALESSANDRI" (5048-27), un estudio de prefactibilidad de un puente.
+# NO calzan las formas escritas enteras tras "E." ("E.BASICO", "E.FACTIBILIDAD"):
+# el \b final exige que la abreviatura termine ahi. "E.FACTIBILIDAD" entra igual
+# por ESTUDIO (factibilidad); "E.BASICO" no tiene marcador y depende del resto del nombre.
 tipo_mop = re.compile(r"^(est\.?|e\.?\s?(i{1,2}|p|b|f)|e\.?\s?(pref|prefact|bas|basic|fact))\b")
 
 def pasa_prefiltro(n, es_key=False):
@@ -493,10 +496,11 @@ def main():
         if not pasa_prefiltro(n, es_key):
             continue
         p = clasificar(lic.get("Nombre", ""))[0]
-        # Los estudios MOP (tipo_mop) pesan como un organismo clave: su nombre suele
-        # no traer ninguna palabra de transporte (p.ej. "EST. PREF. CONST. PTE. ...
-        # EJE ALESSANDRI"), puntúa 0 en categorías y, con +2, quedaba bajo el corte
-        # de MAX_DETALLE=200 y nunca se le pedía el detalle. Con +5 sobrevive el tope.
+        # Bono por nombre: +5 organismo clave; si no, +3 si calza ESTUDIO; si no, +5
+        # si es un codigo MOP de estudio (tipo_mop). ESTUDIO se evalua antes, asi que un
+        # nombre MOP que tambien calza ESTUDIO (p.ej. "EST. PREF. ..." por "est. pref")
+        # recibe +3, no +5, y compite por el cupo de MAX_DETALLE como cualquier estudio.
+        # El +5 solo lo reciben nombres MOP sin palabra de estudio ("EI ...", "EST. BAS. ...").
         p += 5 if es_key else (3 if ESTUDIO.search(n) else (5 if tipo_mop.match(n) else 0))
         candidatas.append({**lic, "p": p, "es_key": es_key, "linea": linea})
     # El tope de MAX_DETALLE no se aplica a los organismos clave: su detalle se
@@ -532,12 +536,20 @@ def main():
     }
     candidatas = siempre + resto
 
+    # Una lectura de detalle fallida no es un rechazo: se cuenta aparte (sin codigos) y la
+    # licitacion no se filtra con una ficha vacia. Si ya estaba publicada, el seguimiento
+    # de abajo la conserva; si es nueva, se vuelve a pedir en la proxima corrida.
+    fallidas = Counter()
     resultados = []
     for i, c in enumerate(candidatas):
         cod = c["CodigoExterno"]
         d = get(f"{BASE}?codigo={cod}&ticket={TICKET}")
         time.sleep(THROTTLE)
-        det = (d or {}).get("Listado", [{}])[0] if d else {}
+        det = ((d or {}).get("Listado") or [{}])[0]
+        if not det:
+            fallidas["detalle"] += 1
+            print(f"  [!] {cod} lectura de detalle fallida")
+            continue
         item, razon, org_a = filtra_detalle(cod, c["Nombre"], det, c.get("FechaCierre"))
 
         # Auto-aprende SOLO prefijos de Nivel A (agencias de planificacion, pocas
@@ -575,7 +587,9 @@ def main():
             continue
         d = get(f"{BASE}?codigo={cod}&ticket={TICKET}")
         time.sleep(THROTTLE)
-        det = (d or {}).get("Listado", [{}])[0] if d else {}
+        det = ((d or {}).get("Listado") or [{}])[0]
+        if not det:
+            fallidas["seguimiento"] += 1
         if det:  # si la API responde, refresca estado; si no, conserva lo previo
             estado_desde_detalle(pr, det)
             fch2 = det.get("Fechas") or {}
@@ -611,8 +625,9 @@ def main():
             continue
         d = get(f"{BASE}?codigo={cod}&ticket={TICKET}")
         time.sleep(THROTTLE)
-        det = (d or {}).get("Listado", [{}])[0] if d else {}
+        det = ((d or {}).get("Listado") or [{}])[0]
         if not det:
+            fallidas["seguimiento_manual"] += 1
             continue  # la API no respondió; se reintenta la próxima corrida
         rec = construir_desde_detalle(cod, det, nota)
         rec["primera_vez"] = (ent.get("desde") if isinstance(ent, dict) else None) or HOY
@@ -653,6 +668,7 @@ def main():
         time.sleep(PAUSA_REPONER)
         det = ((d or {}).get("Listado") or [{}])[0]
         if not det:
+            fallidas["reposicion"] += 1
             print(f"  reposicion detenida en {cod} ({n_rep} de {len(pendientes)}); sigue en la proxima corrida.")
             break
         item, razon, _ = filtra_detalle(cod, det.get("Nombre", "") or "", det)
@@ -728,6 +744,7 @@ def main():
                                                   if it.get("proveedor") in ROTULOS_PROVEEDOR.values())),
         "reposicion": {"en_lista": len(reponer), "pendientes_al_inicio": len(pendientes),
                        "al_archivo_hoy": repuestas_arch, "a_resultados_hoy": repuestas_res, "no_pasan_hoy": rep_no_pasan},
+        "lecturas_fallidas": {k: fallidas[k] for k in ("detalle", "seguimiento", "seguimiento_manual", "reposicion")},
         "bytes_resultados": os.path.getsize(os.path.join(DATA, "resultados.json")),
         "bytes_archivo": os.path.getsize(arch_path),
         "clave": sum(1 for r in resultados if r["org_clave"]),
