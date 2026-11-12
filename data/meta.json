@@ -1,50 +1,30 @@
 {
- "actualizado": "2026-11-11T19:49:40+00:00",
- "total_activas": 5019,
- "candidatas": 207,
+ "actualizado": "2026-11-12T18:29:32+00:00",
+ "total_activas": 5167,
+ "candidatas": 308,
  "corte": {
-  "candidatas_totales": 414,
+  "candidatas_totales": 418,
   "candidatas_organismo_clave": 4,
-  "candidatas_linea_prioritaria": 3,
-  "candidatas_fuera_del_tope": 207,
-  "puntaje_de_corte": 3,
-  "empatadas_en_el_corte": 181,
+  "candidatas_linea_prioritaria": 4,
+  "candidatas_fuera_del_tope": 110,
+  "puntaje_de_corte": 0,
+  "empatadas_en_el_corte": 168,
   "organismos_que_mas_pierden": [
-   {
-    "prefijo": "1068829",
-    "fuera": 7
-   },
    {
     "prefijo": "5048",
     "fuera": 7
    },
    {
-    "prefijo": "948806",
-    "fuera": 6
-   },
-   {
-    "prefijo": "687236",
-    "fuera": 5
-   },
-   {
-    "prefijo": "1896",
-    "fuera": 5
-   },
-   {
-    "prefijo": "2010",
-    "fuera": 5
-   },
-   {
     "prefijo": "2261",
-    "fuera": 5
+    "fuera": 4
    },
    {
     "prefijo": "621",
     "fuera": 4
    },
    {
-    "prefijo": "979",
-    "fuera": 3
+    "prefijo": "687236",
+    "fuera": 4
    },
    {
     "prefijo": "5268",
@@ -55,33 +35,53 @@
     "fuera": 3
    },
    {
-    "prefijo": "5751",
+    "prefijo": "3920",
     "fuera": 2
    },
    {
-    "prefijo": "591376",
+    "prefijo": "3948",
     "fuera": 2
    },
    {
-    "prefijo": "642",
+    "prefijo": "520149",
     "fuera": 2
    },
    {
-    "prefijo": "734",
+    "prefijo": "5240",
     "fuera": 2
+   },
+   {
+    "prefijo": "2179",
+    "fuera": 1
+   },
+   {
+    "prefijo": "2295",
+    "fuera": 1
+   },
+   {
+    "prefijo": "2307",
+    "fuera": 1
+   },
+   {
+    "prefijo": "2374",
+    "fuera": 1
+   },
+   {
+    "prefijo": "2378",
+    "fuera": 1
    }
   ]
  },
- "resultados": 103,
- "activas_vigentes": 23,
- "en_seguimiento": 80,
+ "resultados": 107,
+ "activas_vigentes": 25,
+ "en_seguimiento": 82,
  "seguidos_manual": 2,
- "adjudicadas": 9,
+ "adjudicadas": 12,
  "retencion_dias": 92,
  "archivadas": 70,
  "adjudicadas_archivo": 49,
  "proveedores_no_publicados": {
-  "Persona natural": 6,
+  "Persona natural": 7,
   "Proveedor no publicado": 3,
   "Empresa individual": 1
  },
@@ -92,9 +92,15 @@
   "a_resultados_hoy": 0,
   "no_pasan_hoy": 0
  },
- "bytes_resultados": 147941,
+ "lecturas_fallidas": {
+  "detalle": 0,
+  "seguimiento": 0,
+  "seguimiento_manual": 0,
+  "reposicion": 0
+ },
+ "bytes_resultados": 153644,
  "bytes_archivo": 110078,
- "clave": 59,
+ "clave": 63,
  "rescatadas_por_organismo": 12,
  "modo_ticket": "personal",
  "regiones": [
@@ -129,7 +135,7 @@
  ],
  "por_categoria": {
   "Espacio publico / PIEP": 3,
-  "Planificacion urbana / IPT": 31,
+  "Planificacion urbana / IPT": 32,
   "Transporte / movilidad": 19,
   "Vialidad / transito": 13,
   "Demanda / EOD / aforos": 1,
@@ -140,7 +146,7 @@
   "Semaforizacion": 2
  },
  "por_nivel": {
-  "sin_determinar": 88,
+  "sin_determinar": 92,
   "prefactibilidad": 3,
   "anteproyecto": 2,
   "ingenieria": 10
@@ -148,8 +154,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-11T19:49:40+00:00",
-   "avisos_leidos": 5019,
+   "ultima_lectura_buena": "2026-11-12T18:29:32+00:00",
+   "avisos_leidos": 5167,
    "seguimiento_post_cierre": true
   }
  }
