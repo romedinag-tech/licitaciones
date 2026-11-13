@@ -1,21 +1,21 @@
 {
- "actualizado": "2026-11-12T20:09:08+00:00",
- "total_activas": 5166,
+ "actualizado": "2026-11-13T19:53:00+00:00",
+ "total_activas": 5236,
  "candidatas": 308,
  "corte": {
-  "candidatas_totales": 425,
+  "candidatas_totales": 424,
   "candidatas_organismo_clave": 4,
   "candidatas_linea_prioritaria": 4,
-  "candidatas_fuera_del_tope": 117,
+  "candidatas_fuera_del_tope": 116,
   "puntaje_de_corte": 0,
-  "empatadas_en_el_corte": 170,
+  "empatadas_en_el_corte": 173,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
     "fuera": 7
    },
    {
-    "prefijo": "2261",
+    "prefijo": "5268",
     "fuera": 4
    },
    {
@@ -23,20 +23,16 @@
     "fuera": 4
    },
    {
-    "prefijo": "687236",
+    "prefijo": "997",
     "fuera": 4
    },
    {
-    "prefijo": "5268",
+    "prefijo": "2261",
     "fuera": 3
    },
    {
-    "prefijo": "997",
+    "prefijo": "687236",
     "fuera": 3
-   },
-   {
-    "prefijo": "2099",
-    "fuera": 2
    },
    {
     "prefijo": "3920",
@@ -55,11 +51,7 @@
     "fuera": 2
    },
    {
-    "prefijo": "2011",
-    "fuera": 1
-   },
-   {
-    "prefijo": "2048",
+    "prefijo": "2099",
     "fuera": 1
    },
    {
@@ -69,14 +61,22 @@
    {
     "prefijo": "2179",
     "fuera": 1
+   },
+   {
+    "prefijo": "2295",
+    "fuera": 1
+   },
+   {
+    "prefijo": "2307",
+    "fuera": 1
    }
   ]
  },
- "resultados": 109,
- "activas_vigentes": 27,
+ "resultados": 110,
+ "activas_vigentes": 28,
  "en_seguimiento": 82,
  "seguidos_manual": 2,
- "adjudicadas": 12,
+ "adjudicadas": 15,
  "retencion_dias": 92,
  "archivadas": 70,
  "adjudicadas_archivo": 49,
@@ -98,7 +98,7 @@
   "seguimiento_manual": 0,
   "reposicion": 0
  },
- "bytes_resultados": 155973,
+ "bytes_resultados": 158828,
  "bytes_archivo": 110078,
  "clave": 65,
  "rescatadas_por_organismo": 12,
@@ -135,7 +135,7 @@
  ],
  "por_categoria": {
   "Espacio publico / PIEP": 3,
-  "Planificacion urbana / IPT": 34,
+  "Planificacion urbana / IPT": 35,
   "Transporte / movilidad": 19,
   "Vialidad / transito": 13,
   "Demanda / EOD / aforos": 1,
@@ -146,7 +146,7 @@
   "Semaforizacion": 2
  },
  "por_nivel": {
-  "sin_determinar": 94,
+  "sin_determinar": 95,
   "prefactibilidad": 3,
   "anteproyecto": 2,
   "ingenieria": 10
@@ -154,8 +154,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-12T20:09:08+00:00",
-   "avisos_leidos": 5166,
+   "ultima_lectura_buena": "2026-11-13T19:53:00+00:00",
+   "avisos_leidos": 5236,
    "seguimiento_post_cierre": true
   }
  }
