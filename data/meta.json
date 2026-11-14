@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-11-13T19:53:00+00:00",
- "total_activas": 5236,
+ "actualizado": "2026-11-14T18:05:39+00:00",
+ "total_activas": 5273,
  "candidatas": 308,
  "corte": {
-  "candidatas_totales": 424,
+  "candidatas_totales": 429,
   "candidatas_organismo_clave": 4,
   "candidatas_linea_prioritaria": 4,
-  "candidatas_fuera_del_tope": 116,
+  "candidatas_fuera_del_tope": 121,
   "puntaje_de_corte": 0,
-  "empatadas_en_el_corte": 173,
+  "empatadas_en_el_corte": 175,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
@@ -25,6 +25,10 @@
    {
     "prefijo": "997",
     "fuera": 4
+   },
+   {
+    "prefijo": "2099",
+    "fuera": 3
    },
    {
     "prefijo": "2261",
@@ -51,7 +55,11 @@
     "fuera": 2
    },
    {
-    "prefijo": "2099",
+    "prefijo": "2011",
+    "fuera": 1
+   },
+   {
+    "prefijo": "2048",
     "fuera": 1
    },
    {
@@ -61,19 +69,11 @@
    {
     "prefijo": "2179",
     "fuera": 1
-   },
-   {
-    "prefijo": "2295",
-    "fuera": 1
-   },
-   {
-    "prefijo": "2307",
-    "fuera": 1
    }
   ]
  },
- "resultados": 110,
- "activas_vigentes": 28,
+ "resultados": 111,
+ "activas_vigentes": 29,
  "en_seguimiento": 82,
  "seguidos_manual": 2,
  "adjudicadas": 15,
@@ -98,9 +98,9 @@
   "seguimiento_manual": 0,
   "reposicion": 0
  },
- "bytes_resultados": 158828,
+ "bytes_resultados": 160261,
  "bytes_archivo": 110078,
- "clave": 65,
+ "clave": 66,
  "rescatadas_por_organismo": 12,
  "modo_ticket": "personal",
  "regiones": [
@@ -146,7 +146,7 @@
   "Semaforizacion": 2
  },
  "por_nivel": {
-  "sin_determinar": 95,
+  "sin_determinar": 96,
   "prefactibilidad": 3,
   "anteproyecto": 2,
   "ingenieria": 10
@@ -154,8 +154,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-13T19:53:00+00:00",
-   "avisos_leidos": 5236,
+   "ultima_lectura_buena": "2026-11-14T18:05:39+00:00",
+   "avisos_leidos": 5273,
    "seguimiento_post_cierre": true
   }
  }
