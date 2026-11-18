@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-11-17T20:56:19+00:00",
- "total_activas": 4919,
- "candidatas": 307,
+ "actualizado": "2026-11-18T20:46:17+00:00",
+ "total_activas": 5019,
+ "candidatas": 306,
  "corte": {
-  "candidatas_totales": 405,
-  "candidatas_organismo_clave": 4,
+  "candidatas_totales": 408,
+  "candidatas_organismo_clave": 3,
   "candidatas_linea_prioritaria": 3,
-  "candidatas_fuera_del_tope": 98,
+  "candidatas_fuera_del_tope": 102,
   "puntaje_de_corte": 0,
-  "empatadas_en_el_corte": 165,
+  "empatadas_en_el_corte": 171,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
@@ -55,10 +55,6 @@
     "fuera": 2
    },
    {
-    "prefijo": "2426",
-    "fuera": 1
-   },
-   {
     "prefijo": "2429",
     "fuera": 1
    },
@@ -69,19 +65,23 @@
    {
     "prefijo": "2483",
     "fuera": 1
+   },
+   {
+    "prefijo": "2494",
+    "fuera": 1
    }
   ]
  },
- "resultados": 114,
+ "resultados": 115,
  "activas_vigentes": 24,
- "en_seguimiento": 90,
+ "en_seguimiento": 91,
  "seguidos_manual": 2,
- "adjudicadas": 19,
+ "adjudicadas": 25,
  "retencion_dias": 92,
  "archivadas": 70,
  "adjudicadas_archivo": 49,
  "proveedores_no_publicados": {
-  "Persona natural": 7,
+  "Persona natural": 10,
   "Proveedor no publicado": 3,
   "Empresa individual": 1
  },
@@ -98,7 +98,7 @@
   "seguimiento_manual": 0,
   "reposicion": 0
  },
- "bytes_resultados": 166070,
+ "bytes_resultados": 169412,
  "bytes_archivo": 110078,
  "clave": 67,
  "rescatadas_por_organismo": 12,
@@ -139,14 +139,14 @@
   "Transporte / movilidad": 19,
   "Vialidad / transito": 13,
   "Demanda / EOD / aforos": 1,
-  "Datos / SIG / encuestas": 23,
+  "Datos / SIG / encuestas": 24,
   "Anteproyecto vial": 1,
   "Prefactibilidad vial": 3,
   "Concesiones / logistica": 4,
   "Semaforizacion": 2
  },
  "por_nivel": {
-  "sin_determinar": 99,
+  "sin_determinar": 100,
   "prefactibilidad": 3,
   "anteproyecto": 2,
   "ingenieria": 10
@@ -154,8 +154,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-17T20:56:19+00:00",
-   "avisos_leidos": 4919,
+   "ultima_lectura_buena": "2026-11-18T20:46:17+00:00",
+   "avisos_leidos": 5019,
    "seguimiento_post_cierre": true
   }
  }

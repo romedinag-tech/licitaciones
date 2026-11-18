@@ -237,18 +237,27 @@
   "fecha_publicacion": "2026-10-09",
   "descripcion": "Se requiere desarrollar el diseño de ocho proyectos de mejoramiento urbano y espacio público que respondan a las problemáticas y oportunidades identificadas durante los estudios y procesos participativos realizados en la Fase I del Programa de Recuperación de Barrios. De estos, cinco corresponden a proyectos integrales de diseño y futura ejecución de obras.\r\nEl propósito de esta consultoría es abordar las materias técnicas necesarias para la elaboración de los diseños de arquitectura, ingeniería y especialidades, permitiendo avanzar en la recuperación socio-urbana del Barrio PUDEPAR y en la consolidación de las iniciativas contempladas en el Plan Maestro del barrio. En el caso de los cinco proyectos integrales, la consultoría deberá generar los antecedentes técnicos necesarios para su posterior ejecución mediante financiamiento del Programa de Recuperación de Barrios del Ministerio de Vi",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=632-11-LE26",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-11-30T23:59",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-18T16:57",
   "fecha_apertura_tecnica": "2026-10-28T15:30",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
+  "n_oferentes": 2,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=2gMuxivry5n9VZsPYH5bzIhBzWp33DrPSLag1wL9T04=",
+  "adjudicatarios": [
+   "Persona natural"
+  ],
   "primera_vez": "2026-10-22",
   "fase": "posterior",
   "fuente": "Mercado Publico",
   "nivel": "sin_determinar",
-  "adjudicacion_items": [],
+  "adjudicacion_items": [
+   {
+    "proveedor": "Persona natural",
+    "cantidad": 1.0,
+    "monto_unitario": 38500000.0,
+    "unidad": "Unidad"
+   }
+  ],
   "moneda": "CLP"
  },
  {
@@ -462,14 +471,23 @@
   "fecha_publicacion": "2026-08-28",
   "descripcion": "El objeto de la presente licitación es contratar a una persona natural o jurídica para realizar todos los estudios técnicos requeridos, la asistencia técnica especializada, así como el cumplimiento de los procedimientos conducentes a la Actualización del Plan Regulador Comunal de Vitacura (PRC-V), hasta la aprobación del Informe Ambiental por parte del Ministerio de Medio Ambiente y la posterior obtención del Informe Favorable por parte de la Secretaría Regional Ministerial del Ministerio de Vivienda y Urbanismo de la Región Metropolitana de Santiago, en apoyo del ejercicio de la potestad planificadora que la Municipalidad conserva de manera privativa e indelegable conforme al artículo 3°, letra b), de la Ley N°18.695.\r\n\r\nEl servicio comprende la elaboración de los estudios exigidos por la normativa vigente (movilidad urbana, equipamiento comunal, riesgos, factibilidad sanitaria, infraes",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2667-78-LR26",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2027-01-08T17:30",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-18T13:51",
   "fecha_apertura_tecnica": "2026-10-13T15:30",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 2,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=YHJ3utZYiVsBpEsRWPCqtlGUNZZ+Dc+9cC0bOF7WsgE=",
+  "adjudicatarios": [
+   "INFRACON CONSULTORES LIMITADA"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "INFRACON CONSULTORES LIMITADA",
+    "cantidad": 1.0,
+    "monto_unitario": 508480000.0,
+    "unidad": "Global"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-08-28",
   "repuesta": "2026-11-01",
@@ -729,8 +747,8 @@
   "fecha_publicacion": "2026-10-15",
   "descripcion": "Contratación de un servicio de asesoría técnica para la elaboración de estudios de conservación y el diseño de soluciones orientadas al mejoramiento de la infraestructura vial en determinados tramos de rutas del Sistema de \r\nTransporte Público Metropolitano, a fin de optimizar las condiciones de operación de la red y mejorar la calidad del servicio prestado a los usuarios.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-15-LR26",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Cerrada",
+  "codigo_estado": 6,
   "fecha_adjudicacion": "2026-12-24T22:00",
   "fecha_apertura_tecnica": "2026-11-19T11:00",
   "n_oferentes": null,
@@ -739,7 +757,7 @@
   "adjudicacion_items": [],
   "moneda": "CLP",
   "primera_vez": "2026-10-22",
-  "fase": "activa",
+  "fase": "posterior",
   "fuente": "Mercado Publico",
   "nivel": "sin_determinar"
  },
@@ -1261,14 +1279,23 @@
   "fecha_publicacion": "2026-08-31",
   "descripcion": "Contratar el servicio de “Mejora y conservación integral de la infraestructura de puntos de parada del STPM”. Se busca seleccionar un contratista con capacidad técnica, operativa y logística necesaria para ejecutar adecuadamente labores de mejoramiento, conservación, reposición y adecuación de la infraestructura de los puntos de puntos de parada.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=926-12-LR26",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-11-18T22:00",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-18T10:39",
   "fecha_apertura_tecnica": "2026-10-06T11:00",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 1,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=HMKZe+t0e4ISFjUZ5pEUW5yeM+ghHnOlU13IsnMotKE=",
+  "adjudicatarios": [
+   "SERCOM SERVICIOS DE CONSTRUCCION Y MANTENCION SPA"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "SERCOM SERVICIOS DE CONSTRUCCION Y MANTENCION SPA",
+    "cantidad": 1.0,
+    "monto_unitario": 144084763.0,
+    "unidad": "Unidad"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-09-01",
   "repuesta": "2026-11-01",
@@ -1913,14 +1940,23 @@
   "fecha_publicacion": "2026-07-31",
   "descripcion": "ESTUDIO DE INGENIERIA  REPOSICION PUENTE PONOTRO EN RUTAP-632, COMUNA DE CAÑETE, PROVINCIA DE ARAUCO, REGION DEL BIOBIO.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5268-24-O126",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-11-12T13:46",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-18T12:34",
   "fecha_apertura_tecnica": "2026-09-16T12:00",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 2,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=LjY+Wee57bePGyji0xiBbCbo6i7JSmOJ5ot53eTbFUU=",
+  "adjudicatarios": [
+   "Persona natural"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "Persona natural",
+    "cantidad": 1.0,
+    "monto_unitario": 207060000.0,
+    "unidad": "Unidad"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-08-01",
   "repuesta": "2026-11-01",
@@ -3162,14 +3198,23 @@
   "fecha_publicacion": "2026-08-27",
   "descripcion": "El objetivo de este proceso de licitación es proveer a la Municipalidad de Las Condes la contratación del servicio de diseño muestral, aplicación y entrega de resultados de la segunda Encuesta de Victimización y Percepción de Seguridad para vecinos residentes de la comuna de Las Condes, que permita obtener información sobre la percepción de inseguridad, la reacción frente al delito, los recursos preventivos y la victimización de personas y hogares, a partir de una muestra representativa a nivel comunal y a nivel de cada una de las 5 macrozonas que la componen.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2345-138-LP26",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-11-23T20:00",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-18T15:19",
   "fecha_apertura_tecnica": "2026-09-15T15:30",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 9,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=6QQ+WThFl2kPmvDw0LpibOma6LDxYPRsXsV3SBKZRKE=",
+  "adjudicatarios": [
+   "FEEDBACK COMUNICACIONES S.A"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "FEEDBACK COMUNICACIONES S.A",
+    "cantidad": 1.0,
+    "monto_unitario": 98027402.0,
+    "unidad": "Unidad"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-09-08",
   "repuesta": "2026-11-01",
@@ -3717,14 +3762,23 @@
   "fecha_publicacion": "2026-10-22",
   "descripcion": "El Servicio de Salud Metropolitano Sur Oriente, en adelante también el “SERVICIO o SSMSO” requiere efectuar la contratación por el Servicio de procesamiento de información en geoespacial en Python y Geopandas con foco bioestadístico para análisis territorial en Salud, para el Servicio de Salud Metropolitano Sur Oriente, conforme a las condiciones y especificaciones técnicas establecidas en las presentes Bases.\r\n\r\nEl presente llamado y proceso de licitación se enmarca dentro de lo señalado por la Ley 19.886, su reglamento, y las instrucciones y condiciones de operación del sitio www.mercadopublico.cl.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057500-83-LE26",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-12-30T15:03",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-18T12:43",
   "fecha_apertura_tecnica": "2026-11-06T15:02",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 2,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=h4YIueHVWcftN+hKaTQi7cqFu0UNkvABzuNxqlQr3hM=",
+  "adjudicatarios": [
+   "Persona natural"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "Persona natural",
+    "cantidad": 1.0,
+    "monto_unitario": 1326067.0,
+    "unidad": "Unidad"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-10-23",
   "fase": "posterior",
@@ -3934,6 +3988,39 @@
   "adjudicacion_items": [],
   "moneda": "CLP",
   "primera_vez": "2026-11-17",
+  "fase": "activa",
+  "fuente": "Mercado Publico",
+  "nivel": "sin_determinar"
+ },
+ {
+  "codigo": "748-12-L126",
+  "nombre": "SERVICIO DE PLAN DE DATOS PARA ENCUESTA ENE",
+  "puntaje": 3,
+  "categorias": [
+   "Datos / SIG / encuestas"
+  ],
+  "org_clave": false,
+  "rescatada_por_organismo": false,
+  "bip": "",
+  "organismo": "INSTITUTO NACIONAL DE ESTADISTICAS",
+  "unidad": "INE -  IX Región",
+  "region": "Región de la Araucanía ",
+  "tipo": "L1",
+  "monto": "1.550.000 CLP",
+  "fecha_cierre": "2026-11-30T15:00",
+  "fecha_publicacion": "2026-11-18",
+  "descripcion": "El Instituto Nacional de Estadísticas es un servicio público funcionalmente descentralizado, encargado de generar las estadísticas oficiales del país y de articular el Sistema Estadístico Nacional. En este contexto, se hace necesario contratar un servicio de planes de telefonía y datos móviles para 14 líneas telefónicas para Smartphone liberados por un periodo de 12 meses, con opción de renovación por un año adicional, que permita asegurar la continuidad operativa del trabajo en terreno.",
+  "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=748-12-L126",
+  "estado": "Publicada",
+  "codigo_estado": 5,
+  "fecha_adjudicacion": "2026-12-22T18:00",
+  "fecha_apertura_tecnica": "2026-11-30T15:01",
+  "n_oferentes": null,
+  "url_acta": "",
+  "adjudicatarios": [],
+  "adjudicacion_items": [],
+  "moneda": "CLP",
+  "primera_vez": "2026-11-18",
   "fase": "activa",
   "fuente": "Mercado Publico",
   "nivel": "sin_determinar"
