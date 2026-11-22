@@ -1,12 +1,12 @@
 {
- "actualizado": "2026-11-21T20:02:47+00:00",
- "total_activas": 5181,
+ "actualizado": "2026-11-22T19:11:07+00:00",
+ "total_activas": 5188,
  "candidatas": 305,
  "corte": {
-  "candidatas_totales": 425,
+  "candidatas_totales": 426,
   "candidatas_organismo_clave": 2,
   "candidatas_linea_prioritaria": 3,
-  "candidatas_fuera_del_tope": 120,
+  "candidatas_fuera_del_tope": 121,
   "puntaje_de_corte": 0,
   "empatadas_en_el_corte": 176,
   "organismos_que_mas_pierden": [
@@ -59,15 +59,15 @@
     "fuera": 2
    },
    {
+    "prefijo": "2010",
+    "fuera": 1
+   },
+   {
     "prefijo": "2011",
     "fuera": 1
    },
    {
     "prefijo": "2099",
-    "fuera": 1
-   },
-   {
-    "prefijo": "2145",
     "fuera": 1
    }
   ]
@@ -154,8 +154,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-21T20:02:47+00:00",
-   "avisos_leidos": 5181,
+   "ultima_lectura_buena": "2026-11-22T19:11:07+00:00",
+   "avisos_leidos": 5188,
    "seguimiento_post_cierre": true
   }
  }
