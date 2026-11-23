@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-11-22T19:11:07+00:00",
- "total_activas": 5188,
- "candidatas": 305,
+ "actualizado": "2026-11-23T23:27:49+00:00",
+ "total_activas": 4704,
+ "candidatas": 304,
  "corte": {
-  "candidatas_totales": 426,
+  "candidatas_totales": 397,
   "candidatas_organismo_clave": 2,
-  "candidatas_linea_prioritaria": 3,
-  "candidatas_fuera_del_tope": 121,
+  "candidatas_linea_prioritaria": 2,
+  "candidatas_fuera_del_tope": 93,
   "puntaje_de_corte": 0,
-  "empatadas_en_el_corte": 176,
+  "empatadas_en_el_corte": 159,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
@@ -27,10 +27,6 @@
     "fuera": 3
    },
    {
-    "prefijo": "2405",
-    "fuera": 2
-   },
-   {
     "prefijo": "3134",
     "fuera": 2
    },
@@ -39,7 +35,7 @@
     "fuera": 2
    },
    {
-    "prefijo": "3951",
+    "prefijo": "3947",
     "fuera": 2
    },
    {
@@ -55,28 +51,32 @@
     "fuera": 2
    },
    {
-    "prefijo": "997",
-    "fuera": 2
-   },
-   {
-    "prefijo": "2010",
+    "prefijo": "2595",
     "fuera": 1
    },
    {
-    "prefijo": "2011",
+    "prefijo": "2598",
     "fuera": 1
    },
    {
-    "prefijo": "2099",
+    "prefijo": "2736",
+    "fuera": 1
+   },
+   {
+    "prefijo": "2770",
+    "fuera": 1
+   },
+   {
+    "prefijo": "2784",
     "fuera": 1
    }
   ]
  },
- "resultados": 118,
- "activas_vigentes": 23,
- "en_seguimiento": 95,
+ "resultados": 120,
+ "activas_vigentes": 24,
+ "en_seguimiento": 96,
  "seguidos_manual": 2,
- "adjudicadas": 29,
+ "adjudicadas": 31,
  "retencion_dias": 92,
  "archivadas": 70,
  "adjudicadas_archivo": 49,
@@ -98,7 +98,7 @@
   "seguimiento_manual": 0,
   "reposicion": 0
  },
- "bytes_resultados": 174322,
+ "bytes_resultados": 177364,
  "bytes_archivo": 110078,
  "clave": 67,
  "rescatadas_por_organismo": 12,
@@ -139,14 +139,14 @@
   "Transporte / movilidad": 19,
   "Vialidad / transito": 13,
   "Demanda / EOD / aforos": 1,
-  "Datos / SIG / encuestas": 25,
+  "Datos / SIG / encuestas": 26,
   "Anteproyecto vial": 1,
   "Prefactibilidad vial": 3,
-  "Concesiones / logistica": 4,
+  "Concesiones / logistica": 5,
   "Semaforizacion": 2
  },
  "por_nivel": {
-  "sin_determinar": 103,
+  "sin_determinar": 105,
   "prefactibilidad": 3,
   "anteproyecto": 2,
   "ingenieria": 10
@@ -154,8 +154,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-22T19:11:07+00:00",
-   "avisos_leidos": 5188,
+   "ultima_lectura_buena": "2026-11-23T23:27:49+00:00",
+   "avisos_leidos": 4704,
    "seguimiento_post_cierre": true
   }
  }
