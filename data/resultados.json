@@ -866,7 +866,7 @@
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=691-8-LP26",
   "estado": "Cerrada",
   "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-11-24T18:00",
+  "fecha_adjudicacion": "2026-11-25T18:00",
   "fecha_apertura_tecnica": "2026-11-05T09:00",
   "n_oferentes": null,
   "url_acta": "",
@@ -931,14 +931,23 @@
   "fecha_publicacion": "2026-10-20",
   "descripcion": "CONTRATACIÓN DEL DIAGNÓSTICO Y ELABORACIÓN DEL PLAN MAESTRO, BARRIO PUDETO BAJO, COMUNA DE ANCUD, PARA EL PROGRAMA RECUPERACIÓN DE BARRIOS DE LA SEREMI DE VIVIENDA Y URBANISMO REGIÓN DE LOS LAGOS",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=644-6-LP26",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-11-25T16:14",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-24T08:09",
   "fecha_apertura_tecnica": "2026-11-09T17:32",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 4,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=Px82OkdorBbdRSM3pofIGTsh1InFKgF4l8ixFElTT68=",
+  "adjudicatarios": [
+   "REGENERAXIÓN ARQUITECTOS LIMITADA"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "REGENERAXIÓN ARQUITECTOS LIMITADA",
+    "cantidad": 1.0,
+    "monto_unitario": 98888880.0,
+    "unidad": "Unidad"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-10-22",
   "fase": "posterior",
@@ -1229,14 +1238,23 @@
   "fecha_publicacion": "2026-08-31",
   "descripcion": "El proyecto busca Lo requerido, debido a que actualmente la comuna cuenta con un Instrumento de Planificación Territorial IPT vigente, el que, entre otras falencias, no responde a las necesidades y realidad comunal. Es un insumo previo a la confección del diagnóstico, imagen objetivo y anteproyecto de\r\nla Actualización del Plan Regulador Comunal de Florida a efectuarse el año 2027.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3567-30-LE26",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-10-30T20:30",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-24T15:09",
   "fecha_apertura_tecnica": "2026-09-11T15:02",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 4,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=zPrsQsTH7Rd3GYQ8en56t89vCRvbcYC1373Jb6x1s9E=",
+  "adjudicatarios": [
+   "UASVISION SPA"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "UASVISION SPA",
+    "cantidad": 1.0,
+    "monto_unitario": 31700000.0,
+    "unidad": "Unidad"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-08-31",
   "repuesta": "2026-11-01",
@@ -1516,14 +1534,23 @@
   "fecha_publicacion": "2026-10-29",
   "descripcion": "servicio de “ACTUALIZACIÓN VUELO, RESTITUCIÓN Y CARTOGRAFIA PRC ALHUÉ”",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=640-8-LE26",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-11-24T18:00",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-24T15:46",
   "fecha_apertura_tecnica": "2026-11-09T16:01",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 3,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=rvjqh9nYE/16kXdh0tyncDqaAZsrLhQecHP1wR/TvD0=",
+  "adjudicatarios": [
+   "RASTER4 SPA"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "RASTER4 SPA",
+    "cantidad": 1.0,
+    "monto_unitario": 38097656.0,
+    "unidad": "Unidad"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-10-29",
   "fase": "posterior",
@@ -2115,14 +2142,23 @@
   "fecha_publicacion": "2026-09-14",
   "descripcion": "El objeto del contrato es la prestación integral del servicio de actualización del Plan de Desarrollo Comunal PLADECO de la Comuna de Pucón. El Servicio comprende cada una de las acciones y productos establecidos en los Términos Técnicos de Referencia.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2387-79-LE26",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-10-20T16:00",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-24T16:43",
   "fecha_apertura_tecnica": "2026-10-01T15:00",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 8,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=JmpZ76/x5wN9iljlV3puXj2qK9uk2+FUNj5HYnJKi5c=",
+  "adjudicatarios": [
+   "ASESORÍAS MAPOCHO SOCIEDAD DE PROFESIONALES LIMITADA"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "ASESORÍAS MAPOCHO SOCIEDAD DE PROFESIONALES LIMITADA",
+    "cantidad": 1.0,
+    "monto_unitario": 15800350.0,
+    "unidad": "Unidad"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-09-14",
   "repuesta": "2026-11-01",
@@ -2245,14 +2281,23 @@
   "fecha_publicacion": "2026-08-19",
   "descripcion": "Definir una alternativa vial de acceso a El Tatio que resguarde el entorno geotérmico y asegure una conectividad segura y eficiente, mediante evaluaciones técnicas, ambientales, sociales y económicas.",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5048-41-O126",
-  "estado": "Cerrada",
-  "codigo_estado": 6,
-  "fecha_adjudicacion": "2026-12-23T18:00",
+  "estado": "Adjudicada",
+  "codigo_estado": 8,
+  "fecha_adjudicacion": "2026-11-24T17:44",
   "fecha_apertura_tecnica": "2026-10-06T16:00",
-  "n_oferentes": null,
-  "url_acta": "",
-  "adjudicatarios": [],
-  "adjudicacion_items": [],
+  "n_oferentes": 9,
+  "url_acta": "http://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=CPILNiuLJ3tzptmcjxaL5IyG+YGLbvhLS15QTBbnRjY=",
+  "adjudicatarios": [
+   "INGEROP CHILE S.A"
+  ],
+  "adjudicacion_items": [
+   {
+    "proveedor": "INGEROP CHILE S.A",
+    "cantidad": 1.0,
+    "monto_unitario": 444965919.0,
+    "unidad": "Unidad"
+   }
+  ],
   "moneda": "CLP",
   "primera_vez": "2026-08-20",
   "repuesta": "2026-11-01",
@@ -4065,8 +4110,8 @@
   "fecha_publicacion": "2026-11-09",
   "descripcion": "SERVICIO DE CAPACITACIÓN AVANZADA EN EL USO DE PLATAFORMAS SATELITALES, TELEDETECCIÓN, ANÁLISIS DE DATOS GEOESPACIALES Y AUTOMATIZACIÓN PARA LA DETECCIÓN Y FISCALIZACIÓN DE POSIBLES INCUMPLIMIENTOS NORMATIVOS EN EL SERVICIO NACIONAL DE PESCA Y ACUICULTURA REGIÓN DE COQUIMBO",
   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1561172-3-L126",
-  "estado": "Publicada",
-  "codigo_estado": 5,
+  "estado": "Cerrada",
+  "codigo_estado": 6,
   "fecha_adjudicacion": "2026-12-01T16:13",
   "fecha_apertura_tecnica": "2026-11-27T16:13",
   "n_oferentes": null,
@@ -4075,7 +4120,7 @@
   "adjudicacion_items": [],
   "moneda": "CLP",
   "primera_vez": "2026-11-09",
-  "fase": "activa",
+  "fase": "posterior",
   "fuente": "Mercado Publico",
   "nivel": "sin_determinar"
  },
