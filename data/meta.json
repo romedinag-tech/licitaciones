@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-11-26T21:04:22+00:00",
- "total_activas": 4874,
+ "actualizado": "2026-11-27T20:47:27+00:00",
+ "total_activas": 4930,
  "candidatas": 304,
  "corte": {
-  "candidatas_totales": 391,
+  "candidatas_totales": 402,
   "candidatas_organismo_clave": 2,
   "candidatas_linea_prioritaria": 2,
-  "candidatas_fuera_del_tope": 87,
+  "candidatas_fuera_del_tope": 98,
   "puntaje_de_corte": 0,
-  "empatadas_en_el_corte": 161,
+  "empatadas_en_el_corte": 166,
   "organismos_que_mas_pierden": [
    {
     "prefijo": "5048",
@@ -19,20 +19,16 @@
     "fuera": 5
    },
    {
+    "prefijo": "4732",
+    "fuera": 3
+   },
+   {
     "prefijo": "5268",
     "fuera": 3
    },
    {
     "prefijo": "621",
     "fuera": 3
-   },
-   {
-    "prefijo": "2974",
-    "fuera": 2
-   },
-   {
-    "prefijo": "3134",
-    "fuera": 2
    },
    {
     "prefijo": "3920",
@@ -43,15 +39,11 @@
     "fuera": 2
    },
    {
-    "prefijo": "4020",
-    "fuera": 2
-   },
-   {
-    "prefijo": "4732",
-    "fuera": 2
-   },
-   {
     "prefijo": "5240",
+    "fuera": 2
+   },
+   {
+    "prefijo": "5283",
     "fuera": 2
    },
    {
@@ -59,24 +51,32 @@
     "fuera": 2
    },
    {
-    "prefijo": "2799",
+    "prefijo": "2494",
     "fuera": 1
    },
    {
-    "prefijo": "2831",
+    "prefijo": "2546",
     "fuera": 1
    },
    {
-    "prefijo": "2928",
+    "prefijo": "2591",
+    "fuera": 1
+   },
+   {
+    "prefijo": "2595",
+    "fuera": 1
+   },
+   {
+    "prefijo": "2626",
     "fuera": 1
    }
   ]
  },
- "resultados": 122,
- "activas_vigentes": 21,
+ "resultados": 123,
+ "activas_vigentes": 22,
  "en_seguimiento": 101,
  "seguidos_manual": 2,
- "adjudicadas": 38,
+ "adjudicadas": 39,
  "retencion_dias": 92,
  "archivadas": 70,
  "adjudicadas_archivo": 49,
@@ -98,7 +98,7 @@
   "seguimiento_manual": 0,
   "reposicion": 0
  },
- "bytes_resultados": 182725,
+ "bytes_resultados": 184557,
  "bytes_archivo": 110078,
  "clave": 68,
  "rescatadas_por_organismo": 12,
@@ -135,7 +135,7 @@
  ],
  "por_categoria": {
   "Espacio publico / PIEP": 4,
-  "Planificacion urbana / IPT": 37,
+  "Planificacion urbana / IPT": 38,
   "Transporte / movilidad": 19,
   "Vialidad / transito": 13,
   "Demanda / EOD / aforos": 1,
@@ -146,7 +146,7 @@
   "Semaforizacion": 2
  },
  "por_nivel": {
-  "sin_determinar": 107,
+  "sin_determinar": 108,
   "prefactibilidad": 3,
   "anteproyecto": 2,
   "ingenieria": 10
@@ -154,8 +154,8 @@
  "fuentes": {
   "Mercado Publico": {
    "estado": "ok",
-   "ultima_lectura_buena": "2026-11-26T21:04:22+00:00",
-   "avisos_leidos": 4874,
+   "ultima_lectura_buena": "2026-11-27T20:47:27+00:00",
+   "avisos_leidos": 4930,
    "seguimiento_post_cierre": true
   }
  }
